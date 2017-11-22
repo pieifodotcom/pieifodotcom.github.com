@@ -98,22 +98,6 @@ btForkInfo:
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
-  - imageHref:
-    imageUrl: /resource/BTG.png
-    coinName: 比特黄金
-    coinInfo: 通过改变挖矿算法打破算力垄断
-    progress: 100
-    progressTitle: 100%
-    blockHightTitle: 分叉高度
-    blockHight: 491407
-    timeTitle: 倒计时
-    time: 0
-    timeClass: btg
-    btnTitle: 查看详情
-    btnHref: /pages/btgdetail
-    stateTitle: 已分叉
-    state: 1
-    stateColor: 3AACEB
   - imageHref:  
     imageUrl: /resource/BCH.png
     coinName: 比特现金
@@ -127,6 +111,22 @@ btForkInfo:
     timeClass: bch
     btnTitle: 查看详情
     btnHref: /pages/bchdetail
+    stateTitle: 已分叉
+    state: 1
+    stateColor: 3AACEB
+  - imageHref:  
+    imageUrl: /resource/BTG.png
+    coinName: 比特金
+    coinInfo: 通过改变挖矿算法打破算力垄断
+    progress: 100
+    progressTitle: 100%
+    blockHightTitle: 分叉高度
+    blockHight: 491407
+    timeTitle: 倒计时
+    time: 0
+    timeClass: btg
+    btnTitle: 查看详情
+    btnHref: /pages/btgdetail
     stateTitle: 已分叉
     state: 1
     stateColor: 3AACEB
