@@ -260,7 +260,7 @@ select::-ms-expand {
 .nav{margin-left:80px }
 
  .heightClass{
-    width:180px !important;
+    /*width:180px !important;*/
   }
  .projects-filter{padding-left: 10px}
  .projects span{padding-left: 5px;padding-right: 5px}
@@ -268,7 +268,7 @@ select::-ms-expand {
 @media (min-width:320px) and (max-width:340px){
   .projects-filter span{
     font-size: 12px !important;
-    width:60px !important;
+
   }
   .projects li{
     width:90% !important;
@@ -295,9 +295,8 @@ select::-ms-expand {
     height:32px;
     vertical-align: middle;
   }
-  .heightClass{
-    width:180px !important;
-  }
+  .projects span{padding-left: 2px;padding-right: 5px}
+
 
 
 
@@ -323,9 +322,7 @@ select::-ms-expand {
   .projects li img{
     width:100% !important;
   }
-  .heightClass{
-    width:180px !important;
-  }
+
 
 
 
@@ -342,9 +339,7 @@ select::-ms-expand {
     .projects li{
       width:356px !important;
     }
-    .heightClass{
-    width:180px !important;
-  }
+
 }
 .col-xs-12,.col-md-4{
   padding: 0 !important;
