@@ -258,6 +258,13 @@ select::-ms-expand {
   vertical-align: middle;
 }
 .nav{margin-left:80px }
+
+ .heightClass{
+    width:180px !important;
+  }
+ .projects-filter{padding-left: 10px}
+ .projects span{padding-left: 5px;padding-right: 5px}
+
 @media (min-width:320px) and (max-width:340px){
   .projects-filter span{
     font-size: 12px !important;
@@ -288,14 +295,17 @@ select::-ms-expand {
     height:32px;
     vertical-align: middle;
   }
+  .heightClass{
+    width:180px !important;
+  }
+
+
 
 }
 
 
  @media (min-width:341px) and (max-width:642px){
-       .projects-filter span{
-         width:55px !important;
-       }
+
    .projects li{
      width:90% !important;
      margin: 0 5% 5% 5%;
@@ -313,6 +323,10 @@ select::-ms-expand {
   .projects li img{
     width:100% !important;
   }
+  .heightClass{
+    width:180px !important;
+  }
+
 
 
 
@@ -328,6 +342,9 @@ select::-ms-expand {
     .projects li{
       width:356px !important;
     }
+    .heightClass{
+    width:180px !important;
+  }
 }
 .col-xs-12,.col-md-4{
   padding: 0 !important;
