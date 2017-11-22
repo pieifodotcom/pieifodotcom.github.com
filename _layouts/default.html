@@ -1,0 +1,229 @@
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <title>PieIFO</title>
+    <input type="hidden" value="" class="basePath"/>
+    {% include head.html %}
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-2 logo">
+                <a href="/"><img src="{{ site.headerLogo }}"></a>
+            </div>
+            <nav class="col-xs-7 nav">
+                {% for link in site.headerContent %}
+                <a href="{{link['href']}}" target="_self">{{ link['typeName'] }}</a>
+                {% endfor %}
+            </nav>
+        </div>
+    </div>
+</header>
+</body>
+</html>
+</head>
+<body>
+<div class="projects">
+    <div class="container">
+        <div class="row coinlist">
+            <div class="projects-filter clearfix">
+                {% for link in site.contentForkMenu %}
+                <span class="{{link['className']}}">{{link['menuName']}}</span>
+                {% endfor %}
+                <span>当前块高度:<b id="btcheight"></b></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <ul class="clearfix coininfo">
+                {% for link in site.btForkInfo %}
+                <li class="col-xs-12 col-md-4">
+                    <a href="{{link['imageHref']}}"><img
+                            src="{{link['imageUrl']}}"></a>
+                    <div class="hot-info">
+                        <h3>{{link['coinName']}}</h3>
+                        <p>{{link['coinInfo']}}</p>
+                        <div class="row details">
+                            <div class="col-xs-5">
+                                <em>
+                                    {{link['blockHight']}}
+                                </em>
+                                <br/>
+                                <span>{{link['blockHightTitle']}}</span>
+                            </div>
+
+                            <div class="col-xs-5">
+                                <p class="{{link['timeClass']}}">{{link['time']}}</p>
+                                <br/>
+                                <span>{{link['timeTitle']}}</span>
+                            </div>
+                        </div>
+                        <a href="{{link['btnHref']}}" class="btn">{{link['btnTitle']}}</a>
+                    </div>
+                    <div class="pro-status ongoing" style="background-color: {{link['stateColor'}}">
+                        {{link['stateTitle']}}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% include js.html %}
+<script type="text/javascript">
+    $(".forkall").click(updateForkAll)
+
+    $(".forking").click(updateForking)
+
+    $(".forkend").click(updateForkend)
+
+
+    function updateForkAll() {
+        $(".coininfo").empty();
+        $(".coininfo").append("{% for link in site.btForkInfo %}\n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                    <div class=\"hot-info\">\n" +
+            "                        <h3>{{link['coinName']}}</h3>\n" +
+            "                        <p>{{link['coinInfo']}}</p>\n" +
+            "                        <div class=\"row details\">\n" +
+            "                            <div class=\"col-xs-5\">\n" +
+            "                                <em>\n" +
+            "                                    {{link['blockHight']}}\n" +
+            "                                </em>\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['blockHightTitle']}}</span>\n" +
+            "                            </div>\n" +
+            "\n" +
+            "                            <div class=\"col-xs-5\">\n" +
+            "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
+            "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['timeTitle']}}</span>\n" +
+            "                            </div>\n" +
+            "                        </div>\n" +
+            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
+            "                        {{link['stateTitle']}}\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                {% endfor %}")
+        modifyTimeValue();
+    }
+
+    function updateForking () {
+        $(".coininfo").empty();
+        $(".coininfo").append("{% for link in site.btForkInfo %}\n" +
+            "                {% if link['state'] == 0 %}\n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                    <div class=\"hot-info\">\n" +
+            "                        <h3>{{link['coinName']}}</h3>\n" +
+            "                        <p>{{link['coinInfo']}}</p>\n" +
+            "                        <div class=\"row details\">\n" +
+            "                            <div class=\"col-xs-5\">\n" +
+            "                                <em>\n" +
+            "                                    {{link['blockHight']}}\n" +
+            "                                </em>\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['blockHightTitle']}}</span>\n" +
+            "                            </div>\n" +
+            "\n" +
+            "                            <div class=\"col-xs-5\">\n" +
+            "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
+            "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['timeTitle']}}</span>\n" +
+            "                            </div>\n" +
+            "                        </div>\n" +
+            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
+            "                        {{link['stateTitle']}}\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                {% endif %}\n" +
+            "                {% endfor %}");
+        modifyTimeValue();
+    }
+
+    function updateForkend() {
+        $(".coininfo").empty();
+        $(".coininfo").append("{% for link in site.btForkInfo %}\n" +
+            "                {% if link['state'] == 1 %}\n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                    <div class=\"hot-info\">\n" +
+            "                        <h3>{{link['coinName']}}</h3>\n" +
+            "                        <p>{{link['coinInfo']}}</p>\n" +
+            "                        <div class=\"row details\">\n" +
+            "                            <div class=\"col-xs-5\">\n" +
+            "                                <em>\n" +
+            "                                    <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
+            "                                </em>\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['blockHightTitle']}}</span>\n" +
+            "                            </div>\n" +
+            "\n" +
+            "                            <div class=\"col-xs-5\">\n" +
+            "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
+            "                                {{link['time']}}\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['timeTitle']}}</span>\n" +
+            "                            </div>\n" +
+            "                        </div>\n" +
+            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
+            "                        {{link['stateTitle']}}\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                {% endif %}\n" +
+            "                {% endfor %}");
+        modifyTimeValue();
+    }
+
+    $(document).ready(function(){
+        modifyTimeValue();
+    });
+
+    function modifyTimeValue() {
+        var test = "{%for link in site.countdownList%} {{link['className']}}{% endfor %}";
+        var arr = test.split(" ");
+        for (var i = 0; i < arr.length; i ++) {
+            if (i != 0) {
+                var date = new Date();
+                var year = date.getFullYear();
+                var month = date.getMonth();
+                var day = date.getDay();
+                var countdown = DateDiff($("." + arr[i]).html(), year + "/" + month + "/" + day)
+                $("." + arr[i]).text(countdown);
+            }
+        }
+    }
+
+    function DateDiff(sDate1, sDate2){ 
+        var date2 = new Date();
+        var date3 = new Date(sDate1).getTime() - date2.getTime()  ;
+        var days=Math.floor(date3/(24*3600*1000))
+        var leave1=date3%(24*3600*1000)
+        var hours=Math.floor(leave1/(3600*1000))
+        return days + "天" + hours + "小时";
+    }
+
+
+    $(function(){
+        $.get("https://bitpie.getcai.com/api/v1/bitcoind/status",{},function(data){
+            $("#btcheight").text(data.headers);
+        })
+
+    })
+
+</script>
+</body>
+</html>

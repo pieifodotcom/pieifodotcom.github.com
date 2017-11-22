@@ -1,0 +1,126 @@
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <title>PieIFO</title>
+    <!-- 头部导航 begin -->
+    <input type="hidden" value="" class="basePath"/>
+    {% include pagesHead.html %}
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-2 logo">
+                <a href="/"><img src="{{ site.headerLogo }}"></a>
+            </div>
+            <nav class="col-xs-7 nav">
+                {% for link in site.headerContent %}
+                <a id="#{{link['id']}}" href="{{link['href']}}">{{ link['typeName'] }}</a>
+                {% endfor %}
+            </nav>
+        </div>
+    </div>
+</header>
+{% include pagesJs.html %}
+</body>
+</html>
+<!-- 头部导航 end -->
+</head>
+<body>
+<div class="projects">
+    <div class="container">
+        <div class="row coinlist">
+            <div class="projects-filter clearfix">
+                {% for link in site.contentBtAirdropMenu %}
+                <span class="{{link['className']}}">{{link['menuName']}}</span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <ul class="clearfix coininfo">
+                {% for link in site.btAirdropInfo %}
+                <li class="col-xs-12 col-md-4">
+                    <a href="{{link['imageHref']}}"><img
+                            src="{{link['imageUrl']}}"></a>
+                    <div class="hot-info" style="margin-top: 20px">
+                        <h3>{{link['coinName']}}</h3>
+                        <p>{{link['coinInfo']}}</p>
+                        <a href="{{link['btnHref']}}" class="btn">{{link['btnTitle']}}</a>
+                    </div>
+                    <div class="pro-status ongoing" style="background-color: {{link['stateColor'}}">
+                        {{link['stateTitle']}}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(".btall").click(updateEtAll)
+
+    $(".btprocessing").click(updateEtProcessing)
+
+    $(".btend").click(updateEtEnd)
+
+    function updateEtAll() {
+        $(".coininfo").empty();
+        $(".coininfo").append("{% for link in site.btAirdropInfo %}\n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
+            "                        <h3>{{link['coinName']}}</h3>\n" +
+            "                        <p>{{link['coinInfo']}}</p>\n" +
+            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
+            "                        {{link['stateTitle']}}\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                {% endfor %}")
+    }
+
+    function updateEtProcessing() {
+        $(".coininfo").empty();
+        $(".coininfo").append("{% for link in site.btAirdropInfo %}\n" +
+            "                {% if link['state'] == 1 %}\n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
+            "                        <h3>{{link['coinName']}}</h3>\n" +
+            "                        <p>{{link['coinInfo']}}</p>\n" +
+            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
+            "                        {{link['stateTitle']}}\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                {% endif %}\n" +
+            "                {% endfor %}");
+    }
+
+    function updateEtEnd() {
+        $(".coininfo").empty();
+        $(".coininfo").append("{% for link in site.btAirdropInfo %}\n" +
+            "                {% if link['state'] == 0 %}\n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
+            "                        <h3>{{link['coinName']}}</h3>\n" +
+            "                        <p>{{link['coinInfo']}}</p>\n" +
+            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
+            "                        {{link['stateTitle']}}\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                {% endif %}\n" +
+            "                {% endfor %}");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <title>PieIFO</title>
+    <input type="hidden" value="" class="basePath"/>
+    <style>
+        table{
+            width: 100%;
+            max-width: 100%;
+            border-collapse: collapse !important;
+            word-wrap:break-word; word-break:break-all;
+        }
+        table th{
+            text-align:center;
+        }
+        table th,td{
+            text-align:center;
+            border: 1px solid #000
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="blog-main">
+            <div class="blog-post" style="letter-spacing: 0.1em;margin: 0 5%">
+                {% for post in site.posts %}
+                {% if post.layout == "btgdetail" %}
+                {{post.content}}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

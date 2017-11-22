@@ -1,0 +1,189 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: ifo
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+
+headerLogo: /resource/logo.png
+
+headerContent:
+  - typeName: 分叉
+    id: typefork
+    href: ../index
+  - typeName: 糖果
+    id: typebtairdrop
+    href: /pages/btall
+
+contentForkMenu:
+  - menuName: 全部
+    className: forkall
+  - menuName: 即将分叉
+    className: forking
+  - menuName: 已分叉
+    className: forkend
+
+contentBtAirdropMenu:
+  - menuName: 全部
+    className: btall
+  - menuName: 进行中
+    className: btprocessing
+  - menuName: 已结束
+    className: btend
+
+
+btForkInfo:
+  - imageHref:  
+    imageUrl: /resource/BTCD.png
+    coinName: 比特钻石
+    coinInfo: 增加了隐私保护和大区块支持
+    progress: 0
+    progressTitle: 0%
+    blockHightTitle: 分叉高度
+    blockHight: 495866
+    timeTitle: 倒计时
+    time: 2017/11/25
+    timeClass: btcd
+    btnTitle: 查看详情
+    btnHref: /pages/btcddetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+  - imageHref:
+    imageUrl: /resource/SBTC.png
+    coinName: 超级比特币
+    coinInfo: 让比特币网络拥有智能合约
+    progress: 0
+    progressTitle: 0%
+    blockHightTitle: 分叉高度
+    blockHight: 498888
+    timeTitle: 倒计时
+    time: 2017/12/17
+    timeClass: sbtc
+    btnTitle: 查看详情
+    btnHref: /pages/sbtcdetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+  - imageHref:  
+    imageUrl: /resource/BCH.png
+    coinName: 比特现金
+    coinInfo: 点对点电子现金
+    progress: 100
+    progressTitle: 100%
+    blockHightTitle: 分叉高度
+    blockHight: 478558
+    timeTitle: 倒计时
+    time: 0
+    timeClass: bch
+    btnTitle: 查看详情
+    btnHref: /pages/bchdetail
+    stateTitle: 已分叉
+    state: 1
+    stateColor: 3AACEB
+  - imageHref:  
+    imageUrl: /resource/BTG.png
+    coinName: 比特黄金
+    coinInfo: 通过改变挖矿算法打破算力垄断
+    progress: 100
+    progressTitle: 100%
+    blockHightTitle: 分叉高度
+    blockHight: 491407
+    timeTitle: 倒计时
+    time: 0
+    timeClass: btg
+    btnTitle: 查看详情
+    btnHref: /pages/btgdetail
+    stateTitle: 已分叉
+    state: 1
+    stateColor: 3AACEB
+  - imageHref:  
+    imageUrl: /resource/default.png
+    coinName: B2X
+    coinInfo: 纽约共识确定的隔离验证+2X方案
+    progress: 100
+    progressTitle: 100%
+    blockHightTitle: 分叉高度
+    blockHight: 494784
+    timeTitle: 已取消
+    time: 0
+    timeClass: b2x
+    btnTitle: 查看详情
+    btnHref: /pages/b2xdetail
+    stateTitle: 已取消
+    state: 3
+    stateColor: C8C8C8
+
+btAirdropInfo:
+  - imageHref:
+    imageUrl: /resource/Byteball.png
+    coinName: 雪球币
+    coinInfo: 去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，如货币，产权，债务，股份等。
+    btnTitle: 查看详情
+    btnHref: /pages/byteballdetail
+    stateTitle: 进行中
+    state: 1
+    stateColor: F99F26
+  - imageHref:
+    imageUrl: /resource/BTX.png
+    coinName: BTX
+    coinInfo: 比特币的复制网络，通过派发糖果方式给比特币持有者发币。
+    btnTitle: 查看详情
+    btnHref: /pages/btxdetail
+    stateTitle: 进行中
+    state: 1
+    stateColor: F99F26
+  - imageHref:  
+    imageUrl: /resource/stellar.png
+    coinName: 恒星币
+    coinInfo: 价值交换的开源协议。
+    btnTitle: 查看详情
+    btnHref: /pages/stellardetail
+    stateTitle: 已结束
+    state: 0
+    stateColor: C8C8C8
+
+countdownList:
+  - coinName: btcd
+    className: btcd
+  - coinName: sbtc
+    className: sbtc
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

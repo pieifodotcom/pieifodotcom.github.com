@@ -1,0 +1,224 @@
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <title>PieIFO</title>
+    <!-- 头部导航 begin -->
+    <input type="hidden" value="" class="basePath"/>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bitpie</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="../css/bootstrap-3.3.7.min.css">
+    <link rel='stylesheet' type='text/css' href='../css/laypage.css'/>
+    <link rel="stylesheet" type='text/css' href="../css/page_my.css">
+    <link rel="stylesheet" type='text/css' href="../css/blog.css">
+    <link rel="stylesheet" type='text/css' href="../css/main.css">
+    <link rel="stylesheet" type='text/css' href="../css/common.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-2 logo">
+                <a href="/"><img src="/resource/logo.png"></a>
+            </div>
+            <nav class="col-xs-7 nav">
+                
+                <a id="#typefork" href="../index">分叉</a>
+                
+                <a id="#typebtairdrop" href="/pages/btall">糖果</a>
+                
+            </nav>
+        </div>
+    </div>
+</header>
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap-3.3.7.min.js"></script>
+<script type="text/javascript" src="../js/jsrender.min.js"></script>
+<script type="text/javascript" src="../js/layer.js"></script>
+<script type="text/javascript" src="../js/laypage.js"></script>
+<script type="text/javascript" src="../js/page.js"></script>
+<script type="text/javascript" src="../js/some.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/head.js"></script>
+</body>
+</html>
+<!-- 头部导航 end -->
+</head>
+<body>
+<div class="projects">
+    <div class="container">
+        <div class="row coinlist">
+            <div class="projects-filter clearfix">
+                
+                <span class="btall">全部</span>
+                
+                <span class="btprocessing">进行中</span>
+                
+                <span class="btend">已结束</span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <ul class="clearfix coininfo">
+                
+                <li class="col-xs-12 col-md-4">
+                    <a href=""><img
+                            src="/resource/Byteball.png"></a>
+                    <div class="hot-info" style="margin-top: 20px">
+                        <h3>雪球币</h3>
+                        <p>去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，如货币，产权，债务，股份等。</p>
+                        <a href="/pages/byteballdetail" class="btn">查看详情</a>
+                    </div>
+                    <div class="pro-status ongoing" style="background-color: F99F26">
+                        进行中
+                    </div>
+                </li>
+                
+                <li class="col-xs-12 col-md-4">
+                    <a href=""><img
+                            src="/resource/BTX.png"></a>
+                    <div class="hot-info" style="margin-top: 20px">
+                        <h3>BTX</h3>
+                        <p>比特币的复制网络，通过派发糖果方式给比特币持有者发币。</p>
+                        <a href="/pages/btxdetail" class="btn">查看详情</a>
+                    </div>
+                    <div class="pro-status ongoing" style="background-color: F99F26">
+                        进行中
+                    </div>
+                </li>
+                
+                <li class="col-xs-12 col-md-4">
+                    <a href=""><img
+                            src="/resource/stellar.png"></a>
+                    <div class="hot-info" style="margin-top: 20px">
+                        <h3>恒星币</h3>
+                        <p>价值交换的开源协议。</p>
+                        <a href="/pages/stellardetail" class="btn">查看详情</a>
+                    </div>
+                    <div class="pro-status ongoing" style="background-color: C8C8C8">
+                        已结束
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(".btall").click(updateEtAll)
+
+    $(".btprocessing").click(updateEtProcessing)
+
+    $(".btend").click(updateEtEnd)
+
+    function updateEtAll() {
+        $(".coininfo").empty();
+        $(".coininfo").append("\n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"\"><img\n" +
+            "                            src=\"/resource/Byteball.png\"></a>\n" +
+            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
+            "                        <h3>雪球币</h3>\n" +
+            "                        <p>去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，如货币，产权，债务，股份等。</p>\n" +
+            "                        <a href=\"/pages/byteballdetail\" class=\"btn\">查看详情</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: F99F26\">\n" +
+            "                        进行中\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                \n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"\"><img\n" +
+            "                            src=\"/resource/BTX.png\"></a>\n" +
+            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
+            "                        <h3>BTX</h3>\n" +
+            "                        <p>比特币的复制网络，通过派发糖果方式给比特币持有者发币。</p>\n" +
+            "                        <a href=\"/pages/btxdetail\" class=\"btn\">查看详情</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: F99F26\">\n" +
+            "                        进行中\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                \n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"\"><img\n" +
+            "                            src=\"/resource/stellar.png\"></a>\n" +
+            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
+            "                        <h3>恒星币</h3>\n" +
+            "                        <p>价值交换的开源协议。</p>\n" +
+            "                        <a href=\"/pages/stellardetail\" class=\"btn\">查看详情</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: C8C8C8\">\n" +
+            "                        已结束\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                ")
+    }
+
+    function updateEtProcessing() {
+        $(".coininfo").empty();
+        $(".coininfo").append("\n" +
+            "                \n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"\"><img\n" +
+            "                            src=\"/resource/Byteball.png\"></a>\n" +
+            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
+            "                        <h3>雪球币</h3>\n" +
+            "                        <p>去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，如货币，产权，债务，股份等。</p>\n" +
+            "                        <a href=\"/pages/byteballdetail\" class=\"btn\">查看详情</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: F99F26\">\n" +
+            "                        进行中\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"\"><img\n" +
+            "                            src=\"/resource/BTX.png\"></a>\n" +
+            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
+            "                        <h3>BTX</h3>\n" +
+            "                        <p>比特币的复制网络，通过派发糖果方式给比特币持有者发币。</p>\n" +
+            "                        <a href=\"/pages/btxdetail\" class=\"btn\">查看详情</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: F99F26\">\n" +
+            "                        进行中\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                ");
+    }
+
+    function updateEtEnd() {
+        $(".coininfo").empty();
+        $(".coininfo").append("\n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"\"><img\n" +
+            "                            src=\"/resource/stellar.png\"></a>\n" +
+            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
+            "                        <h3>恒星币</h3>\n" +
+            "                        <p>价值交换的开源协议。</p>\n" +
+            "                        <a href=\"/pages/stellardetail\" class=\"btn\">查看详情</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: C8C8C8\">\n" +
+            "                        已结束\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                \n" +
+            "                ");
+    }
+</script>
+</body>
+</html>
