@@ -201,7 +201,10 @@
                 var year = date.getFullYear();
                 var month = date.getMonth();
                 var day = date.getDay();
-                var countdown = DateDiff($("." + arr[i]).html(), year + "/" + month + "/" + day)
+                var hour = date.getHours();
+                var min = date.getMinutes();
+                var sec = date.getSeconds();
+                var countdown = DateDiff($("." + arr[i]).html(), year + "/" + month + "/" + day + " " + hour + ":" + min + ":" + sec)
                 $("." + arr[i]).text(countdown);
             }
         }
@@ -209,10 +212,12 @@
 
     function DateDiff(sDate1, sDate2){ 
         var date2 = new Date();
-        var date3 = new Date(sDate1).getTime() - date2.getTime()  ;
+        var date3 = new Date(sDate1).getTime() - date2.getTime();
+        console.log(new Date(sDate1).getTime(),date2.getTime());
         var days=Math.floor(date3/(24*3600*1000))
         var leave1=date3%(24*3600*1000)
         var hours=Math.floor(leave1/(3600*1000))
+
         return days + "天" + hours + "小时";
     }
 

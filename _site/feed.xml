@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-22T19:51:23+08:00</updated><id>http://localhost:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">stellardetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="stellardetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/stellar-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;恒星币&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://192.168.1.59:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://192.168.1.59:4000/" rel="alternate" type="text/html" /><updated>2017-11-22T21:39:07+08:00</updated><id>http://192.168.1.59:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">stellardetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="stellardetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.59:4000/stellar-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;恒星币&lt;/h1&gt;
 &lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/resource/stellar.png&quot; /&gt;&lt;/div&gt;
 &lt;p&gt;恒星币（Stellar）是由前瑞波币（Ripple）创始人Jed McCaleb发起的数字货币项目，用于搭建一个数字货币与法定货币之间传输的去中心化网关。将通过免费发放的形式提供给用户，其供应上限为1000亿，其中95%数量的恒星币用于免费发放。 恒星是一个多元化的团队，董事会成员有包括前Square首席运营官Keith Rabois，Stripe首席执行官Patrick Collison，而狗狗币联合创始人Jackson Palmer以及AngelList联合创始人Naval Ravikant 将作为该项目的顾问。&lt;/p&gt;
 
 &lt;p&gt;官网地址：&lt;a href=&quot;https://www.stellar.org/&quot;&gt;https://www.stellar.org/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;领取方式：已结束发放。&lt;/p&gt;</content><author><name></name></author><summary type="html">恒星币 恒星币（Stellar）是由前瑞波币（Ripple）创始人Jed McCaleb发起的数字货币项目，用于搭建一个数字货币与法定货币之间传输的去中心化网关。将通过免费发放的形式提供给用户，其供应上限为1000亿，其中95%数量的恒星币用于免费发放。 恒星是一个多元化的团队，董事会成员有包括前Square首席运营官Keith Rabois，Stripe首席执行官Patrick Collison，而狗狗币联合创始人Jackson Palmer以及AngelList联合创始人Naval Ravikant 将作为该项目的顾问。</summary></entry><entry><title type="html">sbtcdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="sbtcdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/sbtc-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;超级比特币&lt;/h1&gt;
+&lt;p&gt;领取方式：已结束发放。&lt;/p&gt;</content><author><name></name></author><summary type="html">恒星币 恒星币（Stellar）是由前瑞波币（Ripple）创始人Jed McCaleb发起的数字货币项目，用于搭建一个数字货币与法定货币之间传输的去中心化网关。将通过免费发放的形式提供给用户，其供应上限为1000亿，其中95%数量的恒星币用于免费发放。 恒星是一个多元化的团队，董事会成员有包括前Square首席运营官Keith Rabois，Stripe首席执行官Patrick Collison，而狗狗币联合创始人Jackson Palmer以及AngelList联合创始人Naval Ravikant 将作为该项目的顾问。</summary></entry><entry><title type="html">sbtcdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="sbtcdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.59:4000/sbtc-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;超级比特币&lt;/h1&gt;
 &lt;p&gt;SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是2017年11月15日，开发团队是Super Bitcoin，团队成员包括大名鼎鼎的中国比特币首富李笑来。&lt;/p&gt;
 &lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/resource/SBTC.png&quot; /&gt;&lt;/div&gt;
 
@@ -63,7 +63,7 @@
       &lt;td&gt;大区块+闪电网络+智能合约+零知识证明&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">超级比特币 SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是2017年11月15日，开发团队是Super Bitcoin，团队成员包括大名鼎鼎的中国比特币首富李笑来。</summary></entry><entry><title type="html">Byteball Detail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="Byteball Detail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/byteball-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;Byteball&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">超级比特币 SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是2017年11月15日，开发团队是Super Bitcoin，团队成员包括大名鼎鼎的中国比特币首富李笑来。</summary></entry><entry><title type="html">Byteball Detail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="Byteball Detail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.59:4000/byteball-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;Byteball&lt;/h1&gt;
 &lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/resource/Byteball.png&quot; /&gt;&lt;/div&gt;
 &lt;p&gt;  Byteball(字节雪球)是一个去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，例如货币，产权，债务，股份等。&lt;/p&gt;
 
@@ -73,7 +73,7 @@
 
 &lt;p&gt;  官网地址：&lt;a href=&quot;https://byteball.org/&quot;&gt;https://byteball.org/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;  领取方式：&lt;a href=&quot;h43pxttp://8btc.com/thread-67373-1-1.html&quot;&gt;http://8btc.com/thread-67373-1-1.html&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Byteball   Byteball(字节雪球)是一个去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，例如货币，产权，债务，股份等。</summary></entry><entry><title type="html">btxdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="btxdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/btx-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;BTX&lt;/h1&gt;
+&lt;p&gt;  领取方式：&lt;a href=&quot;h43pxttp://8btc.com/thread-67373-1-1.html&quot;&gt;http://8btc.com/thread-67373-1-1.html&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Byteball   Byteball(字节雪球)是一个去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，例如货币，产权，债务，股份等。</summary></entry><entry><title type="html">btxdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="btxdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.59:4000/btx-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;BTX&lt;/h1&gt;
 &lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/resource/BTX.png&quot; /&gt;&lt;/div&gt;
 &lt;p&gt;BTX是比特币的复制网络，对共识机制和挖矿算法进行了小幅更新。
 &lt;br /&gt;BTX每隔一段时间通过空投的方式给原BTC持有者派发糖果，需要BTC持有者自己去认领糖果。
@@ -81,7 +81,7 @@
 
 &lt;p&gt;官网地址：&lt;a href=&quot;https://bitcore.cc/&quot;&gt;https://bitcore.cc/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;领取方式：待更新。&lt;/p&gt;</content><author><name></name></author><summary type="html">BTX BTX是比特币的复制网络，对共识机制和挖矿算法进行了小幅更新。 BTX每隔一段时间通过空投的方式给原BTC持有者派发糖果，需要BTC持有者自己去认领糖果。 自10月31日起，派发糖果的方式改为了需要用户上传比特币钱包私钥来领取。该动作极危险，不建议大家领取。如果需要领取，建议在领取前把钱包内的比特币转出。领取完毕后弃用钱包。</summary></entry><entry><title type="html">btgdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="btgdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/btg-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;比特币黄金&lt;/h1&gt;
+&lt;p&gt;领取方式：待更新。&lt;/p&gt;</content><author><name></name></author><summary type="html">BTX BTX是比特币的复制网络，对共识机制和挖矿算法进行了小幅更新。 BTX每隔一段时间通过空投的方式给原BTC持有者派发糖果，需要BTC持有者自己去认领糖果。 自10月31日起，派发糖果的方式改为了需要用户上传比特币钱包私钥来领取。该动作极危险，不建议大家领取。如果需要领取，建议在领取前把钱包内的比特币转出。领取完毕后弃用钱包。</summary></entry><entry><title type="html">btgdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="btgdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.59:4000/btg-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;比特币黄金&lt;/h1&gt;
 &lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/resource/BTG.png&quot; /&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;什么是BTG（比特币黄金）&lt;/strong&gt;&lt;/p&gt;
 
@@ -142,7 +142,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;比特派已经支持的BTG相关钱包功能，并且在全球首个开通了BTG 点对点交易。&lt;/p&gt;</content><author><name></name></author><summary type="html">比特币黄金 什么是BTG（比特币黄金）</summary></entry><entry><title type="html">btcddetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="btcddetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/btcd-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;比特币钻石&lt;/h1&gt;
+&lt;p&gt;比特派已经支持的BTG相关钱包功能，并且在全球首个开通了BTG 点对点交易。&lt;/p&gt;</content><author><name></name></author><summary type="html">比特币黄金 什么是BTG（比特币黄金）</summary></entry><entry><title type="html">btcddetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="btcddetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.59:4000/btcd-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;比特币钻石&lt;/h1&gt;
 &lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/resource/BTCD.png&quot; /&gt;&lt;/div&gt;
 &lt;p&gt;比特币钻石，英文全称Bitcoin Diamond，简称BCD，由Bitcoin Diamond Foundation负责运营。从名字就可以看出来，它是继比特币现金（BCH）、比特币黄金（BTG）之后，又一个比特币的分叉币。&lt;/p&gt;
 
@@ -156,11 +156,6 @@
 &lt;p&gt;&lt;strong&gt;(2)提高交易速度：大幅度扩容是一个重要升级，BCD将块大小限制提高到了8MB，可更灵活地处理每个区块中的所有交易。除此之外，BCD出块速度提高了5倍，最终目标是提高整个BTC区块链的交易确认速度。&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;(3)降低转账手续费和用户参与门槛：BCD总量为BTC的10倍，降低了用户的单位参与成本与门槛，使得更多的用户能更容易地参与到BCD的交易活动当中。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;比特币最多有2100万个，随着被挖的量越来越多，余量越来越少，算法难度就越加困难。而比特币现金是采用动态难度调节模式，生产难度会随着整个比特币现金网络中的算力来调节。加入的节点越多，难度越高，反之则下降难度。因为比特币现金出块时间很长，比特币现金在8月8日开始调整了采矿难度，并且提升了出块的速度。
-&lt;br /&gt;从技术上来看： 比特币现金和比特币所使用的工作量证明算法都是 SHA256，而不同的是难度调节机制。比特币原链中所采取的措施是， 每挖出 2,106 个区块根据算力情况调整一次挖矿难度 ，而比特币现金为了防止算力不足的情况， 采取了若最近 12 小时出块数小于 6 个，则难度自动降低 25%的紧急难度调节机制（EDA）。
-&lt;br /&gt;从算力分配来看： 当 BTC 和 BCH 同使用 SHA256 算法时， 矿工们就可以根据挖矿收益来决定挖那种矿。在过去的这三个多月时间里，每当 BCH 难度下调挖矿收益大于 BTC 时，算力都会大幅流入 BCH 链，从而严重影响两条链的出块速度。
-&lt;br /&gt;BCH自诞生起，就饱受争议，BCH和BTC之间的争执，矿工和Core之间的矛盾，可能会一直持续下去，这是当时设计的时候缺陷所导致的，属于“先天性疾病”，加上后天的不可调和的矛盾，导致了如今难舍难分的局面。并且伴随着BCH价格的日渐上涨，这个矛盾还可能进一步激化。&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -188,7 +183,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;是否预挖&lt;/td&gt;
-      &lt;td&gt;预挖20万&lt;/td&gt;
+      &lt;td&gt;4000万&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;分叉币数量比例&lt;/td&gt;
@@ -213,7 +208,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;比特派已经和比特币钻石团队进行了深入的技术交流，会在分叉主网稳定之后第一时间开放对比特币钻石的支持。&lt;/p&gt;</content><author><name></name></author><summary type="html">比特币钻石 比特币钻石，英文全称Bitcoin Diamond，简称BCD，由Bitcoin Diamond Foundation负责运营。从名字就可以看出来，它是继比特币现金（BCH）、比特币黄金（BTG）之后，又一个比特币的分叉币。</summary></entry><entry><title type="html">bchdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="bchdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/bch-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;比特币现金&lt;/h1&gt;
+&lt;p&gt;比特派已经和比特币钻石团队进行了深入的技术交流，会在分叉主网稳定之后第一时间开放对比特币钻石的支持。&lt;/p&gt;</content><author><name></name></author><summary type="html">比特币钻石 比特币钻石，英文全称Bitcoin Diamond，简称BCD，由Bitcoin Diamond Foundation负责运营。从名字就可以看出来，它是继比特币现金（BCH）、比特币黄金（BTG）之后，又一个比特币的分叉币。</summary></entry><entry><title type="html">bchdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="bchdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.59:4000/bch-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;比特币现金&lt;/h1&gt;
 &lt;div style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/resource/BCH.png&quot; /&gt;&lt;/div&gt;
 &lt;p&gt;比特币现金（BCH）是由一小部分比特币开发者推出的不同配置的新版比特币，是一种新型的区块链资产。在2017年8月1日，比特现金开始挖矿，每个比特币投资者的账户上将出现与比特币数量等量的比特币现金（BCH）。比特派是全齐。&lt;/p&gt;
 
@@ -281,7 +276,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;比特派于2017年8月1日分叉当天即发布了支持BCH的版本，是全球第一个支持BCH的钱包。&lt;/p&gt;</content><author><name></name></author><summary type="html">比特币现金 比特币现金（BCH）是由一小部分比特币开发者推出的不同配置的新版比特币，是一种新型的区块链资产。在2017年8月1日，比特现金开始挖矿，每个比特币投资者的账户上将出现与比特币数量等量的比特币现金（BCH）。比特派是全齐。</summary></entry><entry><title type="html">b2xdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="b2xdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/b2x-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;B2X&lt;/h1&gt;
+&lt;p&gt;比特派于2017年8月1日分叉当天即发布了支持BCH的版本，是全球第一个支持BCH的钱包。&lt;/p&gt;</content><author><name></name></author><summary type="html">比特币现金 比特币现金（BCH）是由一小部分比特币开发者推出的不同配置的新版比特币，是一种新型的区块链资产。在2017年8月1日，比特现金开始挖矿，每个比特币投资者的账户上将出现与比特币数量等量的比特币现金（BCH）。比特派是全齐。</summary></entry><entry><title type="html">b2xdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="b2xdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.59:4000/b2x-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 align=&quot;center&quot;&gt;B2X&lt;/h1&gt;
 &lt;p&gt;围绕比特币扩容的争论已经持续数年。 今年 5 月，Barry Silbert 旗下的数字货币集团（DCG）和包括大型矿池运营商比特大陆（Bitmian）在内的其它 57 家公司共同签署 segwit2x 扩容方案。该方案将 隔离验证激活阈值设为 80%，并以 bit 4 作为信号发送方式；在六个月内执行一次 2 MB 硬分叉扩容 。&lt;/p&gt;
 
 &lt;p&gt;今年8月，隔离验证率先被激活，按照计划，11月中旬（高度为494,784的区块）会迎来2M升级。但由于Bitcoin Core核心开发者团队以及部分矿工并不认可这一计划，此次升级会造成一次硬分叉。而此次硬分叉产生的新的代币即为Bitcoin Segwit 2X( B2X)。&lt;/p&gt;
