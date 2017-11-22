@@ -13,4 +13,4 @@ permalink: /detail/
 
 &nbsp;&nbsp;官网地址：[https://byteball.org/](https://byteball.org/)
 
-&nbsp;&nbsp;领取方式：[http://8btc.com/thread-67373-1-1.html](h43pxttp://8btc.com/thread-67373-1-1.html)
+&nbsp;&nbsp;领取方式：[http://8btc.com/thread-67373-1-1.ht ml](http://8btc.com/thread-67373-1-1.html)
