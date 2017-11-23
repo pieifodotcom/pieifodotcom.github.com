@@ -66,7 +66,7 @@ contentBtAirdropMenu:
 
 
 btForkInfo:
-  - imageHref:  
+  - imageHref: /pages/btcddetail
     imageUrl: /resource/BTCD.png
     coinName: 比特钻石
     coinInfo: 增加了隐私保护和大区块支持
@@ -82,7 +82,7 @@ btForkInfo:
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
-  - imageHref:
+  - imageHref: /pages/sbtcdetail
     imageUrl: /resource/SBTC.png
     coinName: 超级比特币
     coinInfo: 让比特币网络拥有智能合约
@@ -98,7 +98,7 @@ btForkInfo:
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
-  - imageHref:
+  - imageHref: /pages/btgdetail
     imageUrl: /resource/BTG.png
     coinName: 比特金
     coinInfo: 通过改变挖矿算法打破算力垄断
@@ -114,7 +114,7 @@ btForkInfo:
     stateTitle: 已分叉
     state: 1
     stateColor: 3AACEB
-  - imageHref:  
+  - imageHref: /pages/bchdetail
     imageUrl: /resource/BCH.png
     coinName: 比特现金
     coinInfo: 点对点电子现金
@@ -130,7 +130,7 @@ btForkInfo:
     stateTitle: 已分叉
     state: 1
     stateColor: 3AACEB
-  - imageHref:  
+  - imageHref: /pages/b2xdetail
     imageUrl: /resource/default.png
     coinName: B2X
     coinInfo: 纽约共识确定的隔离验证+2X方案
@@ -148,7 +148,7 @@ btForkInfo:
     stateColor: C8C8C8
 
 btAirdropInfo:
-  - imageHref:
+  - imageHref: /pages/byteballdetail
     imageUrl: /resource/Byteball.png
     coinName: 雪球币
     coinInfo: 去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，如货币，产权，债务，股份等。
@@ -157,7 +157,7 @@ btAirdropInfo:
     stateTitle: 进行中
     state: 1
     stateColor: F99F26
-  - imageHref:
+  - imageHref: /pages/btxdetail
     imageUrl: /resource/BTX.png
     coinName: BTX
     coinInfo: 比特币的复制网络，通过派发糖果方式给比特币持有者发币。
@@ -166,7 +166,7 @@ btAirdropInfo:
     stateTitle: 进行中
     state: 1
     stateColor: F99F26
-  - imageHref:  
+  - imageHref: /pages/stellardetail
     imageUrl: /resource/stellar.png
     coinName: 恒星币
     coinInfo: 价值交换的开源协议。
