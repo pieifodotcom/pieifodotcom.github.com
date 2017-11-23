@@ -1,42 +1,22 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="UTF-8">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" type="image/x-icon" href="/resource/icon.png" media="screen"/>
     <title>PieIFO</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/resource/icon.png" media="screen" />
-    <input type="hidden" value="" class="basePath"/>
-    <style>
-        table{
-            width: 100%;
-            max-width: 100%;
-            border-collapse: collapse !important;
-            word-wrap:break-word; word-break:break-all;
-        }
-        table th{
-            text-align:center;
-        }
-        table th,td{
-            text-align:center;
-            border: 1px solid #000
-        }
-    </style>
+    {% include detailCss.html %}
 </head>
-
 <body>
-
-<div class="container">
-    <div class="row">
-        <div class="blog-main">
-            <div class="blog-post" style="letter-spacing: 0.1em;margin: 0 5%">
-                {% for post in site.posts %}
-                {% if post.layout == "bchdetail" %}
-                {{post.content}}
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
+<div class="body">
+    <div id="content" class="content">
+        {% for post in site.posts %}
+        {% if post.layout == "bchdetail" %}
+        {{post.content}}
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
-{% include pagesJs.html %}
+{% include detailJs.html %}
 </body>
 </html>
