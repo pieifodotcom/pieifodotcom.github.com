@@ -76,6 +76,9 @@ btForkInfo:
     blockHight: 495866
     timeTitle: 倒计时(预估)
     time: 2017/11/24 20:00:00
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: btcdhight
     timeClass: btcd
     btnTitle: 查看详情
     btnHref: /pages/btcddetail
@@ -92,6 +95,9 @@ btForkInfo:
     blockHight: 498888
     timeTitle: 倒计时
     time: 2017/12/17
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: sbtchight
     timeClass: sbtc
     btnTitle: 查看详情
     btnHref: /pages/sbtcdetail
@@ -108,6 +114,9 @@ btForkInfo:
     blockHight: 491407
     timeTitle: 倒计时
     time: 0
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: btghight
     timeClass: btg
     btnTitle: 查看详情
     btnHref: /pages/btgdetail
@@ -124,6 +133,9 @@ btForkInfo:
     blockHight: 478558
     timeTitle: 倒计时
     time: 0
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: bchhight
     timeClass: bch
     btnTitle: 查看详情
     btnHref: /pages/bchdetail
@@ -140,6 +152,9 @@ btForkInfo:
     blockHight: 494784
     timeTitle: 已取消
     time: 0
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: b2xhight
     timeClass: b2x
     btnTitle: 查看详情
     btnHref: /pages/b2xdetail

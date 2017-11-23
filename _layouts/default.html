@@ -8,14 +8,15 @@
 <header class="header">
     <div class="container">
         <div class="row">
-            <div class="col-xs-2 logo">
-                <a href="/"><img src="{{ site.headerLogo }}"></a>
+            <div class="logo">
+                <a href="/" style="float: left"><img src="{{ site.headerLogo }}"></a>
             </div>
-            <nav class="col-xs-7 nav">
+            <nav class="nav" style="float: right">
                 {% for link in site.headerContent %}
                 <a href="{{link['href']}}" target="_self">{{ link['typeName'] }}</a>
                 {% endfor %}
             </nav>
+            <div class="headtitle">比特派运营的专业分叉信息站</div>
         </div>
     </div>
 </header>
@@ -30,7 +31,6 @@
                 {% for link in site.contentForkMenu %}
                 <span class="{{link['className']}}">{{link['menuName']}}</span>
                 {% endfor %}
-                <span class="heightClass">当前块高度:<b id="btcheight"></b></span>
             </div>
         </div>
     </div>
@@ -45,7 +45,7 @@
                         <h3>{{link['coinName']}}</h3>
                         <p>{{link['coinInfo']}}</p>
                         <div class="row details">
-                            <div class="col-xs-5">
+                            <div class="col-xs-3">
                                 <em>
                                     {{link['blockHight']}}
                                 </em>
@@ -53,7 +53,15 @@
                                 <span>{{link['blockHightTitle']}}</span>
                             </div>
 
-                            <div class="col-xs-5">
+                            <div class="col-xs-3">
+                                <em class="{{link['currentHightClass']}}">
+                                    {{link['currentHight']}}
+                                </em>
+                                <br/>
+                                <span>{{link['currentHightTitle']}}</span>
+                            </div>
+
+                            <div class="col-xs-4">
                                 <p class="{{link['timeClass']}}">{{link['time']}}</p>
                                 <br/>
                                 <span>{{link['timeTitle']}}</span>
@@ -89,7 +97,7 @@
             "                        <h3>{{link['coinName']}}</h3>\n" +
             "                        <p>{{link['coinInfo']}}</p>\n" +
             "                        <div class=\"row details\">\n" +
-            "                            <div class=\"col-xs-5\">\n" +
+            "                            <div class=\"col-xs-3\">\n" +
             "                                <em>\n" +
             "                                    {{link['blockHight']}}\n" +
             "                                </em>\n" +
@@ -97,8 +105,15 @@
             "                                <span>{{link['blockHightTitle']}}</span>\n" +
             "                            </div>\n" +
             "\n" +
-            "                            <div class=\"col-xs-5\">\n" +
-            "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
+            "                            <div class=\"col-xs-3\">\n" +
+            "                                <em class=\"{{link['currentHightClass']}}\">\n" +
+            "                                   {{link['currentHight']}}" +
+            "                                </em>\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['currentHightTitle']}}</span>\n" +
+            "                            </div>\n" +
+            "\n" +
+            "                            <div class=\"col-xs-4\">\n" +
             "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
             "                                <br/>\n" +
             "                                <span>{{link['timeTitle']}}</span>\n" +
@@ -112,6 +127,7 @@
             "                </li>\n" +
             "                {% endfor %}")
         modifyTimeValue();
+        displayBlockHight();
     }
 
     function updateForking () {
@@ -125,15 +141,21 @@
             "                        <h3>{{link['coinName']}}</h3>\n" +
             "                        <p>{{link['coinInfo']}}</p>\n" +
             "                        <div class=\"row details\">\n" +
-            "                            <div class=\"col-xs-5\">\n" +
+            "                            <div class=\"col-xs-3\">\n" +
             "                                <em>\n" +
             "                                    {{link['blockHight']}}\n" +
             "                                </em>\n" +
             "                                <br/>\n" +
             "                                <span>{{link['blockHightTitle']}}</span>\n" +
             "                            </div>\n" +
-            "\n" +
-            "                            <div class=\"col-xs-5\">\n" +
+            "                            <div class=\"col-xs-3\">\n" +
+            "                                <em class=\"{{link['currentHightClass']}}\">\n" +
+            "                                   {{link['currentHight']}}" +
+            "                                </em>\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['currentHightTitle']}}</span>\n" +
+            "                            </div>" +
+            "                            <div class=\"col-xs-4\">\n" +
             "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
             "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
             "                                <br/>\n" +
@@ -149,6 +171,7 @@
             "                {% endif %}\n" +
             "                {% endfor %}");
         modifyTimeValue();
+        displayBlockHight();
     }
 
     function updateForkend() {
@@ -162,17 +185,23 @@
             "                        <h3>{{link['coinName']}}</h3>\n" +
             "                        <p>{{link['coinInfo']}}</p>\n" +
             "                        <div class=\"row details\">\n" +
-            "                            <div class=\"col-xs-5\">\n" +
+            "                            <div class=\"col-xs-3\">\n" +
             "                                <em>\n" +
-            "                                    <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
+            "                                    {{link['blockHight']}}\n" +
             "                                </em>\n" +
             "                                <br/>\n" +
             "                                <span>{{link['blockHightTitle']}}</span>\n" +
             "                            </div>\n" +
-            "\n" +
-            "                            <div class=\"col-xs-5\">\n" +
+            "                            <div class=\"col-xs-3\">\n" +
+            "                                <em class=\"{{link['currentHightClass']}}\">\n" +
+            "                                   {{link['currentHight']}}" +
+            "                                </em>\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['currentHightTitle']}}</span>\n" +
+            "                            </div>" +
+            "                            <div class=\"col-xs-4\">\n" +
             "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
-            "                                {{link['time']}}\n" +
+            "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
             "                                <br/>\n" +
             "                                <span>{{link['timeTitle']}}</span>\n" +
             "                            </div>\n" +
@@ -186,10 +215,12 @@
             "                {% endif %}\n" +
             "                {% endfor %}");
         modifyTimeValue();
+        displayBlockHight();
     }
 
     $(document).ready(function(){
         modifyTimeValue();
+        displayBlockHight();
     });
 
     function modifyTimeValue() {
@@ -217,17 +248,21 @@
         var days=Math.floor(date3/(24*3600*1000))
         var leave1=date3%(24*3600*1000)
         var hours=Math.floor(leave1/(3600*1000))
-
         return days + "天" + hours + "小时";
     }
 
-
-    $(function(){
-        $.get("https://bitpie.getcai.com/api/v1/bitcoind/status",{},function(data){
-            $("#btcheight").text(data.headers);
+    function displayBlockHight() {
+        $.get("https://bitpie.getcai.com/api/v1/bitcoind/status?currentstring=" + new Date().getTime(),{},function(data){
+            var blockhight = data.headers;
+            var hightStr = "{%for link in site.btForkInfo%} {{link['currentHightClass']}}{% endfor %}";
+            var hightArr = hightStr.split(" ");
+            for (var i = 0; i < hightArr.length; i ++) {
+                if (i != 0) {
+                    $("." + hightArr[i]).text(blockhight);
+                }
+            }
         })
-
-    })
+    }
 
 </script>
 </body>

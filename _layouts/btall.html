@@ -10,12 +10,12 @@
 <header class="header">
     <div class="container">
         <div class="row">
-            <div class="col-xs-2 logo">
-                <a href="/"><img src="{{ site.headerLogo }}"></a>
+            <div class="logo">
+                <a href="/" style="float: left"><img src="{{ site.headerLogo }}"></a>
             </div>
-            <nav class="col-xs-7 nav">
+            <nav class="nav" style="float: right">
                 {% for link in site.headerContent %}
-                <a id="#{{link['id']}}" href="{{link['href']}}">{{ link['typeName'] }}</a>
+                <a href="{{link['href']}}" target="_self">{{ link['typeName'] }}</a>
                 {% endfor %}
             </nav>
         </div>
