@@ -4,7 +4,10 @@ title:  sbtcdetail
 permalink: /detail/
 ---
 <h1 style="color: #2F416A">超级比特币</h1>
-<p class="summarytxt">SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是2017年11月15日，开发团队是Super Bitcoin，团队成员包括大名鼎鼎的中国比特币首富李笑来。
+<p class="summarytxt" style="color: #2F416A">(比特派将于SBTC分叉主网稳定后第一时间开通支持。)
+</p>
+<p>
+SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是2017年11月15日，开发团队是Super Bitcoin，团队成员包括大名鼎鼎的中国比特币首富李笑来。
 </p>
 <p>SBTC是一种新的比特币分叉币，按照Super Bitcoin团队的说法，SBTC将于2017年12月17日进行硬分叉试验。SBTC的区块容量大小为8MB，总发行量为2121万个，多出来的21万个为分叉预挖币，简单的说是专门留给12月17日分叉试验时挖矿的奖励。
 </p>
