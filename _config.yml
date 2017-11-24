@@ -68,7 +68,7 @@ contentBtAirdropMenu:
 btForkInfo:
   - imageHref: /pages/btcddetail
     imageUrl: /resource/BTCD.png
-    coinName: 比特钻石
+    coinName: 比特钻石(BTCD)
     coinInfo: 增加了隐私保护和大区块支持
     progress: 0
     progressTitle: 0%
@@ -87,7 +87,7 @@ btForkInfo:
     stateColor: F99F26
   - imageHref: /pages/sbtcdetail
     imageUrl: /resource/SBTC.png
-    coinName: 超级比特币
+    coinName: 超级比特币(SBTC)
     coinInfo: 让比特币网络拥有智能合约
     progress: 0
     progressTitle: 0%
@@ -106,7 +106,7 @@ btForkInfo:
     stateColor: F99F26
   - imageHref: /pages/btgdetail
     imageUrl: /resource/BTG.png
-    coinName: 比特金
+    coinName: 比特金(BTG)
     coinInfo: 通过改变挖矿算法打破算力垄断
     progress: 100
     progressTitle: 100%
@@ -125,7 +125,7 @@ btForkInfo:
     stateColor: 3AACEB
   - imageHref: /pages/bchdetail
     imageUrl: /resource/BCH.png
-    coinName: 比特现金
+    coinName: 比特现金(BCH)
     coinInfo: 点对点电子现金
     progress: 100
     progressTitle: 100%
@@ -144,7 +144,7 @@ btForkInfo:
     stateColor: 3AACEB
   - imageHref: /pages/b2xdetail
     imageUrl: /resource/default.png
-    coinName: B2X
+    coinName: Bitcoin Segwit 2X(B2X)
     coinInfo: 纽约共识确定的隔离验证+2X方案
     progress: 100
     progressTitle: 100%
