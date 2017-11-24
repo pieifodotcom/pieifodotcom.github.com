@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="logo">
-                <a href="/" style="float: left"><img src="/resource/logo.png"></a>
+                <a href="/" style="float: left"><img src="/resource/logo.jpg"></a>
             </div>
             <nav class="nav" style="float: right">
                 
@@ -49,6 +49,8 @@
                 
                 <span class="forkend">已分叉</span>
                 
+                <span class="forkstart">分叉中</span>
+                
             </div>
         </div>
     </div>
@@ -57,8 +59,8 @@
             <ul class="clearfix coininfo">
                 
                 <li class="col-xs-12 col-md-4">
-                    <a href="/pages/btcddetail"><img
-                            src="/resource/BTCD.png"></a>
+                    <a href="/pages/bcddetail"><img
+                            src="/resource/bcd.jpg"></a>
                     <div class="hot-info">
                         <h3>比特钻石(BCD)</h3>
                         <p>增加了隐私保护和大区块支持</p>
@@ -72,7 +74,7 @@
                             </div>
 
                             <div class="col-xs-3">
-                                <em class="btcdhight">
+                                <em class="bcdhight">
                                     加载中
                                 </em>
                                 <br/>
@@ -80,21 +82,21 @@
                             </div>
 
                             <div class="col-xs-4">
-                                <p class="btcd">2017/11/23 18:00:00</p>
+                                <p class="btcd">0</p>
                                 <br/>
-                                <span>倒计时(预估)</span>
+                                <span class="bcdtimetitle">倒计时</span>
                             </div>
                         </div>
-                        <a href="/pages/btcddetail" class="btn">查看详情</a>
+                        <a href="/pages/bcddetail" class="btn">查看详情</a>
                     </div>
-                    <div class="pro-status ongoing" style="background-color: F99F26">
-                        即将分叉
+                    <div class="pro-status ongoing" style="background-color: F8736F">
+                        分叉中
                     </div>
                 </li>
                 
                 <li class="col-xs-12 col-md-4">
                     <a href="/pages/sbtcdetail"><img
-                            src="/resource/SBTC.png"></a>
+                            src="/resource/sbtc.jpg"></a>
                     <div class="hot-info">
                         <h3>超级比特币(SBTC)</h3>
                         <p>让比特币网络拥有智能合约</p>
@@ -118,7 +120,7 @@
                             <div class="col-xs-4">
                                 <p class="sbtc">2017/12/17</p>
                                 <br/>
-                                <span>倒计时</span>
+                                <span class="sbtcdtimetitle">倒计时</span>
                             </div>
                         </div>
                         <a href="/pages/sbtcdetail" class="btn">查看详情</a>
@@ -130,7 +132,7 @@
                 
                 <li class="col-xs-12 col-md-4">
                     <a href="/pages/btgdetail"><img
-                            src="/resource/BTG.png"></a>
+                            src="/resource/btg.jpg"></a>
                     <div class="hot-info">
                         <h3>比特金(BTG)</h3>
                         <p>通过改变挖矿算法打破算力垄断</p>
@@ -154,7 +156,7 @@
                             <div class="col-xs-4">
                                 <p class="btg">0</p>
                                 <br/>
-                                <span>倒计时</span>
+                                <span class="btgtimetitle">倒计时</span>
                             </div>
                         </div>
                         <a href="/pages/btgdetail" class="btn">查看详情</a>
@@ -166,7 +168,7 @@
                 
                 <li class="col-xs-12 col-md-4">
                     <a href="/pages/bchdetail"><img
-                            src="/resource/BCH.png"></a>
+                            src="/resource/bch.jpg"></a>
                     <div class="hot-info">
                         <h3>比特现金(BCH)</h3>
                         <p>点对点电子现金</p>
@@ -190,7 +192,7 @@
                             <div class="col-xs-4">
                                 <p class="bch">0</p>
                                 <br/>
-                                <span>倒计时</span>
+                                <span class="bchtimetitle">倒计时</span>
                             </div>
                         </div>
                         <a href="/pages/bchdetail" class="btn">查看详情</a>
@@ -202,7 +204,7 @@
                 
                 <li class="col-xs-12 col-md-4">
                     <a href="/pages/b2xdetail"><img
-                            src="/resource/default.png"></a>
+                            src="/resource/default.jpg"></a>
                     <div class="hot-info">
                         <h3>Bitcoin Segwit 2X(B2X)</h3>
                         <p>纽约共识确定的隔离验证+2X方案</p>
@@ -226,7 +228,7 @@
                             <div class="col-xs-4">
                                 <p class="b2x">0</p>
                                 <br/>
-                                <span>已取消</span>
+                                <span class="b2xtimetitle">已取消</span>
                             </div>
                         </div>
                         <a href="/pages/b2xdetail" class="btn">查看详情</a>
@@ -268,13 +270,14 @@ var _hmt = _hmt || [];
 
     $(".forkend").click(updateForkend)
 
+    $(".forkstart").click(updateForkStart)
 
     function updateForkAll() {
         $(".coininfo").empty();
         $(".coininfo").append("\n" +
             "                <li class=\"col-xs-12 col-md-4\">\n" +
-            "                    <a href=\"/pages/btcddetail\"><img\n" +
-            "                            src=\"/resource/BTCD.png\"></a>\n" +
+            "                    <a href=\"/pages/bcddetail\"><img\n" +
+            "                            src=\"/resource/bcd.jpg\"></a>\n" +
             "                    <div class=\"hot-info\">\n" +
             "                        <h3>比特钻石(BCD)</h3>\n" +
             "                        <p>增加了隐私保护和大区块支持</p>\n" +
@@ -288,7 +291,7 @@ var _hmt = _hmt || [];
             "                            </div>\n" +
             "\n" +
             "                            <div class=\"col-xs-3\">\n" +
-            "                                <em class=\"btcdhight\">\n" +
+            "                                <em class=\"bcdhight\">\n" +
             "                                   加载中" +
             "                                </em>\n" +
             "                                <br/>\n" +
@@ -296,21 +299,21 @@ var _hmt = _hmt || [];
             "                            </div>\n" +
             "\n" +
             "                            <div class=\"col-xs-4\">\n" +
-            "                                <p class=\"btcd\">2017/11/23 18:00:00</p>\n" +
+            "                                <p class=\"btcd\">0</p>\n" +
             "                                <br/>\n" +
-            "                                <span>倒计时(预估)</span>\n" +
+            "                                <span class=\"bcdtimetitle\">倒计时</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
-            "                        <a href=\"/pages/btcddetail\" class=\"btn\">查看详情</a>\n" +
+            "                        <a href=\"/pages/bcddetail\" class=\"btn\">查看详情</a>\n" +
             "                    </div>\n" +
-            "                    <div class=\"pro-status ongoing\" style=\"background-color: F99F26\">\n" +
-            "                        即将分叉\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: F8736F\">\n" +
+            "                        分叉中\n" +
             "                    </div>\n" +
             "                </li>\n" +
             "                \n" +
             "                <li class=\"col-xs-12 col-md-4\">\n" +
             "                    <a href=\"/pages/sbtcdetail\"><img\n" +
-            "                            src=\"/resource/SBTC.png\"></a>\n" +
+            "                            src=\"/resource/sbtc.jpg\"></a>\n" +
             "                    <div class=\"hot-info\">\n" +
             "                        <h3>超级比特币(SBTC)</h3>\n" +
             "                        <p>让比特币网络拥有智能合约</p>\n" +
@@ -334,7 +337,7 @@ var _hmt = _hmt || [];
             "                            <div class=\"col-xs-4\">\n" +
             "                                <p class=\"sbtc\">2017/12/17</p>\n" +
             "                                <br/>\n" +
-            "                                <span>倒计时</span>\n" +
+            "                                <span class=\"sbtcdtimetitle\">倒计时</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                        <a href=\"/pages/sbtcdetail\" class=\"btn\">查看详情</a>\n" +
@@ -346,7 +349,7 @@ var _hmt = _hmt || [];
             "                \n" +
             "                <li class=\"col-xs-12 col-md-4\">\n" +
             "                    <a href=\"/pages/btgdetail\"><img\n" +
-            "                            src=\"/resource/BTG.png\"></a>\n" +
+            "                            src=\"/resource/btg.jpg\"></a>\n" +
             "                    <div class=\"hot-info\">\n" +
             "                        <h3>比特金(BTG)</h3>\n" +
             "                        <p>通过改变挖矿算法打破算力垄断</p>\n" +
@@ -370,7 +373,7 @@ var _hmt = _hmt || [];
             "                            <div class=\"col-xs-4\">\n" +
             "                                <p class=\"btg\">0</p>\n" +
             "                                <br/>\n" +
-            "                                <span>倒计时</span>\n" +
+            "                                <span class=\"btgtimetitle\">倒计时</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                        <a href=\"/pages/btgdetail\" class=\"btn\">查看详情</a>\n" +
@@ -382,7 +385,7 @@ var _hmt = _hmt || [];
             "                \n" +
             "                <li class=\"col-xs-12 col-md-4\">\n" +
             "                    <a href=\"/pages/bchdetail\"><img\n" +
-            "                            src=\"/resource/BCH.png\"></a>\n" +
+            "                            src=\"/resource/bch.jpg\"></a>\n" +
             "                    <div class=\"hot-info\">\n" +
             "                        <h3>比特现金(BCH)</h3>\n" +
             "                        <p>点对点电子现金</p>\n" +
@@ -406,7 +409,7 @@ var _hmt = _hmt || [];
             "                            <div class=\"col-xs-4\">\n" +
             "                                <p class=\"bch\">0</p>\n" +
             "                                <br/>\n" +
-            "                                <span>倒计时</span>\n" +
+            "                                <span class=\"bchtimetitle\">倒计时</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                        <a href=\"/pages/bchdetail\" class=\"btn\">查看详情</a>\n" +
@@ -418,7 +421,7 @@ var _hmt = _hmt || [];
             "                \n" +
             "                <li class=\"col-xs-12 col-md-4\">\n" +
             "                    <a href=\"/pages/b2xdetail\"><img\n" +
-            "                            src=\"/resource/default.png\"></a>\n" +
+            "                            src=\"/resource/default.jpg\"></a>\n" +
             "                    <div class=\"hot-info\">\n" +
             "                        <h3>Bitcoin Segwit 2X(B2X)</h3>\n" +
             "                        <p>纽约共识确定的隔离验证+2X方案</p>\n" +
@@ -442,7 +445,7 @@ var _hmt = _hmt || [];
             "                            <div class=\"col-xs-4\">\n" +
             "                                <p class=\"b2x\">0</p>\n" +
             "                                <br/>\n" +
-            "                                <span>已取消</span>\n" +
+            "                                <span class=\"b2xtimetitle\">已取消</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                        <a href=\"/pages/b2xdetail\" class=\"btn\">查看详情</a>\n" +
@@ -452,7 +455,6 @@ var _hmt = _hmt || [];
             "                    </div>\n" +
             "                </li>\n" +
             "                ")
-        modifyTimeValue();
         displayBlockHight();
     }
 
@@ -460,46 +462,11 @@ var _hmt = _hmt || [];
         $(".coininfo").empty();
         $(".coininfo").append("\n" +
             "                \n" +
-            "                <li class=\"col-xs-12 col-md-4\">\n" +
-            "                    <a href=\"/pages/btcddetail\"><img\n" +
-            "                            src=\"/resource/BTCD.png\"></a>\n" +
-            "                    <div class=\"hot-info\">\n" +
-            "                        <h3>比特钻石(BCD)</h3>\n" +
-            "                        <p>增加了隐私保护和大区块支持</p>\n" +
-            "                        <div class=\"row details\">\n" +
-            "                            <div class=\"col-xs-3\">\n" +
-            "                                <em>\n" +
-            "                                    495866\n" +
-            "                                </em>\n" +
-            "                                <br/>\n" +
-            "                                <span>分叉高度</span>\n" +
-            "                            </div>\n" +
-            "                            <div class=\"col-xs-3\">\n" +
-            "                                <em class=\"btcdhight\">\n" +
-            "                                   加载中" +
-            "                                </em>\n" +
-            "                                <br/>\n" +
-            "                                <span>当前块高</span>\n" +
-            "                            </div>" +
-            "                            <div class=\"col-xs-4\">\n" +
-            "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
-            "                                <p class=\"btcd\">2017/11/23 18:00:00</p>\n" +
-            "                                <br/>\n" +
-            "                                <span>倒计时(预估)</span>\n" +
-            "                            </div>\n" +
-            "                        </div>\n" +
-            "                        <a href=\"/pages/btcddetail\" class=\"btn\">查看详情</a>\n" +
-            "                    </div>\n" +
-            "                    <div class=\"pro-status ongoing\" style=\"background-color: F99F26\">\n" +
-            "                        即将分叉\n" +
-            "                    </div>\n" +
-            "                </li>\n" +
-            "                \n" +
             "                \n" +
             "                \n" +
             "                <li class=\"col-xs-12 col-md-4\">\n" +
             "                    <a href=\"/pages/sbtcdetail\"><img\n" +
-            "                            src=\"/resource/SBTC.png\"></a>\n" +
+            "                            src=\"/resource/sbtc.jpg\"></a>\n" +
             "                    <div class=\"hot-info\">\n" +
             "                        <h3>超级比特币(SBTC)</h3>\n" +
             "                        <p>让比特币网络拥有智能合约</p>\n" +
@@ -522,7 +489,7 @@ var _hmt = _hmt || [];
             "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
             "                                <p class=\"sbtc\">2017/12/17</p>\n" +
             "                                <br/>\n" +
-            "                                <span>倒计时</span>\n" +
+            "                                <span class=\"sbtcdtimetitle\">倒计时</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                        <a href=\"/pages/sbtcdetail\" class=\"btn\">查看详情</a>\n" +
@@ -539,7 +506,6 @@ var _hmt = _hmt || [];
             "                \n" +
             "                \n" +
             "                ");
-        modifyTimeValue();
         displayBlockHight();
     }
 
@@ -553,7 +519,7 @@ var _hmt = _hmt || [];
             "                \n" +
             "                <li class=\"col-xs-12 col-md-4\">\n" +
             "                    <a href=\"/pages/btgdetail\"><img\n" +
-            "                            src=\"/resource/BTG.png\"></a>\n" +
+            "                            src=\"/resource/btg.jpg\"></a>\n" +
             "                    <div class=\"hot-info\">\n" +
             "                        <h3>比特金(BTG)</h3>\n" +
             "                        <p>通过改变挖矿算法打破算力垄断</p>\n" +
@@ -576,7 +542,7 @@ var _hmt = _hmt || [];
             "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
             "                                <p class=\"btg\">0</p>\n" +
             "                                <br/>\n" +
-            "                                <span>倒计时</span>\n" +
+            "                                <span class=\"btgtimetitle\">倒计时</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                        <a href=\"/pages/btgdetail\" class=\"btn\">查看详情</a>\n" +
@@ -590,7 +556,7 @@ var _hmt = _hmt || [];
             "                \n" +
             "                <li class=\"col-xs-12 col-md-4\">\n" +
             "                    <a href=\"/pages/bchdetail\"><img\n" +
-            "                            src=\"/resource/BCH.png\"></a>\n" +
+            "                            src=\"/resource/bch.jpg\"></a>\n" +
             "                    <div class=\"hot-info\">\n" +
             "                        <h3>比特现金(BCH)</h3>\n" +
             "                        <p>点对点电子现金</p>\n" +
@@ -613,7 +579,7 @@ var _hmt = _hmt || [];
             "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
             "                                <p class=\"bch\">0</p>\n" +
             "                                <br/>\n" +
-            "                                <span>倒计时</span>\n" +
+            "                                <span class=\"bchtimetitle\">倒计时</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                        <a href=\"/pages/bchdetail\" class=\"btn\">查看详情</a>\n" +
@@ -626,54 +592,98 @@ var _hmt = _hmt || [];
             "                \n" +
             "                \n" +
             "                ");
-        modifyTimeValue();
+        displayBlockHight();
+    }
+
+    function updateForkStart() {
+        $(".coininfo").empty();
+        $(".coininfo").append("\n" +
+            "                \n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"/pages/bcddetail\"><img\n" +
+            "                            src=\"/resource/bcd.jpg\"></a>\n" +
+            "                    <div class=\"hot-info\">\n" +
+            "                        <h3>比特钻石(BCD)</h3>\n" +
+            "                        <p>增加了隐私保护和大区块支持</p>\n" +
+            "                        <div class=\"row details\">\n" +
+            "                            <div class=\"col-xs-3\">\n" +
+            "                                <em>\n" +
+            "                                    495866\n" +
+            "                                </em>\n" +
+            "                                <br/>\n" +
+            "                                <span>分叉高度</span>\n" +
+            "                            </div>\n" +
+            "                            <div class=\"col-xs-3\">\n" +
+            "                                <em class=\"bcdhight\">\n" +
+            "                                   加载中" +
+            "                                </em>\n" +
+            "                                <br/>\n" +
+            "                                <span>当前块高</span>\n" +
+            "                            </div>" +
+            "                            <div class=\"col-xs-4\">\n" +
+            "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
+            "                                <p class=\"btcd\">0</p>\n" +
+            "                                <br/>\n" +
+            "                                <span class=\"bcdtimetitle\">倒计时</span>\n" +
+            "                            </div>\n" +
+            "                        </div>\n" +
+            "                        <a href=\"/pages/bcddetail\" class=\"btn\">查看详情</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: F8736F\">\n" +
+            "                        分叉中\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                \n" +
+            "                ");
         displayBlockHight();
     }
 
     $(document).ready(function(){
-        modifyTimeValue();
         displayBlockHight();
     });
 
-    function modifyTimeValue() {
-        var test = " btcd sbtc";
-        var arr = test.split(" ");
-        for (var i = 0; i < arr.length; i ++) {
+    function modifyTimeValue(hight) {
+        var blockHight = " 495866 498888 491407 478558 494784";
+        var timeClass = " btcd sbtc btg bch b2x";
+        var timeTitle = " bcdtimetitle sbtcdtimetitle btgtimetitle bchtimetitle b2xtimetitle";
+        var blockHightArr = blockHight.split(" ");
+        var timeClassArr = timeClass.split(" ");
+        var timeTitleArr = timeTitle.split(" ");
+        for (var i = 0; i < timeClassArr.length; i ++) {
             if (i != 0) {
-                var date = new Date();
-                var year = date.getFullYear();
-                var month = date.getMonth();
-                var day = date.getDay();
-                var hour = date.getHours();
-                var min = date.getMinutes();
-                var sec = date.getSeconds();
-                var countdown = DateDiff($("." + arr[i]).html(), year + "/" + month + "/" + day + " " + hour + ":" + min + ":" + sec)
-                $("." + arr[i]).text(countdown);
+                if ($("." + timeClassArr[i]).text() != "0") {
+                    var timeDiscrepancy = (blockHightArr[i] - hight) * 10 * 60 * 1000;
+                    if (timeDiscrepancy > 0) {
+                        var days = Math.floor(timeDiscrepancy/(24*3600*1000))
+                        var leave1 = timeDiscrepancy % (24 * 3600 * 1000)
+                        var hours = (leave1 / (3600 * 1000)).toFixed(1);
+                        $("." + timeTitleArr[i]).text("倒计时(预估)");
+                        $("." + timeClassArr[i]).text(days + "天" + hours + "小时");
+                    } else {
+                        $("." + timeTitleArr[i]).text("倒计时");
+                    }
+                }
             }
-        }
-    }
-
-    function DateDiff(sDate1, sDate2){ 
-        var date2 = new Date();
-        var date3 = new Date(sDate1).getTime() - date2.getTime();
-        if (date3 > 0) {
-            var days=Math.floor(date3/(24*3600*1000))
-            var leave1=date3%(24*3600*1000)
-            var hours=Math.floor(leave1/(3600*1000))
-            return days + "天" + hours + "小时";
-        } else  {
-            return 0;
         }
     }
 
     function displayBlockHight() {
         $.get("https://bitpie.getcai.com/api/v1/bitcoind/status?currentstring=" + new Date().getTime(),{},function(data){
             var blockhight = data.headers;
-            var hightStr = " btcdhight sbtchight btghight bchhight b2xhight";
+            var hightStr = " bcdhight sbtchight btghight bchhight b2xhight";
             var hightArr = hightStr.split(" ");
             for (var i = 0; i < hightArr.length; i ++) {
                 if (i != 0) {
                     $("." + hightArr[i]).text(blockhight);
+                    modifyTimeValue(blockhight);
                 }
             }
         })

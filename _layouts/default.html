@@ -86,6 +86,7 @@
 
     $(".forkend").click(updateForkend)
 
+    $(".forkstart").click(updateForkStart)
 
     function updateForkAll() {
         $(".coininfo").empty();
@@ -176,6 +177,49 @@
         $(".coininfo").empty();
         $(".coininfo").append("{% for link in site.btForkInfo %}\n" +
             "                {% if link['state'] == 1 %}\n" +
+            "                <li class=\"col-xs-12 col-md-4\">\n" +
+            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                    <div class=\"hot-info\">\n" +
+            "                        <h3>{{link['coinName']}}</h3>\n" +
+            "                        <p>{{link['coinInfo']}}</p>\n" +
+            "                        <div class=\"row details\">\n" +
+            "                            <div class=\"col-xs-3\">\n" +
+            "                                <em>\n" +
+            "                                    {{link['blockHight']}}\n" +
+            "                                </em>\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['blockHightTitle']}}</span>\n" +
+            "                            </div>\n" +
+            "                            <div class=\"col-xs-3\">\n" +
+            "                                <em class=\"{{link['currentHightClass']}}\">\n" +
+            "                                   {{link['currentHight']}}" +
+            "                                </em>\n" +
+            "                                <br/>\n" +
+            "                                <span>{{link['currentHightTitle']}}</span>\n" +
+            "                            </div>" +
+            "                            <div class=\"col-xs-4\">\n" +
+            "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
+            "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
+            "                                <br/>\n" +
+            "                                <span class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "                            </div>\n" +
+            "                        </div>\n" +
+            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                    </div>\n" +
+            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
+            "                        {{link['stateTitle']}}\n" +
+            "                    </div>\n" +
+            "                </li>\n" +
+            "                {% endif %}\n" +
+            "                {% endfor %}");
+        displayBlockHight();
+    }
+
+    function updateForkStart() {
+        $(".coininfo").empty();
+        $(".coininfo").append("{% for link in site.btForkInfo %}\n" +
+            "                {% if link['state'] == 2 %}\n" +
             "                <li class=\"col-xs-12 col-md-4\">\n" +
             "                    <a href=\"{{link['imageHref']}}\"><img\n" +
             "                            src=\"{{link['imageUrl']}}\"></a>\n" +

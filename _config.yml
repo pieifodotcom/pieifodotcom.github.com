@@ -55,6 +55,8 @@ contentForkMenu:
     className: forking
   - menuName: 已分叉
     className: forkend
+  - menuName: 分叉中
+    className: forkstart
 
 contentBtAirdropMenu:
   - menuName: 全部
@@ -76,16 +78,16 @@ btForkInfo:
     blockHight: 495866
     timeTitle: 倒计时
     timeTitleClass: bcdtimetitle
-    time: 2017/11/24
+    time: 0
     currentHightTitle: 当前块高
     currentHight: 加载中
     currentHightClass: bcdhight
     timeClass: btcd
     btnTitle: 查看详情
     btnHref: /pages/bcddetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
+    stateTitle: 分叉中
+    state: 2
+    stateColor: F8736F
   - imageHref: /pages/sbtcdetail
     imageUrl: /resource/sbtc.jpg
     coinName: 超级比特币(SBTC)
