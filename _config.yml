@@ -87,7 +87,7 @@ btForkInfo:
     btnHref: /pages/bcddetail
     stateTitle: 分叉中
     state: 2
-    stateColor: F8736F
+    stateColor: ED6363
   - imageHref: /pages/sbtcdetail
     imageUrl: /resource/sbtc.jpg
     coinName: 超级比特币(SBTC)
