@@ -68,7 +68,7 @@ contentBtAirdropMenu:
 btForkInfo:
   - imageHref: /pages/btcddetail
     imageUrl: /resource/BTCD.png
-    coinName: 比特钻石(BTCD)
+    coinName: 比特钻石(BCD)
     coinInfo: 增加了隐私保护和大区块支持
     progress: 0
     progressTitle: 0%
