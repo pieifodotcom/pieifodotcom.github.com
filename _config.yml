@@ -71,7 +71,7 @@ btForkInfo:
   - imageHref: /pages/bcddetail
     imageUrl: /resource/bcd.jpg
     coinName: 比特钻石(BCD)
-    coinInfo: 增加了隐私保护和大区块支持
+    coinInfo: 团队预挖时间，主网尚未上线
     progress: 0
     progressTitle: 0%
     blockHightTitle: 分叉高度
