@@ -64,7 +64,7 @@
                             <div class="col-xs-4">
                                 <p class="{{link['timeClass']}}">{{link['time']}}</p>
                                 <br/>
-                                <span>{{link['timeTitle']}}</span>
+                                <span class="{{link['timeTitleClass']}}">{{link['timeTitle']}}</span>
                             </div>
                         </div>
                         <a href="{{link['btnHref']}}" class="btn">{{link['btnTitle']}}</a>
@@ -116,7 +116,7 @@
             "                            <div class=\"col-xs-4\">\n" +
             "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
             "                                <br/>\n" +
-            "                                <span>{{link['timeTitle']}}</span>\n" +
+            "                                <span class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
@@ -126,7 +126,6 @@
             "                    </div>\n" +
             "                </li>\n" +
             "                {% endfor %}")
-        modifyTimeValue();
         displayBlockHight();
     }
 
@@ -159,7 +158,7 @@
             "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
             "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
             "                                <br/>\n" +
-            "                                <span>{{link['timeTitle']}}</span>\n" +
+            "                                <span class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
@@ -170,7 +169,6 @@
             "                </li>\n" +
             "                {% endif %}\n" +
             "                {% endfor %}");
-        modifyTimeValue();
         displayBlockHight();
     }
 
@@ -203,7 +201,7 @@
             "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
             "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
             "                                <br/>\n" +
-            "                                <span>{{link['timeTitle']}}</span>\n" +
+            "                                <span class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
@@ -214,43 +212,35 @@
             "                </li>\n" +
             "                {% endif %}\n" +
             "                {% endfor %}");
-        modifyTimeValue();
         displayBlockHight();
     }
 
     $(document).ready(function(){
-        modifyTimeValue();
         displayBlockHight();
     });
 
-    function modifyTimeValue() {
-        var test = "{%for link in site.countdownList%} {{link['className']}}{% endfor %}";
-        var arr = test.split(" ");
-        for (var i = 0; i < arr.length; i ++) {
+    function modifyTimeValue(hight) {
+        var blockHight = "{%for link in site.btForkInfo%} {{link['blockHight']}}{% endfor %}";
+        var timeClass = "{%for link in site.btForkInfo%} {{link['timeClass']}}{% endfor %}";
+        var timeTitle = "{%for link in site.btForkInfo%} {{link['timeTitleClass']}}{% endfor %}";
+        var blockHightArr = blockHight.split(" ");
+        var timeClassArr = timeClass.split(" ");
+        var timeTitleArr = timeTitle.split(" ");
+        for (var i = 0; i < timeClassArr.length; i ++) {
             if (i != 0) {
-                var date = new Date();
-                var year = date.getFullYear();
-                var month = date.getMonth();
-                var day = date.getDay();
-                var hour = date.getHours();
-                var min = date.getMinutes();
-                var sec = date.getSeconds();
-                var countdown = DateDiff($("." + arr[i]).html(), year + "/" + month + "/" + day + " " + hour + ":" + min + ":" + sec)
-                $("." + arr[i]).text(countdown);
+                if ($("." + timeClassArr[i]).text() != "0") {
+                    var timeDiscrepancy = (blockHightArr[i] - hight) * 10 * 60 * 1000;
+                    if (timeDiscrepancy > 0) {
+                        var days = Math.floor(timeDiscrepancy/(24*3600*1000))
+                        var leave1 = timeDiscrepancy % (24 * 3600 * 1000)
+                        var hours = Math.floor(leave1 / (3600 * 1000))
+                        $("." + timeTitleArr[i]).text("倒计时(预估)");
+                        $("." + timeClassArr[i]).text(days + "天" + hours + "小时");
+                    } else {
+                        $("." + timeTitleArr[i]).text("倒计时");
+                    }
+                }
             }
-        }
-    }
-
-    function DateDiff(sDate1, sDate2){ 
-        var date2 = new Date();
-        var date3 = new Date(sDate1).getTime() - date2.getTime();
-        if (date3 > 0) {
-            var days=Math.floor(date3/(24*3600*1000))
-            var leave1=date3%(24*3600*1000)
-            var hours=Math.floor(leave1/(3600*1000))
-            return days + "天" + hours + "小时";
-        } else  {
-            return 0;
         }
     }
 
@@ -262,6 +252,7 @@
             for (var i = 0; i < hightArr.length; i ++) {
                 if (i != 0) {
                     $("." + hightArr[i]).text(blockhight);
+                    modifyTimeValue(blockhight);
                 }
             }
         })

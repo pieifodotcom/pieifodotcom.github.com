@@ -38,7 +38,7 @@ plugins:
 # exclude:
 #   - Gemfile
 
-headerLogo: /resource/logo.png
+headerLogo: /resource/logo.jpg
 
 headerContent:
   - typeName: 分叉
@@ -66,27 +66,28 @@ contentBtAirdropMenu:
 
 
 btForkInfo:
-  - imageHref: /pages/btcddetail
-    imageUrl: /resource/BTCD.png
+  - imageHref: /pages/bcddetail
+    imageUrl: /resource/bcd.jpg
     coinName: 比特钻石(BCD)
     coinInfo: 增加了隐私保护和大区块支持
     progress: 0
     progressTitle: 0%
     blockHightTitle: 分叉高度
     blockHight: 495866
-    timeTitle: 倒计时(预估)
-    time: 2017/11/24 18:00:00
+    timeTitle: 倒计时
+    timeTitleClass: bcdtimetitle
+    time: 2017/11/24
     currentHightTitle: 当前块高
     currentHight: 加载中
-    currentHightClass: btcdhight
+    currentHightClass: bcdhight
     timeClass: btcd
     btnTitle: 查看详情
-    btnHref: /pages/btcddetail
+    btnHref: /pages/bcddetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
   - imageHref: /pages/sbtcdetail
-    imageUrl: /resource/SBTC.png
+    imageUrl: /resource/sbtc.jpg
     coinName: 超级比特币(SBTC)
     coinInfo: 让比特币网络拥有智能合约
     progress: 0
@@ -94,6 +95,7 @@ btForkInfo:
     blockHightTitle: 分叉高度
     blockHight: 498888
     timeTitle: 倒计时
+    timeTitleClass: sbtcdtimetitle
     time: 2017/12/17
     currentHightTitle: 当前块高
     currentHight: 加载中
@@ -105,7 +107,7 @@ btForkInfo:
     state: 0
     stateColor: F99F26
   - imageHref: /pages/btgdetail
-    imageUrl: /resource/BTG.png
+    imageUrl: /resource/btg.jpg
     coinName: 比特金(BTG)
     coinInfo: 通过改变挖矿算法打破算力垄断
     progress: 100
@@ -114,6 +116,7 @@ btForkInfo:
     blockHight: 491407
     timeTitle: 倒计时
     time: 0
+    timeTitleClass: btgtimetitle
     currentHightTitle: 当前块高
     currentHight: 加载中
     currentHightClass: btghight
@@ -124,7 +127,7 @@ btForkInfo:
     state: 1
     stateColor: 3AACEB
   - imageHref: /pages/bchdetail
-    imageUrl: /resource/BCH.png
+    imageUrl: /resource/bch.jpg
     coinName: 比特现金(BCH)
     coinInfo: 点对点电子现金
     progress: 100
@@ -133,6 +136,7 @@ btForkInfo:
     blockHight: 478558
     timeTitle: 倒计时
     time: 0
+    timeTitleClass: bchtimetitle
     currentHightTitle: 当前块高
     currentHight: 加载中
     currentHightClass: bchhight
@@ -143,7 +147,7 @@ btForkInfo:
     state: 1
     stateColor: 3AACEB
   - imageHref: /pages/b2xdetail
-    imageUrl: /resource/default.png
+    imageUrl: /resource/default.jpg
     coinName: Bitcoin Segwit 2X(B2X)
     coinInfo: 纽约共识确定的隔离验证+2X方案
     progress: 100
@@ -152,6 +156,7 @@ btForkInfo:
     blockHight: 494784
     timeTitle: 已取消
     time: 0
+    timeTitleClass: b2xtimetitle
     currentHightTitle: 当前块高
     currentHight: 加载中
     currentHightClass: b2xhight
@@ -164,7 +169,7 @@ btForkInfo:
 
 btAirdropInfo:
   - imageHref: /pages/byteballdetail
-    imageUrl: /resource/Byteball.png
+    imageUrl: /resource/byteball.jpg
     coinName: 雪球币
     coinInfo: 去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，如货币，产权，债务，股份等。
     btnTitle: 查看详情
@@ -173,7 +178,7 @@ btAirdropInfo:
     state: 1
     stateColor: F99F26
   - imageHref: /pages/btxdetail
-    imageUrl: /resource/BTX.png
+    imageUrl: /resource/btx.jpg
     coinName: BTX
     coinInfo: 比特币的复制网络，通过派发糖果方式给比特币持有者发币。
     btnTitle: 查看详情
@@ -182,7 +187,7 @@ btAirdropInfo:
     state: 1
     stateColor: F99F26
   - imageHref: /pages/stellardetail
-    imageUrl: /resource/stellar.png
+    imageUrl: /resource/stellar.jpg
     coinName: 恒星币
     coinInfo: 价值交换的开源协议。
     btnTitle: 查看详情
@@ -190,12 +195,6 @@ btAirdropInfo:
     stateTitle: 已结束
     state: 0
     stateColor: C8C8C8
-
-countdownList:
-  - coinName: btcd
-    className: btcd
-  - coinName: sbtc
-    className: sbtc
 #   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
