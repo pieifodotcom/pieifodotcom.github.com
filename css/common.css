@@ -542,11 +542,8 @@ select::-ms-expand {
         margin-right: 0px !important;
     }
 
-    .projects li:nth-child(3n+3) {
-        margin-right: 37px !important;
-    }
-
     .projects li {
+        margin-right: 37px !important;
         width: 356px !important;
     }
 }
