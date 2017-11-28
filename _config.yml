@@ -101,7 +101,7 @@ btForkInfo:
     btnTitle: 查看详情
     btnHref: /pages/lbtcdetail.html
     stateTitle: 即将分叉
-    state: 1
+    state: 0
     stateColor: F99F26
   - imageHref: /pages/bcddetail
     imageUrl: /resource/bcd.jpg
