@@ -537,7 +537,7 @@ select::-ms-expand {
 
 }
 
-@media (min-width: 643px) and (max-width: 767px) {
+@media (min-width: 643px) and (max-width: 1200px) {
     .projects li:nth-child(2n) {
         margin-right: 0px !important;
     }
@@ -547,6 +547,17 @@ select::-ms-expand {
     }
 
     .projects li {
+        width: 356px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .projects li:nth-child(3n) {
+        margin-right: 0px !important;
+    }
+
+    .projects li {
+        margin-right: 37px !important;
         width: 356px !important;
     }
 }
