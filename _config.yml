@@ -72,19 +72,19 @@ btForkInfo:
     coinName: 比特币白金(BTP)
     coinInfo: Bitcoin Platinum使用区块链技术进行操作、无需中央治理或第三方干预
     blockHightTitle: 分叉高度
-    blockHight: 496525
+    blockHight: 498533
     timeTitle: 倒计时
     timeTitleClass: btptimetitle
-    time: 0
+    time: 2017/12/11
     currentHightTitle: 当前块高
     currentHight: 加载中
     currentHightClass: btphight
     timeClass: btp
     btnTitle: 查看详情
     btnHref: /pages/btpdetail
-    stateTitle: 分叉中
-    state: 2
-    stateColor: ED6363
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
   - imageHref: /pages/sbtcdetail
     imageUrl: /resource/sbtc.jpg
     coinName: 超级比特币(SBTC)
