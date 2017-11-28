@@ -67,6 +67,24 @@ contentBtAirdropMenu:
     className: btend
 
 btForkInfo:
+  - imageHref: /pages/btpdetail
+    imageUrl: /resource/btp.jpg
+    coinName: 比特币白金(BTP)
+    coinInfo: Bitcoin Platinum使用区块链技术进行操作、无需中央治理或第三方干预
+    blockHightTitle: 分叉高度
+    blockHight: 496525
+    timeTitle: 倒计时
+    timeTitleClass: btptimetitle
+    time: 2017/11/28
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: btphight
+    timeClass: btp
+    btnTitle: 查看详情
+    btnHref: /pages/btpdetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
   - imageHref: /pages/sbtcdetail
     imageUrl: /resource/sbtc.jpg
     coinName: 超级比特币(SBTC)
