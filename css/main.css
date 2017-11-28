@@ -474,9 +474,7 @@ h2.home-title:before,
   margin-right:37px;
   margin-bottom: 35px;
 }
-.projects li:nth-child(3n+3){
-  margin-right:0px !important;
-}
+
 .projects li img {
   /*width: 363px;*/
   /*height: 258px;*/

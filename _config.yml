@@ -66,8 +66,43 @@ contentBtAirdropMenu:
   - menuName: 已结束
     className: btend
 
-
 btForkInfo:
+  - imageHref: /pages/sbtcdetail
+    imageUrl: /resource/sbtc.jpg
+    coinName: 超级比特币(SBTC)
+    coinInfo: 让比特币网络拥有智能合约
+    blockHightTitle: 分叉高度
+    blockHight: 498888
+    timeTitle: 倒计时
+    timeTitleClass: sbtcdtimetitle
+    time: 2017/12/17
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: sbtchight
+    timeClass: sbtc
+    btnTitle: 查看详情
+    btnHref: /pages/sbtcdetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+  - imageHref: /pages/lbtcdetail.html
+    imageUrl: /resource/lbtc.jpg
+    coinName: 闪电比特币(LBTC)
+    coinInfo: 引入DPOS共识机制
+    blockHightTitle: 分叉高度
+    blockHight: 499999
+    timeTitle: 倒计时
+    timeTitleClass: lbtctimetitle
+    time: 2017/12/23
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: lbtchight
+    timeClass: lbtc
+    btnTitle: 查看详情
+    btnHref: /pages/lbtcdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
   - imageHref: /pages/bcddetail
     imageUrl: /resource/bcd.jpg
     coinName: 比特钻石(BCD)
@@ -88,26 +123,6 @@ btForkInfo:
     stateTitle: 分叉中
     state: 2
     stateColor: ED6363
-  - imageHref: /pages/sbtcdetail
-    imageUrl: /resource/sbtc.jpg
-    coinName: 超级比特币(SBTC)
-    coinInfo: 让比特币网络拥有智能合约
-    progress: 0
-    progressTitle: 0%
-    blockHightTitle: 分叉高度
-    blockHight: 498888
-    timeTitle: 倒计时
-    timeTitleClass: sbtcdtimetitle
-    time: 2017/12/17
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: sbtchight
-    timeClass: sbtc
-    btnTitle: 查看详情
-    btnHref: /pages/sbtcdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
   - imageHref: /pages/btgdetail
     imageUrl: /resource/btg.jpg
     coinName: 比特金(BTG)
