@@ -21,7 +21,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2017年11月28日</td>
+        <td>2017年12月11日</td>
     </tr>
     <tr>
         <td>重放保护</td>
