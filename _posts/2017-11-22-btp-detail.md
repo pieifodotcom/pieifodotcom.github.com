@@ -37,11 +37,11 @@ permalink: /detail/
     </tr>
     <tr>
         <td>分叉币数量比例</td>
-        <td>未公布</td>
+        <td>1:1</td>
     </tr>
     <tr>
         <td>总量</td>
-        <td>未公布</td>
+        <td>2100万</td>
     </tr>
     <tr>
         <td>项目官网</td>
