@@ -41,12 +41,11 @@
     }
 }
 
-.tabs {
+.statustabs {
     z-index: 15;
     position: relative;
     background: #FFFFFF;
     border-radius: 4px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -94,9 +93,14 @@
     display: block;
     box-sizing: border-box;
     padding: 15px 20px;
+    font-size: 16px;
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.tabs-header a:hover {
+    color: #3a7ceb;
 }
 
 .tabs-nav {
@@ -163,7 +167,7 @@
     display: block;
 }
 
-div, a, ul, li  {
+div, a, ul, li {
     margin: 0;
     padding: 0;
     border: 0;
@@ -198,8 +202,11 @@ table {
     border-spacing: 0
 }
 
-@media handheld, only screen and (max-width: 60em), only screen and (max-device-width: 60em) {
-    .tabs {
+@media (max-width: 768px) {
+    .statustabs {
         display: none;
     }
 }
+
+
+
