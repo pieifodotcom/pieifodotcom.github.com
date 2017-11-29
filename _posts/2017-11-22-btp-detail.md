@@ -17,7 +17,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>分叉高度</td>
-        <td>496525</td>
+        <td>498533</td>
     </tr>
     <tr>
         <td>分叉时间</td>
