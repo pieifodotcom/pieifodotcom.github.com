@@ -127,6 +127,7 @@ hr {
 }
 
 .footer {
+    text-align: center;
     padding: 40px 0;
     background: #353535;
 }
@@ -156,6 +157,11 @@ hr {
     color: #7d7d7d;
     font-size: 12px;
     margin-top: 10px;
+}
+
+.footer .row a {
+    color: #c8c8c8;
+    font-size: 16px;
 }
 
 .footer .row span {
