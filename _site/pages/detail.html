@@ -1,48 +1,419 @@
+<!DOCTYPE HTML>
 <html lang="UTF-8">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" type="image/x-icon" href="/resource/icon.png" media="screen"/>
     <title>PieIFO</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/resource/icon.png" media="screen" />
-    <!-- 头部导航 begin -->
-    <!--<input type="hidden" value="" class="basePath"/>-->
-    <!--<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bitpie</title>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="stylesheet" href="../css/bootstrap-3.3.7.min.css">
-    <link rel='stylesheet' type='text/css' href='../css/laypage.css'/>
-    <link rel="stylesheet" type='text/css' href="../css/page_my.css">
-    <link rel="stylesheet" type='text/css' href="../css/blog.css">
-    <link rel="stylesheet" type='text/css' href="../css/main.css">
-    <link rel="stylesheet" type='text/css' href="../css/common.css">
-</head>-->
-<body>
-<header class="header">
-    <!--<div class="container">-->
-        <!--<div class="row">-->
-            <!--<div class="logo">-->
-                <!--<a href="/" style="float: left"><img src="/resource/logo.jpg"></a>-->
-            <!--</div>-->
-            <!--<nav class="nav" style="float: right">-->
-                <!---->
-                <!--<a href="../index" target="_self">分叉</a>-->
-                <!---->
-                <!--<a href="/pages/btall" target="_self">糖果</a>-->
-                <!---->
-            <!--</nav>-->
-        <!--</div>-->
-    <!--</div>-->
-</header>
-<!--<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="../js/bootstrap-3.3.7.min.js"></script>
-<script type="text/javascript" src="../js/jsrender.min.js"></script>
-<script type="text/javascript" src="../js/layer.js"></script>
-<script type="text/javascript" src="../js/laypage.js"></script>
-<script type="text/javascript" src="../js/page.js"></script>
-<script type="text/javascript" src="../js/some.js"></script>
-<script type="text/javascript" src="../js/common.js"></script>
-<script type="text/javascript" src="../js/head.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.7.min.css">
+<link rel="stylesheet" type="text/css" href="../css/theme.css">
+<link rel="stylesheet" type="text/css" href="../css/tabstyles.css">
+<link rel="stylesheet" type="text/css" href="../css/custom.css">
+
+<!--[if lt IE 8]><link rel="stylesheet" type='text/css' href="../css/ie.css"><script type="text/javascript" src="/js/common.ie.js"></script><![endif]-->
+</head>
+<body style="background-color: #f2f2f2">
+<div class="nav-container" style="background-color: white">
+    <div class="bar bar--sm visible-xs">
+        <div class="container">
+            <div class="row" style="vertical-align: middle;">
+                <div class="col-xs-3 col-sm-2">
+                    <a>
+                        <img class="logo" alt="logo" src="/resource/logo.jpg" />
+                    </a>
+                    <span class="pieifo">比特派运营的专业分叉信息站</span>
+                </div>
+                <div class="col-xs-9 col-sm-10 text-right">
+                    <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                        <i class="icon icon--sm stack-interface stack-menu">Menu</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav id="menu1" class="bar bar--sm bar-1 hidden-xs hiddem-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-4 hidden-xs">
+                    <div class="bar__module">
+                        <a>
+                            <img class="logo logo-dark" alt="logo" src="/resource/logo.jpg" />
+                        </a>
+                        <span class="pieifo">比特派运营的专业分叉信息站</span>
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-8 text-right text-left-xs text-left-sm">
+                    <div class="bar__module">
+                        <ul class="menu-horizontal text-right">
+                            <li class="dropdown">
+                                <span class="dropdown__trigger">糖果</span>
+                                <div class="dropdown__container hidden-sm hidden-md hidden-lg">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="dropdown__content col-md-2 col-sm-3">
+                                                <ul class="menu-vertical">
+                                                    <li>
+                                                        <a href="#services" class="inner-link">
+                                                            Services
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#projects" class="inner-link">
+                                                            Projects
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#exchanges" class="inner-link">
+                                                            Exchanges
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <span class="dropdown__trigger">分叉</span>
+                                <div class="dropdown__container hidden-sm hidden-md hidden-lg">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="dropdown__content col-md-2 col-sm-3">
+                                                <ul class="menu-vertical">
+                                                    <li>
+                                                        <a href="#services" class="inner-link">
+                                                            Services
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#projects" class="inner-link">
+                                                            Projects
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#exchanges" class="inner-link">
+                                                            Exchanges
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <span class="dropdown__trigger">多语言</span>
+                                <div class="dropdown__container hidden-sm hidden-md hidden-lg">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="dropdown__content col-md-2 col-sm-3">
+                                                <ul class="menu-vertical">
+                                                    <li>
+                                                        <a href="#services" class="inner-link">
+                                                            Services
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#projects" class="inner-link">
+                                                            Projects
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#exchanges" class="inner-link">
+                                                            Exchanges
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="main-container">
+    <section class="no-bottom no-top" style="margin-top: 10px;">
+        <div class="container">
+            <div class="statustabs">
+                <div class="tabs-header">
+                    <div class="border"></div>
+                    <ul>
+                        <li class="active"><a href="#tab-1" tab-id="1" ripple="ripple" ripple-color="#FFF">全部</a></li>
+                        <li><a href="#tab-2" tab-id="2" ripple="ripple" ripple-color="#FFF">即将分叉</a></li>
+                        <li><a href="#tab-3" tab-id="3" ripple="ripple" ripple-color="#FFF">已分叉</a></li>
+                        <li><a href="#tab-4" tab-id="4" ripple="ripple" ripple-color="#FFF">分叉中</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-bottom">
+        <div class="container">
+            <div class="coin_list">
+                <ul class="clearfix">
+                    <li class="coin_info">
+                        <a href="/pages/sbtcdetail"><img
+                                src="/resource/sbtc.jpg"></a>
+                        <div class="hot-info">
+                            <span class="title">超级比特币(SBTC)</span>
+                            <p class="description">让比特币网络拥有智能合约</p>
+                            <div class="details">
+                                <div class="col-xs-3">
+                                    <em>
+                                        498888
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>分叉高度</span>
+                                </div>
+
+                                <div class="col-xs-3">
+                                    <em class="sbtchight">
+                                        加载中
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>当前块高</span>
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <em class="sbtc">2017/12/17</em>
+                                    <br/>
+                                    <br/>
+                                    <span class="sbtcdtimetitle">倒计时</span>
+                                </div>
+                            </div>
+                            <a href="/pages/sbtcdetail" class="btn">查看详情</a>
+                        </div>
+                        <div class="pro-status ongoing" style="background-color: F99F26">
+                            即将分叉
+                        </div>
+                    </li>
+
+                    <li class="coin_info">
+                        <a href="/pages/sbtcdetail"><img
+                                src="/resource/sbtc.jpg"></a>
+                        <div class="hot-info">
+                            <span class="title">超级比特币(SBTC)</span>
+                            <p class="description">让比特币网络拥有智能合约</p>
+                            <div class="details">
+                                <div class="col-xs-3">
+                                    <em>
+                                        498888
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>分叉高度</span>
+                                </div>
+
+                                <div class="col-xs-3">
+                                    <em class="sbtchight">
+                                        加载中
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>当前块高</span>
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <em class="sbtc">2017/12/17</em>
+                                    <br/>
+                                    <br/>
+                                    <span class="sbtcdtimetitle">倒计时</span>
+                                </div>
+                            </div>
+                            <a href="/pages/sbtcdetail" class="btn">查看详情</a>
+                        </div>
+                        <div class="pro-status ongoing" style="background-color: F99F26">
+                            即将分叉
+                        </div>
+                    </li>
+
+                    <li class="coin_info">
+                        <a href="/pages/sbtcdetail"><img
+                                src="/resource/sbtc.jpg"></a>
+                        <div class="hot-info">
+                            <span class="title">超级比特币(SBTC)</span>
+                            <p class="description">让比特币网络拥有智能合约</p>
+                            <div class="details">
+                                <div class="col-xs-3">
+                                    <em>
+                                        498888
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>分叉高度</span>
+                                </div>
+
+                                <div class="col-xs-3">
+                                    <em class="sbtchight">
+                                        加载中
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>当前块高</span>
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <em class="sbtc">2017/12/17</em>
+                                    <br/>
+                                    <br/>
+                                    <span class="sbtcdtimetitle">倒计时</span>
+                                </div>
+                            </div>
+                            <a href="/pages/sbtcdetail" class="btn">查看详情</a>
+                        </div>
+                        <div class="pro-status ongoing" style="background-color: F99F26">
+                            即将分叉
+                        </div>
+                    </li>
+
+                    <li class="coin_info">
+                        <a href="/pages/sbtcdetail"><img
+                                src="/resource/sbtc.jpg"></a>
+                        <div class="hot-info">
+                            <span class="title">超级比特币(SBTC)</span>
+                            <p class="description">让比特币网络拥有智能合约</p>
+                            <div class="details">
+                                <div class="col-xs-3">
+                                    <em>
+                                        498888
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>分叉高度</span>
+                                </div>
+
+                                <div class="col-xs-3">
+                                    <em class="sbtchight">
+                                        加载中
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>当前块高</span>
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <em class="sbtc">2017/12/17</em>
+                                    <br/>
+                                    <br/>
+                                    <span class="sbtcdtimetitle">倒计时</span>
+                                </div>
+                            </div>
+                            <a href="/pages/sbtcdetail" class="btn">查看详情</a>
+                        </div>
+                        <div class="pro-status ongoing" style="background-color: F99F26">
+                            即将分叉
+                        </div>
+                    </li>
+
+                    <li class="coin_info">
+                        <a href="/pages/sbtcdetail"><img
+                                src="/resource/sbtc.jpg"></a>
+                        <div class="hot-info">
+                            <span class="title">超级比特币(SBTC)</span>
+                            <p class="description">让比特币网络拥有智能合约</p>
+                            <div class="details">
+                                <div class="col-xs-3">
+                                    <em>
+                                        498888
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>分叉高度</span>
+                                </div>
+
+                                <div class="col-xs-3">
+                                    <em class="sbtchight">
+                                        加载中
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>当前块高</span>
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <em class="sbtc">2017/12/17</em>
+                                    <br/>
+                                    <br/>
+                                    <span class="sbtcdtimetitle">倒计时</span>
+                                </div>
+                            </div>
+                            <a href="/pages/sbtcdetail" class="btn">查看详情</a>
+                        </div>
+                        <div class="pro-status ongoing" style="background-color: F99F26">
+                            即将分叉
+                        </div>
+                    </li>
+
+                    <li class="coin_info">
+                        <a href="/pages/sbtcdetail"><img
+                                src="/resource/sbtc.jpg"></a>
+                        <div class="hot-info">
+                            <span class="title">超级比特币(SBTC)</span>
+                            <p class="description">让比特币网络拥有智能合约</p>
+                            <div class="details">
+                                <div class="col-xs-3">
+                                    <em>
+                                        498888
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>分叉高度</span>
+                                </div>
+
+                                <div class="col-xs-3">
+                                    <em class="sbtchight">
+                                        加载中
+                                    </em>
+                                    <br/>
+                                    <br/>
+                                    <span>当前块高</span>
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <em class="sbtc">2017/12/17</em>
+                                    <br/>
+                                    <br/>
+                                    <span class="sbtcdtimetitle">倒计时</span>
+                                </div>
+                            </div>
+                            <a href="/pages/sbtcdetail" class="btn">查看详情</a>
+                        </div>
+                        <div class="pro-status ongoing" style="background-color: F99F26">
+                            即将分叉
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="row">
+            <a href="http://www.bitpie.com" target="_blank">Pieifo是由比特派运营的专业分叉类信息站 Powered by <b style="color: #3a7ceb;">Bitpie.com</b></a>
+        </div>
+    </div>
+</div>
+
+
+
+
+<a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+</a>
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/fontawesome.js"></script>
+<script type="text/javascript" src="../js/scripts.js"></script>
+<script type="text/javascript" src="../js/smooth-scroll.min.js"></script>
 <div style="display:none">
     <script src="https://s13.cnzz.com/z_stat.php?id=1270999888&web_id=1270999888" language="JavaScript"></script>
 </div>
@@ -55,157 +426,49 @@
         s.parentNode.insertBefore(hm, s);
     })();
 </script>
--->
-</body>
-</html>
-<!-- 头部导航 end -->
-</head>
-<body>
-<div class="projects">
-    <!--<div class="container">-->
-        <!--<div class="row coinlist">-->
-            <!--<div class="projects-filter clearfix">-->
-                <!---->
-                <!--<span class="btall">全部</span>-->
-                <!---->
-                <!--<span class="btprocessing">进行中</span>-->
-                <!---->
-                <!--<span class="btend">已结束</span>-->
-                <!---->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div class="container">-->
-        <!--<div class="row">-->
-            <!--<ul class="clearfix coininfo">-->
-                <!---->
-                <!--<li class="col-xs-12 col-md-4">-->
-                    <!--<a href="/pages/byteballdetail"><img-->
-                            <!--src="/resource/byteball.jpg"></a>-->
-                    <!--<div class="hot-info" style="margin-top: 20px">-->
-                        <!--<h3>雪球币</h3>-->
-                        <!--<p>去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，如货币，产权，债务，股份等。</p>-->
-                        <!--<a href="/pages/byteballdetail" class="btn">查看详情</a>-->
-                    <!--</div>-->
-                    <!--<div class="pro-status ongoing" style="background-color: F99F26">-->
-                        <!--进行中-->
-                    <!--</div>-->
-                <!--</li>-->
-                <!---->
-                <!--<li class="col-xs-12 col-md-4">-->
-                    <!--<a href="/pages/btxdetail"><img-->
-                            <!--src="/resource/btx.jpg"></a>-->
-                    <!--<div class="hot-info" style="margin-top: 20px">-->
-                        <!--<h3>BTX</h3>-->
-                        <!--<p>比特币的复制网络，通过派发糖果方式给比特币持有者发币。</p>-->
-                        <!--<a href="/pages/btxdetail" class="btn">查看详情</a>-->
-                    <!--</div>-->
-                    <!--<div class="pro-status ongoing" style="background-color: F99F26">-->
-                        <!--进行中-->
-                    <!--</div>-->
-                <!--</li>-->
-                <!---->
-                <!--<li class="col-xs-12 col-md-4">-->
-                    <!--<a href="/pages/stellardetail"><img-->
-                            <!--src="/resource/stellar.jpg"></a>-->
-                    <!--<div class="hot-info" style="margin-top: 20px">-->
-                        <!--<h3>恒星币</h3>-->
-                        <!--<p>价值交换的开源协议。</p>-->
-                        <!--<a href="/pages/stellardetail" class="btn">查看详情</a>-->
-                    <!--</div>-->
-                    <!--<div class="pro-status ongoing" style="background-color: C8C8C8">-->
-                        <!--已结束-->
-                    <!--</div>-->
-                <!--</li>-->
-                <!---->
-            <!--</ul>-->
-        <!--</div>-->
-    <!--</div>-->
-</div>
-<script type="text/javascript">
-//    $(".btall").click(updateEtAll)
-//
-//    $(".btprocessing").click(updateEtProcessing)
-//
-//    $(".btend").click(updateEtEnd)
-//
-//    function updateEtAll() {
-//        $(".coininfo").empty();
-//        var nodeStr = Nodeappend();
-//        $(".coininfo").append(nodeStr)
-//    }
-//
-//    function updateEtProcessing() {
-//        $(".coininfo").empty();
-//        $(".coininfo").append("\n" +
-//            "                \n" +
-//            "                <li class=\"col-xs-12 col-md-4\">\n" +
-//            "                    <a href=\"/pages/byteballdetail\"><img\n" +
-//            "                            src=\"/resource/byteball.jpg\"></a>\n" +
-//            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
-//            "                        <h3>雪球币</h3>\n" +
-//            "                        <p>去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，如货币，产权，债务，股份等。</p>\n" +
-//            "                        <a href=\"/pages/byteballdetail\" class=\"btn\">查看详情</a>\n" +
-//            "                    </div>\n" +
-//            "                    <div class=\"pro-status ongoing\" style=\"background-color: F99F26\">\n" +
-//            "                        进行中\n" +
-//            "                    </div>\n" +
-//            "                </li>\n" +
-//            "                \n" +
-//            "                \n" +
-//            "                \n" +
-//            "                <li class=\"col-xs-12 col-md-4\">\n" +
-//            "                    <a href=\"/pages/btxdetail\"><img\n" +
-//            "                            src=\"/resource/btx.jpg\"></a>\n" +
-//            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
-//            "                        <h3>BTX</h3>\n" +
-//            "                        <p>比特币的复制网络，通过派发糖果方式给比特币持有者发币。</p>\n" +
-//            "                        <a href=\"/pages/btxdetail\" class=\"btn\">查看详情</a>\n" +
-//            "                    </div>\n" +
-//            "                    <div class=\"pro-status ongoing\" style=\"background-color: F99F26\">\n" +
-//            "                        进行中\n" +
-//            "                    </div>\n" +
-//            "                </li>\n" +
-//            "                \n" +
-//            "                \n" +
-//            "                \n" +
-//            "                ");
-//    }
-//
-//    function updateEtEnd() {
-//        $(".coininfo").empty();
-//        $(".coininfo").append("\n" +
-//            "                \n" +
-//            "                \n" +
-//            "                \n" +
-//            "                \n" +
-//            "                \n" +
-//            "                <li class=\"col-xs-12 col-md-4\">\n" +
-//            "                    <a href=\"/pages/stellardetail\"><img\n" +
-//            "                            src=\"/resource/stellar.jpg\"></a>\n" +
-//            "                    <div class=\"hot-info\" style=\"margin-top: 20px\">\n" +
-//            "                        <h3>恒星币</h3>\n" +
-//            "                        <p>价值交换的开源协议。</p>\n" +
-//            "                        <a href=\"/pages/stellardetail\" class=\"btn\">查看详情</a>\n" +
-//            "                    </div>\n" +
-//            "                    <div class=\"pro-status ongoing\" style=\"background-color: C8C8C8\">\n" +
-//            "                        已结束\n" +
-//            "                    </div>\n" +
-//            "                </li>\n" +
-//            "                \n" +
-//            "                ");
-//    }
-//
-//    function Nodeappend(string) {
-//        var nodeStr = "";
-//        console.log(nodeStr);
-//        return nodeStr;
-//    }
-
-console.log(100 / (3600 * 1000));
-
-
-
+<script>
+    $(document).ready(function () {
+        var activePos = $('.tabs-header .active').position();
+        function changePos() {
+            activePos = $('.tabs-header .active').position();
+            $('.border').stop().css({
+                left: activePos.left,
+                width: $('.tabs-header .active').width()
+            });
+        }
+        changePos();
+        var tabHeight = $('.tab.active').height();
+        function animateTabHeight() {
+            tabHeight = $('.tab.active').height();
+            $('.tabs-content').stop().css({ height: tabHeight + 'px' });
+        }
+        animateTabHeight();
+        function changeTab() {
+            var getTabId = $('.tabs-header .active a').attr('tab-id');
+            $('.tab').stop().fadeOut(300, function () {
+                $(this).removeClass('active');
+            }).hide();
+            $('.tab[tab-id=' + getTabId + ']').stop().fadeIn(300, function () {
+                $(this).addClass('active');
+                animateTabHeight();
+            });
+        }
+        $('.tabs-header a').on('click', function (e) {
+            e.preventDefault();
+            var tabId = $(this).attr('tab-id');
+            $('.tabs-header a').stop().parent().removeClass('active');
+            $(this).stop().parent().addClass('active');
+            changePos();
+            $('.tab').stop().fadeOut(300, function () {
+                $(this).removeClass('active');
+            }).hide();
+            $('.tab[tab-id="' + tabId + '"]').stop().fadeIn(300, function () {
+                $(this).addClass('active');
+                animateTabHeight();
+            });
+        });
+    });
 </script>
+
 </body>
 </html>
