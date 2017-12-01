@@ -47,7 +47,7 @@ headerContent:
   - typeName: 糖果
     id: typebtairdrop
     href: /pages/btall
-  - typeName: 服务
+  - typeName: 分叉服务
     id: serve
     href: /pages/serve
 
