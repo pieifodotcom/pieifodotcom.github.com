@@ -50,7 +50,7 @@ SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是201
     </tr>
     <tr>
         <td>项目官网</td>
-        <td><a href="http://supersmartbitcoin.com/">http://supersmartbitcoin.com</a></td>
+        <td><a href="http://supersmartbitcoin.com/" target="_blank">http://supersmartbitcoin.com</a></td>
     </tr>
     <tr>
         <td>项目团队</td>

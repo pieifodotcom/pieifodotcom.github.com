@@ -64,7 +64,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>项目官网</td>
-        <td><a href="https://www.bitcoincash.org/">https://www.bitcoincash.org/</a></td>
+        <td><a href="https://www.bitcoincash.org/" target="_blank">https://www.bitcoincash.org/</a></td>
     </tr>
     <tr>
         <td>项目团队</td>
