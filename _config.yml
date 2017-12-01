@@ -49,7 +49,7 @@ headerContent:
     href: /pages/btall
   - typeName: 分叉服务
     id: serve
-    href: /pages/serve
+    href: /pages/ifoservice
 
 contentForkMenu:
   - menuName: 全部
