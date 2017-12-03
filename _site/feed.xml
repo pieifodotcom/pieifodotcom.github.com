@@ -1,4 +1,204 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-28T10:09:31+08:00</updated><id>http://localhost:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">lbtcdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="lbtcdetail" /><published>2017-11-27T00:00:00+08:00</published><updated>2017-11-27T00:00:00+08:00</updated><id>http://localhost:4000/lbtc-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;闪电比特币&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://192.168.1.106:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://192.168.1.106:4000/" rel="alternate" type="text/html" /><updated>2017-12-03T13:56:38+08:00</updated><id>http://192.168.1.106:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">uraniumdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="uraniumdetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.106:4000/uranium-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特铀&lt;/h1&gt;
+&lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
+       区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
+       比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
+&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Bitcoin Uranium采用equhash算法，区块时间缩短为1分钟，每450天产量减半。
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin Uranium&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉高度&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉时间&lt;/td&gt;
+        &lt;td&gt;2017年12月31日&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;重放保护&lt;/td&gt;
+        &lt;td&gt;支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;挖矿算法&lt;/td&gt;
+        &lt;td&gt;GPU挖矿(equihash)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;是否预挖&lt;/td&gt;
+        &lt;td&gt;无预挖&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉币数量比例&lt;/td&gt;
+        &lt;td&gt;1:1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目官网&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;https://bitcoinuranium.org&quot; target=&quot;_blank&quot;&gt;https://bitcoinuranium.org(暂未启用)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目团队&lt;/td&gt;
+        &lt;td&gt;SONM&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;其他信息&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特铀 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 Bitcoin Uranium采用equhash算法，区块时间缩短为1分钟，每450天产量减半。 项目名 Bitcoin Uranium 分叉高度 未公布 分叉时间 2017年12月31日 重放保护 支持 挖矿算法 GPU挖矿(equihash) 是否预挖 无预挖 分叉币数量比例 1:1 项目官网 https://bitcoinuranium.org(暂未启用) 项目团队 SONM 其他信息</summary></entry><entry><title type="html">silverdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="silverdetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.106:4000/silver-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币增强现金&lt;/h1&gt;
+&lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
+       区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
+       比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
+&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;主要对挖矿算法进行更新使全网算力更加分散。
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin Silver&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉高度&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉时间&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;重放保护&lt;/td&gt;
+        &lt;td&gt;支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;挖矿算法&lt;/td&gt;
+        &lt;td&gt;GPU挖矿(equihash)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;是否预挖&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉币数量比例&lt;/td&gt;
+        &lt;td&gt;1:1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目官网&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;https://bitcointalk.org/index.php?topic=2311582&quot; target=&quot;_blank&quot;&gt;https://bitcointalk.org&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目团队&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;其他信息&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币增强现金 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 主要对挖矿算法进行更新使全网算力更加分散。 项目名 Bitcoin Silver 分叉高度 未公布 分叉时间 未公布 重放保护 支持 挖矿算法 GPU挖矿(equihash) 是否预挖 未公布 分叉币数量比例 1:1 项目官网 https://bitcointalk.org 项目团队 未公布 其他信息</summary></entry><entry><title type="html">plusdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="plusdetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.106:4000/plus-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币增强现金&lt;/h1&gt;
+&lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
+       区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
+       比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
+&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;低费率的电子现金系统。
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin Cash Plus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉高度&lt;/td&gt;
+        &lt;td&gt;501407&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉时间&lt;/td&gt;
+        &lt;td&gt;2018年1月2日&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;重放保护&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;挖矿算法&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;是否预挖&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉币数量比例&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目官网&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;http://www.bitcoincashplus.org/&quot; target=&quot;_blank&quot;&gt;http://www.bitcoincashplus.org&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目团队&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;其他信息&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币增强现金 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 低费率的电子现金系统。 项目名 Bitcoin Cash Plus 分叉高度 501407 分叉时间 2018年1月2日 重放保护 未公布 挖矿算法 未公布 是否预挖 未公布 分叉币数量比例 未公布 项目官网 http://www.bitcoincashplus.org 项目团队 未公布 其他信息</summary></entry><entry><title type="html">goddetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="goddetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.106:4000/god-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币上帝&lt;/h1&gt;
+&lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
+       区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
+       比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
+&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;二宝主导的分叉，完全由社区自治。
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin God&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉高度&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉时间&lt;/td&gt;
+        &lt;td&gt;2017年12月25日&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;重放保护&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;挖矿算法&lt;/td&gt;
+        &lt;td&gt;POS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;是否预挖&lt;/td&gt;
+        &lt;td&gt;否&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉币数量比例&lt;/td&gt;
+        &lt;td&gt;1:1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目官网&lt;/td&gt;
+        &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目团队&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;其他信息&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币上帝 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 二宝主导的分叉，完全由社区自治。 项目名 Bitcoin God 分叉高度 未公布 分叉时间 2017年12月25日 重放保护 未公布 挖矿算法 POS 是否预挖 否 分叉币数量比例 1:1 项目官网 无 项目团队 未公布 其他信息</summary></entry><entry><title type="html">lbtcdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="lbtcdetail" /><published>2017-11-27T00:00:00+08:00</published><updated>2017-11-27T00:00:00+08:00</updated><id>http://192.168.1.106:4000/lbtc-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;闪电比特币&lt;/h1&gt;
 &lt;p&gt;闪电比特币（LBTC）将DPOS共识机制引入了比特币网络，做到记账权和投票权的分离，从而保证系统不会被滥用，无法单方面劫持其他参与方。只要用户持有币就持有话语权，从而实现真正的共治。
 &lt;/p&gt;
 
@@ -38,7 +238,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;http://lightningbitcoin.io/&quot;&gt;http://lightningbitcoin.io&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;http://lightningbitcoin.io/&quot; target=&quot;_blank&quot;&gt;http://lightningbitcoin.io&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目团队&lt;/td&gt;
@@ -49,12 +249,12 @@
         &lt;td&gt;区块时间3秒&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">闪电比特币 闪电比特币（LBTC）将DPOS共识机制引入了比特币网络，做到记账权和投票权的分离，从而保证系统不会被滥用，无法单方面劫持其他参与方。只要用户持有币就持有话语权，从而实现真正的共治。</summary></entry><entry><title type="html">stellardetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="stellardetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/stellar-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;恒星币&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">闪电比特币 闪电比特币（LBTC）将DPOS共识机制引入了比特币网络，做到记账权和投票权的分离，从而保证系统不会被滥用，无法单方面劫持其他参与方。只要用户持有币就持有话语权，从而实现真正的共治。</summary></entry><entry><title type="html">stellardetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="stellardetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.106:4000/stellar-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;恒星币&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot;&gt;恒星币（Stellar）是由前瑞波币（Ripple）创始人Jed McCaleb发起的数字货币项目，用于搭建一个数字货币与法定货币之间传输的去中心化网关。将通过免费发放的形式提供给用户，其供应上限为1000亿，其中95%数量的恒星币用于免费发放。 恒星是一个多元化的团队，董事会成员有包括前Square首席运营官Keith Rabois，Stripe首席执行官Patrick Collison，而狗狗币联合创始人Jackson Palmer以及AngelList联合创始人Naval Ravikant 将作为该项目的顾问。
 &lt;/p&gt;
-&lt;p&gt;官网地址：&lt;a href=&quot;https://www.stellar.org/&quot;&gt;https://www.stellar.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;官网地址：&lt;a href=&quot;https://www.stellar.org/&quot; target=&quot;_blank&quot;&gt;https://www.stellar.org&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;领取方式：已结束发放。
-&lt;/p&gt;</content><author><name></name></author><summary type="html">恒星币 恒星币（Stellar）是由前瑞波币（Ripple）创始人Jed McCaleb发起的数字货币项目，用于搭建一个数字货币与法定货币之间传输的去中心化网关。将通过免费发放的形式提供给用户，其供应上限为1000亿，其中95%数量的恒星币用于免费发放。 恒星是一个多元化的团队，董事会成员有包括前Square首席运营官Keith Rabois，Stripe首席执行官Patrick Collison，而狗狗币联合创始人Jackson Palmer以及AngelList联合创始人Naval Ravikant 将作为该项目的顾问。 官网地址：https://www.stellar.org 领取方式：已结束发放。</summary></entry><entry><title type="html">sbtcdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="sbtcdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/sbtc-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;超级比特币&lt;/h1&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">恒星币 恒星币（Stellar）是由前瑞波币（Ripple）创始人Jed McCaleb发起的数字货币项目，用于搭建一个数字货币与法定货币之间传输的去中心化网关。将通过免费发放的形式提供给用户，其供应上限为1000亿，其中95%数量的恒星币用于免费发放。 恒星是一个多元化的团队，董事会成员有包括前Square首席运营官Keith Rabois，Stripe首席执行官Patrick Collison，而狗狗币联合创始人Jackson Palmer以及AngelList联合创始人Naval Ravikant 将作为该项目的顾问。 官网地址：https://www.stellar.org 领取方式：已结束发放。</summary></entry><entry><title type="html">sbtcdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="sbtcdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.106:4000/sbtc-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;超级比特币&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot; style=&quot;color: #2F416A&quot;&gt;(比特派将于SBTC分叉主网稳定后第一时间开通支持。)
 &lt;/p&gt;
 &lt;p&gt;
@@ -101,7 +301,7 @@ SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是201
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;http://supersmartbitcoin.com/&quot;&gt;http://supersmartbitcoin.com&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;http://supersmartbitcoin.com/&quot; target=&quot;_blank&quot;&gt;http://supersmartbitcoin.com&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目团队&lt;/td&gt;
@@ -112,14 +312,14 @@ SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是201
         &lt;td&gt;大区块+闪电网络+智能合约+零知识证明&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">超级比特币 (比特派将于SBTC分叉主网稳定后第一时间开通支持。) SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是2017年11月15日，开发团队是Super Bitcoin，团队成员包括大名鼎鼎的中国比特币首富李笑来。 SBTC是一种新的比特币分叉币，按照Super Bitcoin团队的说法，SBTC将于2017年12月17日进行硬分叉试验。SBTC的区块容量大小为8MB，总发行量为2121万个，多出来的21万个为分叉预挖币，简单的说是专门留给12月17日分叉试验时挖矿的奖励。 SBTC目前的诸多规格参数并没有公布，比如采用何种共识算法，是ASIC挖矿还是GPU挖矿，是否支持SegWit、是否带有重放保护统统未知。 但SBTC融入了智能合约、闪电网络、零知识证明以及移除动态检查点保护功能，这些功能正在2017年12月17日分叉试验时并不具备，将会在2018年陆续增加。</summary></entry><entry><title type="html">Byteball Detail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="Byteball Detail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/byteball-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Byteball&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">超级比特币 (比特派将于SBTC分叉主网稳定后第一时间开通支持。) SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是2017年11月15日，开发团队是Super Bitcoin，团队成员包括大名鼎鼎的中国比特币首富李笑来。 SBTC是一种新的比特币分叉币，按照Super Bitcoin团队的说法，SBTC将于2017年12月17日进行硬分叉试验。SBTC的区块容量大小为8MB，总发行量为2121万个，多出来的21万个为分叉预挖币，简单的说是专门留给12月17日分叉试验时挖矿的奖励。 SBTC目前的诸多规格参数并没有公布，比如采用何种共识算法，是ASIC挖矿还是GPU挖矿，是否支持SegWit、是否带有重放保护统统未知。 但SBTC融入了智能合约、闪电网络、零知识证明以及移除动态检查点保护功能，这些功能正在2017年12月17日分叉试验时并不具备，将会在2018年陆续增加。</summary></entry><entry><title type="html">Byteball Detail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="Byteball Detail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.106:4000/byteball-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Byteball&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot;&gt;Byteball(字节雪球)是一个去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，例如货币，产权，债务，股份等。
 &lt;/p&gt;
 &lt;p&gt;被称为“bytes(字节币)”的内部货币，用于支付将数据添加到去中心化数据库中的费用。其他货币或资产也可以通过任何人自由发行，来代表产权，债务，股票等。用户彼此可以同时发送bytes和其他货币，以支付商品/服务或交换货币种类，转移价值的交易将作为存储单元添加到数据库。
 &lt;/p&gt;
 &lt;p&gt;字节雪球每隔一段时间通过领取糖果方式给比特币以及字节雪球的持有者分配币，但需要用户自己领取。这样的糖果分配从2016年12月开始，已经进行了十轮。但后续的分配计划尚未公布。
 &lt;/p&gt;
-&lt;p&gt;官网地址：&lt;a href=&quot;https://byteball.org/&quot;&gt;https://byteball.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;官网地址：&lt;a href=&quot;https://byteball.org/&quot; target=&quot;_blank&quot;&gt;https://byteball.org&lt;/a&gt;&lt;/p&gt;
 &lt;h1 style=&quot;color: #2F416A&quot;&gt;领取方式&lt;/h1&gt;
 &lt;p&gt;1.打开雪球币官方&lt;a href=&quot;https://byteball.org/&quot;&gt;byteball.org&lt;/a&gt;.
 &lt;/p&gt;
@@ -167,118 +367,42 @@ SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是201
 &lt;p&gt;&lt;strong&gt;因为雪球币读取比特币快照需要一段时间，所以一定要等够2小时，否则可能领取失败。&lt;/strong&gt;
 &lt;/p&gt;
 &lt;p&gt;如果你有多个地址可以重复上面的第6步即可。
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Byteball Byteball(字节雪球)是一个去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，例如货币，产权，债务，股份等。 被称为“bytes(字节币)”的内部货币，用于支付将数据添加到去中心化数据库中的费用。其他货币或资产也可以通过任何人自由发行，来代表产权，债务，股票等。用户彼此可以同时发送bytes和其他货币，以支付商品/服务或交换货币种类，转移价值的交易将作为存储单元添加到数据库。 字节雪球每隔一段时间通过领取糖果方式给比特币以及字节雪球的持有者分配币，但需要用户自己领取。这样的糖果分配从2016年12月开始，已经进行了十轮。但后续的分配计划尚未公布。 官网地址：https://byteball.org 领取方式 1.打开雪球币官方byteball.org. 2.选择wallet菜单.根据你自己喜欢的客户端，下载，进行安装时候选择AGREE,CONTINUE(默认的方式即可)。（请大家进官方下载，可信度高一点） 3.选择chat（对话）。 4.选择Bot Store.选择Transition bot,选择ADD BOT。 5.选择左下角的三点如下图： 选择insert my address (插入我的地址)。然后再点击发送。如下图： 接下来有两种方式 第一种方式：按照他提示的地址和数量发送比特币。 如果你使用不用签名的钱包如库神冷钱包，推荐用这个办法，不过这样会增加网络拥堵和暴露私钥，如果能签名还是用第二种办法 再这里我们为什么选择比太，比特派钱包呢，因为简单，又可以存储比特币和签名，而且还是比特币官方推荐的。就不用采取第一种方式了。 第二种方式，用你的比特币地址签署你的byteball地址（蓝色字符串），发送给他 第一步，发送比特币地址。 第二步，使用比特派钱包，进行签名。 设置－签名消息 - 收款地址/找零地址 选择有余额的比特币地址。将（蓝色字体）雪球币的地址作为签名消息。 第三步，再回到Byteball钱包，将签完的消息发给Transition Bot。 地址签名验证成功之后，在送币截止前将你所有的比特币都可以打到这个比特币地址，然后等截止时间之后2小时就可以提走了。 因为雪球币读取比特币快照需要一段时间，所以一定要等够2小时，否则可能领取失败。 如果你有多个地址可以重复上面的第6步即可。</summary></entry><entry><title type="html">btxdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="btxdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/btx-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;BTX&lt;/h1&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">Byteball Byteball(字节雪球)是一个去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，例如货币，产权，债务，股份等。 被称为“bytes(字节币)”的内部货币，用于支付将数据添加到去中心化数据库中的费用。其他货币或资产也可以通过任何人自由发行，来代表产权，债务，股票等。用户彼此可以同时发送bytes和其他货币，以支付商品/服务或交换货币种类，转移价值的交易将作为存储单元添加到数据库。 字节雪球每隔一段时间通过领取糖果方式给比特币以及字节雪球的持有者分配币，但需要用户自己领取。这样的糖果分配从2016年12月开始，已经进行了十轮。但后续的分配计划尚未公布。 官网地址：https://byteball.org 领取方式 1.打开雪球币官方byteball.org. 2.选择wallet菜单.根据你自己喜欢的客户端，下载，进行安装时候选择AGREE,CONTINUE(默认的方式即可)。（请大家进官方下载，可信度高一点） 3.选择chat（对话）。 4.选择Bot Store.选择Transition bot,选择ADD BOT。 5.选择左下角的三点如下图： 选择insert my address (插入我的地址)。然后再点击发送。如下图： 接下来有两种方式 第一种方式：按照他提示的地址和数量发送比特币。 如果你使用不用签名的钱包如库神冷钱包，推荐用这个办法，不过这样会增加网络拥堵和暴露私钥，如果能签名还是用第二种办法 再这里我们为什么选择比太，比特派钱包呢，因为简单，又可以存储比特币和签名，而且还是比特币官方推荐的。就不用采取第一种方式了。 第二种方式，用你的比特币地址签署你的byteball地址（蓝色字符串），发送给他 第一步，发送比特币地址。 第二步，使用比特派钱包，进行签名。 设置－签名消息 - 收款地址/找零地址 选择有余额的比特币地址。将（蓝色字体）雪球币的地址作为签名消息。 第三步，再回到Byteball钱包，将签完的消息发给Transition Bot。 地址签名验证成功之后，在送币截止前将你所有的比特币都可以打到这个比特币地址，然后等截止时间之后2小时就可以提走了。 因为雪球币读取比特币快照需要一段时间，所以一定要等够2小时，否则可能领取失败。 如果你有多个地址可以重复上面的第6步即可。</summary></entry><entry><title type="html">btxdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="btxdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.106:4000/btx-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;BTX&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot;&gt;BTX是比特币的复制网络，对共识机制和挖矿算法进行了小幅更新。
 &lt;/p&gt;
 &lt;p&gt;BTX每隔一段时间通过空投的方式给原BTC持有者派发糖果，需要BTC持有者自己去认领糖果。
 &lt;/p&gt;
 &lt;p&gt;自10月31日起，派发糖果的方式改为了需要用户上传比特币钱包私钥来领取。该动作极危险，不建议大家领取。如果需要领取，建议在领取前把钱包内的比特币转出。领取完毕后弃用钱包。
 &lt;/p&gt;
-&lt;p&gt;官网地址：&lt;a href=&quot;https://bitcore.cc/&quot;&gt;https://bitcore.cc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;官网地址：&lt;a href=&quot;https://bitcore.cc/&quot; target=&quot;_blank&quot;&gt;https://bitcore.cc&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;领取方式：待更新。
-&lt;/p&gt;</content><author><name></name></author><summary type="html">BTX BTX是比特币的复制网络，对共识机制和挖矿算法进行了小幅更新。 BTX每隔一段时间通过空投的方式给原BTC持有者派发糖果，需要BTC持有者自己去认领糖果。 自10月31日起，派发糖果的方式改为了需要用户上传比特币钱包私钥来领取。该动作极危险，不建议大家领取。如果需要领取，建议在领取前把钱包内的比特币转出。领取完毕后弃用钱包。 官网地址：https://bitcore.cc 领取方式：待更新。</summary></entry><entry><title type="html">btgdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="btgdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/btg-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特金&lt;/h1&gt;
-&lt;p class=&quot;summarytxt&quot; style=&quot;color: #2F416A&quot;&gt;(比特派已经支持的BTG相关钱包功能，并且在全球首个开通了BTG 点对点交易。)
+&lt;/p&gt;</content><author><name></name></author><summary type="html">BTX BTX是比特币的复制网络，对共识机制和挖矿算法进行了小幅更新。 BTX每隔一段时间通过空投的方式给原BTC持有者派发糖果，需要BTC持有者自己去认领糖果。 自10月31日起，派发糖果的方式改为了需要用户上传比特币钱包私钥来领取。该动作极危险，不建议大家领取。如果需要领取，建议在领取前把钱包内的比特币转出。领取完毕后弃用钱包。 官网地址：https://bitcore.cc 领取方式：待更新。</summary></entry><entry><title type="html">btpdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="btpdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.106:4000/btp-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币白金&lt;/h1&gt;
+&lt;p class=&quot;summarytxt&quot; style=&quot;color: #2F416A&quot;&gt;(比特派会在分叉高度做快照并在主网稳定后支持比特币白金的提取)
 &lt;/p&gt;
-&lt;h3&gt;什么是BTG（比特金）&lt;/h3&gt;
-&lt;p&gt;BTG项目创建人是闪电ASIC的创始人杰克·廖(Jack Liao)。开发Bitcoin Gold比特币黄金的公司总部位于香港，其负责人是一位名为“h4x3”的匿名开发者。
+&lt;p&gt;Bitcoin Platinum 使用区块链技术进行操作、无需中央治理或第三方干预; Bitcoin Platinum的管理、发行和维护由分散网络集体进行。
 &lt;/p&gt;
-&lt;p&gt;长时间以来，比特币一直被集中的采矿业阻碍。而h4x3提出的“分叉协议”旨在改变比特币的一致性算法，其接受UAHF(用户激活的硬分叉)提议，允许用户使用图形处理单元(GPU)和其他变更开采货币。GPU将比特币带入了采矿新时代，以一种令人兴奋的技术路线图来实现大规模的区块链反应，将其扩散到未来。根据开发团队的说法，在算法方面，比特币黄金（BTG）将用PoW机制，用Equihash替代比特币的SHA256加密算法。
-&lt;/p&gt;
-&lt;p&gt;目前BTG主网已经稳定，各交易所也陆续开通了BTG交易。&lt;/p&gt;
 
 &lt;table class=&quot;center&quot;&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
         &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;BTG&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin Platinum&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;分叉高度&lt;/td&gt;
-        &lt;td&gt;491407&lt;/td&gt;
+        &lt;td&gt;498533&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;分叉时间&lt;/td&gt;
-        &lt;td&gt;2017年10月24日&lt;/td&gt;
+        &lt;td&gt;2017年12月11日&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;重放保护&lt;/td&gt;
-        &lt;td&gt;是&lt;/td&gt;
+        &lt;td&gt;代码中可见重放保护，但是否真正实现待确定&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;挖矿算法&lt;/td&gt;
-        &lt;td&gt;EQUI Hash(GPU)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;是否预挖&lt;/td&gt;
-        &lt;td&gt;预挖十万&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉币数量比例&lt;/td&gt;
-        &lt;td&gt;1:1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;总量&lt;/td&gt;
-        &lt;td&gt;2100万&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://bitcoingold.org/&quot;&gt;https://bitcoingold.org&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目团队&lt;/td&gt;
-        &lt;td&gt;LighitingASIC&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;其他信息&lt;/td&gt;
-        &lt;td&gt;GPU挖矿&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特金 (比特派已经支持的BTG相关钱包功能，并且在全球首个开通了BTG 点对点交易。) 什么是BTG（比特金） BTG项目创建人是闪电ASIC的创始人杰克·廖(Jack Liao)。开发Bitcoin Gold比特币黄金的公司总部位于香港，其负责人是一位名为“h4x3”的匿名开发者。 长时间以来，比特币一直被集中的采矿业阻碍。而h4x3提出的“分叉协议”旨在改变比特币的一致性算法，其接受UAHF(用户激活的硬分叉)提议，允许用户使用图形处理单元(GPU)和其他变更开采货币。GPU将比特币带入了采矿新时代，以一种令人兴奋的技术路线图来实现大规模的区块链反应，将其扩散到未来。根据开发团队的说法，在算法方面，比特币黄金（BTG）将用PoW机制，用Equihash替代比特币的SHA256加密算法。 目前BTG主网已经稳定，各交易所也陆续开通了BTG交易。</summary></entry><entry><title type="html">bchdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="bchdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/bch-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币现金&lt;/h1&gt;
-&lt;p class=&quot;summarytxt&quot; style=&quot;color: #2F416A&quot;&gt;(BCH 比特派于8月1日当晚开通了对BCH的支持，是全球首个支持BCH主网的钱包。)
-&lt;/p&gt;
-&lt;p&gt;比特币现金（BCH）是由一小部分比特币开发者推出的不同配置的新版比特币，是一种新型的区块链资产。在2017年8月1日，比特现金开始挖矿，每个比特币投资者的账户上将出现与比特币数量等量的比特币现金（BCH）。比特派是全齐。
-&lt;/p&gt;
-
-&lt;h3 id=&quot;tax&quot;&gt;(1)两者的传输方式相同&lt;/h3&gt;
-&lt;p&gt;比特币现金和比特币两者是完全分散的，中央银行不发行，也不需要第三方来操作，而是通过互联网来传输的电子现金。
-&lt;/p&gt;
-&lt;p&gt;比特币现金的前世就是比特币。在分叉之前它存储的区块链中的数据以及运行的软件是和所有比特币节点兼容的，而到了分叉那一刻以后，它与比特币就没有多少关联了，成为一种全新的币种。
-&lt;/p&gt;
-
-&lt;h3 id=&quot;tax&quot;&gt;(2)记录交易信息的区块容量不同&lt;/h3&gt;
-&lt;p&gt;比特币的区块容量是1MB，而比特币现金删除了隔离验证（SegWit），取消了区块大小1M的限制，最大可支持8M区块大小，坚持的是链上扩容路线。是BitcoinABC方案产生的区块链资产，具有更大的稳定性、安全性。在特定的时间内也可以支持更多的交易。比特币现金被挖出的第一块BCH区块，大小就已经超过了1MB。
-&lt;/p&gt;
-
-&lt;h3 id=&quot;tax&quot;&gt;(3)两者的算法难度不同&lt;/h3&gt;
-&lt;p&gt;比特币最多有2100万个，随着被挖的量越来越多，余量越来越少，算法难度就越加困难。而比特币现金是采用动态难度调节模式，生产难度会随着整个比特币现金网络中的算力来调节。加入的节点越多，难度越高，反之则下降难度。因为比特币现金出块时间很长，比特币现金在8月8日开始调整了采矿难度，并且提升了出块的速度。
-&lt;/p&gt;
-&lt;p&gt;从技术上来看： 比特币现金和比特币所使用的工作量证明算法都是 SHA256，而不同的是难度调节机制。比特币原链中所采取的措施是， 每挖出 2,106 个区块根据算力情况调整一次挖矿难度 ，而比特币现金为了防止算力不足的情况， 采取了若最近 12 小时出块数小于 6 个，则难度自动降低 25%的紧急难度调节机制（EDA）。
-&lt;/p&gt;
-&lt;p&gt;从算力分配来看： 当 BTC 和 BCH 同使用 SHA256 算法时， 矿工们就可以根据挖矿收益来决定挖那种矿。在过去的这三个多月时间里，每当 BCH 难度下调挖矿收益大于 BTC 时，算力都会大幅流入 BCH 链，从而严重影响两条链的出块速度。
-&lt;/p&gt;
-&lt;p&gt;BCH自诞生起，就饱受争议，BCH和BTC之间的争执，矿工和Core之间的矛盾，可能会一直持续下去，这是当时设计的时候缺陷所导致的，属于“先天性疾病”，加上后天的不可调和的矛盾，导致了如今难舍难分的局面。并且伴随着BCH价格的日渐上涨，这个矛盾还可能进一步激化。
-&lt;/p&gt;
-&lt;table class=&quot;center&quot;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;BCH&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉高度&lt;/td&gt;
-        &lt;td&gt;478559&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉时间&lt;/td&gt;
-        &lt;td&gt;2017年8月1日&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;重放保护&lt;/td&gt;
-        &lt;td&gt;是&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;挖矿算法&lt;/td&gt;
-        &lt;td&gt;SHA256(ASIC)&lt;/td&gt;
+        &lt;td&gt;GPU挖矿(equihash)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;是否预挖&lt;/td&gt;
@@ -294,137 +418,15 @@ SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是201
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;https://www.bitcoincash.org/&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;https://bitcoinplatinum.github.io/&quot; target=&quot;_blank&quot;&gt;https://bitcoinplatinum.github.io&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目团队&lt;/td&gt;
-        &lt;td&gt;Bitcoin ABC等&lt;/td&gt;
+        &lt;td&gt;WJ Cloud, ESUP,Chalkman&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;其他信息&lt;/td&gt;
-        &lt;td&gt;8M大区块&lt;/td&gt;
+        &lt;td style=&quot;color:red&quot;&gt;该项目代码疑似由BTG代码更改而成。&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币现金 (BCH 比特派于8月1日当晚开通了对BCH的支持，是全球首个支持BCH主网的钱包。) 比特币现金（BCH）是由一小部分比特币开发者推出的不同配置的新版比特币，是一种新型的区块链资产。在2017年8月1日，比特现金开始挖矿，每个比特币投资者的账户上将出现与比特币数量等量的比特币现金（BCH）。比特派是全齐。</summary></entry><entry><title type="html">bcddetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="bcddetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/bcd-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币钻石&lt;/h1&gt;
-&lt;p class=&quot;summarytxt&quot; style=&quot;color: #2F416A&quot;&gt;(比特派已经和比特币钻石团队进行了深入的技术交流，会在分叉主网稳定之后第一时间开放对比特币钻石的支持。)
-&lt;/p&gt;
-&lt;p style=&quot;color: #2F416A&quot;&gt;
-已到达比特币钻石预定分叉高度，当前处于团队预挖时间，主网尚未上线。
-&lt;/p&gt;
-&lt;p&gt;比特币钻石，英文全称Bitcoin Diamond，简称BCD，由Bitcoin Diamond Foundation负责运营。从名字就可以看出来，它是继比特币现金（BCH）、比特币黄金（BTG）之后，又一个比特币的分叉币。
-&lt;/p&gt;
-
-&lt;h3 id=&quot;tax&quot;&gt;比特币钻石BCD是什么 | 金色百科&lt;/h3&gt;
-&lt;p&gt;比特币钻石由海外Evey团队和007团队联合开发，诞生在SegWit2x分叉宣告失败之后，于比特币区块高度495866分叉。在预定的区块高度下，比特币钻石的矿工将使用新的工作验证算法创建区块，并将陆续在BTC原有特性上增加转账隐私保护等功能。
-&lt;/p&gt;
-&lt;p&gt;比特币钻石的总发行量为2.1亿个，刚好是比特币的10倍，其中有1.7亿个比特币钻石提供给比特币的持有者，分发兑换比例是1BTC：10BCD，比如你手上拥有10个BTC，那么分叉后你就将得到100个BCD。其余4000万个比特币现金将自动转入社区奖励池作为挖矿的奖励。
-&lt;/p&gt;
-&lt;h3&gt;原始的比特币区块链保持不变，比特币钻石是其一个新的硬分叉链。新的分支与比特币有相同的交易历史，直到分叉产生新链，这条新的BTC分叉链称为比特币钻石。比特币钻石的诞生主要解决比特币在快速发展中出现的一系列问题：
-&lt;/h3&gt;
-
-&lt;p id=&quot;tax&quot;&gt;(1)隐私保护：BCD添加转账金额加密功能，从而保护参与者的交易隐私，使整个交易生态更安全更具备隐私性。
-&lt;/p&gt;
-&lt;p id=&quot;tax&quot;&gt;(2)提高交易速度：大幅度扩容是一个重要升级，BCD将块大小限制提高到了8MB，可更灵活地处理每个区块中的所有交易。除此之外，BCD出块速度提高了5倍，最终目标是提高整个BTC区块链的交易确认速度。
-&lt;/p&gt;
-&lt;p id=&quot;tax&quot;&gt;(3)降低转账手续费和用户参与门槛：BCD总量为BTC的10倍，降低了用户的单位参与成本与门槛，使得更多的用户能更容易地参与到BCD的交易活动当中。
-&lt;/p&gt;
-
-&lt;table class=&quot;center&quot;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;BCD&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉高度&lt;/td&gt;
-        &lt;td&gt;495866&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉时间&lt;/td&gt;
-        &lt;td&gt;2017/11/25（预计）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;重放保护&lt;/td&gt;
-        &lt;td&gt;是&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;挖矿算法&lt;/td&gt;
-        &lt;td&gt;Optimized X13(GPU)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;是否预挖&lt;/td&gt;
-        &lt;td&gt;4000万&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉币数量比例&lt;/td&gt;
-        &lt;td&gt;1:10&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;总量&lt;/td&gt;
-        &lt;td&gt;2.1亿&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;http://btcd.io/&quot;&gt;http://btcd.io&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目团队&lt;/td&gt;
-        &lt;td&gt;Evey团队和007团队&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Bitpie支持&lt;/td&gt;
-        &lt;td&gt;主网稳定后&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币钻石 (比特派已经和比特币钻石团队进行了深入的技术交流，会在分叉主网稳定之后第一时间开放对比特币钻石的支持。) 已到达比特币钻石预定分叉高度，当前处于团队预挖时间，主网尚未上线。 比特币钻石，英文全称Bitcoin Diamond，简称BCD，由Bitcoin Diamond Foundation负责运营。从名字就可以看出来，它是继比特币现金（BCH）、比特币黄金（BTG）之后，又一个比特币的分叉币。</summary></entry><entry><title type="html">b2xdetail</title><link href="http://localhost:4000/detail/" rel="alternate" type="text/html" title="b2xdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://localhost:4000/b2x-detail</id><content type="html" xml:base="http://localhost:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;B2X&lt;/h1&gt;
-&lt;p class=&quot;summarytxt&quot;&gt;围绕比特币扩容的争论已经持续数年。 今年 5 月，Barry Silbert 旗下的数字货币集团（DCG）和包括大型矿池运营商比特大陆（Bitmian）在内的其它 57 家公司共同签署 segwit2x 扩容方案。该方案将 隔离验证激活阈值设为 80%，并以 bit 4 作为信号发送方式；在六个月内执行一次 2 MB 硬分叉扩容 。
-&lt;/p&gt;
-&lt;p&gt;今年8月，隔离验证率先被激活，按照计划，11月中旬（高度为494,784的区块）会迎来2M升级。但由于Bitcoin Core核心开发者团队以及部分矿工并不认可这一计划，此次升级会造成一次硬分叉。而此次硬分叉产生的新的代币即为Bitcoin Segwit 2X( B2X)。
-&lt;/p&gt;
-&lt;p&gt;11月8日，Bitgo的首席执行官Mike Belshe，也是Bitcoin Segwit 2X计划的主要支持者之一发表了联合署名的文章，指出由于缺乏比特币社区的支持，这个月计划执行的有争议的Segwit2x硬分叉被暂停。&lt;/p&gt;
-&lt;p&gt;在Mike发布暂停分叉的声明后，有一个bitcoin2x.org发布声明说他们会在15号继续分叉。但数天后被证实这是个没有真正分叉能力的群体，分叉也并未发生。&lt;/p&gt;
-
-&lt;table class=&quot;center&quot;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin Segwit 2X(B2x)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉高度&lt;/td&gt;
-        &lt;td&gt;494784&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉时间&lt;/td&gt;
-        &lt;td&gt;2017/11/15（原计划）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;重放保护&lt;/td&gt;
-        &lt;td&gt;否&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;挖矿算法&lt;/td&gt;
-        &lt;td&gt;SHA256(ASIC)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;是否预挖&lt;/td&gt;
-        &lt;td&gt;否&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉币数量比例&lt;/td&gt;
-        &lt;td&gt;1:1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;总量&lt;/td&gt;
-        &lt;td&gt;2100万&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;无&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;其他信息&lt;/td&gt;
-        &lt;td&gt;分叉暂停&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">B2X 围绕比特币扩容的争论已经持续数年。 今年 5 月，Barry Silbert 旗下的数字货币集团（DCG）和包括大型矿池运营商比特大陆（Bitmian）在内的其它 57 家公司共同签署 segwit2x 扩容方案。该方案将 隔离验证激活阈值设为 80%，并以 bit 4 作为信号发送方式；在六个月内执行一次 2 MB 硬分叉扩容 。 今年8月，隔离验证率先被激活，按照计划，11月中旬（高度为494,784的区块）会迎来2M升级。但由于Bitcoin Core核心开发者团队以及部分矿工并不认可这一计划，此次升级会造成一次硬分叉。而此次硬分叉产生的新的代币即为Bitcoin Segwit 2X( B2X)。 11月8日，Bitgo的首席执行官Mike Belshe，也是Bitcoin Segwit 2X计划的主要支持者之一发表了联合署名的文章，指出由于缺乏比特币社区的支持，这个月计划执行的有争议的Segwit2x硬分叉被暂停。 在Mike发布暂停分叉的声明后，有一个bitcoin2x.org发布声明说他们会在15号继续分叉。但数天后被证实这是个没有真正分叉能力的群体，分叉也并未发生。</summary></entry></feed>
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币白金 (比特派会在分叉高度做快照并在主网稳定后支持比特币白金的提取) Bitcoin Platinum 使用区块链技术进行操作、无需中央治理或第三方干预; Bitcoin Platinum的管理、发行和维护由分散网络集体进行。</summary></entry></feed>
