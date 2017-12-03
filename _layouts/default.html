@@ -276,8 +276,6 @@
         var timeTitleArr = timeTitle.split(" ");
         for (var i = 0; i < timeClassArr.length; i ++) {
             if (i != 0) {
-//                console.log(i)
-//                console.log(blockHightArr[i] != "未公布")
                 if ($("." + timeClassArr[i]).text() != "0" && blockHightArr[i] != "未公布" && $("." + timeClassArr[i]).text() != "未确定") {
                     var timeDiscrepancy = (blockHightArr[i] - hight) * 10 * 60 * 1000;
                     if (timeDiscrepancy > 0) {

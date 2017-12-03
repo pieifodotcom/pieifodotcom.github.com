@@ -47,9 +47,6 @@ headerContent:
   - typeName: 糖果
     id: typebtairdrop
     href: /pages/btall
-  - typeName: 分叉服务
-    id: serve
-    href: /pages/ifoservice
 
 contentForkMenu:
   - menuName: 全部
@@ -143,7 +140,7 @@ btForkInfo:
     state: 0
     stateColor: F99F26
   - imageHref: /pages/uraniumdetail.html
-    imageUrl: /resource/uranium.jpg
+    imageUrl: /resource/default.jpg
     coinName: 比特铀(Bitcoin Uranium)
     coinInfo: 采用equhash算法
     blockHightTitle: 分叉高度
@@ -161,7 +158,7 @@ btForkInfo:
     state: 0
     stateColor: F99F26
   - imageHref: /pages/plusdetail.html
-    imageUrl: /resource/plus.jpg
+    imageUrl: /resource/default.jpg
     coinName: 比特币增强现金(Bitcoin Cash Plus)
     coinInfo: 低费率的电子现金系统
     blockHightTitle: 分叉高度
@@ -179,7 +176,7 @@ btForkInfo:
     state: 0
     stateColor: F99F26
   - imageHref: /pages/silverdetail.html
-    imageUrl: /resource/silver.jpg
+    imageUrl: /resource/default.jpg
     coinName: 比特币白银(Bitcoin Silver)
     coinInfo: 主要对挖矿算法进行更新使全网算力更加分散
     blockHightTitle: 分叉高度
