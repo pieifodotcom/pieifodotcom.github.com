@@ -57,6 +57,9 @@ contentForkMenu:
     className: forkend
   - menuName: 分叉中
     className: forkstart
+  - typeName: ifo服务
+    id: serve
+    href: /pages/ifoservice
 
 contentBtAirdropMenu:
   - menuName: 全部
