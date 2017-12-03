@@ -33,25 +33,15 @@ p.release {
   justify-content: center;
 }
 
-.site-header {
-  background-color: black;
-  background-image: url(../../../bitpieFork/img/background13.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 @media only screen and (max-device-width: 1024px) {
   .site-header {
-      background-attachment: scroll;
+    background-attachment: scroll;
   }
 }
 
 @media (max-width: 767px) {
   .dropdown .dropdown__content {
-      padding: 0 1.2em .3em;
+    padding: 0 1.2em .3em;
   }
 }
 

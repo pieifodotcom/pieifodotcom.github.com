@@ -1,271 +1,489 @@
+<!DOCTYPE HTML>
 <html lang="UTF-8">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" type="image/x-icon" href="/resource/icon.png" media="screen"/>
     <title>PieIFO</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/resource/icon.png" media="screen" />
     {% include head.html %}
-<body>
+</head>
+<body style="background-color: #f2f2f2">
 <div style="margin:0 auto;display: none">
     <img src="/resource/share.jpg">
 </div>
-<header class="header">
-    <div class="container">
-        <div class="row">
-            <div class="logo">
-                <a href="/" style="float: left"><img src="{{ site.headerLogo }}"></a>
-            </div>
-            <nav class="nav" style="float: right">
-                {% for link in site.headerContent %}
-                <a href="{{link['href']}}" target="_self">{{ link['typeName'] }}</a>
-                {% endfor %}
-            </nav>
-            <div class="headtitle" style="color: #2F416A;">比特派运营的专业分叉信息站</div>
-        </div>
-    </div>
-</header>
-<div class="projects">
-    <div class="container">
-        <div class="row coinlist">
-            <div class="projects-filter clearfix">
-                {% for link in site.contentForkMenu %}
-                <span class="{{link['className']}}">{{link['menuName']}}</span>
-                {% endfor %}
+<div class="nav-container" style="background-color: white">
+    <div class="bar bar--sm visible-xs">
+        <div class="container">
+            <div class="row" style="vertical-align: middle;">
+                <div class="col-xs-3 col-sm-2">
+                    <a>
+                        <img class="logo" alt="logo" src="/resource/logo.jpg"/>
+                    </a>
+                    <span class="pieifo">比特派运营的专业分叉信息站</span>
+                </div>
+                <div class="col-xs-9 col-sm-10 text-right">
+                    <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                        <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                            <img src="resource/menu.png" style="max-width: 12%">
+                        </a>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <ul class="clearfix coininfo">
-                {% for link in site.btForkInfo %}
-                <li class="col-xs-12 col-md-4">
-                    <a href="{{link['imageHref']}}"><img
-                            src="{{link['imageUrl']}}"></a>
-                    <div class="hot-info">
-                        <h3>{{link['coinName']}}</h3>
-                        <p>{{link['coinInfo']}}</p>
-                        <div class="row details">
-                            <div class="col-xs-3">
-                                <em>
-                                    {{link['blockHight']}}
-                                </em>
-                                <br/>
-                                <span>{{link['blockHightTitle']}}</span>
-                            </div>
-
-                            <div class="col-xs-3">
-                                <em class="{{link['currentHightClass']}}">
-                                    {{link['currentHight']}}
-                                </em>
-                                <br/>
-                                <span>{{link['currentHightTitle']}}</span>
-                            </div>
-
-                            <div class="col-xs-4">
-                                <p class="{{link['timeClass']}}">{{link['time']}}</p>
-                                <br/>
-                                <span class="{{link['timeTitleClass']}}">{{link['timeTitle']}}</span>
-                            </div>
-                        </div>
-                        <a href="{{link['btnHref']}}" class="btn">{{link['btnTitle']}}</a>
+    <nav id="menu1" class="bar bar--sm bar-1 hidden-xs hiddem-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-4 hidden-xs">
+                    <div class="bar__module">
+                        <a>
+                            <img class="logo logo-dark" alt="logo" src="/resource/logo.jpg"/>
+                        </a>
+                        <span class="pieifo">比特派运营的专业分叉信息站</span>
                     </div>
-                    <div class="pro-status ongoing" style="background-color: {{link['stateColor'}}">
-                        {{link['stateTitle']}}
+                </div>
+                <div class="col-md-7 col-sm-8 text-right text-left-xs text-left-sm">
+                    <div class="bar__module">
+                        <ul class="menu-horizontal text-right">
+                            {% for link in site.headerMenu %}
+                            <li class="dropdown">
+                                <span id="{{link['id']}}" class="dropdown__trigger">{{link['menuTitle']}}</span>
+                                <div class="dropdown__container hidden-sm hidden-md hidden-lg">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="dropdown__content col-md-2 col-sm-3">
+                                                <ul class="menu-vertical">
+                                                    {% for item in link['menuList'] %}
+                                                    <li>
+                                                        <a href="#" id="{{item['id']}}" class="inner-link" style="font-size: 14px">
+                                                            {{item['menuName']}}
+                                                        </a>
+                                                    </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
                     </div>
-                </li>
-                {% endfor %}
-            </ul>
+                </div>
+            </div>
         </div>
-    </div>
+    </nav>
 </div>
-<div class="footer">
-    <div class="row">
-        <a href="http://www.bitpie.com" target="_blank">Pieifo是由比特派运营的专业分叉类信息站 Powered by <b style="color: #3a7ceb;">Bitpie.com</b></a>
+
+<div class="main-container">
+    <section class="no-bottom no-top" style="margin-top: 10px;">
+        <div class="container">
+            <div class="statustabs">
+                <div class="tabs-header">
+                    <div class="border"></div>
+                    <ul class="menu_list">
+                        {% for link in site.headerMenu %}
+                        {% if link['menuTitle'] == "分叉" %}
+                        {% for item in link['menuList'] %}
+                        <li class="active"><a id="{{item['id']}}" tab-id="1"
+                                              ripple-color="#FFF">{{item['menuName']}}</a></li>
+                        {% endfor %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-bottom">
+        <div class="container">
+            <div class="coin_list">
+                <ul class="clearfix">
+                    {% for link in site.btForkInfo %}
+                    <li class="coin_info">
+                        <a href="{{link['imageHref']}}"><img
+                                src="{{link['imageUrl']}}"></a>
+                        <div class="hot-info">
+                            <span class="title">{{link['coinName']}}</span>
+                            <p class="description">{{link['coinInfo']}}</p>
+                            <div class="details">
+                                <div class="col-xs-3">
+                                    <span>
+                                        {{link['blockHight']}}
+                                    </span>
+                                    <span style="margin-top: 10px; display: block;">{{link['blockHightTitle']}}</span>
+                                </div>
+
+                                <div class="col-xs-3">
+                                    <span class="{{link['currentHightClass']}}">
+                                        {{link['currentHight']}}
+                                    </span>
+                                    <span style="margin-top: 10px; display: block;">{{link['currentHightTitle']}}</span>
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <span class="{{link['timeClass']}}">{{link['time']}}</span>
+                                    <span style="margin-top: 10px; display: block;" class="{{link['timeTitleClass']}}">{{link['timeTitle']}}</span>
+                                </div>
+                            </div>
+                            <a href="{{link['btnHref']}}" class="btn">{{link['btnTitle']}}</a>
+                        </div>
+                        <div class="pro-status ongoing" style="background-color: #{{link['stateColor']}}">
+                            {{link['stateTitle']}}
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="row">
+            <a href="http://www.bitpie.com" target="_blank">Pieifo是由比特派运营的专业分叉类信息站 Powered by <b
+                    style="color: #3a7ceb;">Bitpie.com</b></a>
+        </div>
     </div>
 </div>
 {% include js.html %}
-<script type="text/javascript">
-    $(".forkall").click(updateForkAll)
+<script>
+    $(document).ready(function () {
+        displayBlockHight();
+        updateTab();
+    });
 
-    $(".forking").click(updateForking)
+    function updateTab() {
+        var activePos = $('.tabs-header .active').position();
 
-    $(".forkend").click(updateForkend)
+        function changePos() {
+            activePos = $('.tabs-header .active').position();
+            $('.border').stop().css({
+                left: activePos.left,
+                width: $('.tabs-header .active').width()
+            });
+        }
 
-    $(".forkstart").click(updateForkStart)
+        changePos();
+        var tabHeight = $('.tab.active').height();
+
+        function animateTabHeight() {
+            tabHeight = $('.tab.active').height();
+            $('.tabs-content').stop().css({height: tabHeight + 'px'});
+        }
+
+        animateTabHeight();
+
+        function changeTab() {
+            var getTabId = $('.tabs-header .active a').attr('tab-id');
+            $('.tab').stop().fadeOut(300, function () {
+                $(this).removeClass('active');
+            }).hide();
+            $('.tab[tab-id=' + getTabId + ']').stop().fadeIn(300, function () {
+                $(this).addClass('active');
+                animateTabHeight();
+            });
+        }
+
+        $('.tabs-header a').on('click', function (e) {
+            e.preventDefault();
+            $('.tabs-header a').stop().parent().removeClass('active');
+            $(this).stop().parent().addClass('active');
+            changePos();
+            $('.tab').stop().fadeOut(300, function () {
+                $(this).removeClass('active');
+            }).hide();
+        });
+    }
+
+    $("body").on('click','#ifoservice',function(){
+        window.location.href="pages/ifoservice.html";
+    });
+
+    $("body").on('click','#typefork',function(){
+        fork();
+    });
+
+    $("body").on('click','#typebtairdrop',function(){
+        btairdrop();
+    });
+
+    $("body").on('click','#forkall',function(){
+        updateForkAll();
+    });
+
+    $("body").on('click','#forking',function(){
+        updateForking();
+    });
+
+    $("body").on('click','#forkend',function(){
+        updateForkend();
+    });
+
+    $("body").on('click','#forkstart',function(){
+        updateForkStart();
+    });
+
+    $("body").on('click','#btall',function(){
+        updateBtAll();
+    });
+
+    $("body").on('click','#btprocessing',function(){
+        updateEtProcessing();
+    });
+
+    $("body").on('click','#btend',function(){
+        updateEtEnd();
+    });
+
+    function fork() {
+        $(".menu_list").empty();
+        $(".menu_list").append("{% for link in site.headerMenu %}\n" +
+            "    {% if link['menuTitle'] == '分叉' %}\n" +
+            "    {% for item in link['menuList'] %}\n" +
+            "    <li class=\"active\"><a id=\"{{item['id']}}\" tab-id=\"1\"\n" +
+            "                          ripple-color=\"#FFF\">{{item['menuName']}}</a></li>\n" +
+            "    {% endfor %}\n" +
+            "    {% endif %}\n" +
+            "    {% endfor %}");
+        updateForkAll();
+        updateTab();
+    }
+
+    function btairdrop() {
+        $(".menu_list").empty();
+        $(".menu_list").append("{% for link in site.headerMenu %}\n" +
+            "    {% if link['menuTitle'] == '糖果' %}\n" +
+            "    {% for item in link['menuList'] %}\n" +
+            "    <li class=\"active\"><a id=\"{{item['id']}}\" tab-id=\"1\"\n" +
+            "                          ripple-color=\"#FFF\">{{item['menuName']}}</a></li>\n" +
+            "    {% endfor %}\n" +
+            "    {% endif %}\n" +
+            "    {% endfor %}");
+        updateBtAll();
+        updateTab();
+    }
 
     function updateForkAll() {
-        $(".coininfo").empty();
-        $(".coininfo").append("{% for link in site.btForkInfo %}\n" +
-            "                <li class=\"col-xs-12 col-md-4\">\n" +
-            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
-            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
-            "                    <div class=\"hot-info\">\n" +
-            "                        <h3>{{link['coinName']}}</h3>\n" +
-            "                        <p>{{link['coinInfo']}}</p>\n" +
-            "                        <div class=\"row details\">\n" +
-            "                            <div class=\"col-xs-3\">\n" +
-            "                                <em>\n" +
-            "                                    {{link['blockHight']}}\n" +
-            "                                </em>\n" +
-            "                                <br/>\n" +
-            "                                <span>{{link['blockHightTitle']}}</span>\n" +
-            "                            </div>\n" +
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.btForkInfo %}\n" +
+            "                    <li class=\"coin_info\">\n" +
+            "                        <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                                src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                        <div class=\"hot-info\">\n" +
+            "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "                            <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "                            <div class=\"details\">\n" +
+            "                                <div class=\"col-xs-3\">\n" +
+            "                                    <span>\n" +
+            "                                        {{link['blockHight']}}\n" +
+            "                                    </span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "                                </div>\n" +
             "\n" +
-            "                            <div class=\"col-xs-3\">\n" +
-            "                                <em class=\"{{link['currentHightClass']}}\">\n" +
-            "                                   {{link['currentHight']}}" +
-            "                                </em>\n" +
-            "                                <br/>\n" +
-            "                                <span>{{link['currentHightTitle']}}</span>\n" +
-            "                            </div>\n" +
+            "                                <div class=\"col-xs-3\">\n" +
+            "                                    <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                                        {{link['currentHight']}}\n" +
+            "                                    </span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "                                </div>\n" +
             "\n" +
-            "                            <div class=\"col-xs-4\">\n" +
-            "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
-            "                                <br/>\n" +
-            "                                <span class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "                                <div class=\"col-xs-4\">\n" +
+            "                                    <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "                                </div>\n" +
             "                            </div>\n" +
+            "                            <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "                        </div>\n" +
-            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
-            "                    </div>\n" +
-            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
-            "                        {{link['stateTitle']}}\n" +
-            "                    </div>\n" +
-            "                </li>\n" +
-            "                {% endfor %}")
+            "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "                            {{link['stateTitle']}}\n" +
+            "                        </div>\n" +
+            "                    </li>\n" +
+            "                    {% endfor %}")
         displayBlockHight();
     }
 
-    function updateForking () {
-        $(".coininfo").empty();
-        $(".coininfo").append("{% for link in site.btForkInfo %}\n" +
-            "                {% if link['state'] == 0 %}\n" +
-            "                <li class=\"col-xs-12 col-md-4\">\n" +
-            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
-            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
-            "                    <div class=\"hot-info\">\n" +
-            "                        <h3>{{link['coinName']}}</h3>\n" +
-            "                        <p>{{link['coinInfo']}}</p>\n" +
-            "                        <div class=\"row details\">\n" +
-            "                            <div class=\"col-xs-3\">\n" +
-            "                                <em>\n" +
-            "                                    {{link['blockHight']}}\n" +
-            "                                </em>\n" +
-            "                                <br/>\n" +
-            "                                <span>{{link['blockHightTitle']}}</span>\n" +
-            "                            </div>\n" +
-            "                            <div class=\"col-xs-3\">\n" +
-            "                                <em class=\"{{link['currentHightClass']}}\">\n" +
-            "                                   {{link['currentHight']}}" +
-            "                                </em>\n" +
-            "                                <br/>\n" +
-            "                                <span>{{link['currentHightTitle']}}</span>\n" +
-            "                            </div>" +
-            "                            <div class=\"col-xs-4\">\n" +
-            "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
-            "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
-            "                                <br/>\n" +
-            "                                <span class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
-            "                            </div>\n" +
-            "                        </div>\n" +
-            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
-            "                    </div>\n" +
-            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
-            "                        {{link['stateTitle']}}\n" +
-            "                    </div>\n" +
-            "                </li>\n" +
-            "                {% endif %}\n" +
-            "                {% endfor %}");
+    function updateForking() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.btForkInfo %}\n" +
+            "{% if link['state'] == 0 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
         displayBlockHight();
     }
 
     function updateForkend() {
-        $(".coininfo").empty();
-        $(".coininfo").append("{% for link in site.btForkInfo %}\n" +
-            "                {% if link['state'] == 1 %}\n" +
-            "                <li class=\"col-xs-12 col-md-4\">\n" +
-            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
-            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
-            "                    <div class=\"hot-info\">\n" +
-            "                        <h3>{{link['coinName']}}</h3>\n" +
-            "                        <p>{{link['coinInfo']}}</p>\n" +
-            "                        <div class=\"row details\">\n" +
-            "                            <div class=\"col-xs-3\">\n" +
-            "                                <em>\n" +
-            "                                    {{link['blockHight']}}\n" +
-            "                                </em>\n" +
-            "                                <br/>\n" +
-            "                                <span>{{link['blockHightTitle']}}</span>\n" +
-            "                            </div>\n" +
-            "                            <div class=\"col-xs-3\">\n" +
-            "                                <em class=\"{{link['currentHightClass']}}\">\n" +
-            "                                   {{link['currentHight']}}" +
-            "                                </em>\n" +
-            "                                <br/>\n" +
-            "                                <span>{{link['currentHightTitle']}}</span>\n" +
-            "                            </div>" +
-            "                            <div class=\"col-xs-4\">\n" +
-            "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
-            "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
-            "                                <br/>\n" +
-            "                                <span class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
-            "                            </div>\n" +
-            "                        </div>\n" +
-            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
-            "                    </div>\n" +
-            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
-            "                        {{link['stateTitle']}}\n" +
-            "                    </div>\n" +
-            "                </li>\n" +
-            "                {% endif %}\n" +
-            "                {% endfor %}");
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.btForkInfo %}\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
         displayBlockHight();
     }
 
     function updateForkStart() {
-        $(".coininfo").empty();
-        $(".coininfo").append("{% for link in site.btForkInfo %}\n" +
-            "                {% if link['state'] == 2 %}\n" +
-            "                <li class=\"col-xs-12 col-md-4\">\n" +
-            "                    <a href=\"{{link['imageHref']}}\"><img\n" +
-            "                            src=\"{{link['imageUrl']}}\"></a>\n" +
-            "                    <div class=\"hot-info\">\n" +
-            "                        <h3>{{link['coinName']}}</h3>\n" +
-            "                        <p>{{link['coinInfo']}}</p>\n" +
-            "                        <div class=\"row details\">\n" +
-            "                            <div class=\"col-xs-3\">\n" +
-            "                                <em>\n" +
-            "                                    {{link['blockHight']}}\n" +
-            "                                </em>\n" +
-            "                                <br/>\n" +
-            "                                <span>{{link['blockHightTitle']}}</span>\n" +
-            "                            </div>\n" +
-            "                            <div class=\"col-xs-3\">\n" +
-            "                                <em class=\"{{link['currentHightClass']}}\">\n" +
-            "                                   {{link['currentHight']}}" +
-            "                                </em>\n" +
-            "                                <br/>\n" +
-            "                                <span>{{link['currentHightTitle']}}</span>\n" +
-            "                            </div>" +
-            "                            <div class=\"col-xs-4\">\n" +
-            "                                <b data-deadline=\"2017-09-01 20:00:00\" class=\"deadline\"></b>\n" +
-            "                                <p class=\"{{link['timeClass']}}\">{{link['time']}}</p>\n" +
-            "                                <br/>\n" +
-            "                                <span class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
-            "                            </div>\n" +
-            "                        </div>\n" +
-            "                        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
-            "                    </div>\n" +
-            "                    <div class=\"pro-status ongoing\" style=\"background-color: {{link['stateColor'}}\">\n" +
-            "                        {{link['stateTitle']}}\n" +
-            "                    </div>\n" +
-            "                </li>\n" +
-            "                {% endif %}\n" +
-            "                {% endfor %}");
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.btForkInfo %}\n" +
+            "{% if link['state'] == 2 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
         displayBlockHight();
     }
 
-    $(document).ready(function(){
-        displayBlockHight();
-    });
+    function updateBtAll() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.btAirdropInfo %}\n" +
+            "                    <li class=\"coin_info\">\n" +
+            "                        <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                                src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                        <div class=\"hot-info\">\n" +
+            "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "                            <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "                            <div class=\"details\">\n" +
+            "                            <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                        </div>\n" +
+            "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "                            {{link['stateTitle']}}\n" +
+            "                        </div>\n" +
+            "                    </li>\n" +
+            "                    {% endfor %}")
+    }
+
+    function updateEtProcessing() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.btAirdropInfo %}\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n")
+    }
+
+    function updateEtEnd() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.btAirdropInfo %}\n" +
+            "{% if link['state'] == 0 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
+    }
 
     function modifyTimeValue(hight) {
         var blockHight = "{%for link in site.btForkInfo%} {{link['blockHight']}}{% endfor %}";
@@ -274,12 +492,12 @@
         var blockHightArr = blockHight.split(" ");
         var timeClassArr = timeClass.split(" ");
         var timeTitleArr = timeTitle.split(" ");
-        for (var i = 0; i < timeClassArr.length; i ++) {
+        for (var i = 0; i < timeClassArr.length; i++) {
             if (i != 0) {
-                if ($("." + timeClassArr[i]).text() != "0" && blockHightArr[i] != "未公布" && $("." + timeClassArr[i]).text() != "未确定") {
+                if ($("." + timeClassArr[i]).text() != "0") {
                     var timeDiscrepancy = (blockHightArr[i] - hight) * 10 * 60 * 1000;
                     if (timeDiscrepancy > 0) {
-                        var days = Math.floor(timeDiscrepancy/(24*3600*1000))
+                        var days = Math.floor(timeDiscrepancy / (24 * 3600 * 1000))
                         var leave1 = timeDiscrepancy % (24 * 3600 * 1000)
                         var hours;
                         if (days != 0) {
@@ -287,9 +505,6 @@
                         } else {
                             hours = (leave1 / (3600 * 1000)).toFixed(1);
                         }
-                        console.log(blockHightArr[i])
-                        console.log(i);
-                        console.log(timeTitleArr[i])
                         $("." + timeTitleArr[i]).text("倒计时(预估)");
                         $("." + timeClassArr[i]).text(days + "天" + hours + "时");
                     } else {
@@ -301,11 +516,11 @@
     }
 
     function displayBlockHight() {
-        $.get("https://bitpie.getcai.com/api/v1/bitcoind/status?currentstring=" + new Date().getTime(),{},function(data){
+        $.get("https://bitpie.getcai.com/api/v1/bitcoind/status?currentstring=" + new Date().getTime(), {}, function (data) {
             var blockhight = data.headers;
             var hightStr = "{%for link in site.btForkInfo%} {{link['currentHightClass']}}{% endfor %}";
             var hightArr = hightStr.split(" ");
-            for (var i = 0; i < hightArr.length; i ++) {
+            for (var i = 0; i < hightArr.length; i++) {
                 if (i != 0) {
                     $("." + hightArr[i]).text(blockhight);
                     modifyTimeValue(blockhight);
@@ -314,7 +529,8 @@
         })
     }
 
+
 </script>
+
 </body>
 </html>
-

@@ -40,34 +40,29 @@ plugins:
 
 headerLogo: /resource/logo.jpg
 
-headerContent:
-  - typeName: 分叉
+headerMenu:
+  - menuTitle: 分叉
     id: typefork
-    href: ../index
-  - typeName: 糖果
+    menuList:
+      - menuName: 全部
+        id: forkall
+      - menuName: 即将分叉
+        id: forking
+      - menuName: 已分叉
+        id: forkend
+      - menuName: 分叉中
+        id: forkstart
+  - menuTitle: 糖果
     id: typebtairdrop
-    href: /pages/btall
-
-contentForkMenu:
-  - menuName: 全部
-    className: forkall
-  - menuName: 即将分叉
-    className: forking
-  - menuName: 已分叉
-    className: forkend
-  - menuName: 分叉中
-    className: forkstart
-  - typeName: ifo服务
-    id: serve
-    href: /pages/ifoservice
-
-contentBtAirdropMenu:
-  - menuName: 全部
-    className: btall
-  - menuName: 进行中
-    className: btprocessing
-  - menuName: 已结束
-    className: btend
+    menuList:
+      - menuName: 全部
+        id: btall
+      - menuName: 进行中
+        id: btprocessing
+      - menuName: 已结束
+        id: btend
+  - menuTitle: ifo服务
+    id: ifoservice
 
 btForkInfo:
   - imageHref: /pages/btpdetail
