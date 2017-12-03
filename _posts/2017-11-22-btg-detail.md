@@ -49,7 +49,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>项目官网</td>
-        <td><a href="https://bitcoingold.org/">https://bitcoingold.org</a></td>
+        <td><a href="https://bitcoingold.org/" target="_blank">https://bitcoingold.org</a></td>
     </tr>
     <tr>
         <td>项目团队</td>

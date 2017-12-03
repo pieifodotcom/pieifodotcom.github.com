@@ -45,7 +45,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>项目官网</td>
-        <td><a href="https://bitcoinplatinum.github.io/">https://bitcoinplatinum.github.io</a></td>
+        <td><a href="https://bitcoinplatinum.github.io/" target="_blank">https://bitcoinplatinum.github.io</a></td>
     </tr>
     <tr>
         <td>项目团队</td>

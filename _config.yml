@@ -47,6 +47,9 @@ headerContent:
   - typeName: 糖果
     id: typebtairdrop
     href: /pages/btall
+  - typeName: 分叉服务
+    id: serve
+    href: /pages/ifoservice
 
 contentForkMenu:
   - menuName: 全部
@@ -118,6 +121,78 @@ btForkInfo:
     timeClass: lbtc
     btnTitle: 查看详情
     btnHref: /pages/lbtcdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+  - imageHref: /pages/goddetail.html
+    imageUrl: /resource/default.jpg
+    coinName: 比特币上帝(Bitcoin God)
+    coinInfo: 二宝主导的分叉，完全由社区自治
+    blockHightTitle: 分叉高度
+    blockHight: 未公布
+    timeTitle: 预估分叉日期
+    timeTitleClass: godtimetitle
+    time: 2017/12/25
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: godhight
+    timeClass: god
+    btnTitle: 查看详情
+    btnHref: /pages/goddetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+  - imageHref: /pages/uraniumdetail.html
+    imageUrl: /resource/uranium.jpg
+    coinName: 比特铀(Bitcoin Uranium)
+    coinInfo: 采用equhash算法
+    blockHightTitle: 分叉高度
+    blockHight: 未公布
+    timeTitle: 预估分叉日期
+    timeTitleClass: uraniumtimetitle
+    time: 2017/12/31
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: uraniumhight
+    timeClass: uranium
+    btnTitle: 查看详情
+    btnHref: /pages/uraniumdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+  - imageHref: /pages/plusdetail.html
+    imageUrl: /resource/plus.jpg
+    coinName: 比特币增强现金(Bitcoin Cash Plus)
+    coinInfo: 低费率的电子现金系统
+    blockHightTitle: 分叉高度
+    blockHight: 501407
+    timeTitle: 倒计时
+    timeTitleClass: plustimetitle
+    time: 2018/1/2
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: plushight
+    timeClass: plus
+    btnTitle: 查看详情
+    btnHref: /pages/plusdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+  - imageHref: /pages/silverdetail.html
+    imageUrl: /resource/silver.jpg
+    coinName: 比特币白银(Bitcoin Silver)
+    coinInfo: 主要对挖矿算法进行更新使全网算力更加分散
+    blockHightTitle: 分叉高度
+    blockHight: 未公布
+    timeTitle: 发布日期
+    timeTitleClass: silvertimetitle
+    time: 未确定
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: silverhight
+    timeClass: silver
+    btnTitle: 查看详情
+    btnHref: /pages/silverdetail.html
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26

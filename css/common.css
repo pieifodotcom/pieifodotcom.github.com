@@ -335,7 +335,7 @@ select::-ms-expand {
 
 .projects span {
     padding-left: 0px;
-    padding-right: 20px
+    padding-right: 10px
 }
 
 @media (min-width: 319px) and (max-width: 340px) {

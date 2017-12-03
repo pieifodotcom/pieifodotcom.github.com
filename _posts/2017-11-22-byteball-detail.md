@@ -10,7 +10,7 @@ permalink: /detail/
 </p>
 <p>字节雪球每隔一段时间通过领取糖果方式给比特币以及字节雪球的持有者分配币，但需要用户自己领取。这样的糖果分配从2016年12月开始，已经进行了十轮。但后续的分配计划尚未公布。
 </p>
-<p>官网地址：<a href="https://byteball.org/">https://byteball.org</a></p>
+<p>官网地址：<a href="https://byteball.org/" target="_blank">https://byteball.org</a></p>
 <h1 style="color: #2F416A">领取方式</h1>
 <p>1.打开雪球币官方<a href="https://byteball.org/">byteball.org</a>.
 </p>

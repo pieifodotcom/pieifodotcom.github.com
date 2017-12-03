@@ -63,7 +63,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>项目官网</td>
-        <td><a href="http://btcd.io/">http://btcd.io</a></td>
+        <td><a href="http://btcd.io/" target="_blank">http://btcd.io</a></td>
     </tr>
     <tr>
         <td>项目团队</td>

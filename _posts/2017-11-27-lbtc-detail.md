@@ -43,7 +43,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>项目官网</td>
-        <td><a href="http://lightningbitcoin.io/">http://lightningbitcoin.io</a></td>
+        <td><a href="http://lightningbitcoin.io/" target="_blank">http://lightningbitcoin.io</a></td>
     </tr>
     <tr>
         <td>项目团队</td>
