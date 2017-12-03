@@ -11,7 +11,7 @@ permalink: /detail/
 
 <table class="center">
   <tbody>
-    <tr>
+    <tr style="text-align: center">
         <td class="tablehalf">项目名</td>
         <td class="tablehalf">Bitcoin Platinum</td>
     </tr>

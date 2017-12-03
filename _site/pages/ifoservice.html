@@ -4,92 +4,161 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" type="image/x-icon" href="/resource/icon.png" media="screen"/>
-    <title>PieIFO</title>
+    <title>pieifo.com</title>
     <link rel="stylesheet" type='text/css' href="../css/detailmain.css">
+
     <style>
-        @media handheld, only screen and (max-width: 60em), only screen and (max-device-width: 60em) {
-            .tablehalf {
-                position: static;
-                width: auto
+        .center td, tr {
+            border: 0px;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            font-size: 15px;
+        }
+        .center th{
+            border: 0px;
+        }
+
+        .description {
+            text-align: left !important;;
+        }
+
+        .titleimage {
+            width: 200px !important;
+            height: 200px !important;;
+        }
+
+        .tick {
+            max-width: 24px;
+            max-height: 24px;
+        }
+
+        .premium {
+            color: #F46100;
+        }
+
+        @media all and (max-width: 991px) {
+            .description {
+                text-align: center !important;
             }
         }
 
-        .tablehalf {
-            width: 33%;
-            position: relative;
-            left: 0px
+        h2 {
+            font-size: 28px;
+        }
+
+        .center p {
+            font-size: 19px;
         }
     </style>
 </head>
 <body>
 <div class="body">
-    <div id="content" class="content">
-        <h1 style="color: #2F416A">Pieifo为有IFO需求的团队提供以下服务</h1>
 
-        <table class="center" style="width: 100%">
-            <tbody>
-            <tr>
-                <th rowspan="7" class="tablehalf">标准服务<br/>(咨询、部分开发)
-                </th>
-            </tr>
-            <tr>
-                <td>分叉链核心程序(Core)
-                </td>
-            </tr>
-            <tr>
-                <td>快照程序
-                </td>
-            </tr>
-            <tr>
-                <td>共识机制修改
-                </td>
-            </tr>
-            <tr>
-                <td>双方向重放保护
-                </td>
-            </tr>
-            <tr>
-                <td>节点部署技术支持
-                </td>
-            </tr>
-            <tr>
-                <td>矿池技术方案
-                </td>
-            </tr>
-            </tbody>
-        </table>
+    <h1 style="margin-top: 20px;color: #2F416A">Pieifo为您提供最专业的分叉相关服务</h1>
 
-        <table class="center" style="width: 100%; margin-top: 2em">
-            <tbody>
-            <tr>
-                <th rowspan="6" class="tablehalf">高级服务<br/>(整体解决方案)
-                </th>
-            </tr>
-            <tr>
-                <td>分叉链核心程序开发及部署
-                </td>
-            </tr>
-            <tr>
-                <td>重放保护开发及部署
-                </td>
-            </tr>
-            <tr>
-                <td>预挖程序开发及部署
-                </td>
-            </tr>
-            <tr>
-                <td>算力资源对接及部署
-                </td>
-            </tr>
-            <tr>
-                <td>其他高级功能</td>
-            </tr>
-            </tbody>
-        </table>
+    <div class="tablehalf" style="margin-top: 20px">
+        <div>
+            <img src="/resource/tech.jpg" class="titleimage">
+        </div>
 
-        <iframe height="618" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"
-                src="http://bossbang.cc/web/formembed/5a210ce4e7aea97076545ea7"></iframe>
+        <div class="center">
+            <h2 id="donation">技术
+            </h2>
+            <p class="description">Bitcoin Core developer、钱包技术专家。</br>源自最熟悉比特币核心程序的团队。</p>
+        </div>
+
+        <div class="center">
+            <h2 >可靠
+            </h2>
+            <p class="description">加密、重放保护、合理共识机制。</br>我们擅长安全。
+            </p>
+        </div>
+
+        <div>
+            <img src="/resource/sec.jpg" class="titleimage">
+        </div>
+
+        <div>
+            <img src="/resource/eco.jpg" class="titleimage">
+        </div>
+
+        <div class="center">
+            <h2>生态
+            </h2>
+            <p class="description">钱包、算力、交易所。</br>提供强大生态链支持。
+            </p>
+        </div>
     </div>
+
+    <h1 style="margin-top: 20px;color: #2F416A">服务详情</h1>
+
+    <table class="center" style="width: 80%">
+        <tbody>
+        <tr>
+            <th class="tablehalf"></th>
+            <th class="tablehalf">咨询</th>
+            <th class="tablehalf">技术支持</th>
+            <th class="tablehalf">开发与实施</th>
+        </tr>
+        <tr>
+            <td>分叉链核心程序(Core)</td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td class="tablehalf premium">高级服务</td>
+        </tr>
+        <tr>
+            <td>快照程序</td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td class="tablehalf premium">高级服务</td>
+        </tr>
+        <tr>
+            <td>共识机制修改</td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td class="tablehalf premium">高级服务</td>
+        </tr>
+        <tr>
+            <td>双方向重放保护</td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td class="tablehalf premium">高级服务</td>
+        </tr>
+        <tr>
+            <td>节点部署</td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td class="tablehalf premium">高级服务</td>
+        </tr>
+        <tr>
+            <td>矿池技术方案</td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td><img src="/resource/tick.png" class="tick"></td>
+            <td class="tablehalf premium">高级服务</td>
+        </tr>
+        <tr>
+            <td>预挖程序</td>
+            <td class="tablehalf premium">高级服务</td>
+            <td class="tablehalf premium">高级服务</td>
+            <td class="tablehalf premium">高级服务</td>
+        </tr>
+        <tr>
+            <td>算力资源</td>
+            <td class="tablehalf premium">高级服务</td>
+            <td class="tablehalf premium">高级服务</td>
+            <td class="tablehalf premium">高级服务</td>
+        </tr>
+        <tr>
+            <td>其他高级功能</td>
+            <td class="tablehalf premium">高级服务</td>
+            <td class="tablehalf premium">高级服务</td>
+            <td class="tablehalf premium">高级服务</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <iframe height="618" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"
+            src="http://bossbang.cc/web/formembed/5a210ce4e7aea97076545ea7"></iframe>
+
 </div>
 <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="../js/fontawesome.js"></script>
