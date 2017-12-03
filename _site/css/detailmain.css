@@ -1751,7 +1751,7 @@ button.active {
 .tablehalf {
     width: 885px;
     position: relative;
-    left: -40px
+    left: 0px
 }
 
 .tablehalf div {
