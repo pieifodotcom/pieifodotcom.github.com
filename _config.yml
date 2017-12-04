@@ -121,7 +121,7 @@ btForkInfo:
     stateColor: F99F26
   - imageHref: /pages/goddetail.html
     imageUrl: /resource/default.jpg
-    coinName: 比特币上帝(Bitcoin God)
+    coinName: 比特币上帝(BTG)
     coinInfo: 二宝主导的分叉，完全由社区自治
     blockHightTitle: 分叉高度
     blockHight: 未公布
@@ -139,7 +139,7 @@ btForkInfo:
     stateColor: F99F26
   - imageHref: /pages/uraniumdetail.html
     imageUrl: /resource/uranium.jpg
-    coinName: 比特铀(Bitcoin Uranium)
+    coinName: 比特铀(BTU)
     coinInfo: 采用equhash算法
     blockHightTitle: 分叉高度
     blockHight: 未公布
@@ -157,7 +157,7 @@ btForkInfo:
     stateColor: F99F26
   - imageHref: /pages/plusdetail.html
     imageUrl: /resource/plus.jpg
-    coinName: 比特币增强现金(Bitcoin Cash Plus)
+    coinName: 比特币增强现金(BCP)
     coinInfo: 低费率的电子现金系统
     blockHightTitle: 分叉高度
     blockHight: 501407
@@ -175,7 +175,7 @@ btForkInfo:
     stateColor: F99F26
   - imageHref: /pages/silverdetail.html
     imageUrl: /resource/silver.jpg
-    coinName: 比特币白银(Bitcoin Silver)
+    coinName: 比特币白银(BTS)
     coinInfo: 主要对挖矿算法进行更新使全网算力更加分散
     blockHightTitle: 分叉高度
     blockHight: 未公布

@@ -10,10 +10,11 @@
     <style>
         .center td, tr {
             border: 0px;
-            border-bottom: 1px solid rgba(0,0,0,0.05);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
             font-size: 15px;
         }
-        .center th{
+
+        .center th {
             border: 0px;
         }
 
@@ -41,6 +42,12 @@
             }
         }
 
+        @media all and (max-width: 768px) {
+            .description {
+                text-align: center !important;
+            }
+        }
+
         h2 {
             font-size: 28px;
         }
@@ -51,11 +58,14 @@
     </style>
 </head>
 <body>
+<div style="margin:0 auto;display: none">
+    <img src="/resource/share.jpg">
+</div>
 <div class="body">
 
     <h1 style="margin-top: 20px;color: #2F416A">Pieifo为您提供最专业的分叉相关服务</h1>
 
-    <div class="tablehalf" style="margin-top: 20px">
+    <div id="service" class="tablehalf" style="margin-top: 20px">
         <div>
             <img src="/resource/tech.jpg" class="titleimage">
         </div>
@@ -66,8 +76,8 @@
             <p class="description">Bitcoin Core developer、钱包技术专家。</br>源自最熟悉比特币核心程序的团队。</p>
         </div>
 
-        <div class="center">
-            <h2 >可靠
+        <div class="center" id="security">
+            <h2>可靠
             </h2>
             <p class="description">加密、重放保护、合理共识机制。</br>我们擅长安全。
             </p>
@@ -175,6 +185,31 @@
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
     })();
+</script>
+<script>
+    $(document).ready(function () {
+        adapterLayout();
+    });
+
+    window.onresize = function(){
+        adapterLayout();
+    }
+    
+    function adapterLayout() {
+        var width = $(window).width();
+        var divArr = $("#service div");
+        if (width <= 768) {
+            if (divArr[2] == $("#security")[0]) {
+                divArr[2] = divArr.splice(3,1,divArr[2])[0]
+                $("#service").html(divArr);
+            }
+        } else {
+            if (divArr[2] != $("#security")[0]) {
+                divArr[2] = divArr.splice(3,1,divArr[2])[0]
+                $("#service").html(divArr);
+            }
+        }
+    }
 </script>
 </body>
 </html>
