@@ -1119,7 +1119,30 @@
         var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['blockHight']}} {% endif %}{% endfor %}";
         var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeClass']}} {% endif %}{% endfor %}";
         var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeTitleClass']}} {% endif %}{% endfor %}";
-        midifyRestTime(blockHight,timeClass,timeTitle,600,hight);
+        var blockHightArr = blockHight.split(" ");
+        var timeClassArr = timeClass.split(" ");
+        var timeTitleArr = timeTitle.split(" ");
+        for (var i = 0; i < timeClassArr.length; i++) {
+            if (i != 0) {
+                if ($("." + timeClassArr[i]).text() != "0" && blockHightArr[i] != "未公布" && $("." + timeClassArr[i]).text() != "未确定") {
+                    var timeDiscrepancy = (blockHightArr[i] - hight) * time * 1000;
+                    if (timeDiscrepancy > 0) {
+                        var days = Math.floor(timeDiscrepancy / (24 * 3600 * 1000))
+                        var leave1 = timeDiscrepancy % (24 * 3600 * 1000)
+                        var hours;
+                        if (days != 0) {
+                            hours = Math.floor(leave1 / (3600 * 1000));
+                        } else {
+                            hours = (leave1 / (3600 * 1000)).toFixed(1);
+                        }
+                        $("." + timeTitleArr[i]).text("倒计时(预估)");
+                        $("." + timeClassArr[i]).text(days + "天" + hours + "时");
+                    } else {
+                        $("." + timeTitleArr[i]).text("倒计时");
+                    }
+                }
+            }
+        }
     }
 
     function modifyEthTimeValue(hight) {
