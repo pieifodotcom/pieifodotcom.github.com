@@ -1076,7 +1076,7 @@
     function displayBtHight() {
         $.get("https://bitpie.getcai.com/api/v1/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
             var blockhight = data.height;
-            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
+            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['currentHightClass']}}{% endif %}{% endfor %}";
             var hightArr = hightStr.split(" ");
             for (var i = 0; i < hightArr.length; i++) {
                 if (i != 0) {
@@ -1090,7 +1090,7 @@
     function displayEthHight() {
         $.get("https://bitpie.getcai.com/api/v1/eth/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
             var blockhight = data.height;
-            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
+            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['currentHightClass']}}{% endif %}{% endfor %}";
             var hightArr = hightStr.split(" ");
             for (var i = 0; i < hightArr.length; i++) {
                 if (i != 0) {
@@ -1104,7 +1104,7 @@
     function displayLtcHight() {
         $.get("https://bitpie.getcai.com/api/v1/ltc/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
             var blockhight = data.height;
-            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
+            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['currentHightClass']}}{% endif %}{% endfor %}";
             var hightArr = hightStr.split(" ");
             for (var i = 0; i < hightArr.length; i++) {
                 if (i != 0) {
@@ -1116,46 +1116,23 @@
     }
 
     function modifyBtTimeValue(hight) {
-        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['blockHight']}} {% endif %}{% endfor %}";
-        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeClass']}} {% endif %}{% endfor %}";
-        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeTitleClass']}} {% endif %}{% endfor %}";
-        var blockHightArr = blockHight.split(" ");
-        var timeClassArr = timeClass.split(" ");
-        var timeTitleArr = timeTitle.split(" ");
-        for (var i = 0; i < timeClassArr.length; i++) {
-            if (i != 0) {
-                if ($("." + timeClassArr[i]).text() != "0" && blockHightArr[i] != "未公布" && $("." + timeClassArr[i]).text() != "未确定") {
-                    var timeDiscrepancy = (blockHightArr[i] - hight) * time * 1000;
-                    if (timeDiscrepancy > 0) {
-                        var days = Math.floor(timeDiscrepancy / (24 * 3600 * 1000))
-                        var leave1 = timeDiscrepancy % (24 * 3600 * 1000)
-                        var hours;
-                        if (days != 0) {
-                            hours = Math.floor(leave1 / (3600 * 1000));
-                        } else {
-                            hours = (leave1 / (3600 * 1000)).toFixed(1);
-                        }
-                        $("." + timeTitleArr[i]).text("倒计时(预估)");
-                        $("." + timeClassArr[i]).text(days + "天" + hours + "时");
-                    } else {
-                        $("." + timeTitleArr[i]).text("倒计时");
-                    }
-                }
-            }
-        }
+        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['blockHight']}}{% endif %}{% endfor %}";
+        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeClass']}}{% endif %}{% endfor %}";
+        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endfor %}";
+        midifyRestTime(blockHight,timeClass,timeTitle,600,hight);
     }
 
     function modifyEthTimeValue(hight) {
-        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['blockHight']}} {% endif %}{% endfor %}";
-        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['timeClass']}} {% endif %}{% endfor %}";
-        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['timeTitleClass']}} {% endif %}{% endfor %}";
+        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['blockHight']}}{% endif %}{% endfor %}";
+        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['timeClass']}}{% endif %}{% endfor %}";
+        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endfor %}";
         midifyRestTime(blockHight,timeClass,timeTitle,14.5,hight);
     }
 
     function modifyLtcTimeValue(hight) {
-        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['blockHight']}} {% endif %}{% endfor %}";
-        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeClass']}} {% endif %}{% endfor %}";
-        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeTitleClass']}} {% endif %}{% endfor %}";
+        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['blockHight']}}{% endif %}{% endfor %}";
+        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeClass']}}{% endif %}{% endfor %}";
+        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endfor %}";
         midifyRestTime(blockHight,timeClass,timeTitle,130,hight);
     }
 
