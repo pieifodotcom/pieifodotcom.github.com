@@ -1,4 +1,156 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://192.168.1.106:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://192.168.1.106:4000/" rel="alternate" type="text/html" /><updated>2017-12-04T12:12:16+08:00</updated><id>http://192.168.1.106:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">uraniumdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="uraniumdetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.106:4000/uranium-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特铀&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://192.168.1.59:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://192.168.1.59:4000/" rel="alternate" type="text/html" /><updated>2017-12-08T17:57:54+08:00</updated><id>http://192.168.1.59:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">ltcltsdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="ltcltsdetail" /><published>2017-12-08T00:00:00+08:00</published><updated>2017-12-08T00:00:00+08:00</updated><id>http://192.168.1.59:4000/ltc-lts-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;莱特股&lt;/h1&gt;
+&lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
+       区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
+       比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
+&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Litecoin shares是基于莱特币的分叉。
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Litecoin shares&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉高度&lt;/td&gt;
+        &lt;td&gt;1359668&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉时间&lt;/td&gt;
+        &lt;td&gt;2018年1月15日&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;重放保护&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;挖矿算法&lt;/td&gt;
+        &lt;td&gt;POS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;是否预挖&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉币数量比例&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目官网&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目团队&lt;/td&gt;
+        &lt;td&gt;Smart Space Team&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;其他信息&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">莱特股 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 Litecoin shares是基于莱特币的分叉。 项目名 Litecoin shares 分叉高度 1359668 分叉时间 2018年1月15日 重放保护 未公布 挖矿算法 POS 是否预挖 未公布 分叉币数量比例 未公布 项目官网 未公布 项目团队 Smart Space Team 其他信息</summary></entry><entry><title type="html">ethfogdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="ethfogdetail" /><published>2017-12-08T00:00:00+08:00</published><updated>2017-12-08T00:00:00+08:00</updated><id>http://192.168.1.59:4000/eth-fog-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;以太雾&lt;/h1&gt;
+&lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
+       区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
+       比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
+&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Ethereum Fog是基于以太坊的分叉。
+&lt;/p&gt;
+&lt;p&gt;目标是推动以太坊发展为下一代雾计算平台。
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Ethereum Fog&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉高度&lt;/td&gt;
+        &lt;td&gt;483,000,000(以太坊网络)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉时间&lt;/td&gt;
+        &lt;td&gt;2018年1月1日&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;重放保护&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;挖矿算法&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;是否预挖&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉币数量比例&lt;/td&gt;
+        &lt;td&gt;1:1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目官网&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目团队&lt;/td&gt;
+        &lt;td&gt;Digital Assets Group&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;其他信息&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">以太雾 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 Ethereum Fog是基于以太坊的分叉。 目标是推动以太坊发展为下一代雾计算平台。 项目名 Ethereum Fog 分叉高度 483,000,000(以太坊网络) 分叉时间 2018年1月1日 重放保护 未公布 挖矿算法 未公布 是否预挖 未公布 分叉币数量比例 1:1 项目官网 未公布 项目团队 Digital Assets Group 其他信息</summary></entry><entry><title type="html">btkdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="btkdetail" /><published>2017-12-08T00:00:00+08:00</published><updated>2017-12-08T00:00:00+08:00</updated><id>http://192.168.1.59:4000/btk-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特君主&lt;/h1&gt;
+&lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
+       区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
+       比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
+&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;低费率的电子现金系统。
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin King(BCK)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉高度&lt;/td&gt;
+        &lt;td&gt;499999&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉时间&lt;/td&gt;
+        &lt;td&gt;2017年12月25日&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;重放保护&lt;/td&gt;
+        &lt;td&gt;支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;挖矿算法&lt;/td&gt;
+        &lt;td&gt;SHA256(ASIC)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;是否预挖&lt;/td&gt;
+        &lt;td&gt;预挖21万&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉币数量比例&lt;/td&gt;
+        &lt;td&gt;1:1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目官网&lt;/td&gt;
+        &lt;td&gt;未公布&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目团队&lt;/td&gt;
+        &lt;td&gt;BCK 基金会&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;其他信息&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特君主 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 低费率的电子现金系统。 项目名 Bitcoin King(BCK) 分叉高度 499999 分叉时间 2017年12月25日 重放保护 支持 挖矿算法 SHA256(ASIC) 是否预挖 预挖21万 分叉币数量比例 1:1 项目官网 未公布 项目团队 BCK 基金会 其他信息</summary></entry><entry><title type="html">uraniumdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="uraniumdetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.59:4000/uranium-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特铀&lt;/h1&gt;
 &lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
        区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
        比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
@@ -48,7 +200,7 @@
         &lt;td&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特铀 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 Bitcoin Uranium采用equhash算法，区块时间缩短为1分钟，每450天产量减半。 项目名 Bitcoin Uranium 分叉高度 未公布 分叉时间 2017年12月31日 重放保护 支持 挖矿算法 GPU挖矿(equihash) 是否预挖 无预挖 分叉币数量比例 1:1 项目官网 https://bitcoinuranium.org(暂未启用) 项目团队 SONM 其他信息</summary></entry><entry><title type="html">silverdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="silverdetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.106:4000/silver-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币增强现金&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特铀 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 Bitcoin Uranium采用equhash算法，区块时间缩短为1分钟，每450天产量减半。 项目名 Bitcoin Uranium 分叉高度 未公布 分叉时间 2017年12月31日 重放保护 支持 挖矿算法 GPU挖矿(equihash) 是否预挖 无预挖 分叉币数量比例 1:1 项目官网 https://bitcoinuranium.org(暂未启用) 项目团队 SONM 其他信息</summary></entry><entry><title type="html">silverdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="silverdetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.59:4000/silver-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币增强现金&lt;/h1&gt;
 &lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
        区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
        比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
@@ -98,7 +250,7 @@
         &lt;td&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币增强现金 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 主要对挖矿算法进行更新使全网算力更加分散。 项目名 Bitcoin Silver 分叉高度 未公布 分叉时间 未公布 重放保护 支持 挖矿算法 GPU挖矿(equihash) 是否预挖 未公布 分叉币数量比例 1:1 项目官网 https://bitcointalk.org 项目团队 未公布 其他信息</summary></entry><entry><title type="html">plusdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="plusdetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.106:4000/plus-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币增强现金&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币增强现金 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 主要对挖矿算法进行更新使全网算力更加分散。 项目名 Bitcoin Silver 分叉高度 未公布 分叉时间 未公布 重放保护 支持 挖矿算法 GPU挖矿(equihash) 是否预挖 未公布 分叉币数量比例 1:1 项目官网 https://bitcointalk.org 项目团队 未公布 其他信息</summary></entry><entry><title type="html">plusdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="plusdetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.59:4000/plus-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币增强现金&lt;/h1&gt;
 &lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
        区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
        比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
@@ -148,12 +300,12 @@
         &lt;td&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币增强现金 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 低费率的电子现金系统。 项目名 Bitcoin Cash Plus 分叉高度 501407 分叉时间 2018年1月2日 重放保护 未公布 挖矿算法 未公布 是否预挖 未公布 分叉币数量比例 未公布 项目官网 http://www.bitcoincashplus.org 项目团队 未公布 其他信息</summary></entry><entry><title type="html">goddetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="goddetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.106:4000/god-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币上帝&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币增强现金 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 低费率的电子现金系统。 项目名 Bitcoin Cash Plus 分叉高度 501407 分叉时间 2018年1月2日 重放保护 未公布 挖矿算法 未公布 是否预挖 未公布 分叉币数量比例 未公布 项目官网 http://www.bitcoincashplus.org 项目团队 未公布 其他信息</summary></entry><entry><title type="html">goddetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="goddetail" /><published>2017-12-03T00:00:00+08:00</published><updated>2017-12-03T00:00:00+08:00</updated><id>http://192.168.1.59:4000/god-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币上帝&lt;/h1&gt;
 &lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
        区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
        比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
 &lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;二宝主导的分叉，完全由社区自治。
+&lt;p&gt;社区自治的分叉。
 &lt;/p&gt;
 &lt;table class=&quot;center&quot;&gt;
   &lt;tbody&gt;
@@ -163,7 +315,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;分叉高度&lt;/td&gt;
-        &lt;td&gt;未公布&lt;/td&gt;
+        &lt;td&gt;501225&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;分叉时间&lt;/td&gt;
@@ -183,22 +335,22 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;分叉币数量比例&lt;/td&gt;
-        &lt;td&gt;1:1&lt;/td&gt;
+        &lt;td&gt;比特币1:1 比原链用户可获一定比例空投&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;无&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;https://www.bitcoingod.org/&quot; target=&quot;_blank&quot;&gt;https://www.bitcoingod.org&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目团队&lt;/td&gt;
-        &lt;td&gt;未公布&lt;/td&gt;
+        &lt;td&gt;Botcoin God 基金会&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;其他信息&lt;/td&gt;
         &lt;td&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币上帝 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 二宝主导的分叉，完全由社区自治。 项目名 Bitcoin God 分叉高度 未公布 分叉时间 2017年12月25日 重放保护 未公布 挖矿算法 POS 是否预挖 否 分叉币数量比例 1:1 项目官网 无 项目团队 未公布 其他信息</summary></entry><entry><title type="html">lbtcdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="lbtcdetail" /><published>2017-11-27T00:00:00+08:00</published><updated>2017-11-27T00:00:00+08:00</updated><id>http://192.168.1.106:4000/lbtc-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;闪电比特币&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币上帝 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 社区自治的分叉。 项目名 Bitcoin God 分叉高度 501225 分叉时间 2017年12月25日 重放保护 未公布 挖矿算法 POS 是否预挖 否 分叉币数量比例 比特币1:1 比原链用户可获一定比例空投 项目官网 https://www.bitcoingod.org 项目团队 Botcoin God 基金会 其他信息</summary></entry><entry><title type="html">lbtcdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="lbtcdetail" /><published>2017-11-27T00:00:00+08:00</published><updated>2017-11-27T00:00:00+08:00</updated><id>http://192.168.1.59:4000/lbtc-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;闪电比特币&lt;/h1&gt;
 &lt;p&gt;闪电比特币（LBTC）将DPOS共识机制引入了比特币网络，做到记账权和投票权的分离，从而保证系统不会被滥用，无法单方面劫持其他参与方。只要用户持有币就持有话语权，从而实现真正的共治。
 &lt;/p&gt;
 
@@ -249,12 +401,12 @@
         &lt;td&gt;区块时间3秒&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">闪电比特币 闪电比特币（LBTC）将DPOS共识机制引入了比特币网络，做到记账权和投票权的分离，从而保证系统不会被滥用，无法单方面劫持其他参与方。只要用户持有币就持有话语权，从而实现真正的共治。</summary></entry><entry><title type="html">stellardetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="stellardetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.106:4000/stellar-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;恒星币&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">闪电比特币 闪电比特币（LBTC）将DPOS共识机制引入了比特币网络，做到记账权和投票权的分离，从而保证系统不会被滥用，无法单方面劫持其他参与方。只要用户持有币就持有话语权，从而实现真正的共治。</summary></entry><entry><title type="html">stellardetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="stellardetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.59:4000/stellar-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;恒星币&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot;&gt;恒星币（Stellar）是由前瑞波币（Ripple）创始人Jed McCaleb发起的数字货币项目，用于搭建一个数字货币与法定货币之间传输的去中心化网关。将通过免费发放的形式提供给用户，其供应上限为1000亿，其中95%数量的恒星币用于免费发放。 恒星是一个多元化的团队，董事会成员有包括前Square首席运营官Keith Rabois，Stripe首席执行官Patrick Collison，而狗狗币联合创始人Jackson Palmer以及AngelList联合创始人Naval Ravikant 将作为该项目的顾问。
 &lt;/p&gt;
 &lt;p&gt;官网地址：&lt;a href=&quot;https://www.stellar.org/&quot; target=&quot;_blank&quot;&gt;https://www.stellar.org&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;领取方式：已结束发放。
-&lt;/p&gt;</content><author><name></name></author><summary type="html">恒星币 恒星币（Stellar）是由前瑞波币（Ripple）创始人Jed McCaleb发起的数字货币项目，用于搭建一个数字货币与法定货币之间传输的去中心化网关。将通过免费发放的形式提供给用户，其供应上限为1000亿，其中95%数量的恒星币用于免费发放。 恒星是一个多元化的团队，董事会成员有包括前Square首席运营官Keith Rabois，Stripe首席执行官Patrick Collison，而狗狗币联合创始人Jackson Palmer以及AngelList联合创始人Naval Ravikant 将作为该项目的顾问。 官网地址：https://www.stellar.org 领取方式：已结束发放。</summary></entry><entry><title type="html">sbtcdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="sbtcdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.106:4000/sbtc-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;超级比特币&lt;/h1&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">恒星币 恒星币（Stellar）是由前瑞波币（Ripple）创始人Jed McCaleb发起的数字货币项目，用于搭建一个数字货币与法定货币之间传输的去中心化网关。将通过免费发放的形式提供给用户，其供应上限为1000亿，其中95%数量的恒星币用于免费发放。 恒星是一个多元化的团队，董事会成员有包括前Square首席运营官Keith Rabois，Stripe首席执行官Patrick Collison，而狗狗币联合创始人Jackson Palmer以及AngelList联合创始人Naval Ravikant 将作为该项目的顾问。 官网地址：https://www.stellar.org 领取方式：已结束发放。</summary></entry><entry><title type="html">sbtcdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="sbtcdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.59:4000/sbtc-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;超级比特币&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot; style=&quot;color: #2F416A&quot;&gt;(比特派将于SBTC分叉主网稳定后第一时间开通支持。)
 &lt;/p&gt;
 &lt;p&gt;
@@ -312,121 +464,4 @@ SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是201
         &lt;td&gt;大区块+闪电网络+智能合约+零知识证明&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">超级比特币 (比特派将于SBTC分叉主网稳定后第一时间开通支持。) SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是2017年11月15日，开发团队是Super Bitcoin，团队成员包括大名鼎鼎的中国比特币首富李笑来。 SBTC是一种新的比特币分叉币，按照Super Bitcoin团队的说法，SBTC将于2017年12月17日进行硬分叉试验。SBTC的区块容量大小为8MB，总发行量为2121万个，多出来的21万个为分叉预挖币，简单的说是专门留给12月17日分叉试验时挖矿的奖励。 SBTC目前的诸多规格参数并没有公布，比如采用何种共识算法，是ASIC挖矿还是GPU挖矿，是否支持SegWit、是否带有重放保护统统未知。 但SBTC融入了智能合约、闪电网络、零知识证明以及移除动态检查点保护功能，这些功能正在2017年12月17日分叉试验时并不具备，将会在2018年陆续增加。</summary></entry><entry><title type="html">Byteball Detail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="Byteball Detail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.106:4000/byteball-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Byteball&lt;/h1&gt;
-&lt;p class=&quot;summarytxt&quot;&gt;Byteball(字节雪球)是一个去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，例如货币，产权，债务，股份等。
-&lt;/p&gt;
-&lt;p&gt;被称为“bytes(字节币)”的内部货币，用于支付将数据添加到去中心化数据库中的费用。其他货币或资产也可以通过任何人自由发行，来代表产权，债务，股票等。用户彼此可以同时发送bytes和其他货币，以支付商品/服务或交换货币种类，转移价值的交易将作为存储单元添加到数据库。
-&lt;/p&gt;
-&lt;p&gt;字节雪球每隔一段时间通过领取糖果方式给比特币以及字节雪球的持有者分配币，但需要用户自己领取。这样的糖果分配从2016年12月开始，已经进行了十轮。但后续的分配计划尚未公布。
-&lt;/p&gt;
-&lt;p&gt;官网地址：&lt;a href=&quot;https://byteball.org/&quot; target=&quot;_blank&quot;&gt;https://byteball.org&lt;/a&gt;&lt;/p&gt;
-&lt;h1 style=&quot;color: #2F416A&quot;&gt;领取方式&lt;/h1&gt;
-&lt;p&gt;1.打开雪球币官方&lt;a href=&quot;https://byteball.org/&quot;&gt;byteball.org&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;width: 100%&quot; src=&quot;/recovery/1.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;2.选择wallet菜单.根据你自己喜欢的客户端，下载，进行安装时候选择AGREE,CONTINUE(默认的方式即可)。（请大家进官方下载，可信度高一点）
-&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;width: 100%&quot; src=&quot;/recovery/2.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;3.选择chat（对话）。
-&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;width: 100%&quot; src=&quot;/recovery/3.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;4.选择Bot Store.选择Transition bot,选择ADD BOT。
-&lt;/p&gt;
-&lt;p&gt;5.选择左下角的三点如下图：
-&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;width: 100%&quot; src=&quot;/recovery/5.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;选择insert my address (插入我的地址)。然后再点击发送。如下图：
-&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;width: 100%&quot; src=&quot;/recovery/6.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;接下来有两种方式
-&lt;/p&gt;
-&lt;p&gt;第一种方式：按照他提示的地址和数量发送比特币。
-&lt;/p&gt;
-&lt;p&gt;如果你使用不用签名的钱包如库神冷钱包，推荐用这个办法，不过这样会增加网络拥堵和暴露私钥，如果能签名还是用第二种办法
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;再这里我们为什么选择比太，比特派钱包呢，因为简单，又可以存储比特币和签名，而且还是比特币官方推荐的。就不用采取第一种方式了。&lt;/strong&gt;
-&lt;/p&gt;
-&lt;p&gt;第二种方式，用你的比特币地址签署你的byteball地址（蓝色字符串），发送给他
-&lt;/p&gt;
-&lt;p&gt;第一步，发送比特币地址。
-&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;width: 100%&quot; src=&quot;/recovery/7.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;第二步，使用比特派钱包，进行签名。
-&lt;/p&gt;
-&lt;p&gt;设置－签名消息 - 收款地址/找零地址
-&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;width: 100%&quot; src=&quot;/recovery/11.png&quot; /&gt;
-&lt;img style=&quot;width: 100%&quot; src=&quot;/recovery/12.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;选择有余额的比特币地址。将（蓝色字体）雪球币的地址作为签名消息。
-&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;width: 100%&quot; src=&quot;/recovery/13.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;第三步，再回到Byteball钱包，将签完的消息发给Transition Bot。
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;地址签名验证成功之后，在送币截止前将你所有的比特币都可以打到这个比特币地址，然后等截止时间之后2小时就可以提走了。&lt;/strong&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;因为雪球币读取比特币快照需要一段时间，所以一定要等够2小时，否则可能领取失败。&lt;/strong&gt;
-&lt;/p&gt;
-&lt;p&gt;如果你有多个地址可以重复上面的第6步即可。
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Byteball Byteball(字节雪球)是一个去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，例如货币，产权，债务，股份等。 被称为“bytes(字节币)”的内部货币，用于支付将数据添加到去中心化数据库中的费用。其他货币或资产也可以通过任何人自由发行，来代表产权，债务，股票等。用户彼此可以同时发送bytes和其他货币，以支付商品/服务或交换货币种类，转移价值的交易将作为存储单元添加到数据库。 字节雪球每隔一段时间通过领取糖果方式给比特币以及字节雪球的持有者分配币，但需要用户自己领取。这样的糖果分配从2016年12月开始，已经进行了十轮。但后续的分配计划尚未公布。 官网地址：https://byteball.org 领取方式 1.打开雪球币官方byteball.org. 2.选择wallet菜单.根据你自己喜欢的客户端，下载，进行安装时候选择AGREE,CONTINUE(默认的方式即可)。（请大家进官方下载，可信度高一点） 3.选择chat（对话）。 4.选择Bot Store.选择Transition bot,选择ADD BOT。 5.选择左下角的三点如下图： 选择insert my address (插入我的地址)。然后再点击发送。如下图： 接下来有两种方式 第一种方式：按照他提示的地址和数量发送比特币。 如果你使用不用签名的钱包如库神冷钱包，推荐用这个办法，不过这样会增加网络拥堵和暴露私钥，如果能签名还是用第二种办法 再这里我们为什么选择比太，比特派钱包呢，因为简单，又可以存储比特币和签名，而且还是比特币官方推荐的。就不用采取第一种方式了。 第二种方式，用你的比特币地址签署你的byteball地址（蓝色字符串），发送给他 第一步，发送比特币地址。 第二步，使用比特派钱包，进行签名。 设置－签名消息 - 收款地址/找零地址 选择有余额的比特币地址。将（蓝色字体）雪球币的地址作为签名消息。 第三步，再回到Byteball钱包，将签完的消息发给Transition Bot。 地址签名验证成功之后，在送币截止前将你所有的比特币都可以打到这个比特币地址，然后等截止时间之后2小时就可以提走了。 因为雪球币读取比特币快照需要一段时间，所以一定要等够2小时，否则可能领取失败。 如果你有多个地址可以重复上面的第6步即可。</summary></entry><entry><title type="html">btxdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="btxdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.106:4000/btx-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;BTX&lt;/h1&gt;
-&lt;p class=&quot;summarytxt&quot;&gt;BTX是比特币的复制网络，对共识机制和挖矿算法进行了小幅更新。
-&lt;/p&gt;
-&lt;p&gt;BTX每隔一段时间通过空投的方式给原BTC持有者派发糖果，需要BTC持有者自己去认领糖果。
-&lt;/p&gt;
-&lt;p&gt;自10月31日起，派发糖果的方式改为了需要用户上传比特币钱包私钥来领取。该动作极危险，不建议大家领取。如果需要领取，建议在领取前把钱包内的比特币转出。领取完毕后弃用钱包。
-&lt;/p&gt;
-&lt;p&gt;官网地址：&lt;a href=&quot;https://bitcore.cc/&quot; target=&quot;_blank&quot;&gt;https://bitcore.cc&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;领取方式：待更新。
-&lt;/p&gt;</content><author><name></name></author><summary type="html">BTX BTX是比特币的复制网络，对共识机制和挖矿算法进行了小幅更新。 BTX每隔一段时间通过空投的方式给原BTC持有者派发糖果，需要BTC持有者自己去认领糖果。 自10月31日起，派发糖果的方式改为了需要用户上传比特币钱包私钥来领取。该动作极危险，不建议大家领取。如果需要领取，建议在领取前把钱包内的比特币转出。领取完毕后弃用钱包。 官网地址：https://bitcore.cc 领取方式：待更新。</summary></entry><entry><title type="html">btpdetail</title><link href="http://192.168.1.106:4000/detail/" rel="alternate" type="text/html" title="btpdetail" /><published>2017-11-22T00:00:00+08:00</published><updated>2017-11-22T00:00:00+08:00</updated><id>http://192.168.1.106:4000/btp-detail</id><content type="html" xml:base="http://192.168.1.106:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币白金&lt;/h1&gt;
-&lt;p class=&quot;summarytxt&quot; style=&quot;color: #2F416A&quot;&gt;(比特派会在分叉高度做快照并在主网稳定后支持比特币白金的提取)
-&lt;/p&gt;
-&lt;p&gt;Bitcoin Platinum 使用区块链技术进行操作、无需中央治理或第三方干预; Bitcoin Platinum的管理、发行和维护由分散网络集体进行。
-&lt;/p&gt;
-
-&lt;table class=&quot;center&quot;&gt;
-  &lt;tbody&gt;
-    &lt;tr style=&quot;text-align: center&quot;&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin Platinum&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉高度&lt;/td&gt;
-        &lt;td&gt;498533&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉时间&lt;/td&gt;
-        &lt;td&gt;2017年12月11日&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;重放保护&lt;/td&gt;
-        &lt;td&gt;代码中可见重放保护，但是否真正实现待确定&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;挖矿算法&lt;/td&gt;
-        &lt;td&gt;GPU挖矿(equihash)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;是否预挖&lt;/td&gt;
-        &lt;td&gt;否&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉币数量比例&lt;/td&gt;
-        &lt;td&gt;1:1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;总量&lt;/td&gt;
-        &lt;td&gt;2100万&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://bitcoinplatinum.github.io/&quot; target=&quot;_blank&quot;&gt;https://bitcoinplatinum.github.io&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目团队&lt;/td&gt;
-        &lt;td&gt;WJ Cloud, ESUP,Chalkman&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;其他信息&lt;/td&gt;
-        &lt;td style=&quot;color:red&quot;&gt;该项目代码疑似由BTG代码更改而成。&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币白金 (比特派会在分叉高度做快照并在主网稳定后支持比特币白金的提取) Bitcoin Platinum 使用区块链技术进行操作、无需中央治理或第三方干预; Bitcoin Platinum的管理、发行和维护由分散网络集体进行。</summary></entry></feed>
+&lt;/table&gt;</content><author><name></name></author><summary type="html">超级比特币 (比特派将于SBTC分叉主网稳定后第一时间开通支持。) SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是2017年11月15日，开发团队是Super Bitcoin，团队成员包括大名鼎鼎的中国比特币首富李笑来。 SBTC是一种新的比特币分叉币，按照Super Bitcoin团队的说法，SBTC将于2017年12月17日进行硬分叉试验。SBTC的区块容量大小为8MB，总发行量为2121万个，多出来的21万个为分叉预挖币，简单的说是专门留给12月17日分叉试验时挖矿的奖励。 SBTC目前的诸多规格参数并没有公布，比如采用何种共识算法，是ASIC挖矿还是GPU挖矿，是否支持SegWit、是否带有重放保护统统未知。 但SBTC融入了智能合约、闪电网络、零知识证明以及移除动态检查点保护功能，这些功能正在2017年12月17日分叉试验时并不具备，将会在2018年陆续增加。</summary></entry></feed>

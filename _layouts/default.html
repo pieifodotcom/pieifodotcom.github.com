@@ -55,7 +55,7 @@
                                                 <ul class="menu-vertical">
                                                     {% for item in link['menuList'] %}
                                                     <li>
-                                                        <a href="#" id="{{item['id']}}" class="inner-link" style="font-size: 14px">
+                                                        <a href="#" id="{{item['id']}}" class="inner-link" style="font-size: 14px" data-toggle-class="#menu1;hidden-xs">
                                                             {{item['menuName']}}
                                                         </a>
                                                     </li>
@@ -82,13 +82,9 @@
                 <div class="tabs-header">
                     <div class="border"></div>
                     <ul class="menu_list">
-                        {% for link in site.headerMenu %}
-                        {% if link['menuTitle'] == "分叉" %}
-                        {% for item in link['menuList'] %}
-                        <li class="active"><a id="{{item['id']}}" tab-id="1"
-                                              ripple-color="#FFF">{{item['menuName']}}</a></li>
-                        {% endfor %}
-                        {% endif %}
+                        {% for link in site.defaultType %}
+                        <li class="active"><a id="{{link['id']}}" tab-id="1"
+                                              ripple-color="#FFF">{{link['menuName']}}</a></li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -100,7 +96,7 @@
         <div class="container">
             <div class="coin_list">
                 <ul class="clearfix">
-                    {% for link in site.btForkInfo %}
+                    {% for link in site.coinForkInfo %}
                     <li class="coin_info">
                         <a href="{{link['imageHref']}}"><img
                                 src="{{link['imageUrl']}}"></a>
@@ -149,7 +145,9 @@
 {% include js.html %}
 <script>
     $(document).ready(function () {
-        displayBlockHight();
+        displayBtHight();
+        displayEthHight();
+        displayLtcHight();
         updateTab();
     });
 
@@ -200,57 +198,141 @@
         window.location.href="pages/ifoservice.html";
     });
 
-    $("body").on('click','#typefork',function(){
-        fork();
+    $("body").on('click','#btfork',function(){
+        btFork();
     });
 
-    $("body").on('click','#typebtairdrop',function(){
-        btairdrop();
+    $("body").on('click','#ethfork',function(){
+        ethFork();
     });
 
-    $("body").on('click','#forkall',function(){
-        updateForkAll();
+    $("body").on('click','#ltcfork',function(){
+        ltcFork();
     });
 
-    $("body").on('click','#forking',function(){
-        updateForking();
+    $("body").on('click','#candy',function(){
+        candy();
     });
 
-    $("body").on('click','#forkend',function(){
-        updateForkend();
-    });
+    $("body").on('click','#all',function(){
+        updateAll();
+    })
 
-    $("body").on('click','#forkstart',function(){
-        updateForkStart();
-    });
+    $("body").on('click','#ing',function(){
+        updateing();
+    })
+
+    $("body").on('click','#end',function(){
+        updateend();
+    })
+
+    $("body").on('click','#start',function(){
+        updateStart();
+    })
 
     $("body").on('click','#btall',function(){
-        updateBtAll();
+        updateBtForkAll();
     });
 
-    $("body").on('click','#btprocessing',function(){
-        updateEtProcessing();
+    $("body").on('click','#bting',function(){
+        updateBtForking();
     });
 
     $("body").on('click','#btend',function(){
-        updateEtEnd();
+        updateBtForkend();
     });
 
-    function fork() {
+    $("body").on('click','#btstart',function(){
+        updateBtForkStart();
+    });
+
+    $("body").on('click','#ethall',function(){
+        updateEthForkAll();
+    });
+
+    $("body").on('click','#ething',function(){
+        updateEthForking();
+    });
+
+    $("body").on('click','#ethend',function(){
+        updateEthForkend();
+    });
+
+    $("body").on('click','#ethstart',function(){
+        updateEthForkStart();
+    });
+
+    $("body").on('click','#ltcall',function(){
+        updateLtcForkAll();
+    });
+
+    $("body").on('click','#ltcing',function(){
+        updateLtcForking();
+    });
+
+    $("body").on('click','#ltcend',function(){
+        updateLtcForkend();
+    });
+
+    $("body").on('click','#ltcstart',function(){
+        updateLtcForkStart();
+    });
+
+    $("body").on('click','#candyall',function(){
+        candyAll();
+    });
+
+    $("body").on('click','#candying',function(){
+        candying();
+    });
+
+    $("body").on('click','#candyend',function(){
+        candyEnd();
+    });
+
+    function btFork() {
         $(".menu_list").empty();
         $(".menu_list").append("{% for link in site.headerMenu %}\n" +
-            "    {% if link['menuTitle'] == '分叉' %}\n" +
+            "    {% if link['menuTitle'] == '比特分叉' %}\n" +
             "    {% for item in link['menuList'] %}\n" +
             "    <li class=\"active\"><a id=\"{{item['id']}}\" tab-id=\"1\"\n" +
             "                          ripple-color=\"#FFF\">{{item['menuName']}}</a></li>\n" +
             "    {% endfor %}\n" +
             "    {% endif %}\n" +
             "    {% endfor %}");
-        updateForkAll();
+        updateBtForkAll();
         updateTab();
     }
 
-    function btairdrop() {
+    function ethFork() {
+        $(".menu_list").empty();
+        $(".menu_list").append("{% for link in site.headerMenu %}\n" +
+            "    {% if link['menuTitle'] == '以太分叉' %}\n" +
+            "    {% for item in link['menuList'] %}\n" +
+            "    <li class=\"active\"><a id=\"{{item['id']}}\" tab-id=\"1\"\n" +
+            "                          ripple-color=\"#FFF\">{{item['menuName']}}</a></li>\n" +
+            "    {% endfor %}\n" +
+            "    {% endif %}\n" +
+            "    {% endfor %}");
+        updateEthForkAll();
+        updateTab();
+    }
+
+    function ltcFork() {
+        $(".menu_list").empty();
+        $(".menu_list").append("{% for link in site.headerMenu %}\n" +
+            "    {% if link['menuTitle'] == '莱特分叉' %}\n" +
+            "    {% for item in link['menuList'] %}\n" +
+            "    <li class=\"active\"><a id=\"{{item['id']}}\" tab-id=\"1\"\n" +
+            "                          ripple-color=\"#FFF\">{{item['menuName']}}</a></li>\n" +
+            "    {% endfor %}\n" +
+            "    {% endif %}\n" +
+            "    {% endfor %}");
+        updateLtcForkAll();
+        updateTab();
+    }
+
+    function candy() {
         $(".menu_list").empty();
         $(".menu_list").append("{% for link in site.headerMenu %}\n" +
             "    {% if link['menuTitle'] == '糖果' %}\n" +
@@ -260,13 +342,13 @@
             "    {% endfor %}\n" +
             "    {% endif %}\n" +
             "    {% endfor %}");
-        updateBtAll();
+        candyAll();
         updateTab();
     }
 
-    function updateForkAll() {
+    function updateAll() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.btForkInfo %}\n" +
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
             "                    <li class=\"coin_info\">\n" +
             "                        <a href=\"{{link['imageHref']}}\"><img\n" +
             "                                src=\"{{link['imageUrl']}}\"></a>\n" +
@@ -300,12 +382,14 @@
             "                        </div>\n" +
             "                    </li>\n" +
             "                    {% endfor %}")
-        displayBlockHight();
+        displayLtcHight();
+        displayEthHight();
+        displayBtHight();
     }
 
-    function updateForking() {
+    function updateing() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.btForkInfo %}\n" +
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
             "{% if link['state'] == 0 %}\n" +
             "<li class=\"coin_info\">\n" +
             "    <a href=\"{{link['imageHref']}}\"><img\n" +
@@ -341,12 +425,14 @@
             "</li>\n" +
             "{% endif %}\n" +
             "{% endfor %}\n");
-        displayBlockHight();
+        displayLtcHight();
+        displayEthHight();
+        displayBtHight();
     }
 
-    function updateForkend() {
+    function updateend() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.btForkInfo %}\n" +
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
             "{% if link['state'] == 1 %}\n" +
             "<li class=\"coin_info\">\n" +
             "    <a href=\"{{link['imageHref']}}\"><img\n" +
@@ -382,12 +468,11 @@
             "</li>\n" +
             "{% endif %}\n" +
             "{% endfor %}\n");
-        displayBlockHight();
     }
 
-    function updateForkStart() {
+    function updateStart() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.btForkInfo %}\n" +
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
             "{% if link['state'] == 2 %}\n" +
             "<li class=\"coin_info\">\n" +
             "    <a href=\"{{link['imageHref']}}\"><img\n" +
@@ -423,12 +508,515 @@
             "</li>\n" +
             "{% endif %}\n" +
             "{% endfor %}\n");
-        displayBlockHight();
     }
 
-    function updateBtAll() {
+    function updateBtForkAll() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.btAirdropInfo %}\n" +
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'btForkInfo' %}\n" +
+            "                    <li class=\"coin_info\">\n" +
+            "                        <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                                src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                        <div class=\"hot-info\">\n" +
+            "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "                            <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "                            <div class=\"details\">\n" +
+            "                                <div class=\"col-xs-3\">\n" +
+            "                                    <span>\n" +
+            "                                        {{link['blockHight']}}\n" +
+            "                                    </span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "\n" +
+            "                                <div class=\"col-xs-3\">\n" +
+            "                                    <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                                        {{link['currentHight']}}\n" +
+            "                                    </span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "\n" +
+            "                                <div class=\"col-xs-4\">\n" +
+            "                                    <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "                            </div>\n" +
+            "                            <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                        </div>\n" +
+            "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "                            {{link['stateTitle']}}\n" +
+            "                        </div>\n" +
+            "                    </li>\n" +
+            "{% endif %}\n" +
+            "                    {% endfor %}")
+        displayBtHight();
+    }
+
+    function updateBtForking() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'btForkInfo' %}\n" +
+            "{% if link['state'] == 0 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
+        displayBtHight();
+    }
+
+    function updateBtForkend() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'btForkInfo' %}\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
+    }
+
+    function updateBtForkStart() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'btForkInfo' %}\n" +
+            "{% if link['state'] == 2 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
+    }
+
+    function updateEthForkAll() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'ethForkInfo' %}\n" +
+            "                    <li class=\"coin_info\">\n" +
+            "                        <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                                src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                        <div class=\"hot-info\">\n" +
+            "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "                            <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "                            <div class=\"details\">\n" +
+            "                                <div class=\"col-xs-3\">\n" +
+            "                                    <span>\n" +
+            "                                        {{link['blockHight']}}\n" +
+            "                                    </span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "\n" +
+            "                                <div class=\"col-xs-3\">\n" +
+            "                                    <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                                        {{link['currentHight']}}\n" +
+            "                                    </span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "\n" +
+            "                                <div class=\"col-xs-4\">\n" +
+            "                                    <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "                            </div>\n" +
+            "                            <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                        </div>\n" +
+            "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "                            {{link['stateTitle']}}\n" +
+            "                        </div>\n" +
+            "                    </li>\n" +
+            "{% endif %}\n" +
+            "                    {% endfor %}")
+        displayEthHight();
+    }
+
+    function updateEthForking() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'ethForkInfo' %}\n" +
+            "{% if link['state'] == 0 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
+        displayEthHight();
+    }
+
+    function updateEthForkend() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'ethForkInfo' %}\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
+    }
+
+    function updateEthForkStart() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'ethForkInfo' %}\n" +
+            "{% if link['state'] == 2 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
+    }
+
+    function updateLtcForkAll() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'ltcForkInfo' %}\n" +
+            "                    <li class=\"coin_info\">\n" +
+            "                        <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                                src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                        <div class=\"hot-info\">\n" +
+            "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "                            <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "                            <div class=\"details\">\n" +
+            "                                <div class=\"col-xs-3\">\n" +
+            "                                    <span>\n" +
+            "                                        {{link['blockHight']}}\n" +
+            "                                    </span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "\n" +
+            "                                <div class=\"col-xs-3\">\n" +
+            "                                    <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                                        {{link['currentHight']}}\n" +
+            "                                    </span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "\n" +
+            "                                <div class=\"col-xs-4\">\n" +
+            "                                    <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "                            </div>\n" +
+            "                            <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                        </div>\n" +
+            "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "                            {{link['stateTitle']}}\n" +
+            "                        </div>\n" +
+            "                    </li>\n" +
+            "{% endif %}\n" +
+            "                    {% endfor %}")
+        displayLtcHight();
+    }
+
+    function updateLtcForking() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'ltcForkInfo' %}\n" +
+            "{% if link['state'] == 0 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
+        displayLtcHight();
+    }
+
+    function updateLtcForkend() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'ltcForkInfo' %}\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
+    }
+
+    function updateLtcForkStart() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+            "{% if link['belong'] == 'ltcForkInfo' %}\n" +
+            "{% if link['state'] == 2 %}\n" +
+            "<li class=\"coin_info\">\n" +
+            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "            src=\"{{link['imageUrl']}}\"></a>\n" +
+            "    <div class=\"hot-info\">\n" +
+            "        <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "        <div class=\"details\">\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span>\n" +
+            "                    {{link['blockHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-3\">\n" +
+            "                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                    {{link['currentHight']}}\n" +
+            "                </span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "            </div>\n" +
+            "\n" +
+            "            <div class=\"col-xs-4\">\n" +
+            "                <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "    </div>\n" +
+            "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "        {{link['stateTitle']}}\n" +
+            "    </div>\n" +
+            "</li>\n" +
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
+    }
+
+    function candyAll() {
+        $(".clearfix").empty();
+        $(".clearfix").append("{% for link in site.candyInfo %}\n" +
             "                    <li class=\"coin_info\">\n" +
             "                        <a href=\"{{link['imageHref']}}\"><img\n" +
             "                                src=\"{{link['imageUrl']}}\"></a>\n" +
@@ -445,9 +1033,9 @@
             "                    {% endfor %}")
     }
 
-    function updateEtProcessing() {
+    function candying() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.btAirdropInfo %}\n" +
+        $(".clearfix").append("{% for link in site.candyInfo %}\n" +
             "{% if link['state'] == 1 %}\n" +
             "<li class=\"coin_info\">\n" +
             "    <a href=\"{{link['imageHref']}}\"><img\n" +
@@ -465,9 +1053,9 @@
             "{% endfor %}\n")
     }
 
-    function updateEtEnd() {
+    function candyEnd() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.btAirdropInfo %}\n" +
+        $(".clearfix").append("{% for link in site.candyInfo %}\n" +
             "{% if link['state'] == 0 %}\n" +
             "<li class=\"coin_info\">\n" +
             "    <a href=\"{{link['imageHref']}}\"><img\n" +
@@ -485,17 +1073,35 @@
             "{% endfor %}\n");
     }
 
-    function modifyTimeValue(hight) {
-        var blockHight = "{%for link in site.btForkInfo%} {{link['blockHight']}}{% endfor %}";
-        var timeClass = "{%for link in site.btForkInfo%} {{link['timeClass']}}{% endfor %}";
-        var timeTitle = "{%for link in site.btForkInfo%} {{link['timeTitleClass']}}{% endfor %}";
+    function modifyBtTimeValue(hight) {
+        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['blockHight']}} {% endif %}{% endfor %}";
+        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeClass']}} {% endif %}{% endfor %}";
+        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeTitleClass']}} {% endif %}{% endfor %}";
+        midifyRestTime(blockHight,timeClass,timeTitle,600,hight);
+    }
+
+    function modifyEthTimeValue(hight) {
+        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['blockHight']}} {% endif %}{% endfor %}";
+        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['timeClass']}} {% endif %}{% endfor %}";
+        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['timeTitleClass']}} {% endif %}{% endfor %}";
+        midifyRestTime(blockHight,timeClass,timeTitle,14.5,hight);
+    }
+
+    function modifyLtcTimeValue(hight) {
+        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['blockHight']}} {% endif %}{% endfor %}";
+        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeClass']}} {% endif %}{% endfor %}";
+        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeTitleClass']}} {% endif %}{% endfor %}";
+        midifyRestTime(blockHight,timeClass,timeTitle,130,hight);
+    }
+    
+    function midifyRestTime(blockHight,timeClass,timeTitle,time,hight) {
         var blockHightArr = blockHight.split(" ");
         var timeClassArr = timeClass.split(" ");
         var timeTitleArr = timeTitle.split(" ");
         for (var i = 0; i < timeClassArr.length; i++) {
             if (i != 0) {
                 if ($("." + timeClassArr[i]).text() != "0" && blockHightArr[i] != "未公布" && $("." + timeClassArr[i]).text() != "未确定") {
-                    var timeDiscrepancy = (blockHightArr[i] - hight) * 10 * 60 * 1000;
+                    var timeDiscrepancy = (blockHightArr[i] - hight) * time * 1000;
                     if (timeDiscrepancy > 0) {
                         var days = Math.floor(timeDiscrepancy / (24 * 3600 * 1000))
                         var leave1 = timeDiscrepancy % (24 * 3600 * 1000)
@@ -515,21 +1121,48 @@
         }
     }
 
-    function displayBlockHight() {
-        $.get("https://bitpie.getcai.com/api/v1/bitcoind/status?currentstring=" + new Date().getTime(), {}, function (data) {
-            var blockhight = data.headers;
-            var hightStr = "{%for link in site.btForkInfo%} {{link['currentHightClass']}}{% endfor %}";
+
+    function displayBtHight() {
+        $.get("https://bitpie.getcai.com/api/v1/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
+            var blockhight = data.height;
+            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
             var hightArr = hightStr.split(" ");
             for (var i = 0; i < hightArr.length; i++) {
                 if (i != 0) {
                     $("." + hightArr[i]).text(blockhight);
-                    modifyTimeValue(blockhight);
+                    modifyBtTimeValue(blockhight);
                 }
             }
         })
     }
 
+    function displayEthHight() {
+        $.get("https://bitpie.getcai.com/api/v1/eth/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
+            var blockhight = data.height;
+            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
+            var hightArr = hightStr.split(" ");
+            for (var i = 0; i < hightArr.length; i++) {
+                if (i != 0) {
+                    $("." + hightArr[i]).text(blockhight);
+                    modifyEthTimeValue(blockhight);
+                }
+            }
+        })
+    }
 
+    function displayLtcHight() {
+        $.get("https://bitpie.getcai.com/api/v1/ltc/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
+            var blockhight = data.height;
+            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
+            var hightArr = hightStr.split(" ");
+            for (var i = 0; i < hightArr.length; i++) {
+                if (i != 0) {
+                    $("." + hightArr[i]).text(blockhight);
+                    modifyLtcTimeValue(blockhight);
+                }
+            }
+        })
+    }
 </script>
 
 </body>

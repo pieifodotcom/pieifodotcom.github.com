@@ -41,30 +41,63 @@ plugins:
 headerLogo: /resource/logo.jpg
 
 headerMenu:
-  - menuTitle: 分叉
-    id: typefork
-    menuList:
-      - menuName: 全部
-        id: forkall
-      - menuName: 即将分叉
-        id: forking
-      - menuName: 已分叉
-        id: forkend
-      - menuName: 分叉中
-        id: forkstart
-  - menuTitle: 糖果
-    id: typebtairdrop
+  - menuTitle: 比特分叉
+    id: btfork
     menuList:
       - menuName: 全部
         id: btall
-      - menuName: 进行中
-        id: btprocessing
-      - menuName: 已结束
+      - menuName: 即将分叉
+        id: bting
+      - menuName: 已分叉
         id: btend
+      - menuName: 分叉中
+        id: btstart
+  - menuTitle: 以太分叉
+    id: ethfork
+    menuList:
+      - menuName: 全部
+        id: ethall
+      - menuName: 即将分叉
+        id: ething
+      - menuName: 已分叉
+        id: ethend
+      - menuName: 分叉中
+        id: ethstart
+  - menuTitle: 莱特分叉
+    id: ltcfork
+    menuList:
+      - menuName: 全部
+        id: ltcall
+      - menuName: 即将分叉
+        id: ltcing
+      - menuName: 已分叉
+        id: ltcend
+      - menuName: 分叉中
+        id: ltcstart
+  - menuTitle: 糖果
+    id: candy
+    menuList:
+      - menuName: 全部
+        id: candyall
+      - menuName: 进行中
+        id: candying
+      - menuName: 已结束
+        id: candyend
   - menuTitle: ifo服务
     id: ifoservice
 
-btForkInfo:
+defaultType:
+  - menuName: 全部
+    id: all
+  - menuName: 即将分叉
+    id: ing
+  - menuName: 已分叉
+    id: end
+  - menuName: 分叉中
+    id: start
+
+
+coinForkInfo:
   - imageHref: /pages/btpdetail
     imageUrl: /resource/btp.jpg
     coinName: 比特币白金(BTP)
@@ -83,6 +116,7 @@ btForkInfo:
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/sbtcdetail
     imageUrl: /resource/sbtc.jpg
     coinName: 超级比特币(SBTC)
@@ -101,6 +135,7 @@ btForkInfo:
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/lbtcdetail.html
     imageUrl: /resource/lbtc.jpg
     coinName: 闪电比特币(LBTC)
@@ -119,13 +154,14 @@ btForkInfo:
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/goddetail.html
     imageUrl: /resource/default.jpg
     coinName: 比特币上帝(BTG)
-    coinInfo: 二宝主导的分叉，完全由社区自治
+    coinInfo: 社区自治的分叉
     blockHightTitle: 分叉高度
-    blockHight: 未公布
-    timeTitle: 预估分叉日期
+    blockHight: 501225
+    timeTitle: 加载中
     timeTitleClass: godtimetitle
     time: 2017/12/25
     currentHightTitle: 当前块高
@@ -137,6 +173,26 @@ btForkInfo:
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
+    belong: btForkInfo
+  - imageHref: /pages/btkdetail.html
+    imageUrl: /resource/default.jpg
+    coinName: 比特君主(BTK)
+    coinInfo: 低费率的电子现金系统
+    blockHightTitle: 分叉高度
+    blockHight: 499999
+    timeTitle: 加载中
+    timeTitleClass: btktimetitle
+    time: 2017/12/25
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: btkhight
+    timeClass: king
+    btnTitle: 查看详情
+    btnHref: /pages/btkdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/uraniumdetail.html
     imageUrl: /resource/uranium.jpg
     coinName: 比特铀(BTU)
@@ -155,6 +211,26 @@ btForkInfo:
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
+    belong: btForkInfo
+  - imageHref: /pages/ethfogdetail.html
+    imageUrl: /resource/default.jpg
+    coinName: 以太雾(ETF)
+    coinInfo: 发展为下一代雾计算平台
+    blockHightTitle: 分叉高度
+    blockHight: 4830000
+    timeTitle: 预估分叉日期
+    timeTitleClass: uraniumtimetitle
+    time: 2018/1/1
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: ethfoghight
+    timeClass: ethfog
+    btnTitle: 查看详情
+    btnHref: /pages/ethfogdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: ethForkInfo
   - imageHref: /pages/plusdetail.html
     imageUrl: /resource/plus.jpg
     coinName: 比特币增强现金(BCP)
@@ -173,6 +249,26 @@ btForkInfo:
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
+    belong: btForkInfo
+  - imageHref: /pages/ltcltsdetail.html
+    imageUrl: /resource/default.jpg
+    coinName: 莱特股(LTS)
+    coinInfo: 引入POS机制
+    blockHightTitle: 分叉高度
+    blockHight: 1359668
+    timeTitle: 倒计时
+    timeTitleClass: ltcltstimetitle
+    time: 2018/1/15
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: ltcltshight
+    timeClass: ltclts
+    btnTitle: 查看详情
+    btnHref: /pages/ltcltsdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: ltcForkInfo
   - imageHref: /pages/silverdetail.html
     imageUrl: /resource/silver.jpg
     coinName: 比特币白银(BTS)
@@ -191,6 +287,7 @@ btForkInfo:
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/bcddetail
     imageUrl: /resource/bcd.jpg
     coinName: 比特钻石(BCD)
@@ -211,6 +308,7 @@ btForkInfo:
     stateTitle: 分叉中
     state: 2
     stateColor: ED6363
+    belong: btForkInfo
   - imageHref: /pages/btgdetail
     imageUrl: /resource/btg.jpg
     coinName: 比特金(BTG)
@@ -231,6 +329,7 @@ btForkInfo:
     stateTitle: 已分叉
     state: 1
     stateColor: 3AACEB
+    belong: btForkInfo
   - imageHref: /pages/bchdetail
     imageUrl: /resource/bch.jpg
     coinName: 比特现金(BCH)
@@ -251,6 +350,7 @@ btForkInfo:
     stateTitle: 已分叉
     state: 1
     stateColor: 3AACEB
+    belong: btForkInfo
   - imageHref: /pages/b2xdetail
     imageUrl: /resource/default.jpg
     coinName: Bitcoin Segwit 2X(B2X)
@@ -271,8 +371,9 @@ btForkInfo:
     stateTitle: 已取消
     state: 3
     stateColor: C8C8C8
+    belong: btForkInfo
 
-btAirdropInfo:
+candyInfo:
   - imageHref: /pages/byteballdetail
     imageUrl: /resource/byteball.jpg
     coinName: 雪球币
