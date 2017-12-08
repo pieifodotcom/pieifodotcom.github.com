@@ -1073,6 +1073,48 @@
             "{% endfor %}\n");
     }
 
+    function displayBtHight() {
+        $.get("https://bitpie.getcai.com/api/v1/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
+            var blockhight = data.height;
+            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
+            var hightArr = hightStr.split(" ");
+            for (var i = 0; i < hightArr.length; i++) {
+                if (i != 0) {
+                    $("." + hightArr[i]).text(blockhight);
+                }
+            }
+            modifyBtTimeValue(blockhight);
+        })
+    }
+
+    function displayEthHight() {
+        $.get("https://bitpie.getcai.com/api/v1/eth/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
+            var blockhight = data.height;
+            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
+            var hightArr = hightStr.split(" ");
+            for (var i = 0; i < hightArr.length; i++) {
+                if (i != 0) {
+                    $("." + hightArr[i]).text(blockhight);
+                }
+            }
+            modifyEthTimeValue(blockhight);
+        })
+    }
+
+    function displayLtcHight() {
+        $.get("https://bitpie.getcai.com/api/v1/ltc/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
+            var blockhight = data.height;
+            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
+            var hightArr = hightStr.split(" ");
+            for (var i = 0; i < hightArr.length; i++) {
+                if (i != 0) {
+                    $("." + hightArr[i]).text(blockhight);
+                }
+            }
+            modifyLtcTimeValue(blockhight);
+        })
+    }
+
     function modifyBtTimeValue(hight) {
         var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['blockHight']}} {% endif %}{% endfor %}";
         var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeClass']}} {% endif %}{% endfor %}";
@@ -1093,7 +1135,7 @@
         var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeTitleClass']}} {% endif %}{% endfor %}";
         midifyRestTime(blockHight,timeClass,timeTitle,130,hight);
     }
-    
+
     function midifyRestTime(blockHight,timeClass,timeTitle,time,hight) {
         var blockHightArr = blockHight.split(" ");
         var timeClassArr = timeClass.split(" ");
@@ -1121,48 +1163,6 @@
         }
     }
 
-
-    function displayBtHight() {
-        $.get("https://bitpie.getcai.com/api/v1/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
-            var blockhight = data.height;
-            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
-            var hightArr = hightStr.split(" ");
-            for (var i = 0; i < hightArr.length; i++) {
-                if (i != 0) {
-                    $("." + hightArr[i]).text(blockhight);
-                    modifyBtTimeValue(blockhight);
-                }
-            }
-        })
-    }
-
-    function displayEthHight() {
-        $.get("https://bitpie.getcai.com/api/v1/eth/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
-            var blockhight = data.height;
-            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
-            var hightArr = hightStr.split(" ");
-            for (var i = 0; i < hightArr.length; i++) {
-                if (i != 0) {
-                    $("." + hightArr[i]).text(blockhight);
-                    modifyEthTimeValue(blockhight);
-                }
-            }
-        })
-    }
-
-    function displayLtcHight() {
-        $.get("https://bitpie.getcai.com/api/v1/ltc/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
-            var blockhight = data.height;
-            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['currentHightClass']}} {% endif %}{% endfor %}";
-            var hightArr = hightStr.split(" ");
-            for (var i = 0; i < hightArr.length; i++) {
-                if (i != 0) {
-                    $("." + hightArr[i]).text(blockhight);
-                    modifyLtcTimeValue(blockhight);
-                }
-            }
-        })
-    }
 </script>
 
 </body>
