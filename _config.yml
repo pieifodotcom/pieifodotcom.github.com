@@ -117,6 +117,25 @@ coinForkInfo:
     state: 0
     stateColor: F99F26
     belong: btForkInfo
+  - imageHref: /pages/ubdetail
+    imageUrl: /resource/default.jpg
+    coinName: 联合比特币(UB)
+    coinInfo: 支持智能合约和闪电网络的比特币
+    blockHightTitle: 分叉高度
+    blockHight: 498777
+    timeTitle: 倒计时
+    timeTitleClass: ubtimetitle
+    time: 2017/12/12
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: ubhight
+    timeClass: ub
+    btnTitle: 查看详情
+    btnHref: /pages/ubdetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/bcxdetail
     imageUrl: /resource/default.jpg
     coinName: 比特无限(BCX)
@@ -151,6 +170,25 @@ coinForkInfo:
     timeClass: sbtc
     btnTitle: 查看详情
     btnHref: /pages/sbtcdetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
+  - imageHref: /pages/bcwdetail
+    imageUrl: /resource/default.jpg
+    coinName: Bitcoin World(BCW)
+    coinInfo: BCW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币
+    blockHightTitle: 分叉高度
+    blockHight: 499777
+    timeTitle: 倒计时
+    timeTitleClass: bcwtimetitle
+    time: 2017/12/19
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: bcwhight
+    timeClass: bcw
+    btnTitle: 查看详情
+    btnHref: /pages/bcwdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
@@ -269,6 +307,25 @@ coinForkInfo:
     state: 0
     stateColor: F99F26
     belong: btForkInfo
+  - imageHref: /pages/ltcsltcdetail.html
+    imageUrl: /resource/default.jpg
+    coinName: 超级莱特币(SLTC)
+    coinInfo: 基于莱特币网络的硬分叉
+    blockHightTitle: 分叉高度
+    blockHight: 1343999
+    timeTitle: 倒计时
+    timeTitleClass: ltcsltctimetitle
+    time: 2018/1/5
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: ltcsltchight
+    timeClass: ltcsltc
+    btnTitle: 查看详情
+    btnHref: /pages/ltcsltcdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: ltcForkInfo
   - imageHref: /pages/ltcltsdetail.html
     imageUrl: /resource/default.jpg
     coinName: 莱特股(LTS)
