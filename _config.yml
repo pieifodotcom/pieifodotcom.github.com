@@ -98,25 +98,6 @@ defaultType:
 
 
 coinForkInfo:
-  - imageHref: /pages/btpdetail
-    imageUrl: /resource/btp.jpg
-    coinName: 比特币白金(BTP)
-    coinInfo: 分叉高度由496525推迟至498533
-    blockHightTitle: 分叉高度
-    blockHight: 498533
-    timeTitle: 倒计时
-    timeTitleClass: btptimetitle
-    time: 2017/12/11
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: btphight
-    timeClass: btp
-    btnTitle: 查看详情
-    btnHref: /pages/btpdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
   - imageHref: /pages/ubdetail
     imageUrl: /resource/ub.jpg
     coinName: 联合比特币(UBTC)
@@ -151,6 +132,25 @@ coinForkInfo:
     timeClass: bcx
     btnTitle: 查看详情
     btnHref: /pages/bcxdetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
+  - imageHref: /pages/btpaydetail
+    imageUrl: /resource/btpay.jpg
+    coinName: 比特币支付
+    coinInfo: 比特币支付致力于建立更便捷的全球支付生态
+    blockHightTitle: 分叉高度
+    blockHight: 499345
+    timeTitle: 倒计时
+    timeTitleClass: btpaytimetitle
+    time: 2017/12/16
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: btpayhight
+    timeClass: btpay
+    btnTitle: 查看详情
+    btnHref: /pages/btpaydetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
@@ -208,6 +208,25 @@ coinForkInfo:
     timeClass: lbtc
     btnTitle: 查看详情
     btnHref: /pages/lbtcdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
+  - imageHref: /pages/btpdetail
+    imageUrl: /resource/btp.jpg
+    coinName: 比特币白金(BTP)
+    coinInfo: 分叉高度由496525推迟至498533
+    blockHightTitle: 分叉高度
+    blockHight: 500000
+    timeTitle: 倒计时
+    timeTitleClass: btptimetitle
+    time: 2017/12/23
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: btphight
+    timeClass: btp
+    btnTitle: 查看详情
+    btnHref: /pages/btpdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
