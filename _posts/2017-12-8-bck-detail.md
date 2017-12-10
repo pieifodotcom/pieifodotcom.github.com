@@ -1,6 +1,6 @@
 ---
-layout: btkdetail
-title:  btkdetail
+layout: bckdetail
+title:  bckdetail
 permalink: /detail/
 ---
 <h1 style="color: #2F416A">比特君主</h1>

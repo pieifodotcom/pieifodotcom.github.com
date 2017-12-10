@@ -119,7 +119,7 @@ coinForkInfo:
     belong: btForkInfo
   - imageHref: /pages/ubdetail
     imageUrl: /resource/default.jpg
-    coinName: 联合比特币(UB)
+    coinName: 联合比特币(UBTC)
     coinInfo: 支持智能合约和闪电网络的比特币
     blockHightTitle: 分叉高度
     blockHight: 498777
@@ -231,21 +231,21 @@ coinForkInfo:
     state: 0
     stateColor: F99F26
     belong: btForkInfo
-  - imageHref: /pages/btkdetail.html
+  - imageHref: /pages/bckdetail.html
     imageUrl: /resource/default.jpg
-    coinName: 比特君主(BTK)
+    coinName: 比特君主(BCK)
     coinInfo: 低费率的电子现金系统
     blockHightTitle: 分叉高度
     blockHight: 499999
     timeTitle: 加载中
-    timeTitleClass: btktimetitle
+    timeTitleClass: bcktimetitle
     time: 2017/12/25
     currentHightTitle: 当前块高
     currentHight: 加载中
-    currentHightClass: btkhight
+    currentHightClass: bckhight
     timeClass: king
     btnTitle: 查看详情
-    btnHref: /pages/btkdetail.html
+    btnHref: /pages/bckdetail.html
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
