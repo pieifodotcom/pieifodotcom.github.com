@@ -118,7 +118,7 @@ coinForkInfo:
     stateColor: F99F26
     belong: btForkInfo
   - imageHref: /pages/ubdetail
-    imageUrl: /resource/default.jpg
+    imageUrl: /resource/ub.jpg
     coinName: 联合比特币(UBTC)
     coinInfo: 支持智能合约和闪电网络的比特币
     blockHightTitle: 分叉高度

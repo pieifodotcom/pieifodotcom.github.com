@@ -42,7 +42,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>项目官网</td>
-        <td><a href="www.bcx.org" target="_blank">www.bcx.org</a></td>
+        <td><a href="http://www.bcx.org/" target="_blank">http://www.bcx.org</a></td>
     </tr>
     <tr>
         <td>项目团队</td>
