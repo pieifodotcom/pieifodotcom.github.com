@@ -117,6 +117,25 @@ coinForkInfo:
     state: 0
     stateColor: F99F26
     belong: btForkInfo
+  - imageHref: /pages/sbtcdetail
+    imageUrl: /resource/sbtc.jpg
+    coinName: 超级比特币(SBTC)
+    coinInfo: 让比特币网络拥有智能合约
+    blockHightTitle: 分叉高度
+    blockHight: 498888
+    timeTitle: 倒计时
+    timeTitleClass: sbtcdtimetitle
+    time: 2017/12/17
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: sbtchight
+    timeClass: sbtc
+    btnTitle: 查看详情
+    btnHref: /pages/sbtcdetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/bcxdetail
     imageUrl: /resource/default.jpg
     coinName: 比特无限(BCX)
@@ -151,25 +170,6 @@ coinForkInfo:
     timeClass: btpay
     btnTitle: 查看详情
     btnHref: /pages/btpaydetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/sbtcdetail
-    imageUrl: /resource/sbtc.jpg
-    coinName: 超级比特币(SBTC)
-    coinInfo: 让比特币网络拥有智能合约
-    blockHightTitle: 分叉高度
-    blockHight: 498888
-    timeTitle: 倒计时
-    timeTitleClass: sbtcdtimetitle
-    time: 2017/12/17
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: sbtchight
-    timeClass: sbtc
-    btnTitle: 查看详情
-    btnHref: /pages/sbtcdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
@@ -212,6 +212,25 @@ coinForkInfo:
     state: 0
     stateColor: F99F26
     belong: btForkInfo
+  - imageHref: /pages/bckdetail.html
+    imageUrl: /resource/default.jpg
+    coinName: 比特君主(BCK)
+    coinInfo: 低费率的电子现金系统
+    blockHightTitle: 分叉高度
+    blockHight: 499999
+    timeTitle: 加载中
+    timeTitleClass: bcktimetitle
+    time: 2017/12/25
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: bckhight
+    timeClass: king
+    btnTitle: 查看详情
+    btnHref: /pages/bckdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/btpdetail
     imageUrl: /resource/btp.jpg
     coinName: 比特币铂金(BTP)
@@ -246,25 +265,6 @@ coinForkInfo:
     timeClass: god
     btnTitle: 查看详情
     btnHref: /pages/goddetail.html
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/bckdetail.html
-    imageUrl: /resource/default.jpg
-    coinName: 比特君主(BCK)
-    coinInfo: 低费率的电子现金系统
-    blockHightTitle: 分叉高度
-    blockHight: 499999
-    timeTitle: 加载中
-    timeTitleClass: bcktimetitle
-    time: 2017/12/25
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: bckhight
-    timeClass: king
-    btnTitle: 查看详情
-    btnHref: /pages/bckdetail.html
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
