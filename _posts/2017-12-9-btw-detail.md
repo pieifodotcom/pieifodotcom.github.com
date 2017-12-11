@@ -44,7 +44,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>项目官网</td>
-        <td><a href="https://bitcoinworld.com/" target="_blank">https://bitcoinworld.com</a></td>
+        <td><a href="http://www.btw.one" target="_blank">http://www.btw.one</a></td>
     </tr>
     <tr>
         <td>项目团队</td>
