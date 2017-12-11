@@ -157,7 +157,7 @@ coinForkInfo:
     belong: btForkInfo
   - imageHref: /pages/btpaydetail
     imageUrl: /resource/btpay.jpg
-    coinName: 比特支付
+    coinName: 比特支付(BTP)
     coinInfo: 比特支付致力于建立更便捷的全球支付生态
     blockHightTitle: 分叉高度
     blockHight: 499345
