@@ -14,7 +14,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Bitcoin X</td>
+        <td class="tablehalf">Bitcoin X(BCX) 比特无限</td>
     </tr>
     <tr>
         <td>分叉高度</td>

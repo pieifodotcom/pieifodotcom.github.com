@@ -14,7 +14,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Bitcoin Cash Plus</td>
+        <td class="tablehalf">Bitcoin Cash Plus(BCP) 比特币增强现金</td>
     </tr>
     <tr>
         <td>分叉高度</td>

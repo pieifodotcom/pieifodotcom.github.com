@@ -13,7 +13,7 @@ permalink: /detail/
   <tbody>
     <tr style="text-align: center">
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Bitcoin Platinum</td>
+        <td class="tablehalf">Bitcoin Platinum(BTP) 比特币铂金</td>
     </tr>
     <tr>
         <td>分叉高度</td>

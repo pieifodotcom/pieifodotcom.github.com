@@ -98,6 +98,25 @@ defaultType:
 
 
 coinForkInfo:
+  - imageHref: /pages/bthdetail
+    imageUrl: /resource/default.jpg
+    coinName: 比特热点(BTH)
+    coinInfo: 全新的BtHash算法，能够让普通用户用CPU和GPU参与挖矿
+    blockHightTitle: 分叉高度
+    blockHight: 498848
+    timeTitle: 倒计时
+    timeTitleClass: bthtimetitle
+    time: 2017/12/12
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: bthhight
+    timeClass: bth
+    btnTitle: 查看详情
+    btnHref: /pages/bthdetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/ubdetail
     imageUrl: /resource/ub.jpg
     coinName: 联合比特币(UBTC)
@@ -364,6 +383,25 @@ coinForkInfo:
     state: 0
     stateColor: F99F26
     belong: ltcForkInfo
+  - imageHref: /pages/qbtcdetail.html
+    imageUrl: /resource/qbtc.jpg
+    coinName: 量子比特币(QBTC)
+    coinInfo: 结合量子链特点的比特币创新分叉实验
+    blockHightTitle: 分叉高度
+    blockHight: 未公布
+    timeTitle: 发布日期
+    timeTitleClass: qbtctimetitle
+    time: 2017/12/28
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: qbtchight
+    timeClass: qbtc
+    btnTitle: 查看详情
+    btnHref: /pages/qbtcdetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/silverdetail.html
     imageUrl: /resource/silver.jpg
     coinName: 比特币白银(BTS)

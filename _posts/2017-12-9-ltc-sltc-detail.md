@@ -12,7 +12,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Super Litecoin</td>
+        <td class="tablehalf">Super Litecoin (SLTC) 超级莱特币</td>
     </tr>
     <tr>
         <td>分叉高度</td>

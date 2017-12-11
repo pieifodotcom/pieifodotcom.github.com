@@ -14,7 +14,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Bitcoin Uranium</td>
+        <td class="tablehalf">Bitcoin Uranium(BTU) 比特铀</td>
     </tr>
     <tr>
         <td>分叉高度</td>

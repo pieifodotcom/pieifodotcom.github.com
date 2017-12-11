@@ -11,7 +11,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">LBTC</td>
+        <td class="tablehalf">Lightning Bitcoin(LBTC) 闪电比特币</td>
     </tr>
     <tr>
         <td>分叉高度</td>

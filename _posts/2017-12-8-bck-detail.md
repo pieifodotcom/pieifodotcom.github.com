@@ -14,7 +14,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Bitcoin King(BCK)</td>
+        <td class="tablehalf">Bitcoin King(BCK) 比特君主</td>
     </tr>
     <tr>
         <td>分叉高度</td>

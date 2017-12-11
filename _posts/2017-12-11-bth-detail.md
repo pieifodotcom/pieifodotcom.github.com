@@ -1,28 +1,28 @@
 ---
-layout: silverdetail
-title:  silverdetail
+layout: bthdetail
+title:  bthdetail
 permalink: /detail/
 ---
-<h1 style="color: #2F416A">比特币白银</h1>
+<h1 style="color: #2F416A">比特热点</h1>
 <small>针对越来越多的分叉，比特派提醒大家：
        区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
        比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
 </small>
-<p>主要对挖矿算法进行更新使全网算力更加分散。
+<p>全新的BtHash算法，能够让普通用户用CPU和GPU参与挖矿。
 </p>
 <table class="center">
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Bitcoin Silver(BTS) 比特币白银</td>
+        <td class="tablehalf">Bitcoin Hot(BTH) 比特热点</td>
     </tr>
     <tr>
         <td>分叉高度</td>
-        <td>未公布</td>
+        <td>498848</td>
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>未公布</td>
+        <td>2017年12月12日</td>
     </tr>
     <tr>
         <td>重放保护</td>
@@ -30,27 +30,27 @@ permalink: /detail/
     </tr>
     <tr>
         <td>挖矿算法</td>
-        <td>GPU挖矿(equihash)</td>
+        <td>BtHash (CPU+GPU)</td>
     </tr>
     <tr>
         <td>是否预挖</td>
-        <td>未公布</td>
+        <td>21,000,000</td>
     </tr>
     <tr>
-        <td>分叉币数量比例</td>
-        <td>1:1</td>
+        <td>比例</td>
+        <td>1：100</td>
+    </tr>
+    <tr>
+        <td>总量</td>
+        <td>21.21亿</td>
     </tr>
     <tr>
         <td>项目官网</td>
-        <td><a href="https://bitcointalk.org/index.php?topic=2311582" target="_blank">https://bitcointalk.org</a></td>
-    </tr>
-    <tr>
-        <td>项目团队</td>
         <td>未公布</td>
     </tr>
     <tr>
-        <td>其他信息</td>
-        <td></td>
+        <td>项目团队</td>
+        <td>硅谷匿名团队</td>
     </tr>
   </tbody>
 </table>

@@ -14,7 +14,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Litecoin shares</td>
+        <td class="tablehalf">Litecoin shares(LTS) 莱特股</td>
     </tr>
     <tr>
         <td>分叉高度</td>

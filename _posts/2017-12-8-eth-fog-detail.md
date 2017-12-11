@@ -16,7 +16,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Ethereum Fog</td>
+        <td class="tablehalf">Ethereum Fog(ETF) 以太雾</td>
     </tr>
     <tr>
         <td>分叉高度</td>

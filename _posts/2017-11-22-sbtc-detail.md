@@ -18,7 +18,7 @@ SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是201
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">SBTC</td>
+        <td class="tablehalf">Super Bitcoin(SBTC) 超级比特币</td>
     </tr>
     <tr>
         <td>分叉高度</td>

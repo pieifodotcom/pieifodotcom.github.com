@@ -18,7 +18,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">United Bitcoin</td>
+        <td class="tablehalf">United Bitcoin(UB) 联合比特币</td>
     </tr>
     <tr>
         <td>分叉高度</td>

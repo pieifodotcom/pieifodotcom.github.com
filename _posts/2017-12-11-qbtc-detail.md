@@ -1,26 +1,13 @@
-<!DOCTYPE HTML>
-<html lang="UTF-8">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" type="image/x-icon" href="/resource/icon.png" media="screen"/>
-    <title>pieifo.com</title>
-    <link rel="stylesheet" type='text/css' href="../css/detailmain.css">
-
-</head>
-<body>
-<div style="margin:0 auto;display: none">
-    <img src="/resource/share.jpg">
-</div>
-<div class="body">
-    <div id="content" class="content">
-        
-        
-        <h1 style="color: #2F416A">量子比特币</h1>
-<p><small>针对越来越多的分叉，比特派提醒大家：
+---
+layout: qbtcdetail
+title:  qbtcdetail
+permalink: /detail/
+---
+<h1 style="color: #2F416A">量子比特币</h1>
+<small>针对越来越多的分叉，比特派提醒大家：
        区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
        比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
-</small></p>
+</small>
 <p>QBTC，是Quantum Bitcoin 的缩写，中文名称：量子比特币。未来QBTC将具有全新特性，如闪电到账，加密用户隐私特权，降低交易手续费，大区块8M扩容，重放保护，支持隔离验证（SegWit），DAA难度调整机制。团队后续还会尝试POW+POS的共识机制。中期实验将会尝试兼容包括以太坊在内的各类虚拟机，同时将POW转为PoS共识机制，为商业应用落地和分布式移动应用提供更多可能性。随着对项目的不断创新，项目团队会尝试加入图灵完备的智能合约（源于以太坊的创新）以及在QBTC主链上创建新的区块链资产和应用，打造一个超级智能和高度可扩展性的量子比特币生态系统。
 </p>
 <table class="center">
@@ -67,72 +54,3 @@
     </tr>
   </tbody>
 </table>
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </div>
-</div>
-<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="../js/fontawesome.js"></script>
-<script type="text/javascript" src="../js/scripts.js"></script>
-<script type="text/javascript" src="../js/smooth-scroll.min.js"></script>
-<div style="display:none">
-    <script src="https://s13.cnzz.com/z_stat.php?id=1270999888&web_id=1270999888" language="JavaScript"></script>
-</div>
-<script>
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?6575fddd5f840f591fdc90b980bf8daf";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-</body>
-</html>

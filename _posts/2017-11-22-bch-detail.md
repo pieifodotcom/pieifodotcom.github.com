@@ -32,7 +32,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">BCH</td>
+        <td class="tablehalf">Bitcoin Cash(BCH) 比特币现金</td>
     </tr>
     <tr>
         <td>分叉高度</td>

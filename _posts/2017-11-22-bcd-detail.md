@@ -31,7 +31,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">BCD</td>
+        <td class="tablehalf">Bitcoin Diamond(BCD) 比特币钻石</td>
     </tr>
     <tr>
         <td>分叉高度</td>

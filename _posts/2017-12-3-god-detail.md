@@ -14,7 +14,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Bitcoin God</td>
+        <td class="tablehalf">Bitcoin God(BTG) 比特币上帝</td>
     </tr>
     <tr>
         <td>分叉高度</td>

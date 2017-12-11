@@ -12,7 +12,7 @@ permalink: /detail/
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Bitcoin Pay</td>
+        <td class="tablehalf">Bitcoin Pay(BTP)比特支付</td>
     </tr>
     <tr>
         <td>分叉高度</td>
