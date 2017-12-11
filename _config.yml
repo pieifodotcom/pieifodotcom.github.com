@@ -118,7 +118,7 @@ coinForkInfo:
     stateColor: F99F26
     belong: btForkInfo
   - imageHref: /pages/bthdetail
-    imageUrl: /resource/default.jpg
+    imageUrl: /resource/bthot.jpg
     coinName: 比特热点(BTH)
     coinInfo: 全新的BtHash算法，能够让普通用户用CPU和GPU参与挖矿
     blockHightTitle: 分叉高度
@@ -212,7 +212,7 @@ coinForkInfo:
     state: 0
     stateColor: F99F26
     belong: btForkInfo
-  - imageHref: /pages/lbtcdetail.html
+  - imageHref: /pages/lbtcdetail
     imageUrl: /resource/lbtc.jpg
     coinName: 闪电比特币(LBTC)
     coinInfo: 引入DPOS共识机制
@@ -226,12 +226,12 @@ coinForkInfo:
     currentHightClass: lbtchight
     timeClass: lbtc
     btnTitle: 查看详情
-    btnHref: /pages/lbtcdetail.html
+    btnHref: /pages/lbtcdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
     belong: btForkInfo
-  - imageHref: /pages/bckdetail.html
+  - imageHref: /pages/bckdetail
     imageUrl: /resource/default.jpg
     coinName: 比特君主(BCK)
     coinInfo: 低费率的电子现金系统
@@ -245,7 +245,7 @@ coinForkInfo:
     currentHightClass: bckhight
     timeClass: king
     btnTitle: 查看详情
-    btnHref: /pages/bckdetail.html
+    btnHref: /pages/bckdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
@@ -288,7 +288,7 @@ coinForkInfo:
     state: 0
     stateColor: F99F26
     belong: btForkInfo
-  - imageHref: /pages/goddetail.html
+  - imageHref: /pages/goddetail
     imageUrl: /resource/default.jpg
     coinName: 比特币上帝(BTG)
     coinInfo: 社区自治的分叉
@@ -302,12 +302,12 @@ coinForkInfo:
     currentHightClass: godhight
     timeClass: god
     btnTitle: 查看详情
-    btnHref: /pages/goddetail.html
+    btnHref: /pages/goddetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
     belong: btForkInfo
-  - imageHref: /pages/bpadetail.html
+  - imageHref: /pages/bpadetail
     imageUrl: /resource/pizza.jpg
     coinName: 比特币比萨(BPA)
     coinInfo: Bitcoin Pizza将DAG技术运用在比特币上，即把比特币DAG化
@@ -321,12 +321,31 @@ coinForkInfo:
     currentHightClass: bpahight
     timeClass: bpa
     btnTitle: 查看详情
-    btnHref: /pages/bpadetail.html
+    btnHref: /pages/bpadetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
     belong: btForkInfo
-  - imageHref: /pages/uraniumdetail.html
+  - imageHref: /pages/btadetail
+    imageUrl: /resource/bta.jpg
+    coinName: 比特币荣耀(BTA)
+    coinInfo: 比特币区块高度分叉出来的无预挖无超发的分山币
+    blockHightTitle: 分叉高度
+    blockHight: 1514736000
+    timeTitle: 加载中
+    timeTitleClass: btatimetitle
+    time: 2018/1/1
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: btahight
+    timeClass: bta
+    btnTitle: 查看详情
+    btnHref: /pages/btadetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
+  - imageHref: /pages/uraniumdetail
     imageUrl: /resource/uranium.jpg
     coinName: 比特铀(BTU)
     coinInfo: 采用equhash算法
@@ -340,12 +359,12 @@ coinForkInfo:
     currentHightClass: uraniumhight
     timeClass: uranium
     btnTitle: 查看详情
-    btnHref: /pages/uraniumdetail.html
+    btnHref: /pages/uraniumdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
     belong: btForkInfo
-  - imageHref: /pages/ethfogdetail.html
+  - imageHref: /pages/ethfogdetail
     imageUrl: /resource/default.jpg
     coinName: 以太雾(ETF)
     coinInfo: 发展为下一代雾计算平台
@@ -359,12 +378,12 @@ coinForkInfo:
     currentHightClass: ethfoghight
     timeClass: ethfog
     btnTitle: 查看详情
-    btnHref: /pages/ethfogdetail.html
+    btnHref: /pages/ethfogdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
     belong: ethForkInfo
-  - imageHref: /pages/plusdetail.html
+  - imageHref: /pages/plusdetail
     imageUrl: /resource/plus.jpg
     coinName: 比特币增强现金(BCP)
     coinInfo: 低费率的电子现金系统
@@ -378,12 +397,12 @@ coinForkInfo:
     currentHightClass: plushight
     timeClass: plus
     btnTitle: 查看详情
-    btnHref: /pages/plusdetail.html
+    btnHref: /pages/plusdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
     belong: btForkInfo
-  - imageHref: /pages/ltcsltcdetail.html
+  - imageHref: /pages/ltcsltcdetail
     imageUrl: /resource/default.jpg
     coinName: 超级莱特币(SLTC)
     coinInfo: 基于莱特币网络的硬分叉
@@ -397,12 +416,12 @@ coinForkInfo:
     currentHightClass: ltcsltchight
     timeClass: ltcsltc
     btnTitle: 查看详情
-    btnHref: /pages/ltcsltcdetail.html
+    btnHref: /pages/ltcsltcdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
     belong: ltcForkInfo
-  - imageHref: /pages/ltcltsdetail.html
+  - imageHref: /pages/ltcltsdetail
     imageUrl: /resource/default.jpg
     coinName: 莱特股(LTS)
     coinInfo: 引入POS机制
@@ -416,12 +435,12 @@ coinForkInfo:
     currentHightClass: ltcltshight
     timeClass: ltclts
     btnTitle: 查看详情
-    btnHref: /pages/ltcltsdetail.html
+    btnHref: /pages/ltcltsdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
     belong: ltcForkInfo
-  - imageHref: /pages/qbtcdetail.html
+  - imageHref: /pages/qbtcdetail
     imageUrl: /resource/qbtc.jpg
     coinName: 量子比特币(QBTC)
     coinInfo: 结合量子链特点的比特币创新分叉实验
@@ -435,12 +454,12 @@ coinForkInfo:
     currentHightClass: qbtchight
     timeClass: qbtc
     btnTitle: 查看详情
-    btnHref: /pages/qbtcdetail.html
+    btnHref: /pages/qbtcdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
     belong: btForkInfo
-  - imageHref: /pages/silverdetail.html
+  - imageHref: /pages/silverdetail
     imageUrl: /resource/silver.jpg
     coinName: 比特币白银(BTS)
     coinInfo: 主要对挖矿算法进行更新使全网算力更加分散
@@ -454,7 +473,7 @@ coinForkInfo:
     currentHightClass: silverhight
     timeClass: silver
     btnTitle: 查看详情
-    btnHref: /pages/silverdetail.html
+    btnHref: /pages/silverdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26
