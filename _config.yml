@@ -174,21 +174,21 @@ coinForkInfo:
     state: 0
     stateColor: F99F26
     belong: btForkInfo
-  - imageHref: /pages/bcwdetail
+  - imageHref: /pages/btwdetail
     imageUrl: /resource/default.jpg
-    coinName: Bitcoin World(BCW)
-    coinInfo: BCW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币
+    coinName: 比特世界(BTW)
+    coinInfo: BTW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币
     blockHightTitle: 分叉高度
     blockHight: 499777
     timeTitle: 倒计时
-    timeTitleClass: bcwtimetitle
+    timeTitleClass: btwtimetitle
     time: 2017/12/19
     currentHightTitle: 当前块高
     currentHight: 加载中
-    currentHightClass: bcwhight
-    timeClass: bcw
+    currentHightClass: btwhight
+    timeClass: btw
     btnTitle: 查看详情
-    btnHref: /pages/bcwdetail
+    btnHref: /pages/btwdetail
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://192.168.1.59:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://192.168.1.59:4000/" rel="alternate" type="text/html" /><updated>2017-12-11T11:59:35+08:00</updated><id>http://192.168.1.59:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">btpaydetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="btpaydetail" /><published>2017-12-10T00:00:00+08:00</published><updated>2017-12-10T00:00:00+08:00</updated><id>http://192.168.1.59:4000/btpay-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币支付&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://192.168.1.59:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://192.168.1.59:4000/" rel="alternate" type="text/html" /><updated>2017-12-11T13:00:17+08:00</updated><id>http://192.168.1.59:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">btpaydetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="btpaydetail" /><published>2017-12-10T00:00:00+08:00</published><updated>2017-12-10T00:00:00+08:00</updated><id>http://192.168.1.59:4000/btpay-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币支付&lt;/h1&gt;
 &lt;p&gt;比特派已经与Bitcoin Pay团队进行过深入的技术沟通，会在主网上线后支持BTP的提取。
 &lt;/p&gt;
 &lt;p&gt;比特币支付致力于建立更便捷的全球支付生态。
@@ -170,10 +170,10 @@
         &lt;td&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">超级莱特币 比特派会在SLTC主网上线后支持该分叉币的提取。 基于莱特币网络的硬分叉。 项目名 Super Litecoin 分叉高度 1343999 分叉时间（预计） 2018年1月5日 重放保护 支持 区块大小 未公布 共识算法 POW 总量 未知 分叉币数量比例 未公布 项目官网 即将上线 项目团队 其他信息</summary></entry><entry><title type="html">bcwdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="bcwdetail" /><published>2017-12-09T00:00:00+08:00</published><updated>2017-12-09T00:00:00+08:00</updated><id>http://192.168.1.59:4000/bcw-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币世界&lt;/h1&gt;
-&lt;p&gt;随着比特币的使用越来越广泛，比特币网络最近一年来出现多次大规模的持续拥堵，转账手续费持续被推高，用户体验极其差。Bitcoin World  Foundation 推出的BCW，旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币，从而提高比特币的用户体验。
+&lt;/table&gt;</content><author><name></name></author><summary type="html">超级莱特币 比特派会在SLTC主网上线后支持该分叉币的提取。 基于莱特币网络的硬分叉。 项目名 Super Litecoin 分叉高度 1343999 分叉时间（预计） 2018年1月5日 重放保护 支持 区块大小 未公布 共识算法 POW 总量 未知 分叉币数量比例 未公布 项目官网 即将上线 项目团队 其他信息</summary></entry><entry><title type="html">btwdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="btwdetail" /><published>2017-12-09T00:00:00+08:00</published><updated>2017-12-09T00:00:00+08:00</updated><id>http://192.168.1.59:4000/btw-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币世界&lt;/h1&gt;
+&lt;p&gt;随着比特币的使用越来越广泛，比特币网络最近一年来出现多次大规模的持续拥堵，转账手续费持续被推高，用户体验极其差。Bitcoin World  Foundation 推出的BTW，旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币，从而提高比特币的用户体验。
 &lt;/p&gt;
-&lt;p&gt;BCW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币。
+&lt;p&gt;BTW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币。
 &lt;/p&gt;
 &lt;table class=&quot;center&quot;&gt;
   &lt;tbody&gt;
@@ -211,7 +211,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;即将上线&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;https://bitcoinworld.com/&quot; target=&quot;_blank&quot;&gt;https://bitcoinworld.com&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目团队&lt;/td&gt;
@@ -222,7 +222,7 @@
         &lt;td&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币世界 随着比特币的使用越来越广泛，比特币网络最近一年来出现多次大规模的持续拥堵，转账手续费持续被推高，用户体验极其差。Bitcoin World Foundation 推出的BCW，旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币，从而提高比特币的用户体验。 BCW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币。 项目名 Bitcoin World 分叉高度 499777 分叉时间 2017年12月19日 重放保护 支持 区块大小 8M 共识算法 GPU （EQUI） 总量 未知 分叉币数量比例 1：10000 项目官网 即将上线 项目团队 Bitcoin World Foundation 其他信息</summary></entry><entry><title type="html">ltcltsdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="ltcltsdetail" /><published>2017-12-08T00:00:00+08:00</published><updated>2017-12-08T00:00:00+08:00</updated><id>http://192.168.1.59:4000/ltc-lts-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;莱特股&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币世界 随着比特币的使用越来越广泛，比特币网络最近一年来出现多次大规模的持续拥堵，转账手续费持续被推高，用户体验极其差。Bitcoin World Foundation 推出的BTW，旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币，从而提高比特币的用户体验。 BTW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币。 项目名 Bitcoin World 分叉高度 499777 分叉时间 2017年12月19日 重放保护 支持 区块大小 8M 共识算法 GPU （EQUI） 总量 未知 分叉币数量比例 1：10000 项目官网 https://bitcoinworld.com 项目团队 Bitcoin World Foundation 其他信息</summary></entry><entry><title type="html">ltcltsdetail</title><link href="http://192.168.1.59:4000/detail/" rel="alternate" type="text/html" title="ltcltsdetail" /><published>2017-12-08T00:00:00+08:00</published><updated>2017-12-08T00:00:00+08:00</updated><id>http://192.168.1.59:4000/ltc-lts-detail</id><content type="html" xml:base="http://192.168.1.59:4000/detail/">&lt;h1 style=&quot;color: #2F416A&quot;&gt;莱特股&lt;/h1&gt;
 &lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
        区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
        比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。

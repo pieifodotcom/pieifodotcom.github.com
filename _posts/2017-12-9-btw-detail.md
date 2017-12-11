@@ -1,12 +1,12 @@
 ---
-layout: bcwdetail
-title:  bcwdetail
+layout: btwdetail
+title:  btwdetail
 permalink: /detail/
 ---
 <h1 style="color: #2F416A">比特币世界</h1>
-<p>随着比特币的使用越来越广泛，比特币网络最近一年来出现多次大规模的持续拥堵，转账手续费持续被推高，用户体验极其差。Bitcoin World  Foundation 推出的BCW，旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币，从而提高比特币的用户体验。
+<p>随着比特币的使用越来越广泛，比特币网络最近一年来出现多次大规模的持续拥堵，转账手续费持续被推高，用户体验极其差。Bitcoin World  Foundation 推出的BTW，旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币，从而提高比特币的用户体验。
 </p>
-<p>BCW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币。
+<p>BTW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币。
 </p>
 <table class="center">
   <tbody>
@@ -44,7 +44,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>项目官网</td>
-        <td>即将上线</td>
+        <td><a href="https://bitcoinworld.com/" target="_blank">https://bitcoinworld.com</a></td>
     </tr>
     <tr>
         <td>项目团队</td>
