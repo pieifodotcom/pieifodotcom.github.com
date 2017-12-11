@@ -329,7 +329,7 @@ coinForkInfo:
   - imageHref: /pages/btadetail
     imageUrl: /resource/bta.jpg
     coinName: 比特币荣耀(BTA)
-    coinInfo: 为让比特币更加荣耀的所有矿机可挖的分山币。
+    coinInfo: 为让比特币更加荣耀的所有矿机可挖的分山币
     blockHightTitle: 分叉高度
     blockHight: 1514736000
     timeTitle: 加载中
