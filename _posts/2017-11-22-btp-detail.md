@@ -3,12 +3,12 @@ layout: btpdetail
 title:  btpdetail
 permalink: /detail/
 ---
-<h1 style="color: #2F416A">比特币白金</h1>
-<p class="summarytxt" style="color: #2F416A">(比特派会在分叉高度做快照并在主网稳定后支持比特币白金的提取)
+<h1 style="color: #2F416A">比特币铂金</h1>
+<p style="color: red">比特币铂金疑似一场骗局
 </p>
+<a href="http://www.chainknow.com/detail/475.html" target="_blank">http://www.chainknow.com/detail/475.html</a>
 <p>Bitcoin Platinum 使用区块链技术进行操作、无需中央治理或第三方干预; Bitcoin Platinum的管理、发行和维护由分散网络集体进行。
 </p>
-
 <table class="center">
   <tbody>
     <tr style="text-align: center">
@@ -17,11 +17,11 @@ permalink: /detail/
     </tr>
     <tr>
         <td>分叉高度</td>
-        <td>498533</td>
+        <td>500000</td>
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2017年12月11日</td>
+        <td>2017年12月23日</td>
     </tr>
     <tr>
         <td>重放保护</td>

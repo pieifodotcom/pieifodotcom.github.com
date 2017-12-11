@@ -214,8 +214,8 @@ coinForkInfo:
     belong: btForkInfo
   - imageHref: /pages/btpdetail
     imageUrl: /resource/btp.jpg
-    coinName: 比特币白金(BTP)
-    coinInfo: 分叉高度由496525推迟至498533
+    coinName: 比特币铂金(BTP)
+    coinInfo: 比特币铂金的创造者承认比特币铂金是一个骗局
     blockHightTitle: 分叉高度
     blockHight: 500000
     timeTitle: 倒计时
