@@ -157,8 +157,8 @@ coinForkInfo:
     belong: btForkInfo
   - imageHref: /pages/btpaydetail
     imageUrl: /resource/btpay.jpg
-    coinName: 比特币支付
-    coinInfo: 比特币支付致力于建立更便捷的全球支付生态
+    coinName: 比特支付
+    coinInfo: 比特支付致力于建立更便捷的全球支付生态
     blockHightTitle: 分叉高度
     blockHight: 499345
     timeTitle: 倒计时
