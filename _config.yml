@@ -250,6 +250,25 @@ coinForkInfo:
     state: 0
     stateColor: F99F26
     belong: btForkInfo
+  - imageHref: /pages/btfdetail
+    imageUrl: /resource/btf.jpg
+    coinName: 比特信仰(BTF)
+    coinInfo: 具备大区块支持，并改进共识机制
+    blockHightTitle: 分叉高度
+    blockHight: 500000
+    timeTitle: 倒计时
+    timeTitleClass: btftimetitle
+    time: 2017/12/23
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: btfhight
+    timeClass: btf
+    btnTitle: 查看详情
+    btnHref: /pages/btfdetail
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
   - imageHref: /pages/btpdetail
     imageUrl: /resource/btp.jpg
     coinName: 比特币铂金(BTP)
@@ -284,6 +303,25 @@ coinForkInfo:
     timeClass: god
     btnTitle: 查看详情
     btnHref: /pages/goddetail.html
+    stateTitle: 即将分叉
+    state: 0
+    stateColor: F99F26
+    belong: btForkInfo
+  - imageHref: /pages/bpadetail.html
+    imageUrl: /resource/pizza.jpg
+    coinName: 比特币比萨(BPA)
+    coinInfo: Bitcoin Pizza将DAG技术运用在比特币上，即把比特币DAG化
+    blockHightTitle: 分叉高度
+    blockHight: 501888
+    timeTitle: 加载中
+    timeTitleClass: bpatimetitle
+    time: 2018/1/1
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: bpahight
+    timeClass: bpa
+    btnTitle: 查看详情
+    btnHref: /pages/bpadetail.html
     stateTitle: 即将分叉
     state: 0
     stateColor: F99F26

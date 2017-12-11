@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="UTF-8">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" type="image/x-icon" href="/resource/icon.png" media="screen"/>
+    <title>pieifo.com</title>
+    {% include detailCss.html %}
+</head>
+<body>
+<div style="margin:0 auto;display: none">
+    <img src="/resource/share.jpg">
+</div>
+<div class="body">
+    <div id="content" class="content">
+        {% for post in site.posts %}
+        {% if post.layout == "btfdetail" %}
+        {{post.content}}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% include detailJs.html %}
+</body>
+</html>
