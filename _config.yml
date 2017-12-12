@@ -113,9 +113,9 @@ coinForkInfo:
     timeClass: ub
     btnTitle: 查看详情
     btnHref: /pages/ubdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
+    stateTitle: 分叉中
+    state: 2
+    stateColor: ED6363
     belong: btForkInfo
   - imageHref: /pages/bthdetail
     imageUrl: /resource/bthot.jpg
