@@ -302,10 +302,23 @@ li .pro-status {
   background: #353535;
 }
 
+.footer .donate p {
+  color: #c8c8c8;
+  font-size: 12px;
+  margin-bottom: 0.85714286em;
+}
+
+.footer .donate img {
+  max-width: 60px;
+  max-height: 60px;
+  margin-bottom: 0.85714286em;
+}
+
 .footer .row a {
   color: #c8c8c8;
   font-size: 16px;
 }
+
 
 
 @media (min-width: 413px) and (max-width: 991px) {
