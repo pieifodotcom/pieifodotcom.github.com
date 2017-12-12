@@ -29,8 +29,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 theme: minima
-#plugins:
-#  - jekyll-paginate
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -98,63 +97,6 @@ defaultType:
 
 
 coinForkInfo:
-  - imageHref: /pages/bthdetail
-    imageUrl: /resource/bthot.jpg
-    coinName: 比特热点(BTH)
-    coinInfo: 全新的BtHash算法，能够让普通用户用CPU和GPU参与挖矿
-    blockHightTitle: 分叉高度
-    blockHight: 498848
-    timeTitle: 倒计时
-    timeTitleClass: bthtimetitle
-    time: 2017/12/12
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: bthhight
-    timeClass: bth
-    btnTitle: 查看详情
-    btnHref: /pages/bthdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/sbtcdetail
-    imageUrl: /resource/sbtc.jpg
-    coinName: 超级比特币(SBTC)
-    coinInfo: 让比特币网络拥有智能合约
-    blockHightTitle: 分叉高度
-    blockHight: 498888
-    timeTitle: 倒计时
-    timeTitleClass: sbtcdtimetitle
-    time: 2017/12/17
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: sbtchight
-    timeClass: sbtc
-    btnTitle: 查看详情
-    btnHref: /pages/sbtcdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/bcxdetail
-    imageUrl: /resource/default.jpg
-    coinName: 比特无限(BCX)
-    coinInfo: Bitcoin X 结合了零知识证明，智能合约，并会在未来更改为DPOS共识机制
-    blockHightTitle: 分叉高度
-    blockHight: 498888
-    timeTitle: 倒计时
-    timeTitleClass: bcxdtimetitle
-    time: 2017/12/13
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: bcxhight
-    timeClass: bcx
-    btnTitle: 查看详情
-    btnHref: /pages/bcxdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
   - imageHref: /pages/btpaydetail
     imageUrl: /resource/btpay.jpg
     coinName: 比特支付(BTP)
@@ -495,6 +437,63 @@ coinForkInfo:
     timeClass: ub
     btnTitle: 查看详情
     btnHref: /pages/ubdetail
+    stateTitle: 分叉中
+    state: 2
+    stateColor: 3AB69C
+    belong: btForkInfo
+  - imageHref: /pages/bthdetail
+    imageUrl: /resource/bthot.jpg
+    coinName: 比特热点(BTH)
+    coinInfo: 全新的BtHash算法，能够让普通用户用CPU和GPU参与挖矿
+    blockHightTitle: 分叉高度
+    blockHight: 498848
+    timeTitle: 倒计时
+    timeTitleClass: bthtimetitle
+    time: 2017/12/12
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: bthhight
+    timeClass: bth
+    btnTitle: 查看详情
+    btnHref: /pages/bthdetail
+    stateTitle: 分叉中
+    state: 2
+    stateColor: 3AB69C
+    belong: btForkInfo
+  - imageHref: /pages/sbtcdetail
+    imageUrl: /resource/sbtc.jpg
+    coinName: 超级比特币(SBTC)
+    coinInfo: 让比特币网络拥有智能合约
+    blockHightTitle: 分叉高度
+    blockHight: 498888
+    timeTitle: 倒计时
+    timeTitleClass: sbtcdtimetitle
+    time: 2017/12/17
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: sbtchight
+    timeClass: sbtc
+    btnTitle: 查看详情
+    btnHref: /pages/sbtcdetail
+    stateTitle: 分叉中
+    state: 2
+    stateColor: 3AB69C
+    belong: btForkInfo
+  - imageHref: /pages/bcxdetail
+    imageUrl: /resource/default.jpg
+    coinName: 比特无限(BCX)
+    coinInfo: Bitcoin X 结合了零知识证明，智能合约，并会在未来更改为DPOS共识机制
+    blockHightTitle: 分叉高度
+    blockHight: 498888
+    timeTitle: 倒计时
+    timeTitleClass: bcxdtimetitle
+    time: 2017/12/13
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: bcxhight
+    timeClass: bcx
+    btnTitle: 查看详情
+    btnHref: /pages/bcxdetail
     stateTitle: 分叉中
     state: 2
     stateColor: 3AB69C
