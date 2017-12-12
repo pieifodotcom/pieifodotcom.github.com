@@ -51,10 +51,6 @@ permalink: /detail/
         <td>2M</td>
     </tr>
     <tr>
-        <td>分叉币数量比例</td>
-        <td>1：10000</td>
-    </tr>
-    <tr>
         <td>总隔离验证</td>
         <td>支持</td>
     </tr>
@@ -68,7 +64,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>隐私保护</td>
-        <td>1：10000</td>
+        <td>零知识证明</td>
     </tr>
     <tr>
         <td>闪电网络</td>
