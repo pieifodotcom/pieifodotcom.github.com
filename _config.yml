@@ -576,10 +576,10 @@ candyInfo:
   - imageHref: /pages/btxdetail
     imageUrl: /resource/btx.jpg
     coinName: BTX
-    coinInfo: 领取BTX需要用户导入私钥，极端危险。
+    coinInfo: 首批正常，第二批则需用户导入私钥，极端危险，不建议领取。
     btnTitle: 查看详情
     btnHref: /pages/btxdetail
-    stateTitle: 高风险
+    stateTitle: SCAM
     state: 1
     stateColor: ED6363
   - imageHref: /pages/stellardetail
