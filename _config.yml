@@ -98,25 +98,6 @@ defaultType:
 
 
 coinForkInfo:
-  - imageHref: /pages/ubdetail
-    imageUrl: /resource/ub.jpg
-    coinName: 联合比特币(UBTC)
-    coinInfo: 支持智能合约和闪电网络的比特币
-    blockHightTitle: 分叉高度
-    blockHight: 498777
-    timeTitle: 倒计时
-    timeTitleClass: ubtimetitle
-    time: 2017/12/12
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: ubhight
-    timeClass: ub
-    btnTitle: 查看详情
-    btnHref: /pages/ubdetail
-    stateTitle: 分叉中
-    state: 2
-    stateColor: ED6363
-    belong: btForkInfo
   - imageHref: /pages/bthdetail
     imageUrl: /resource/bthot.jpg
     coinName: 比特热点(BTH)
@@ -495,6 +476,25 @@ coinForkInfo:
     timeClass: btcd
     btnTitle: 查看详情
     btnHref: /pages/bcddetail
+    stateTitle: 分叉中
+    state: 2
+    stateColor: ED6363
+    belong: btForkInfo
+  - imageHref: /pages/ubdetail
+    imageUrl: /resource/ub.jpg
+    coinName: 联合比特币(UBTC)
+    coinInfo: 支持智能合约和闪电网络的比特币
+    blockHightTitle: 分叉高度
+    blockHight: 498777
+    timeTitle: 倒计时
+    timeTitleClass: ubtimetitle
+    time: 2017/12/12
+    currentHightTitle: 当前块高
+    currentHight: 加载中
+    currentHightClass: ubhight
+    timeClass: ub
+    btnTitle: 查看详情
+    btnHref: /pages/ubdetail
     stateTitle: 分叉中
     state: 2
     stateColor: ED6363
