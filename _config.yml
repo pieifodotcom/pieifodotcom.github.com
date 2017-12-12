@@ -29,8 +29,8 @@ markdown: kramdown
 kramdown:
   input: GFM
 theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -478,7 +478,7 @@ coinForkInfo:
     btnHref: /pages/bcddetail
     stateTitle: 分叉中
     state: 2
-    stateColor: ED6363
+    stateColor: 3AB69C
     belong: btForkInfo
   - imageHref: /pages/ubdetail
     imageUrl: /resource/ub.jpg
@@ -497,7 +497,7 @@ coinForkInfo:
     btnHref: /pages/ubdetail
     stateTitle: 分叉中
     state: 2
-    stateColor: ED6363
+    stateColor: 3AB69C
     belong: btForkInfo
   - imageHref: /pages/btgdetail
     imageUrl: /resource/btg.jpg
@@ -576,12 +576,12 @@ candyInfo:
   - imageHref: /pages/btxdetail
     imageUrl: /resource/btx.jpg
     coinName: BTX
-    coinInfo: 比特币的复制网络，通过派发糖果方式给比特币持有者发币。
+    coinInfo: 领取BTX需要用户导入私钥，极端危险。
     btnTitle: 查看详情
     btnHref: /pages/btxdetail
-    stateTitle: 进行中
+    stateTitle: 高风险
     state: 1
-    stateColor: F99F26
+    stateColor: ED6363
   - imageHref: /pages/stellardetail
     imageUrl: /resource/stellar.jpg
     coinName: 恒星币
