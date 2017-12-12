@@ -46,6 +46,7 @@
                     <div class="bar__module">
                         <ul class="menu-horizontal text-right">
                             {% for link in site.headerMenu %}
+
                             <li class="dropdown">
                                 <span id="{{link['id']}}" class="dropdown__trigger">{{link['menuTitle']}}</span>
                                 <div class="dropdown__container hidden-sm hidden-md hidden-lg">
@@ -74,7 +75,6 @@
         </div>
     </nav>
 </div>
-
 <div class="main-container">
     <section class="no-bottom no-top" style="margin-top: 10px;">
         <div class="container">
