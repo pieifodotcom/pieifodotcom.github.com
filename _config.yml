@@ -270,9 +270,9 @@ coinForkInfo:
     stateColor: F99F26
     belong: btForkInfo
   - imageHref: /pages/goddetail
-    imageUrl: /resource/default.jpg
+    imageUrl: /resource/god.jpg
     coinName: 比特币上帝(BTG)
-    coinInfo: 社区自治的分叉
+    coinInfo: Bitcoin God 是无国界点对点的慈善系统
     blockHightTitle: 分叉高度
     blockHight: 501225
     timeTitle: 加载中
