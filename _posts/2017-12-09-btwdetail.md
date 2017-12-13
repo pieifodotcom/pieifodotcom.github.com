@@ -56,7 +56,7 @@ permalink: /detail/
     </tr>
     <tr>
         <td>其他信息</td>
-        <td></td>
+        <td>RFund基金技术团队为本次分叉提供算力和技术支持</td>
     </tr>
   </tbody>
 </table>
