@@ -1,7 +1,25 @@
 ---
-layout: lbtcdetail
+layout: post
 title:  lbtcdetail
-permalink: /detail/
+imageUrl: /resource/lbtc.jpg
+coinName: 闪电比特币(LBTC)
+coinInfo: 引入DPOS共识机制
+blockHightTitle: 分叉高度
+blockHight: 499999
+timeTitle: 倒计时
+timeTitleClass: lbtctimetitle
+time: 2017/12/23
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: lbtchight
+timeClass: lbtc
+btnTitle: 查看详情
+btnHref: /pages/lbtcdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 200
 ---
 <h1 style="color: #2F416A">闪电比特币</h1>
 <p>闪电比特币（LBTC）将DPOS共识机制引入了比特币网络，做到记账权和投票权的分离，从而保证系统不会被滥用，无法单方面劫持其他参与方。只要用户持有币就持有话语权，从而实现真正的共治。

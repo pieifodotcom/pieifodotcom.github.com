@@ -1,7 +1,25 @@
 ---
-layout: ltcsltcdetail
+layout: post
 title:  ltcsltcdetail
-permalink: /detail/
+imageUrl: /resource/default.jpg
+coinName: 超级莱特币(SLTC)
+coinInfo: 基于莱特币网络的硬分叉
+blockHightTitle: 分叉高度
+blockHight: 1343999
+timeTitle: 倒计时
+timeTitleClass: ltcsltctimetitle
+time: 2018/1/5
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: ltcsltchight
+timeClass: ltcsltc
+btnTitle: 查看详情
+btnHref: /pages/ltcsltcdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: ltcForkInfo
+sortNumber: 120
 ---
 <h1 style="color: #2F416A">超级莱特币</h1>
 <p>比特派会在SLTC主网上线后支持该分叉币的提取。

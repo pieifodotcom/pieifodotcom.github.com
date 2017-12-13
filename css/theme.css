@@ -147,7 +147,7 @@ a:active {
   opacity: .5;
 }
 .type--uppercase {
-  text-transform: uppercase;
+  
 }
 .type--bold {
   font-weight: bold;
@@ -4600,7 +4600,7 @@ section.parallax .row .background-image-holder {
   font-weight: 700;
   letter-spacing: .5px;
   color: #fff;
-  text-transform: uppercase;
+  
   height: 26px;
   min-width: 65px;
   padding: 0 10px;
@@ -4686,7 +4686,7 @@ section.parallax .row .background-image-holder {
 .bar-1 .menu-horizontal > li > a {
   font-size: 0.857142857142857em;
   line-height: 2.166666666666667em;
-  text-transform: uppercase;
+  
   font-weight: 600;
   letter-spacing: .5px;
 }
@@ -8662,7 +8662,7 @@ section.unpad > article .imagebg + div {
   transition: all .3s ease;
   padding: 0.46428571em 1.85714286em;
   font-size: 12px;
-  text-transform: uppercase;
+  
   font-weight: 700;
   letter-spacing: 1px;
   color: #fff;

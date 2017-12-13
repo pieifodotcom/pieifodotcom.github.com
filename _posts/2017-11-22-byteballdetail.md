@@ -1,7 +1,15 @@
 ---
-layout: byteballdetail
-title:  
-permalink: /detail/
+layout: post
+title: byteball
+imageUrl: /resource/byteball.jpg
+coinName: 雪球币
+coinInfo: 去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，如货币，产权，债务，股份等。
+btnTitle: 查看详情
+btnHref: /pages/byteballdetail
+stateTitle: 进行中
+state: 4
+stateColor: F99F26
+belong: candy
 ---
 <h1 style="color: #2F416A">Byteball</h1>
 <p class="summarytxt">Byteball(字节雪球)是一个去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，例如货币，产权，债务，股份等。

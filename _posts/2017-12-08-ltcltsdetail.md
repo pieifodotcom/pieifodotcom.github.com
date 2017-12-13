@@ -1,7 +1,25 @@
 ---
-layout: ltcltsdetail
-title:  ltcltsdetail
+layout: post
 permalink: /detail/
+imageUrl: /resource/default.jpg
+coinName: 莱特股(LTS)
+coinInfo: 引入POS机制
+blockHightTitle: 分叉高度
+blockHight: 1359668
+timeTitle: 倒计时
+timeTitleClass: ltcltstimetitle
+time: 2018/1/15
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: ltcltshight
+timeClass: ltclts
+btnTitle: 查看详情
+btnHref: /pages/ltcltsdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: ltcForkInfo
+sortNumber: 110
 ---
 <h1 style="color: #2F416A">莱特股</h1>
 <small>针对越来越多的分叉，比特派提醒大家：

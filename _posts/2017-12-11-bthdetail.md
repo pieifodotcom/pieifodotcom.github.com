@@ -1,7 +1,25 @@
 ---
-layout: bthdetail
+layout: post
 title:  bthdetail
-permalink: /detail/
+imageUrl: /resource/bthot.jpg
+coinName: 比特热点(BTH)
+coinInfo: 全新的BtHash算法，能够让普通用户用CPU和GPU参与挖矿
+blockHightTitle: 分叉高度
+blockHight: 498848
+timeTitle: 倒计时
+timeTitleClass: bthtimetitle
+time: 2017/12/12
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: bthhight
+timeClass: bth
+btnTitle: 查看详情
+btnHref: /pages/bthdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 60
 ---
 <h1 style="color: #2F416A">比特热点</h1>
 <small>针对越来越多的分叉，比特派提醒大家：

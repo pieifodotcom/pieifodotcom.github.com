@@ -1,7 +1,25 @@
 ---
-layout: goddetail
+layout: post
 title:  goddetail
-permalink: /detail/
+imageUrl: /resource/god.jpg
+coinName: 比特币上帝(BTG)
+coinInfo: Bitcoin God 是无国界点对点的慈善系统
+blockHightTitle: 分叉高度
+blockHight: 501225
+timeTitle: 加载中
+timeTitleClass: godtimetitle
+time: 2017/12/25
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: godhight
+timeClass: god
+btnTitle: 查看详情
+btnHref: /pages/goddetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 160
 ---
 <h1 style="color: #2F416A">比特币上帝</h1>
 <small>针对越来越多的分叉，比特派提醒大家：

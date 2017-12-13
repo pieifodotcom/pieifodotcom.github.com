@@ -1,7 +1,15 @@
 ---
-layout: btxdetail
+layout: post
 title:  btxdetail
-permalink: /detail/
+imageUrl: /resource/btx.jpg
+coinName: BTX
+coinInfo: 首批正常，第二批则需用户导入私钥，极端危险，不建议领取。
+btnTitle: 查看详情
+btnHref: /pages/btxdetail
+stateTitle: SCAM
+state: 4
+stateColor: ED6363
+belong: candy
 ---
 <h1 style="color: #2F416A">BTX</h1>
 <p class="summarytxt">BTX是比特币的复制网络，对共识机制和挖矿算法进行了小幅更新。

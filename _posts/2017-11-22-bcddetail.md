@@ -1,7 +1,27 @@
 ---
-layout: bcddetail
+layout: post
 title:  bcddetail
-permalink: /detail/
+imageUrl: /resource/bcd.jpg
+coinName: 比特钻石(BCD)
+coinInfo: 团队预挖时间，主网尚未上线
+progress: 0
+progressTitle: 0%
+blockHightTitle: 分叉高度
+blockHight: 495866
+timeTitle: 倒计时
+timeTitleClass: bcdtimetitle
+time: 0
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: bcdhight
+timeClass: btcd
+btnTitle: 查看详情
+btnHref: /pages/bcddetail
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
+belong: btForkInfo
+sortNumber: 40
 ---
 <h1 style="color: #2F416A">比特币钻石</h1>
 <p class="summarytxt" style="color: #2F416A">(比特派已经和比特币钻石团队进行了深入的技术交流，会在分叉主网稳定之后第一时间开放对比特币钻石的支持。)

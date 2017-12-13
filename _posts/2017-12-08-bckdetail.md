@@ -1,7 +1,25 @@
 ---
-layout: bckdetail
+layout: post
 title:  bckdetail
-permalink: /detail/
+imageUrl: /resource/default.jpg
+coinName: 比特君主(BCK)
+coinInfo: 低费率的电子现金系统
+blockHightTitle: 分叉高度
+blockHight: 499999
+timeTitle: 加载中
+timeTitleClass: bcktimetitle
+time: 2017/12/25
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: bckhight
+timeClass: king
+btnTitle: 查看详情
+btnHref: /pages/bckdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 190
 ---
 <h1 style="color: #2F416A">比特君主</h1>
 <small>针对越来越多的分叉，比特派提醒大家：

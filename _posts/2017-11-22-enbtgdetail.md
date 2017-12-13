@@ -1,0 +1,79 @@
+---
+layout: enpost
+title:  btgdetail
+imageHref: /pages/btgdetail
+imageUrl: /resource/btg.jpg
+coinName: Bitcoin Gold(BTG)
+coinInfo: Bitcoin God is a completely self monitored decentralized community.
+blockHightTitle: Block height
+blockHight: 491407
+timeTitle: Countdown
+time: 0
+timeTitleClass: btgtimetitle
+currentHightTitle: Current block height
+currentHight: Loading
+currentHightClass: btghight
+timeClass: btg
+btnTitle: Learn more
+btnHref: /pages/btgdetail
+stateTitle: Completed
+state: 1
+stateColor: 3AACEB
+belong: btForkInfo
+sortNumber: 30
+---
+<h1 style="color: #2F416A">Bitcoin Gold</h1>
+<p class="summarytxt" style="color: #2F416A">(Bitpie is the first crypto-assets wallet, that supports the BTG also provide per to per trading for BTG.)
+</p>
+
+<p>Bitcoin Gold is a fork of the Bitcoin blockchain. At block 491407, Bitcoin Gold miners will begin creating blocks with a new proof-of-work algorithm, and this will cause a bifurcation of the Bitcoin blockchain. The original Bitcoin blockchain will continue on unaltered, but a new branch of the blockchain will split off from the original chain. The new branch is a distinct blockchain with the same transaction history as Bitcoin up until the fork, but then diverges from it. As a result of this process, a new cryptocurrency is born.
+</p>
+
+<table class="center">
+  <tbody>
+    <tr>
+        <td class="tablehalf">Project name</td>
+        <td class="tablehalf">Bitcoin God(BTG)</td>
+    </tr>
+    <tr>
+        <td>Block height</td>
+        <td>491407</td>
+    </tr>
+    <tr>
+        <td>Hard-fork time</td>
+        <td>2017/10/24</td>
+    </tr>
+    <tr>
+        <td>Replay protection</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>Mining algorithm</td>
+        <td>EQUI Hash(GPU)</td>
+    </tr>
+    <tr>
+        <td>Pre-mining</td>
+        <td>10 Million</td>
+    </tr>
+    <tr>
+        <td>Ratio to BTC</td>
+        <td>1:1</td>
+    </tr>
+    <tr>
+        <td>Total supply</td>
+        <td>2100 Million</td>
+    </tr>
+    <tr>
+        <td>Official Website</td>
+        <td><a href="https://bitcoingold.org/" target="_blank">https://bitcoingold.org</a></td>
+    </tr>
+    <tr>
+        <td>Project Team</td>
+        <td>LighitingASIC</td>
+    </tr>
+    <tr>
+        <td>Other info</td>
+        <td>GPU Mining</td>
+    </tr>
+  </tbody>
+</table>

@@ -11,6 +11,7 @@
 <div style="margin:0 auto;display: none">
     <img src="/resource/share.jpg">
 </div>
+
 <div class="nav-container" style="background-color: white">
     <div class="bar bar--sm visible-xs">
         <div class="container">
@@ -19,7 +20,7 @@
                     <a>
                         <img class="logo" alt="logo" src="/resource/logo.jpg"/>
                     </a>
-                    <span class="pieifo"><a href="http://www.bitpie.com" target="_blank" style="font-weight: 500;">比特派</a>运营的专业分叉信息站</span>
+                    <span class="pieifo"><a href="http://www.bitpie.com" target="_blank" style="font-weight: 500;">{{site.headerHref}}</a>{{site.headerText}}</span>
                 </div>
                 <div class="col-xs-9 col-sm-10 text-right">
                     <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
@@ -39,14 +40,13 @@
                         <a>
                             <img class="logo logo-dark" alt="logo" src="/resource/logo.jpg"/>
                         </a>
-                        <span class="pieifo"><a href="http://www.bitpie.com" target="_blank" style="font-weight: 500;">比特派</a>运营的专业分叉信息站</span>
+                        <span class="pieifo"><a href="http://www.bitpie.com" target="_blank" style="font-weight: 500;">{{site.headerHref}}</a>{{site.headerText}}</span>
                     </div>
                 </div>
                 <div class="col-md-7 col-sm-8 text-right text-left-xs text-left-sm">
                     <div class="bar__module">
                         <ul class="menu-horizontal text-right">
                             {% for link in site.headerMenu %}
-
                             <li class="dropdown">
                                 <span id="{{link['id']}}" class="dropdown__trigger">{{link['menuTitle']}}</span>
                                 <div class="dropdown__container hidden-sm hidden-md hidden-lg">
@@ -96,25 +96,28 @@
         <div class="container">
             <div class="coin_list">
                 <ul class="clearfix">
-                    {% for link in site.coinForkInfo %}
+                    {% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}
+                    {% for link in sorted %}
+                    {% if link['layout'] == 'post' %}
+                    {% if link['belong'] != 'candy' %}
                     <li class="coin_info">
-                        <a href="{{link['imageHref']}}"><img
+                        <a href="{{link.url | prepend: site.url }}"><img
                                 src="{{link['imageUrl']}}"></a>
                         <div class="hot-info">
                             <span class="title">{{link['coinName']}}</span>
                             <p class="description">{{link['coinInfo']}}</p>
                             <div class="details">
                                 <div class="col-xs-3">
-                                    <span>
-                                        {{link['blockHight']}}
-                                    </span>
+                                <span>
+                                    {{link['blockHight']}}
+                                </span>
                                     <span style="margin-top: 10px; display: block;">{{link['blockHightTitle']}}</span>
                                 </div>
 
                                 <div class="col-xs-3">
-                                    <span class="{{link['currentHightClass']}}">
-                                        {{link['currentHight']}}
-                                    </span>
+                                <span class="{{link['currentHightClass']}}">
+                                    {{link['currentHight']}}
+                                </span>
                                     <span style="margin-top: 10px; display: block;">{{link['currentHightTitle']}}</span>
                                 </div>
 
@@ -123,12 +126,14 @@
                                     <span style="margin-top: 10px; display: block;" class="{{link['timeTitleClass']}}">{{link['timeTitle']}}</span>
                                 </div>
                             </div>
-                            <a href="{{link['btnHref']}}" class="btn">{{link['btnTitle']}}</a>
+                            <a href="{{link.url | prepend: site.url }}" class="btn">{{link['btnTitle']}}</a>
                         </div>
                         <div class="pro-status ongoing" style="background-color: #{{link['stateColor']}}">
                             {{link['stateTitle']}}
                         </div>
                     </li>
+                    {% endif %}
+                    {% endif %}
                     {% endfor %}
                 </ul>
             </div>
@@ -137,14 +142,18 @@
 
     <div class="footer">
         <div class="donate">
-            <p>捐赠地址：1Bitpie7nzdqcsHWYMVi4ePuY88hF2jr7E
+            {% for link in site.footer %}
+            <p>{{link['donatio']}}
             </p>
-            <img src="../resource/donate.png">
-
+            <img src="{{link['qrcode']}}">
+            {% endfor %}
         </div>
         <div class="row">
-            <p>Pieifo是由比特派运营的专业分叉类信息站 Powered by <a href="http://www.bitpie.com" target="_blank"><b
-                    style="color: #4a90e2;">Bitpie.com</b></a><p/>
+            {% for link in site.footer %}
+            <p>{{link['support']}}<a href="http://www.bitpie.com" target="_blank"><b
+                    style="color: #4a90e2;"> {{link['supportHref']}}</b></a><p/>
+            {% endfor %}
+
         </div>
     </div>
 </div>
@@ -296,6 +305,10 @@
         candyEnd();
     });
 
+    $("body").on('click','#language',function(){
+        changeLanguage();
+    });
+
     function btFork() {
         $(".menu_list").empty();
         $(".menu_list").append("{% for link in site.headerMenu %}\n" +
@@ -354,9 +367,9 @@
 
     function updateAll() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "                    <li class=\"coin_info\">\n" +
-            "                        <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                        <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "                                src=\"{{link['imageUrl']}}\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
             "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -381,7 +394,7 @@
             "                                    <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "                                </div>\n" +
             "                            </div>\n" +
-            "                            <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                            <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "                        </div>\n" +
             "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "                            {{link['stateTitle']}}\n" +
@@ -395,10 +408,10 @@
 
     function updateing() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['state'] == 0 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -423,7 +436,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -438,10 +451,10 @@
 
     function updateend() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['state'] == 1 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -466,7 +479,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -478,10 +491,10 @@
 
     function updateStart() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['state'] == 2 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -506,7 +519,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -518,10 +531,10 @@
 
     function updateBtForkAll() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'btForkInfo' %}\n" +
             "                    <li class=\"coin_info\">\n" +
-            "                        <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                        <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "                                src=\"{{link['imageUrl']}}\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
             "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -546,7 +559,7 @@
             "                                    <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "                                </div>\n" +
             "                            </div>\n" +
-            "                            <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                            <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "                        </div>\n" +
             "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "                            {{link['stateTitle']}}\n" +
@@ -559,11 +572,11 @@
 
     function updateBtForking() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'btForkInfo' %}\n" +
             "{% if link['state'] == 0 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -588,7 +601,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -602,11 +615,11 @@
 
     function updateBtForkend() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'btForkInfo' %}\n" +
             "{% if link['state'] == 1 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -631,7 +644,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -644,11 +657,11 @@
 
     function updateBtForkStart() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'btForkInfo' %}\n" +
             "{% if link['state'] == 2 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -673,7 +686,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -686,10 +699,10 @@
 
     function updateEthForkAll() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'ethForkInfo' %}\n" +
             "                    <li class=\"coin_info\">\n" +
-            "                        <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                        <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "                                src=\"{{link['imageUrl']}}\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
             "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -714,7 +727,7 @@
             "                                    <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "                                </div>\n" +
             "                            </div>\n" +
-            "                            <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                            <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "                        </div>\n" +
             "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "                            {{link['stateTitle']}}\n" +
@@ -727,11 +740,11 @@
 
     function updateEthForking() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'ethForkInfo' %}\n" +
             "{% if link['state'] == 0 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -756,7 +769,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -770,11 +783,11 @@
 
     function updateEthForkend() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'ethForkInfo' %}\n" +
             "{% if link['state'] == 1 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -799,7 +812,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -812,11 +825,11 @@
 
     function updateEthForkStart() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'ethForkInfo' %}\n" +
             "{% if link['state'] == 2 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -841,7 +854,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -854,10 +867,10 @@
 
     function updateLtcForkAll() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'ltcForkInfo' %}\n" +
             "                    <li class=\"coin_info\">\n" +
-            "                        <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                        <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "                                src=\"{{link['imageUrl']}}\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
             "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -882,7 +895,7 @@
             "                                    <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "                                </div>\n" +
             "                            </div>\n" +
-            "                            <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                            <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "                        </div>\n" +
             "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "                            {{link['stateTitle']}}\n" +
@@ -895,11 +908,11 @@
 
     function updateLtcForking() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'ltcForkInfo' %}\n" +
             "{% if link['state'] == 0 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -924,7 +937,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -938,11 +951,11 @@
 
     function updateLtcForkend() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'ltcForkInfo' %}\n" +
             "{% if link['state'] == 1 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -967,7 +980,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -980,11 +993,11 @@
 
     function updateLtcForkStart() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.coinForkInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'ltcForkInfo' %}\n" +
             "{% if link['state'] == 2 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
@@ -1009,7 +1022,7 @@
             "                <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
@@ -1022,59 +1035,71 @@
 
     function candyAll() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.candyInfo %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
+            "{% if link['belong'] == 'candy' %}\n" +
             "                    <li class=\"coin_info\">\n" +
-            "                        <a href=\"{{link['imageHref']}}\"><img\n" +
+            "                        <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "                                src=\"{{link['imageUrl']}}\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
             "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
             "                            <p class=\"description\">{{link['coinInfo']}}</p>\n" +
             "                            <div class=\"details\">\n" +
-            "                            <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                            <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "                        </div>\n" +
             "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "                            {{link['stateTitle']}}\n" +
             "                        </div>\n" +
             "                    </li>\n" +
-            "                    {% endfor %}")
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}");
     }
 
     function candying() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.candyInfo %}\n" +
-            "{% if link['state'] == 1 %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
+            "{% if link['belong'] == 'candy' %}\n" +
+            "{% if link['state'] == 4 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
             "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
             "</li>\n" +
             "{% endif %}\n" +
-            "{% endfor %}\n")
+            "{% endif %}\n" +
+            "{% endif %}\n" +
+            "{% endfor %}\n");
     }
 
     function candyEnd() {
         $(".clearfix").empty();
-        $(".clearfix").append("{% for link in site.candyInfo %}\n" +
-            "{% if link['state'] == 0 %}\n" +
+        $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
+            "{% if link['belong'] == 'candy' %}\n" +
+            "{% if link['state'] == 5 %}\n" +
             "<li class=\"coin_info\">\n" +
-            "    <a href=\"{{link['imageHref']}}\"><img\n" +
+            "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "            src=\"{{link['imageUrl']}}\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
             "        <span class=\"title\">{{link['coinName']}}</span>\n" +
             "        <p class=\"description\">{{link['coinInfo']}}</p>\n" +
-            "        <a href=\"{{link['btnHref']}}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "        <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
             "    </div>\n" +
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
             "</li>\n" +
+            "{% endif %}\n" +
+            "{% endif %}\n" +
             "{% endif %}\n" +
             "{% endfor %}\n");
     }
@@ -1082,7 +1107,7 @@
     function displayBtHight() {
         $.get("https://bitpie.getcai.com/api/v1/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
             var blockhight = data.height;
-            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['currentHightClass']}}{% endif %}{% endfor %}";
+            var hightStr = "{% for link in site.posts %}{% if link['belong'] == 'btForkInfo' %} {{link['currentHightClass']}}{% endif %}{% endfor %}";
             var hightArr = hightStr.split(" ");
             for (var i = 0; i < hightArr.length; i++) {
                 if (i != 0) {
@@ -1096,7 +1121,7 @@
     function displayEthHight() {
         $.get("https://bitpie.getcai.com/api/v1/eth/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
             var blockhight = data.height;
-            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['currentHightClass']}}{% endif %}{% endfor %}";
+            var hightStr = "{% for link in site.posts %}{% if link['belong'] == 'ethForkInfo' %} {{link['currentHightClass']}}{% endif %}{% endfor %}";
             var hightArr = hightStr.split(" ");
             for (var i = 0; i < hightArr.length; i++) {
                 if (i != 0) {
@@ -1110,7 +1135,7 @@
     function displayLtcHight() {
         $.get("https://bitpie.getcai.com/api/v1/ltc/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
             var blockhight = data.height;
-            var hightStr = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['currentHightClass']}}{% endif %}{% endfor %}";
+            var hightStr = "{% for link in site.posts %}{% if link['belong'] == 'ltcForkInfo' %} {{link['currentHightClass']}}{% endif %}{% endfor %}";
             var hightArr = hightStr.split(" ");
             for (var i = 0; i < hightArr.length; i++) {
                 if (i != 0) {
@@ -1122,23 +1147,23 @@
     }
 
     function modifyBtTimeValue(hight) {
-        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['blockHight']}}{% endif %}{% endfor %}";
-        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeClass']}}{% endif %}{% endfor %}";
-        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'btForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endfor %}";
+        var blockHight = "{% for link in site.posts %}{% if link['belong'] == 'btForkInfo' %} {{link['blockHight']}}{% endif %}{% endfor %}";
+        var timeClass = "{% for link in site.posts %}{% if link['belong'] == 'btForkInfo' %} {{link['timeClass']}}{% endif %}{% endfor %}";
+        var timeTitle = "{% for link in site.posts %}{% if link['belong'] == 'btForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endfor %}";
         midifyRestTime(blockHight,timeClass,timeTitle,600,hight);
     }
 
     function modifyEthTimeValue(hight) {
-        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['blockHight']}}{% endif %}{% endfor %}";
-        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['timeClass']}}{% endif %}{% endfor %}";
-        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ethForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endfor %}";
+        var blockHight = "{% for link in site.posts %}{% if link['belong'] == 'ethForkInfo' %} {{link['blockHight']}}{% endif %}{% endfor %}";
+        var timeClass = "{% for link in site.posts %}{% if link['belong'] == 'ethForkInfo' %} {{link['timeClass']}}{% endif %}{% endfor %}";
+        var timeTitle = "{% for link in site.posts %}{% if link['belong'] == 'ethForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endfor %}";
         midifyRestTime(blockHight,timeClass,timeTitle,14.5,hight);
     }
 
     function modifyLtcTimeValue(hight) {
-        var blockHight = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['blockHight']}}{% endif %}{% endfor %}";
-        var timeClass = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeClass']}}{% endif %}{% endfor %}";
-        var timeTitle = "{%for link in site.coinForkInfo%}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endfor %}";
+        var blockHight = "{% for link in site.posts %}{% if link['belong'] == 'ltcForkInfo' %} {{link['blockHight']}}{% endif %}{% endfor %}";
+        var timeClass = "{% for link in site.posts %}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeClass']}}{% endif %}{% endfor %}";
+        var timeTitle = "{% for link in site.posts %}{% if link['belong'] == 'ltcForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endfor %}";
         midifyRestTime(blockHight,timeClass,timeTitle,130,hight);
     }
 
@@ -1151,9 +1176,6 @@
                 if (blockHightArr[i] == "1514736000") {
                     var currentTime = Math.round(new Date().getTime()/1000);
                     var timeDiscrepancy = blockHightArr[i] - currentTime;
-                    console.log(timeDiscrepancy);
-                    console.log(currentTime);
-                    console.log(blockHightArr[i]);
                     if (timeDiscrepancy > 0) {
                         var days = Math.floor(timeDiscrepancy / (24 * 3600))
                         var leave1 = timeDiscrepancy % (24 * 3600)
@@ -1188,7 +1210,10 @@
             }
         }
     }
-
+    
+    function changeLanguage() {
+        window.location.href="pages/endefault.html";
+    }
 </script>
 
 </body>

@@ -1,16 +1,36 @@
 ---
-layout: ethfogdetail
+layout: post
 title:  ethfogdetail
-permalink: /detail/
+imageUrl: /resource/default.jpg
+coinName: 以太雾(ETF)
+coinInfo: 发展为下一代雾计算平台
+blockHightTitle: 分叉高度
+blockHight: 4830000
+timeTitle: 预估分叉日期
+timeTitleClass: uraniumtimetitle
+time: 2018/1/1
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: ethfoghight
+timeClass: ethfog
+btnTitle: 查看详情
+btnHref: /pages/ethfogdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: ethForkInfo
+sortNumber: 140
 ---
 <h1 style="color: #2F416A">以太雾</h1>
-<small>针对越来越多的分叉，比特派提醒大家：
-       区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
-       比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
+<small>比特派会针对每一个可能的分叉做技术处理，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
 </small>
-<p>Ethereum Fog是基于以太坊的分叉。
+<p>以太雾EthereumFog，简称：ETF，是以太坊Ethereum的分叉链，是为了解决以太坊所缺乏的分布式存储和分布式计算能力而生，后期会切换为POW+POS混合挖矿,原生Coin为ETF。
 </p>
-<p>目标是推动以太坊发展为下一代雾计算平台。
+<p>ETFcoin的特点：<br>
+1 总量与以太坊ETH保持一致，ETH持有者1:1获赠ETF糖果。<br>
+2 目前挖矿算法不变，支持原ETH矿机双挖。<br>
+3 延长POW挖矿周期。<br>
+4 2018年增加POS硬盘挖矿算法，支持分布式存储。
 </p>
 <table class="center">
   <tbody>
@@ -28,11 +48,11 @@ permalink: /detail/
     </tr>
     <tr>
         <td>重放保护</td>
-        <td>未公布</td>
+        <td>支持</td>
     </tr>
     <tr>
         <td>挖矿算法</td>
-        <td>未公布</td>
+        <td>POW</td>
     </tr>
     <tr>
         <td>是否预挖</td>

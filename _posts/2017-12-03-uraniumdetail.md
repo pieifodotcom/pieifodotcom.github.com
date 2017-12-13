@@ -1,7 +1,25 @@
 ---
-layout: uraniumdetail
+layout: post
 title:  uraniumdetail
-permalink: /detail/
+imageUrl: /resource/uranium.jpg
+coinName: 比特铀(BTU)
+coinInfo: 采用equhash算法
+blockHightTitle: 分叉高度
+blockHight: 未公布
+timeTitle: 预估分叉日期
+timeTitleClass: uraniumtimetitle
+time: 2017/12/31
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: uraniumhight
+timeClass: uranium
+btnTitle: 查看详情
+btnHref: /pages/uraniumdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 100
 ---
 <h1 style="color: #2F416A">比特铀</h1>
 <small>针对越来越多的分叉，比特派提醒大家：

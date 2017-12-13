@@ -12,46 +12,37 @@
             border-bottom: 1px solid rgba(0, 0, 0, 0.05);
             font-size: 15px;
         }
-
         .center th {
             border: 0px;
         }
-
         .description {
             text-align: left !important;;
         }
-
         .titleimage {
             width: 200px !important;
             height: 200px !important;;
         }
-
         .tick {
             max-width: 24px;
             max-height: 24px;
         }
-
         .premium img {
             max-width: 70px;
             max-height: 22px;
         }
-
         @media all and (max-width: 991px) {
             .description {
                 text-align: center !important;
             }
         }
-
         @media all and (max-width: 768px) {
             .description {
                 text-align: center !important;
             }
         }
-
         h2 {
             font-size: 28px;
         }
-
         .center p {
             font-size: 19px;
         }
@@ -175,11 +166,10 @@
     $(document).ready(function () {
         adapterLayout();
     });
-
     window.onresize = function(){
         adapterLayout();
     }
-    
+
     function adapterLayout() {
         var width = $(window).width();
         var divArr = $("#service div");
@@ -198,4 +188,3 @@
 </script>
 </body>
 </html>
-

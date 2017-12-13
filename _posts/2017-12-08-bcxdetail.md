@@ -1,7 +1,25 @@
 ---
-layout: bcxdetail
+layout: post
 title:  bcxdetail
-permalink: /detail/
+imageUrl: /resource/default.jpg
+coinName: 比特无限(BCX)
+coinInfo: Bitcoin X 结合了零知识证明，智能合约，并会在未来更改为DPOS共识机制
+blockHightTitle: 分叉高度
+blockHight: 498888
+timeTitle: 倒计时
+timeTitleClass: bcxdtimetitle
+time: 2017/12/13
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: bcxhight
+timeClass: bcx
+btnTitle: 查看详情
+btnHref: /pages/bcxdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 80
 ---
 <h1 style="color: #2F416A">比特无限</h1>
 <p>比特派会在BCX主网稳定运行后支持BCX的领取。

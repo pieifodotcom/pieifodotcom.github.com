@@ -1,7 +1,28 @@
 ---
-layout: btgdetail
+layout: post
 title:  btgdetail
-permalink: /detail/
+imageHref: /pages/btgdetail
+imageUrl: /resource/btg.jpg
+coinName: 比特金(BTG)
+coinInfo: 通过改变挖矿算法打破算力垄断
+progress: 100
+progressTitle: 100%
+blockHightTitle: 分叉高度
+blockHight: 491407
+timeTitle: 倒计时
+time: 0
+timeTitleClass: btgtimetitle
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: btghight
+timeClass: btg
+btnTitle: 查看详情
+btnHref: /pages/btgdetail
+stateTitle: 已分叉
+state: 1
+stateColor: 3AACEB
+belong: btForkInfo
+sortNumber: 30
 ---
 <h1 style="color: #2F416A">比特金</h1>
 <p class="summarytxt" style="color: #2F416A">(比特派已经支持的BTG相关钱包功能，并且在全球首个开通了BTG 点对点交易。)

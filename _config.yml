@@ -31,13 +31,22 @@ kramdown:
 theme: minima
 
 
+# Permalinks
+#permalink: /:year-:month-:day/:title
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
 #   - Gemfile
 
+# Permalinks
+permalink: /:year-:month-:day/:title
+
 headerLogo: /resource/logo.jpg
+
+headerText: 运营的专业分叉信息站
+headerHref: 比特派
 
 headerMenu:
   - menuTitle: 比特分叉
@@ -84,6 +93,8 @@ headerMenu:
         id: candyend
   - menuTitle: ifo服务
     id: ifoservice
+  - menuTitle: 中/En
+    id: language
 
 defaultType:
   - menuName: 全部
@@ -95,504 +106,83 @@ defaultType:
   - menuName: 分叉中
     id: start
 
+footer:
+  - donatio: 捐赠地址：1Bitpie7nzdqcsHWYMVi4ePuY88hF2jr7E
+    qrcode: ../resource/donate.png
+    support: Pieifo是由比特派运营的专业分叉类信息站 Powered by
+    supportHref: Bitpie.com
 
-coinForkInfo:
-  - imageHref: /pages/btpaydetail
-    imageUrl: /resource/btpay.jpg
-    coinName: 比特支付(BTP)
-    coinInfo: 比特支付致力于建立更便捷的全球支付生态
-    blockHightTitle: 分叉高度
-    blockHight: 499345
-    timeTitle: 倒计时
-    timeTitleClass: btpaytimetitle
-    time: 2017/12/16
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: btpayhight
-    timeClass: btpay
-    btnTitle: 查看详情
-    btnHref: /pages/btpaydetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/btwdetail
-    imageUrl: /resource/btw.jpg
-    coinName: 比特世界(BTW)
-    coinInfo: BTW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币
-    blockHightTitle: 分叉高度
-    blockHight: 499777
-    timeTitle: 倒计时
-    timeTitleClass: btwtimetitle
-    time: 2017/12/19
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: btwhight
-    timeClass: btw
-    btnTitle: 查看详情
-    btnHref: /pages/btwdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/lbtcdetail
-    imageUrl: /resource/lbtc.jpg
-    coinName: 闪电比特币(LBTC)
-    coinInfo: 引入DPOS共识机制
-    blockHightTitle: 分叉高度
-    blockHight: 499999
-    timeTitle: 倒计时
-    timeTitleClass: lbtctimetitle
-    time: 2017/12/23
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: lbtchight
-    timeClass: lbtc
-    btnTitle: 查看详情
-    btnHref: /pages/lbtcdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/bckdetail
-    imageUrl: /resource/default.jpg
-    coinName: 比特君主(BCK)
-    coinInfo: 低费率的电子现金系统
-    blockHightTitle: 分叉高度
-    blockHight: 499999
-    timeTitle: 加载中
-    timeTitleClass: bcktimetitle
-    time: 2017/12/25
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: bckhight
-    timeClass: king
-    btnTitle: 查看详情
-    btnHref: /pages/bckdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/btfdetail
-    imageUrl: /resource/btf.jpg
-    coinName: 比特信仰(BTF)
-    coinInfo: 具备大区块支持，并改进共识机制
-    blockHightTitle: 分叉高度
-    blockHight: 500000
-    timeTitle: 倒计时
-    timeTitleClass: btftimetitle
-    time: 2017/12/23
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: btfhight
-    timeClass: btf
-    btnTitle: 查看详情
-    btnHref: /pages/btfdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/btpdetail
-    imageUrl: /resource/btp.jpg
-    coinName: 比特币铂金(BTP)
-    coinInfo: 比特币铂金的创造者承认比特币铂金是一个骗局
-    blockHightTitle: 分叉高度
-    blockHight: 500000
-    timeTitle: 倒计时
-    timeTitleClass: btptimetitle
-    time: 2017/12/23
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: btphight
-    timeClass: btp
-    btnTitle: 查看详情
-    btnHref: /pages/btpdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/goddetail
-    imageUrl: /resource/god.jpg
-    coinName: 比特币上帝(BTG)
-    coinInfo: Bitcoin God 是无国界点对点的慈善系统
-    blockHightTitle: 分叉高度
-    blockHight: 501225
-    timeTitle: 加载中
-    timeTitleClass: godtimetitle
-    time: 2017/12/25
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: godhight
-    timeClass: god
-    btnTitle: 查看详情
-    btnHref: /pages/goddetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/bpadetail
-    imageUrl: /resource/pizza.jpg
-    coinName: 比特币比萨(BPA)
-    coinInfo: Bitcoin Pizza将DAG技术运用在比特币上，即把比特币DAG化
-    blockHightTitle: 分叉高度
-    blockHight: 501888
-    timeTitle: 加载中
-    timeTitleClass: bpatimetitle
-    time: 2018/1/1
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: bpahight
-    timeClass: bpa
-    btnTitle: 查看详情
-    btnHref: /pages/bpadetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/btadetail
-    imageUrl: /resource/bta.jpg
-    coinName: 比特币荣耀(BTA)
-    coinInfo: 为让比特币更加荣耀的所有矿机可挖的分山币
-    blockHightTitle: 分叉高度
-    blockHight: 1514736000
-    timeTitle: 加载中
-    timeTitleClass: btatimetitle
-    time: 2018/1/1
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: btahight
-    timeClass: bta
-    btnTitle: 查看详情
-    btnHref: /pages/btadetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/uraniumdetail
-    imageUrl: /resource/uranium.jpg
-    coinName: 比特铀(BTU)
-    coinInfo: 采用equhash算法
-    blockHightTitle: 分叉高度
-    blockHight: 未公布
-    timeTitle: 预估分叉日期
-    timeTitleClass: uraniumtimetitle
-    time: 2017/12/31
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: uraniumhight
-    timeClass: uranium
-    btnTitle: 查看详情
-    btnHref: /pages/uraniumdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/ethfogdetail
-    imageUrl: /resource/default.jpg
-    coinName: 以太雾(ETF)
-    coinInfo: 发展为下一代雾计算平台
-    blockHightTitle: 分叉高度
-    blockHight: 4830000
-    timeTitle: 预估分叉日期
-    timeTitleClass: uraniumtimetitle
-    time: 2018/1/1
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: ethfoghight
-    timeClass: ethfog
-    btnTitle: 查看详情
-    btnHref: /pages/ethfogdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: ethForkInfo
-  - imageHref: /pages/plusdetail
-    imageUrl: /resource/plus.jpg
-    coinName: 比特币增强现金(BCP)
-    coinInfo: 低费率的电子现金系统
-    blockHightTitle: 分叉高度
-    blockHight: 501407
-    timeTitle: 倒计时
-    timeTitleClass: plustimetitle
-    time: 2018/1/2
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: plushight
-    timeClass: plus
-    btnTitle: 查看详情
-    btnHref: /pages/plusdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/ltcsltcdetail
-    imageUrl: /resource/default.jpg
-    coinName: 超级莱特币(SLTC)
-    coinInfo: 基于莱特币网络的硬分叉
-    blockHightTitle: 分叉高度
-    blockHight: 1343999
-    timeTitle: 倒计时
-    timeTitleClass: ltcsltctimetitle
-    time: 2018/1/5
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: ltcsltchight
-    timeClass: ltcsltc
-    btnTitle: 查看详情
-    btnHref: /pages/ltcsltcdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: ltcForkInfo
-  - imageHref: /pages/ltcltsdetail
-    imageUrl: /resource/default.jpg
-    coinName: 莱特股(LTS)
-    coinInfo: 引入POS机制
-    blockHightTitle: 分叉高度
-    blockHight: 1359668
-    timeTitle: 倒计时
-    timeTitleClass: ltcltstimetitle
-    time: 2018/1/15
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: ltcltshight
-    timeClass: ltclts
-    btnTitle: 查看详情
-    btnHref: /pages/ltcltsdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: ltcForkInfo
-  - imageHref: /pages/qbtcdetail
-    imageUrl: /resource/qbtc.jpg
-    coinName: 量子比特币(QBTC)
-    coinInfo: 结合量子链特点的比特币创新分叉实验
-    blockHightTitle: 分叉高度
-    blockHight: 未公布
-    timeTitle: 发布日期
-    timeTitleClass: qbtctimetitle
-    time: 2017/12/28
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: qbtchight
-    timeClass: qbtc
-    btnTitle: 查看详情
-    btnHref: /pages/qbtcdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/silverdetail
-    imageUrl: /resource/silver.jpg
-    coinName: 比特币白银(BTS)
-    coinInfo: 主要对挖矿算法进行更新使全网算力更加分散
-    blockHightTitle: 分叉高度
-    blockHight: 未公布
-    timeTitle: 发布日期
-    timeTitleClass: silvertimetitle
-    time: 未确定
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: silverhight
-    timeClass: silver
-    btnTitle: 查看详情
-    btnHref: /pages/silverdetail
-    stateTitle: 即将分叉
-    state: 0
-    stateColor: F99F26
-    belong: btForkInfo
-  - imageHref: /pages/bcddetail
-    imageUrl: /resource/bcd.jpg
-    coinName: 比特钻石(BCD)
-    coinInfo: 团队预挖时间，主网尚未上线
-    progress: 0
-    progressTitle: 0%
-    blockHightTitle: 分叉高度
-    blockHight: 495866
-    timeTitle: 倒计时
-    timeTitleClass: bcdtimetitle
-    time: 0
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: bcdhight
-    timeClass: btcd
-    btnTitle: 查看详情
-    btnHref: /pages/bcddetail
-    stateTitle: 分叉中
-    state: 2
-    stateColor: 3AB69C
-    belong: btForkInfo
-  - imageHref: /pages/ubdetail
-    imageUrl: /resource/ub.jpg
-    coinName: 联合比特币(UBTC)
-    coinInfo: 支持智能合约和闪电网络的比特币
-    blockHightTitle: 分叉高度
-    blockHight: 498777
-    timeTitle: 倒计时
-    timeTitleClass: ubtimetitle
-    time: 2017/12/12
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: ubhight
-    timeClass: ub
-    btnTitle: 查看详情
-    btnHref: /pages/ubdetail
-    stateTitle: 分叉中
-    state: 2
-    stateColor: 3AB69C
-    belong: btForkInfo
-  - imageHref: /pages/bthdetail
-    imageUrl: /resource/bthot.jpg
-    coinName: 比特热点(BTH)
-    coinInfo: 全新的BtHash算法，能够让普通用户用CPU和GPU参与挖矿
-    blockHightTitle: 分叉高度
-    blockHight: 498848
-    timeTitle: 倒计时
-    timeTitleClass: bthtimetitle
-    time: 2017/12/12
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: bthhight
-    timeClass: bth
-    btnTitle: 查看详情
-    btnHref: /pages/bthdetail
-    stateTitle: 分叉中
-    state: 2
-    stateColor: 3AB69C
-    belong: btForkInfo
-  - imageHref: /pages/sbtcdetail
-    imageUrl: /resource/sbtc.jpg
-    coinName: 超级比特币(SBTC)
-    coinInfo: 让比特币网络拥有智能合约
-    blockHightTitle: 分叉高度
-    blockHight: 498888
-    timeTitle: 倒计时
-    timeTitleClass: sbtcdtimetitle
-    time: 2017/12/17
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: sbtchight
-    timeClass: sbtc
-    btnTitle: 查看详情
-    btnHref: /pages/sbtcdetail
-    stateTitle: 分叉中
-    state: 2
-    stateColor: 3AB69C
-    belong: btForkInfo
-  - imageHref: /pages/bcxdetail
-    imageUrl: /resource/default.jpg
-    coinName: 比特无限(BCX)
-    coinInfo: Bitcoin X 结合了零知识证明，智能合约，并会在未来更改为DPOS共识机制
-    blockHightTitle: 分叉高度
-    blockHight: 498888
-    timeTitle: 倒计时
-    timeTitleClass: bcxdtimetitle
-    time: 2017/12/13
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: bcxhight
-    timeClass: bcx
-    btnTitle: 查看详情
-    btnHref: /pages/bcxdetail
-    stateTitle: 分叉中
-    state: 2
-    stateColor: 3AB69C
-    belong: btForkInfo
-  - imageHref: /pages/btgdetail
-    imageUrl: /resource/btg.jpg
-    coinName: 比特金(BTG)
-    coinInfo: 通过改变挖矿算法打破算力垄断
-    progress: 100
-    progressTitle: 100%
-    blockHightTitle: 分叉高度
-    blockHight: 491407
-    timeTitle: 倒计时
-    time: 0
-    timeTitleClass: btgtimetitle
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: btghight
-    timeClass: btg
-    btnTitle: 查看详情
-    btnHref: /pages/btgdetail
-    stateTitle: 已分叉
-    state: 1
-    stateColor: 3AACEB
-    belong: btForkInfo
-  - imageHref: /pages/bchdetail
-    imageUrl: /resource/bch.jpg
-    coinName: 比特现金(BCH)
-    coinInfo: 点对点电子现金
-    progress: 100
-    progressTitle: 100%
-    blockHightTitle: 分叉高度
-    blockHight: 478558
-    timeTitle: 倒计时
-    time: 0
-    timeTitleClass: bchtimetitle
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: bchhight
-    timeClass: bch
-    btnTitle: 查看详情
-    btnHref: /pages/bchdetail
-    stateTitle: 已分叉
-    state: 1
-    stateColor: 3AACEB
-    belong: btForkInfo
-  - imageHref: /pages/b2xdetail
-    imageUrl: /resource/default.jpg
-    coinName: Bitcoin Segwit 2X(B2X)
-    coinInfo: 纽约共识确定的隔离验证+2X方案
-    progress: 100
-    progressTitle: 100%
-    blockHightTitle: 分叉高度
-    blockHight: 494784
-    timeTitle: 已取消
-    time: 0
-    timeTitleClass: b2xtimetitle
-    currentHightTitle: 当前块高
-    currentHight: 加载中
-    currentHightClass: b2xhight
-    timeClass: b2x
-    btnTitle: 查看详情
-    btnHref: /pages/b2xdetail
-    stateTitle: 已取消
-    state: 3
-    stateColor: C8C8C8
-    belong: btForkInfo
 
-candyInfo:
-  - imageHref: /pages/byteballdetail
-    imageUrl: /resource/byteball.jpg
-    coinName: 雪球币
-    coinInfo: 去中心化的系统，允许任意数据的防篡改存储，包括可转移价值的数据，如货币，产权，债务，股份等。
-    btnTitle: 查看详情
-    btnHref: /pages/byteballdetail
-    stateTitle: 进行中
-    state: 1
-    stateColor: F99F26
-  - imageHref: /pages/btxdetail
-    imageUrl: /resource/btx.jpg
-    coinName: BTX
-    coinInfo: 首批正常，第二批则需用户导入私钥，极端危险，不建议领取。
-    btnTitle: 查看详情
-    btnHref: /pages/btxdetail
-    stateTitle: SCAM
-    state: 1
-    stateColor: ED6363
-  - imageHref: /pages/stellardetail
-    imageUrl: /resource/stellar.jpg
-    coinName: 恒星币
-    coinInfo: 价值交换的开源协议。
-    btnTitle: 查看详情
-    btnHref: /pages/stellardetail
-    stateTitle: 已结束
-    state: 0
-    stateColor: C8C8C8
+headerMenuEn:
+  - menuTitle: BTC Forks
+    id: btfork
+    menuList:
+      - menuName: All
+        id: btall
+      - menuName: Upcoming
+        id: bting
+      - menuName: Completed
+        id: btend
+      - menuName: Undergoing
+        id: btstart
+  - menuTitle: ETH Forks
+    id: ethfork
+    menuList:
+      - menuName: All
+        id: ethall
+      - menuName: Upcoming
+        id: ething
+      - menuName: Completed
+        id: ethend
+      - menuName: Undergoing
+        id: ethstart
+  - menuTitle: LTC Forks
+    id: ltcfork
+    menuList:
+      - menuName: All
+        id: ltcall
+      - menuName: Upcoming
+        id: ltcing
+      - menuName: Completed
+        id: ltcend
+      - menuName: Undergoing
+        id: ltcstart
+  - menuTitle: Airdrop
+    id: candy
+    menuList:
+      - menuName: All
+        id: candyall
+      - menuName: Undergoing
+        id: candying
+      - menuName: Cancelled
+        id: candyend
+  - menuTitle: IFO Service
+    id: ifoservice
+  - menuTitle: 中/En
+    id: language
+
+footerEn:
+  - donatio: Donation:1Bitpie7nzdqcsHWYMVi4ePuY88hF2jr7E
+    qrcode: ../resource/donate.png
+    support: The most professional IFO portal powered by
+    supportHref: Bitpie.com
+
+defaultTypeEn:
+  - menuName: All
+    id: all
+  - menuName: Upcoming
+    id: ing
+  - menuName: Completed
+    id: end
+  - menuName: Undergoing
+    id: start
+
+headerTextEn: The most Professional IFO Portal powered by
+headerHrefEn: Bitpie
 #   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+

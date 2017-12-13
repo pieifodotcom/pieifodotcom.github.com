@@ -1,7 +1,25 @@
 ---
-layout: sbtcdetail
+layout: post
 title:  sbtcdetail
-permalink: /detail/
+imageUrl: /resource/sbtc.jpg
+coinName: 超级比特币(SBTC)
+coinInfo: 让比特币网络拥有智能合约
+blockHightTitle: 分叉高度
+blockHight: 498888
+timeTitle: 倒计时
+timeTitleClass: sbtcdtimetitle
+time: 2017/12/17
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: sbtchight
+timeClass: sbtc
+btnTitle: 查看详情
+btnHref: /pages/sbtcdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 70
 ---
 <h1 style="color: #2F416A">超级比特币</h1>
 <p class="summarytxt" style="color: #2F416A">(比特派将于SBTC分叉主网稳定后第一时间开通支持。)

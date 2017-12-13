@@ -1,7 +1,25 @@
 ---
-layout: silverdetail
+layout: post
 title:  silverdetail
-permalink: /detail/
+imageUrl: /resource/silver.jpg
+coinName: 比特币白银(BTS)
+coinInfo: 主要对挖矿算法进行更新使全网算力更加分散
+blockHightTitle: 分叉高度
+blockHight: 未公布
+timeTitle: 发布日期
+timeTitleClass: silvertimetitle
+time: 未确定
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: silverhight
+timeClass: silver
+btnTitle: 查看详情
+btnHref: /pages/silverdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 101
 ---
 <h1 style="color: #2F416A">比特币白银</h1>
 <small>针对越来越多的分叉，比特派提醒大家：

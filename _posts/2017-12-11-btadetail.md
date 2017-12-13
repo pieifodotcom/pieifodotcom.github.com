@@ -1,7 +1,25 @@
 ---
-layout: btadetail
+layout: post
 title:  btadetail
-permalink: /detail/
+imageUrl: /resource/bta.jpg
+coinName: 比特币荣耀(BTA)
+coinInfo: 为让比特币更加荣耀的所有矿机可挖的分山币
+blockHightTitle: 分叉时间戳
+blockHight: 1514736000
+timeTitle: 加载中
+timeTitleClass: btatimetitle
+time: 2018/1/1
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: btahight
+timeClass: bta
+btnTitle: 查看详情
+btnHref: /pages/btadetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 130
 ---
 <h1 style="color: #2F416A">比特币荣耀</h1>
 <small>针对越来越多的分叉，比特派提醒大家：

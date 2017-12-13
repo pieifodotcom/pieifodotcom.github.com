@@ -1,7 +1,25 @@
 ---
-layout: btfdetail
+layout: post
 title:  btfdetail
-permalink: /detail/
+imageUrl: /resource/btf.jpg
+coinName: 比特信仰(BTF)
+coinInfo: 具备大区块支持，并改进共识机制
+blockHightTitle: 分叉高度
+blockHight: 500000
+timeTitle: 倒计时
+timeTitleClass: btftimetitle
+time: 2017/12/23
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: btfhight
+timeClass: btf
+btnTitle: 查看详情
+btnHref: /pages/btfdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 180
 ---
 <h1 style="color: #2F416A">比特信仰</h1>
 <p>比特派已经与Bitcoin Faith团队进行过深入的技术沟通，会在主网上线后支持BTF的提取。

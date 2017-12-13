@@ -1,7 +1,25 @@
 ---
-layout: btwdetail
+layout: post
 title:  btwdetail
-permalink: /detail/
+imageUrl: /resource/btw.jpg
+coinName: 比特世界(BTW)
+coinInfo: BTW旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币
+blockHightTitle: 分叉高度
+blockHight: 499777
+timeTitle: 倒计时
+timeTitleClass: btwtimetitle
+time: 2017/12/19
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: btwhight
+timeClass: btw
+btnTitle: 查看详情
+btnHref: /pages/btwdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 210
 ---
 <h1 style="color: #2F416A">比特币世界</h1>
 <p>随着比特币的使用越来越广泛，比特币网络最近一年来出现多次大规模的持续拥堵，转账手续费持续被推高，用户体验极其差。Bitcoin World  Foundation 推出的BTW，旨在创建一个更快捷、更分散、更智能、更安全、更隐私的分叉币，从而提高比特币的用户体验。

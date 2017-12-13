@@ -1,7 +1,25 @@
 ---
-layout: btpdetail
+layout: post
 title:  btpdetail
-permalink: /detail/
+imageUrl: /resource/btp.jpg
+coinName: 比特币铂金(BTP)
+coinInfo: 比特币铂金的创造者承认比特币铂金是一个骗局
+blockHightTitle: 分叉高度
+blockHight: 500000
+timeTitle: 倒计时
+timeTitleClass: btptimetitle
+time: 2017/12/23
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: btphight
+timeClass: btp
+btnTitle: 查看详情
+btnHref: /pages/btpdetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 170
 ---
 <h1 style="color: #2F416A">比特币铂金</h1>
 <p style="color: red">比特币铂金疑似一场骗局

@@ -1,7 +1,25 @@
 ---
-layout: btpaydetail
+layout: post
 title:  btpaydetail
-permalink: /detail/
+imageUrl: /resource/btpay.jpg
+coinName: 比特支付(BTP)
+coinInfo: 比特支付致力于建立更便捷的全球支付生态
+blockHightTitle: 分叉高度
+blockHight: 499345
+timeTitle: 倒计时
+timeTitleClass: btpaytimetitle
+time: 2017/12/16
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: btpayhight
+timeClass: btpay
+btnTitle: 查看详情
+btnHref: /pages/btpaydetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 220
 ---
 <h1 style="color: #2F416A">比特币支付</h1>
 <p>比特派已经与Bitcoin Pay团队进行过深入的技术沟通，会在主网上线后支持BTP的提取。

@@ -1,7 +1,27 @@
 ---
-layout: bchdetail
+layout: post
 title:  bchdetail
-permalink: /detail/
+imageUrl: /resource/bch.jpg
+coinName: 比特现金(BCH)
+coinInfo: 点对点电子现金
+progress: 100
+progressTitle: 100%
+blockHightTitle: 分叉高度
+blockHight: 478558
+timeTitle: 倒计时
+time: 0
+timeTitleClass: bchtimetitle
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: bchhight
+timeClass: bch
+btnTitle: 查看详情
+btnHref: /pages/bchdetail
+stateTitle: 已分叉
+state: 1
+stateColor: 3AACEB
+belong: btForkInfo
+sortNumber: 20
 ---
 <h1 style="color: #2F416A" style="color: #2F416A">比特币现金</h1>
 <p class="summarytxt" style="color: #2F416A">(BCH 比特派于8月1日当晚开通了对BCH的支持，是全球首个支持BCH主网的钱包。)

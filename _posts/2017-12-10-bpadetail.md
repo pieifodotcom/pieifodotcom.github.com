@@ -1,7 +1,25 @@
 ---
-layout: bpadetail
+layout: post
 title:  bpadetail
-permalink: /detail/
+imageUrl: /resource/pizza.jpg
+coinName: 比特币比萨(BPA)
+coinInfo: Bitcoin Pizza将DAG技术运用在比特币上，即把比特币DAG化
+blockHightTitle: 分叉高度
+blockHight: 501888
+timeTitle: 加载中
+timeTitleClass: bpatimetitle
+time: 2018/1/1
+currentHightTitle: 当前块高
+currentHight: 加载中
+currentHightClass: bpahight
+timeClass: bpa
+btnTitle: 查看详情
+btnHref: /pages/bpadetail
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
+belong: btForkInfo
+sortNumber: 111
 ---
 <h1 style="color: #2F416A">比特币比萨</h1>
 <p>BPA的分叉机制非常特殊。第一个关键节点是分叉，在区块高度为501888进行，这时候原来持有BTC的用户按照1:1,000的比例获得BPA。第二个关键节点是兑换，在DAG主链上线后，持有BPA的用户按照1:1,000,000的比例兑换DAG BPA。
