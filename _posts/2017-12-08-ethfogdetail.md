@@ -5,10 +5,10 @@ imageUrl: /resource/default.jpg
 coinName: 以太雾(ETF)
 coinInfo: 发展为下一代雾计算平台
 blockHightTitle: 分叉高度
-blockHight: 4830000
-timeTitle: 预估分叉日期
+blockHight: 4730999
+timeTitle: 分叉日期
 timeTitleClass: uraniumtimetitle
-time: 2018/1/1
+time: 2017/12/14
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: ethfoghight
@@ -19,11 +19,13 @@ stateTitle: 即将分叉
 state: 0
 stateColor: F99F26
 belong: ethForkInfo
-sortNumber: 140
+sortNumber: 340
 ---
 <h1 style="color: #2F416A">以太雾</h1>
 <small>比特派会针对每一个可能的分叉做技术处理，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
 </small>
+<p style="color: red">项目分叉高度临时调整到4730999。
+</p>
 <p>以太雾EthereumFog，简称：ETF，是以太坊Ethereum的分叉链，是为了解决以太坊所缺乏的分布式存储和分布式计算能力而生，后期会切换为POW+POS混合挖矿,原生Coin为ETF。
 </p>
 <p>ETFcoin的特点：<br>
@@ -40,7 +42,7 @@ sortNumber: 140
     </tr>
     <tr>
         <td>分叉高度</td>
-        <td>483,000,000(以太坊网络)</td>
+        <td>4730999(以太坊网络)</td>
     </tr>
     <tr>
         <td>分叉时间</td>
