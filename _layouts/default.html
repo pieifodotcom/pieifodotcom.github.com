@@ -13,152 +13,162 @@
 </div>
 
 <div class="nav-container" style="background-color: white">
-    <div class="bar bar--sm visible-xs">
-        <div class="container">
-            <div class="row" style="vertical-align: middle;">
-                <div class="col-xs-3 col-sm-2">
-                    <a>
-                        <img class="logo" alt="logo" src="/resource/logo.jpg"/>
-                    </a>
-                    <span class="pieifo"><a href="http://www.bitpie.com" target="_blank" style="font-weight: 500;">{{site.headerHref}}</a>{{site.headerText}}</span>
-                </div>
-                <div class="col-xs-9 col-sm-10 text-right">
-                    <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
-                        <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
-                            <img src="resource/menu.png" style="max-width: 12%">
-                        </a>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <nav id="menu1" class="bar bar--sm bar-1 hidden-xs hiddem-sm">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-sm-4 hidden-xs">
-                    <div class="bar__module">
-                        <a>
-                            <img class="logo logo-dark" alt="logo" src="/resource/logo.jpg"/>
-                        </a>
-                        <span class="pieifo"><a href="http://www.bitpie.com" target="_blank" style="font-weight: 500;">{{site.headerHref}}</a>{{site.headerText}}</span>
-                    </div>
-                </div>
-                <div class="col-md-7 col-sm-8 text-right text-left-xs text-left-sm">
-                    <div class="bar__module">
-                        <ul class="menu-horizontal text-right">
-                            {% for link in site.headerMenu %}
-                            <li class="dropdown">
-                                <span id="{{link['id']}}" class="dropdown__trigger">{{link['menuTitle']}}</span>
-                                <div class="dropdown__container hidden-sm hidden-md hidden-lg">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="dropdown__content col-md-2 col-sm-3">
-                                                <ul class="menu-vertical">
-                                                    {% for item in link['menuList'] %}
-                                                    <li>
-                                                        <a href="#" id="{{item['id']}}" class="inner-link" style="font-size: 14px" data-toggle-class="#menu1;hidden-xs">
-                                                            {{item['menuName']}}
-                                                        </a>
-                                                    </li>
-                                                    {% endfor %}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
 </div>
 <div class="main-container">
-    <section class="no-bottom no-top" style="margin-top: 10px;">
-        <div class="container">
-            <div class="statustabs">
-                <div class="tabs-header">
-                    <div class="border"></div>
-                    <ul class="menu_list">
-                        {% for link in site.defaultType %}
-                        <li class="active"><a id="{{link['id']}}" tab-id="1"
-                                              ripple-color="#FFF">{{link['menuName']}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="no-bottom">
-        <div class="container">
-            <div class="coin_list">
-                <ul class="clearfix">
-                    {% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}
-                    {% for link in sorted %}
-                    {% if link['layout'] == 'post' %}
-                    {% if link['belong'] != 'candy' %}
-                    <li class="coin_info">
-                        <a href="{{link.url | prepend: site.url }}"><img
-                                src="{{link['imageUrl']}}"></a>
-                        <div class="hot-info">
-                            <span class="title">{{link['coinName']}}</span>
-                            <p class="description">{{link['coinInfo']}}</p>
-                            <div class="details">
-                                <div class="col-xs-3">
-                                <span>
-                                    {{link['blockHight']}}
-                                </span>
-                                    <span style="margin-top: 10px; display: block;">{{link['blockHightTitle']}}</span>
-                                </div>
-
-                                <div class="col-xs-3">
-                                <span class="{{link['currentHightClass']}}">
-                                    {{link['currentHight']}}
-                                </span>
-                                    <span style="margin-top: 10px; display: block;">{{link['currentHightTitle']}}</span>
-                                </div>
-
-                                <div class="col-xs-4">
-                                    <span class="{{link['timeClass']}}">{{link['time']}}</span>
-                                    <span style="margin-top: 10px; display: block;" class="{{link['timeTitleClass']}}">{{link['timeTitle']}}</span>
-                                </div>
-                            </div>
-                            <a href="{{link.url | prepend: site.url }}" class="btn">{{link['btnTitle']}}</a>
-                        </div>
-                        <div class="pro-status ongoing" style="background-color: #{{link['stateColor']}}">
-                            {{link['stateTitle']}}
-                        </div>
-                    </li>
-                    {% endif %}
-                    {% endif %}
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <div class="footer">
-        <div class="donate">
-            {% for link in site.footer %}
-            <p>{{link['donatio']}}
-            </p>
-            <img src="{{link['qrcode']}}">
-            {% endfor %}
-        </div>
-        <div class="row">
-            {% for link in site.footer %}
-            <p>{{link['support']}}<a href="http://www.bitpie.com" target="_blank"><b
-                    style="color: #4a90e2;"> {{link['supportHref']}}</b></a><p/>
-            {% endfor %}
-
-        </div>
-    </div>
 </div>
 {% include js.html %}
 <script>
+    var lang = (navigator.systemLanguage?navigator.systemLanguage:navigator.language);
+    var lang = lang.substr(0, 2);
+    if(lang == 'zh'){
+        console.log("zhzhzhzhzhhzhzhzh")
+        $(".nav-container").empty();
+        $(".nav-container").append("<div class=\"bar bar--sm visible-xs\">\n" +
+            "        <div class=\"container\">\n" +
+            "            <div class=\"row\" style=\"vertical-align: middle;\">\n" +
+            "                <div class=\"col-xs-3 col-sm-2\">\n" +
+            "                    <a>\n" +
+            "                        <img class=\"logo\" alt=\"logo\" src=\"/resource/logo.jpg\"/>\n" +
+            "                    </a>\n" +
+            "                    <span class=\"pieifo\"><a href=\"http://www.bitpie.com\" target=\"_blank\" style=\"font-weight: 500;\">{{site.headerHref}}</a>{{site.headerText}}</span>\n" +
+            "                </div>\n" +
+            "                <div class=\"col-xs-9 col-sm-10 text-right\">\n" +
+            "                    <a href=\"#\" class=\"hamburger-toggle\" data-toggle-class=\"#menu1;hidden-xs\">\n" +
+            "                        <a href=\"#\" class=\"hamburger-toggle\" data-toggle-class=\"#menu1;hidden-xs\">\n" +
+            "                            <img src=\"resource/menu.png\" style=\"max-width: 12%\">\n" +
+            "                        </a>\n" +
+            "                    </a>\n" +
+            "                </div>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "    </div>\n" +
+            "    <nav id=\"menu1\" class=\"bar bar--sm bar-1 hidden-xs hiddem-sm\">\n" +
+            "        <div class=\"container\">\n" +
+            "            <div class=\"row\">\n" +
+            "                <div class=\"col-md-5 col-sm-4 hidden-xs\">\n" +
+            "                    <div class=\"bar__module\">\n" +
+            "                        <a>\n" +
+            "                            <img class=\"logo logo-dark\" alt=\"logo\" src=\"/resource/logo.jpg\"/>\n" +
+            "                        </a>\n" +
+            "                        <span class=\"pieifo\"><a href=\"http://www.bitpie.com\" target=\"_blank\" style=\"font-weight: 500;\">{{site.headerHref}}</a>{{site.headerText}}</span>\n" +
+            "                    </div>\n" +
+            "                </div>\n" +
+            "                <div class=\"col-md-7 col-sm-8 text-right text-left-xs text-left-sm\">\n" +
+            "                    <div class=\"bar__module\">\n" +
+            "                        <ul class=\"menu-horizontal text-right\">\n" +
+            "                            {% for link in site.headerMenu %}\n" +
+            "                            <li class=\"dropdown\">\n" +
+            "                                <span id=\"{{link['id']}}\" class=\"dropdown__trigger\">{{link['menuTitle']}}</span>\n" +
+            "                                <div class=\"dropdown__container hidden-sm hidden-md hidden-lg\">\n" +
+            "                                    <div class=\"container\">\n" +
+            "                                        <div class=\"row\">\n" +
+            "                                            <div class=\"dropdown__content col-md-2 col-sm-3\">\n" +
+            "                                                <ul class=\"menu-vertical\">\n" +
+            "                                                    {% for item in link['menuList'] %}\n" +
+            "                                                    <li>\n" +
+            "                                                        <a href=\"#\" id=\"{{item['id']}}\" class=\"inner-link\" style=\"font-size: 14px\" data-toggle-class=\"#menu1;hidden-xs\">\n" +
+            "                                                            {{item['menuName']}}\n" +
+            "                                                        </a>\n" +
+            "                                                    </li>\n" +
+            "                                                    {% endfor %}\n" +
+            "                                                </ul>\n" +
+            "                                            </div>\n" +
+            "                                        </div>\n" +
+            "                                    </div>\n" +
+            "                                </div>\n" +
+            "                            </li>\n" +
+            "                            {% endfor %}\n" +
+            "                        </ul>\n" +
+            "                    </div>\n" +
+            "                </div>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "    </nav>");
+
+        $(".main-container").empty();
+        $(".main-container").append("<section class=\"no-bottom no-top\" style=\"margin-top: 10px;\">\n" +
+            "        <div class=\"container\">\n" +
+            "            <div class=\"statustabs\">\n" +
+            "                <div class=\"tabs-header\">\n" +
+            "                    <div class=\"border\"></div>\n" +
+            "                    <ul class=\"menu_list\">\n" +
+            "                        {% for link in site.defaultType %}\n" +
+            "                        <li class=\"active\"><a id=\"{{link['id']}}\" tab-id=\"1\"\n" +
+            "                                              ripple-color=\"#FFF\">{{link['menuName']}}</a></li>\n" +
+            "                        {% endfor %}\n" +
+            "                    </ul>\n" +
+            "                </div>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "    </section>\n" +
+            "    <section class=\"no-bottom\">\n" +
+            "        <div class=\"container\">\n" +
+            "            <div class=\"coin_list\">\n" +
+            "                <ul class=\"clearfix\">\n" +
+            "                    {% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}\n" +
+            "                    {% for link in sorted %}\n" +
+            "                    {% if link['layout'] == 'post' %}\n" +
+            "                    {% if link['belong'] != 'candy' %}\n" +
+            "                    <li class=\"coin_info\">\n" +
+            "                        <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
+            "                                src=\"{{link['imageUrl']}}\"></a>\n" +
+            "                        <div class=\"hot-info\">\n" +
+            "                            <span class=\"title\">{{link['coinName']}}</span>\n" +
+            "                            <p class=\"description\">{{link['coinInfo']}}</p>\n" +
+            "                            <div class=\"details\">\n" +
+            "                                <div class=\"col-xs-3\">\n" +
+            "                                <span>\n" +
+            "                                    {{link['blockHight']}}\n" +
+            "                                </span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\">{{link['blockHightTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "\n" +
+            "                                <div class=\"col-xs-3\">\n" +
+            "                                <span class=\"{{link['currentHightClass']}}\">\n" +
+            "                                    {{link['currentHight']}}\n" +
+            "                                </span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\">{{link['currentHightTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "\n" +
+            "                                <div class=\"col-xs-4\">\n" +
+            "                                    <span class=\"{{link['timeClass']}}\">{{link['time']}}</span>\n" +
+            "                                    <span style=\"margin-top: 10px; display: block;\" class=\"{{link['timeTitleClass']}}\">{{link['timeTitle']}}</span>\n" +
+            "                                </div>\n" +
+            "                            </div>\n" +
+            "                            <a href=\"{{link.url | prepend: site.url }}\" class=\"btn\">{{link['btnTitle']}}</a>\n" +
+            "                        </div>\n" +
+            "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
+            "                            {{link['stateTitle']}}\n" +
+            "                        </div>\n" +
+            "                    </li>\n" +
+            "                    {% endif %}\n" +
+            "                    {% endif %}\n" +
+            "                    {% endfor %}\n" +
+            "                </ul>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "    </section>\n" +
+            "    <div class=\"footer\">\n" +
+            "        <div class=\"donate\">\n" +
+            "            {% for link in site.footer %}\n" +
+            "            <p>{{link['donatio']}}\n" +
+            "            </p>\n" +
+            "            <img src=\"{{link['qrcode']}}\">\n" +
+            "            {% endfor %}\n" +
+            "        </div>\n" +
+            "        <div class=\"row\">\n" +
+            "            {% for link in site.footer %}\n" +
+            "            <p>{{link['support']}}<a href=\"http://www.bitpie.com\" target=\"_blank\"><b\n" +
+            "                    style=\"color: #4a90e2;\"> {{link['supportHref']}}</b></a><p/>\n" +
+            "            {% endfor %}\n" +
+            "\n" +
+            "        </div>\n" +
+            "    </div>");
+    }else{
+        console.log("enenenenenennen")
+        window.location.href="pages/endefault.html";
+    };
+
     $(document).ready(function () {
         displayBtHight();
         displayEthHight();

@@ -64,7 +64,7 @@ sortNumber: 90
     </tr>
     <tr>
         <td>项目官网</td>
-        <td><a href="http://www.quantumbitcoin.top/" target="_blank">www.quantumbitcoin.top</a>(即将开通)</td>
+        <td><a href="http://www.quantumbitcoin.top/" target="_blank">www.quantumbitcoin.top</a></td>
     </tr>
     <tr>
         <td>项目团队</td>
