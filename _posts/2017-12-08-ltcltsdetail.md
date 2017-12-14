@@ -1,6 +1,5 @@
 ---
 layout: post
-permalink: /detail/
 imageUrl: /resource/default.jpg
 coinName: 莱特股(LTS)
 coinInfo: 引入POS机制

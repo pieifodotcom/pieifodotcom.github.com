@@ -1,6 +1,5 @@
 ---
 layout: enpost
-permalink: /detail/
 imageUrl: /resource/default.jpg
 coinName: Litecoin shares(LTS)
 coinInfo: Litecoin shares use POS consensus mechanism.
