@@ -15,9 +15,9 @@ currentHightClass: qbtchight
 timeClass: qbtc
 btnTitle: Learn more
 btnHref: /pages/qbtcdetail
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
 sortNumber: 90
 ---

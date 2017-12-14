@@ -15,9 +15,9 @@ currentHightClass: uraniumhight
 timeClass: uranium
 btnTitle: Learn more
 btnHref: /pages/uraniumdetail
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
 sortNumber: 100
 ---

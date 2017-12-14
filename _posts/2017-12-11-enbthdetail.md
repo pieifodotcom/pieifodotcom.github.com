@@ -15,9 +15,9 @@ currentHightClass: bthhight
 timeClass: bth
 btnTitle: Learn more
 btnHref: /pages/bthdetail
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
 sortNumber: 60
 ---

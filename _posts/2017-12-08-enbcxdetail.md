@@ -15,9 +15,9 @@ currentHightClass: bcxhight
 timeClass: bcx
 btnTitle: Learn more
 btnHref: /pages/bcxdetail
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
 sortNumber: 80
 ---
