@@ -20,7 +20,7 @@ stateColor: F99F26
 belong: btForkInfo
 sortNumber: 109
 ---
-<h1 style="color: #2F416A">Bitcoin Hot</h1>
+<h1 style="color: #2F416A">Bitcoin Smart</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
 </p>
 <p>Bitpie will support to claim BCS after BCS mainnet is launched.
