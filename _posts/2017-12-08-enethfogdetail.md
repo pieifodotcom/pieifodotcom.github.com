@@ -5,9 +5,9 @@ imageUrl: /resource/default.jpg
 coinName: Ethereum Fog(ETF)
 coinInfo: Ethereum Fog is the fork coin based on Ethereum, which aims to promote Ethereum as the next generation of fog computing platforms.
 blockHightTitle: Block height
-blockHight: 4730999
+blockHight: 4730660
 timeTitle: Countdown
-timeTitleClass: uraniumtimetitle
+timeTitleClass: ethfogtimetitle
 time: 2017/12/14
 currentHightTitle: Current block height
 currentHight: Loading
@@ -16,10 +16,10 @@ timeClass: ethfog
 btnTitle: Learn more
 btnHref: /pages/ethfogdetail
 stateTitle: Upcoming
-state: 0
-stateColor: F99F26
-belong: ethForkInfo
-sortNumber: 340
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
+sortNumber: 103
 ---
 <h1 style="color: #2F416A">Ethereum Fog</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.

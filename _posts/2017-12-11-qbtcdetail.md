@@ -15,11 +15,11 @@ currentHightClass: qbtchight
 timeClass: qbtc
 btnTitle: 查看详情
 btnHref: /pages/qbtcdetail
-stateTitle: 分叉中
-state: 2
-stateColor: 3AB69C
+stateTitle: 即将分叉
+state: 0
+stateColor: F99F26
 belong: btForkInfo
-sortNumber: 90
+sortNumber: 162
 ---
 <h1 style="color: #2F416A">量子比特币</h1>
 <small>针对越来越多的分叉，比特派提醒大家：
