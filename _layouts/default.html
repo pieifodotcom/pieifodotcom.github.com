@@ -378,6 +378,7 @@
     function updateAll() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "                    <li class=\"coin_info\">\n" +
             "                        <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "                                src=\"{{link['imageUrl']}}\"></a>\n" +
@@ -410,6 +411,7 @@
             "                            {{link['stateTitle']}}\n" +
             "                        </div>\n" +
             "                    </li>\n" +
+            "                    {% endif %}" +
             "                    {% endfor %}")
         displayLtcHight();
         displayEthHight();
@@ -419,6 +421,7 @@
     function updateing() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['state'] == 0 %}\n" +
             "<li class=\"coin_info\">\n" +
             "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
@@ -452,6 +455,7 @@
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
             "</li>\n" +
+            "{% endif %}\n" +
             "{% endif %}\n" +
             "{% endfor %}\n");
         displayLtcHight();
@@ -462,6 +466,7 @@
     function updateend() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['state'] == 1 %}\n" +
             "<li class=\"coin_info\">\n" +
             "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
@@ -496,12 +501,14 @@
             "    </div>\n" +
             "</li>\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "{% endfor %}\n");
     }
 
     function updateStart() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['state'] == 2 %}\n" +
             "<li class=\"coin_info\">\n" +
             "    <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
@@ -536,12 +543,14 @@
             "    </div>\n" +
             "</li>\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "{% endfor %}\n");
     }
 
     function updateBtForkAll() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'btForkInfo' %}\n" +
             "                    <li class=\"coin_info\">\n" +
             "                        <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
@@ -576,6 +585,7 @@
             "                        </div>\n" +
             "                    </li>\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "                    {% endfor %}")
         displayBtHight();
     }
@@ -583,6 +593,7 @@
     function updateBtForking() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'btForkInfo' %}\n" +
             "{% if link['state'] == 0 %}\n" +
             "<li class=\"coin_info\">\n" +
@@ -617,6 +628,7 @@
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
             "</li>\n" +
+            "{% endif %}\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
             "{% endfor %}\n");
@@ -626,6 +638,7 @@
     function updateBtForkend() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'btForkInfo' %}\n" +
             "{% if link['state'] == 1 %}\n" +
             "<li class=\"coin_info\">\n" +
@@ -662,12 +675,14 @@
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "{% endfor %}\n");
     }
 
     function updateBtForkStart() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'btForkInfo' %}\n" +
             "{% if link['state'] == 2 %}\n" +
             "<li class=\"coin_info\">\n" +
@@ -704,12 +719,14 @@
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "{% endfor %}\n");
     }
 
     function updateEthForkAll() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'ethForkInfo' %}\n" +
             "                    <li class=\"coin_info\">\n" +
             "                        <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
@@ -744,6 +761,7 @@
             "                        </div>\n" +
             "                    </li>\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "                    {% endfor %}")
         displayEthHight();
     }
@@ -751,6 +769,7 @@
     function updateEthForking() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'ethForkInfo' %}\n" +
             "{% if link['state'] == 0 %}\n" +
             "<li class=\"coin_info\">\n" +
@@ -785,6 +804,7 @@
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
             "</li>\n" +
+            "{% endif %}\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
             "{% endfor %}\n");
@@ -794,6 +814,7 @@
     function updateEthForkend() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'ethForkInfo' %}\n" +
             "{% if link['state'] == 1 %}\n" +
             "<li class=\"coin_info\">\n" +
@@ -830,12 +851,14 @@
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "{% endfor %}\n");
     }
 
     function updateEthForkStart() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'ethForkInfo' %}\n" +
             "{% if link['state'] == 2 %}\n" +
             "<li class=\"coin_info\">\n" +
@@ -872,6 +895,7 @@
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "{% endfor %}\n");
     }
 
@@ -879,6 +903,7 @@
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
             "{% if link['belong'] == 'ltcForkInfo' %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "                    <li class=\"coin_info\">\n" +
             "                        <a href=\"{{link.url | prepend: site.url }}\"><img\n" +
             "                                src=\"{{link['imageUrl']}}\"></a>\n" +
@@ -912,6 +937,7 @@
             "                        </div>\n" +
             "                    </li>\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "                    {% endfor %}")
         displayLtcHight();
     }
@@ -919,6 +945,7 @@
     function updateLtcForking() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'ltcForkInfo' %}\n" +
             "{% if link['state'] == 0 %}\n" +
             "<li class=\"coin_info\">\n" +
@@ -955,6 +982,7 @@
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "{% endfor %}\n");
         displayLtcHight();
     }
@@ -962,6 +990,7 @@
     function updateLtcForkend() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'ltcForkInfo' %}\n" +
             "{% if link['state'] == 1 %}\n" +
             "<li class=\"coin_info\">\n" +
@@ -998,12 +1027,14 @@
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
+            "{% endif %}\n" +
             "{% endfor %}\n");
     }
 
     function updateLtcForkStart() {
         $(".clearfix").empty();
         $(".clearfix").append("{% assign sorted = (site.posts | sort: 'sortNumber') | reverse %}" + "{% for link in sorted %}\n" +
+            "{% if link['layout'] == 'post' %}\n" +
             "{% if link['belong'] == 'ltcForkInfo' %}\n" +
             "{% if link['state'] == 2 %}\n" +
             "<li class=\"coin_info\">\n" +
@@ -1038,6 +1069,7 @@
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
             "</li>\n" +
+            "{% endif %}\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
             "{% endfor %}\n");
