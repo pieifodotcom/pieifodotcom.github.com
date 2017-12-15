@@ -8,7 +8,7 @@ blockHightTitle: 分叉高度
 blockHight: 4730660
 timeTitle: 分叉日期
 timeTitleClass: uraniumtimetitle
-time: 2017/12/14
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: ethfoghight

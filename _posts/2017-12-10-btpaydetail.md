@@ -8,7 +8,7 @@ blockHightTitle: 分叉高度
 blockHight: 499345
 timeTitle: 倒计时
 timeTitleClass: btpaytimetitle
-time: 2017/12/16
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: btpayhight

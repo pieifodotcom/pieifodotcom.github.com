@@ -8,7 +8,7 @@ blockHightTitle: Block height
 blockHight: 4730660
 timeTitle: Countdown
 timeTitleClass: ethfogtimetitle
-time: 2017/12/14
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: ethfoghight
