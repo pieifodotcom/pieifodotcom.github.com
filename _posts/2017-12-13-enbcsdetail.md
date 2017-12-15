@@ -43,7 +43,7 @@ sortNumber: 109
     </tr>
     <tr>
         <td>Total supply</td>
-        <td>21亿</td>
+        <td>21 Billion</td>
     </tr>
     <tr>
         <td>Blocktime</td>

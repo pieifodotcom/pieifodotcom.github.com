@@ -15,14 +15,14 @@ currentHightClass: sbtchight
 timeClass: sbtc
 btnTitle: 查看详情
 btnHref: /pages/sbtcdetail
-stateTitle: 分叉中
-state: 2
-stateColor: 3AB69C
+stateTitle: 已分叉
+state: 1
+stateColor: 3AACEB
 belong: btForkInfo
-sortNumber: 70
+sortNumber: 35
 ---
 <h1 style="color: #2F416A">超级比特币</h1>
-<p class="summarytxt" style="color: #2F416A">(比特派将于SBTC分叉主网稳定后第一时间开通支持。)
+<p class="summarytxt" style="color: #2F416A">(SBTC主网已经启动，比特派已于第一时间支持SBTC的提取，为全球首个支持SBTC的钱包。)
 </p>
 <p>
 SBTC，Super Bitcoin的缩写，中文名超级比特币。首次曝光于是2017年11月15日，开发团队是Super Bitcoin，团队成员包括大名鼎鼎的中国比特币首富李笑来。
