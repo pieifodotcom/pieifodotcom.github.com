@@ -17,7 +17,7 @@ btnTitle: 查看详情
 stateTitle: 即将分叉
 state: 0
 stateColor: F99F26
-belong: ethForkInfo
+belong: btForkInfo
 sortNumber: 189
 ---
 <h1 style="color: #2F416A">比特宝</h1>
