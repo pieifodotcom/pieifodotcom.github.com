@@ -8,7 +8,7 @@ blockHightTitle: Block height
 blockHight: 500000
 timeTitle: Countdown
 timeTitleClass: btftimetitle
-time: 2017/12/23
+time: 2017/12/19
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: btfhight
@@ -38,7 +38,7 @@ sortNumber: 180
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2017/12/20</td>
+        <td>2017/12/19</td>
     </tr>
     <tr>
         <td>Replay protection</td>

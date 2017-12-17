@@ -8,7 +8,7 @@ blockHightTitle: Block height
 blockHight: 499999
 timeTitle: Countdown
 timeTitleClass: lbtctimetitle
-time: 2017/12/23
+time: 2017/12/19
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: lbtchight
@@ -39,7 +39,7 @@ sortNumber: 200
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2017/12/23</td>
+        <td>2017/12/19</td>
     </tr>
     <tr>
         <td>Replay protection</td>

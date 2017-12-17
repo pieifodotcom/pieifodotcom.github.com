@@ -2,13 +2,13 @@
 layout: post
 title:  bckdetail
 imageUrl: /resource/default.jpg
-coinName: 比特君主(BCK)
+coinName: 比特币王者(BCK)
 coinInfo: 低费率的电子现金系统
 blockHightTitle: 分叉高度
 blockHight: 499999
 timeTitle: 加载中
 timeTitleClass: bcktimetitle
-time: 2017/12/25
+time: 2017/12/19
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: bckhight
@@ -32,7 +32,7 @@ sortNumber: 190
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Bitcoin King(BCK) 比特君主</td>
+        <td class="tablehalf">Bitcoin King(BCK) 比特币王者</td>
     </tr>
     <tr>
         <td>分叉高度</td>
@@ -40,7 +40,7 @@ sortNumber: 190
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2017年12月25日</td>
+        <td>2017年12月19日</td>
     </tr>
     <tr>
         <td>重放保护</td>
@@ -60,7 +60,7 @@ sortNumber: 190
     </tr>
     <tr>
         <td>项目官网</td>
-        <td>未公布</td>
+        <td><a href="http://btcking.org/" target="_blank">http://btcking.org</a></td>
     </tr>
     <tr>
         <td>项目团队</td>

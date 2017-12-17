@@ -8,7 +8,7 @@ blockHightTitle: 分叉高度
 blockHight: 499999
 timeTitle: 分叉日期
 timeTitleClass: btcstimetitle
-time: 2017年12月20日
+time: 2017年12月19日
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: btcshight
@@ -21,7 +21,7 @@ belong: ethForkInfo
 sortNumber: 189
 ---
 <h1 style="color: #2F416A">比特宝</h1>
-<small>比特派会针对每一个可能的分叉做技术处理，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
+<small>比特派已经与比特宝团队进行了深入的沟通，会在主网启动后支持比特宝的领取，收发。
 </small>
 <p>Bitcoin Stake（简称“比特宝”或“BTCS”） 致力于将比特币分叉成更公平的 Secure POS 算
    法， 打破挖矿芯片厂商对算力的垄断，减少挖矿环节对资源消耗， 使比特币的权力中
@@ -42,7 +42,7 @@ sortNumber: 189
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2017年12月20日</td>
+        <td>2017年12月19日</td>
     </tr>
     <tr>
         <td>重放保护</td>

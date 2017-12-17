@@ -8,7 +8,7 @@ blockHightTitle: 分叉高度
 blockHight: 500000
 timeTitle: 倒计时
 timeTitleClass: btptimetitle
-time: 2017/12/23
+time: 2017/12/19
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: btphight
@@ -39,7 +39,7 @@ sortNumber: 170
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2017年12月23日</td>
+        <td>2017年12月19日</td>
     </tr>
     <tr>
         <td>重放保护</td>
