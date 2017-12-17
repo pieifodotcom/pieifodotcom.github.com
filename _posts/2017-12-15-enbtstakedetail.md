@@ -75,7 +75,7 @@ sortNumber: 189
     </tr>
     <tr>
         <td>Project Team</td>
-        <td>Bo Peng, Zhiwen Li, Chao Jia.</td>
+        <td>Zhiwen Li, Ankitt Guar</td>
     </tr>
   </tbody>
 </table>

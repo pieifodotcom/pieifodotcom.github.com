@@ -78,7 +78,7 @@ sortNumber: 189
     </tr>
     <tr>
         <td>项目团队</td>
-        <td>彭波,黎志文,贾朝。</td>
+        <td>黎志文 , Ankitt Guar</td>
     </tr>
   </tbody>
 </table>
