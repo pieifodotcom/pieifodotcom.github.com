@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  btcsdetail
-imageUrl: /resource/default.jpg
+imageUrl: /resource/btcstake.jpg
 coinName: 比特宝(BTCS)
 coinInfo: 致力于将比特币分叉成更公平的 Secure POS 算法
 blockHightTitle: 分叉高度

@@ -1,7 +1,7 @@
 ---
 layout: enpost
 title:  btcsdetail
-imageUrl: /resource/bcs.jpg
+imageUrl: /resource/btcstake.jpg
 coinName: Bitcoin Smart（BTCS）
 coinInfo: Bitcoin Stake is a hard-fork that adopt Secure POS. In future , BTCS will be extended to support smart contract.
 blockHightTitle: Block height
