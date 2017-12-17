@@ -70,7 +70,7 @@ sortNumber: 189
     </tr>
     <tr>
         <td>总量</td>
-        <td>起始数量：16亿9600万 ，每年POS增发约5%</td>
+        <td>21亿2100万</td>
     </tr>
     <tr>
         <td>项目官网</td>

@@ -43,7 +43,7 @@ sortNumber: 189
     </tr>
     <tr>
         <td>Total supply</td>
-        <td>1.696 billions + 5% annual POS offering</td>
+        <td>2.121 Billion</td>
     </tr>
     <tr>
         <td>Ratio to BTC</td>
