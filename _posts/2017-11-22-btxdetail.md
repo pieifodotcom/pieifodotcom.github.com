@@ -6,7 +6,7 @@ coinName: BTX
 coinInfo: 首批正常，第二批则需用户导入私钥，极端危险，不建议领取。
 btnTitle: 查看详情
 btnHref: /pages/btxdetail
-stateTitle: SCAM
+stateTitle: High Risk
 state: 4
 stateColor: ED6363
 belong: candy

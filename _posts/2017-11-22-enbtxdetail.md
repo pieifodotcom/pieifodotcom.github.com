@@ -5,7 +5,7 @@ imageUrl: /resource/btx.jpg
 coinName: BTX
 coinInfo: Claim BTX need user to import their private key, extremely dangers.
 btnTitle: Learn more
-stateTitle: SCAM
+stateTitle: High Risk
 state: 4
 stateColor: ED6363
 belong: candy
