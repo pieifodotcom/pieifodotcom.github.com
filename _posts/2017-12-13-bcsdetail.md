@@ -19,7 +19,7 @@ stateTitle: 即将分叉
 state: 0
 stateColor: F99F26
 belong: btForkInfo
-sortNumber: 109
+sortNumber: 110
 ---
 <h1 style="color: #2F416A">比特智能</h1>
 <p>比特派已经跟BCS团队进行了深入沟通，会在项目主网上线后支持BCS的提取。

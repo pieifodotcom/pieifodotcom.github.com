@@ -19,7 +19,7 @@ stateTitle: 分叉中
 state: 2
 stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 170
+sortNumber: 109
 ---
 <h1 style="color: #2F416A">比特币铂金</h1>
 <p style="color: red">比特币铂金疑似一场骗局

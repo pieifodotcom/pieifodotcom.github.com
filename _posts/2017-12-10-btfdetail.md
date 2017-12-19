@@ -19,7 +19,7 @@ stateTitle: 分叉中
 state: 2
 stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 180
+sortNumber: 109
 ---
 <h1 style="color: #2F416A">比特信仰</h1>
 <p>比特派已经与Bitcoin Faith团队进行过深入的技术沟通，会在主网上线后支持BTF的提取。

@@ -18,7 +18,7 @@ stateTitle: 分叉中
 state: 2
 stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 189
+sortNumber: 108
 ---
 <h1 style="color: #2F416A">比特宝</h1>
 <p>比特派已经与比特宝团队进行了深入的沟通，会在主网启动后支持比特宝的领取，收发。并在合适的时间开通比特宝的点对点交易。
