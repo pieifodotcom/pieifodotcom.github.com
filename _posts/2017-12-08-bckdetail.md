@@ -19,7 +19,7 @@ stateTitle: 分叉中
 state: 2
 stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 107
+sortNumber: 109
 ---
 <h1 style="color: #2F416A">比特君主</h1>
 <small>针对越来越多的分叉，比特派提醒大家：

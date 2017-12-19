@@ -19,7 +19,7 @@ stateTitle: Undergoing
 state: 2
 stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 109
+sortNumber: 112
 ---
 <h1 style="color: #2F416A">Bitcoin Platinum</h1>
 <p style="color: red">Bitcoin Platinum may be is a scam.

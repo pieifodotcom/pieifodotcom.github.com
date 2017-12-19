@@ -19,7 +19,7 @@ stateTitle: 分叉中
 state: 2
 stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 104
+sortNumber: 106
 ---
 <h1 style="color: #2F416A">比特币支付</h1>
 <p>比特派已经与Bitcoin Pay团队进行过深入的技术沟通，会在主网上线后支持BTP的提取。

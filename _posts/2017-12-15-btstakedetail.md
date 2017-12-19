@@ -8,7 +8,7 @@ blockHightTitle: 分叉高度
 blockHight: 499999
 timeTitle: 分叉日期
 timeTitleClass: btcstimetitle
-time: 2017年12月19日
+time: 2017/12/19
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: btcshight
@@ -18,7 +18,7 @@ stateTitle: 分叉中
 state: 2
 stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 108
+sortNumber: 110
 ---
 <h1 style="color: #2F416A">比特宝</h1>
 <p>比特派已经与比特宝团队进行了深入的沟通，会在主网启动后支持比特宝的领取，收发。并在合适的时间开通比特宝的点对点交易。

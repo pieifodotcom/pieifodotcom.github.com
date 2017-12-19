@@ -19,7 +19,7 @@ stateTitle: 分叉中
 state: 2
 stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 106
+sortNumber: 108
 ---
 <h1 style="color: #2F416A">闪电比特币</h1>
 <p>闪电比特币（LBTC）将DPOS共识机制引入了比特币网络，做到记账权和投票权的分离，从而保证系统不会被滥用，无法单方面劫持其他参与方。只要用户持有币就持有话语权，从而实现真正的共治。
