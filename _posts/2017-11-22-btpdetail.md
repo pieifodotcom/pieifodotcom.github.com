@@ -3,7 +3,7 @@ layout: post
 title:  btpdetail
 imageUrl: /resource/btp.jpg
 coinName: 比特币铂金(BTP)
-coinInfo: 比特币铂金的创造者承认比特币铂金是一个骗局
+coinInfo: 使用区块链技术进行操作、无需中央治理或第三方干预
 blockHightTitle: 分叉高度
 blockHight: 500000
 timeTitle: 倒计时
@@ -22,7 +22,7 @@ belong: btForkInfo
 sortNumber: 112
 ---
 <h1 style="color: #2F416A">比特币铂金</h1>
-<p style="color: red">比特币铂金疑似一场骗局
+<p style="color: red">比特币铂金项目方在Twitter上承认比特币铂金是一个骗局，但随后在官网否认并澄清。
 </p>
 <a href="http://www.chainknow.com/detail/475.html" target="_blank">http://www.chainknow.com/detail/475.html</a>
 <p>Bitcoin Platinum 使用区块链技术进行操作、无需中央治理或第三方干预; Bitcoin Platinum的管理、发行和维护由分散网络集体进行。
