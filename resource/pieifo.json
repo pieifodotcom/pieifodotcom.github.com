@@ -1,72 +1,62 @@
 [
-    {
-        "coinName": "联合比特币(UBTC)",
-        "blockHight": "498777",
-        "forkType":"bt"
-    },
-    {
-        "coinName": "超级比特币(SBTC)",
-        "blockHight": "498888",
-        "forkType":"bt"
-    },
-    {
-        "coinName": "联合比特币(UBTC)",
-        "blockHight": "498888",
-        "forkType":"bt"
-    },
-    {
-        "coinName": "比特无限(BCX)",
-        "blockHight": "498888",
-        "forkType":"bt"
-    },
-    {
-        "coinName": "比特支付",
-        "blockHight": "499345",
-        "forkType":"bt"
-    },
-    {
-        "coinName": "比特世界(BCW)",
-        "blockHight": "498777",
-        "forkType":"bt"
-    },
-    {
-        "coinName": "闪电比特币(LBTC)",
-        "blockHight": "499999",
-        "forkType":"bt"
-    },
-    {
-        "coinName": "比特君主(BCK)",
-        "blockHight": "499999",
-        "forkType":"bt"
-    },
-    {
-        "coinName": "比特币铂金(BTP)",
-        "blockHight": "500000",
-        "forkType":"bt"
-    },
-    {
+  {
+    "type": "bit",
+    "interval": "600",
+    "events": [
+      {
+        "coinName": "量子比特币(QBTC)",
+        "blockHight": "",
+        "timestamp": "1514419200",
+        "location": "起床领币"
+      },
+      {
         "coinName": "比特币上帝(BTG)",
-        "blockHight": "500000",
-        "forkType":"bt"
-    },
-    {
-        "coinName": "以太雾(ETF)",
-        "blockHight": "4830000",
-        "forkType":"eth"
-    },
-    {
+        "blockHight": "501225",
+        "timestamp": "",
+        "location": "起床领币"
+      },
+      {
         "coinName": "比特币增强现金(BCP)",
         "blockHight": "501407",
-        "forkType":"bt"
-    },
-    {
+        "timestamp": "",
+        "location": "起床领币"
+      },
+      {
+        "coinName": "比特币荣耀(BTA)",
+        "blockHight": "",
+        "timestamp": "1514736000",
+        "location": "起床领币"
+      },
+      {
+        "coinName": "比特币比萨(BPA)",
+        "blockHight": "501888",
+        "timestamp": "",
+        "location": "起床领币"
+      },
+      {
+        "coinName": "比特智能(BCS)",
+        "blockHight": "505050",
+        "timestamp": "",
+        "location": "起床领币"
+      }
+    ]
+  },
+  {
+    "type": "ltc",
+    "interval": "130",
+    "event": [
+      {
         "coinName": "超级莱特币(SLTC)",
         "blockHight": "1343999",
-        "forkType":"ltc"
-    },
-    {
+        "timestamp": "",
+        "location": "起床领币"
+      },
+      {
         "coinName": "莱特股(LTS)",
         "blockHight": "1359668",
-        "forkType":"ltc"
-    }
+        "timestamp": "",
+        "location": "起床领币"
+      }
+    ]
+  }
 ]
