@@ -139,6 +139,9 @@
             "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "                            {{link['stateTitle']}}\n" +
             "                        </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "                    </li>\n" +
             "                    {% endif %}\n" +
             "                    {% endif %}\n" +
@@ -164,7 +167,6 @@
             "        </div>\n" +
             "    </div>");
     }else{
-        console.log("enenenenenennen")
         window.location.href="pages/endefault.html";
     };
 
@@ -409,6 +411,9 @@
             "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "                            {{link['stateTitle']}}\n" +
             "                        </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "                    </li>\n" +
             "                    {% endif %}" +
             "                    {% endfor %}")
@@ -453,6 +458,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -498,6 +506,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -540,6 +551,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -582,6 +596,9 @@
             "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "                            {{link['stateTitle']}}\n" +
             "                        </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "                    </li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -626,6 +643,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -671,6 +691,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -715,6 +738,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -758,6 +784,9 @@
             "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "                            {{link['stateTitle']}}\n" +
             "                        </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "                    </li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -802,6 +831,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -847,6 +879,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -891,6 +926,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -934,6 +972,9 @@
             "                        <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "                            {{link['stateTitle']}}\n" +
             "                        </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "                    </li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -978,6 +1019,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -1023,6 +1067,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
@@ -1067,6 +1114,9 @@
             "    <div class=\"pro-status ongoing\" style=\"background-color: #{{link['stateColor']}}\">\n" +
             "        {{link['stateTitle']}}\n" +
             "    </div>\n" +
+            "{% if link['state'] == 1 %}\n" +
+            "<img class='stamp' src='../resource/stamp.png' onclick='window.location.href=\"{{link.url | prepend: site.url }}\"'></img>" +
+            "{% endif %}\n" +
             "</li>\n" +
             "{% endif %}\n" +
             "{% endif %}\n" +
