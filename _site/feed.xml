@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-15T11:15:47+08:00</updated><id>http://localhost:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">ethemodetail</title><link href="http://localhost:4000/2017-12-14/ethemodetail" rel="alternate" type="text/html" title="ethemodetail" /><published>2017-12-14T00:00:00+08:00</published><updated>2017-12-14T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-14/ethemodetail</id><content type="html" xml:base="http://localhost:4000/2017-12-14/ethemodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;以太坊改良&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-18T20:29:22+08:00</updated><id>http://localhost:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">btcsdetail</title><link href="http://localhost:4000/2017-12-15/enbtstakedetail" rel="alternate" type="text/html" title="btcsdetail" /><published>2017-12-15T00:00:00+08:00</published><updated>2017-12-15T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-15/enbtstakedetail</id><content type="html" xml:base="http://localhost:4000/2017-12-15/enbtstakedetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Smart&lt;/h1&gt;
+&lt;p class=&quot;summarytxt&quot;&gt;Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
+&lt;/p&gt;
+&lt;p&gt;Bitpie will support to claim BCS after BCS mainnet is launched.
+&lt;/p&gt;
+&lt;p&gt;Bitcoin Smart(BCS) is an experiment to improve Bitcoin , with integration of smart-contract, new features such as token issuance will be available on Bitcoin and onchain performance will no longer be a issue.
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Project name&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin Stack（BTCS）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Block height&lt;/td&gt;
+        &lt;td&gt;499999&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Hard-fork time&lt;/td&gt;
+        &lt;td&gt;2017/12/20&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Total supply&lt;/td&gt;
+        &lt;td&gt;2.121 Billion&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Ratio to BTC&lt;/td&gt;
+        &lt;td&gt;1:100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Blocktime&lt;/td&gt;
+        &lt;td&gt;1 min&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Block size&lt;/td&gt;
+        &lt;td&gt;8M&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Consensus mechanism&lt;/td&gt;
+        &lt;td&gt;POS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Replay protection&lt;/td&gt;
+        &lt;td&gt;Support&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Pre-mining&lt;/td&gt;
+        &lt;td&gt;21 Millions&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Official Website&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;http://www.Btcscoin.com&quot; target=&quot;_blank&quot;&gt;Btcscoin.com&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Project Team&lt;/td&gt;
+        &lt;td&gt;Zhiwen Li, Ankitt Guar&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Smart Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Bitpie will support to claim BCS after BCS mainnet is launched. Bitcoin Smart(BCS) is an experiment to improve Bitcoin , with integration of smart-contract, new features such as token issuance will be available on Bitcoin and onchain performance will no longer be a issue. Project name Bitcoin Stack（BTCS） Block height 499999 Hard-fork time 2017/12/20 Total supply 2.121 Billion Ratio to BTC 1:100 Blocktime 1 min Block size 8M Consensus mechanism POS Replay protection Support Pre-mining 21 Millions Official Website Btcscoin.com Project Team Zhiwen Li, Ankitt Guar</summary></entry><entry><title type="html">btcsdetail</title><link href="http://localhost:4000/2017-12-15/btstakedetail" rel="alternate" type="text/html" title="btcsdetail" /><published>2017-12-15T00:00:00+08:00</published><updated>2017-12-15T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-15/btstakedetail</id><content type="html" xml:base="http://localhost:4000/2017-12-15/btstakedetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特宝&lt;/h1&gt;
+&lt;p&gt;比特派已经与比特宝团队进行了深入的沟通，会在主网启动后支持比特宝的领取，收发。并在合适的时间开通比特宝的点对点交易。
+&lt;/p&gt;
+&lt;p&gt;Bitcoin Stake（简称“比特宝”或“BTCS”） 致力于将比特币分叉成更公平的 Secure POS 算
+   法， 打破挖矿芯片厂商对算力的垄断，减少挖矿环节对资源消耗， 使比特币的权力中
+   心更加去中心化，恢复比特币初期人人可以参与挖矿的情形。
+&lt;/p&gt;
+&lt;p&gt;在可拓展性方面， 比特宝(BTCS)会在比特币的基础上加入智能合约、 更好的匿名保护等
+   技术，在比特币现有基础上构建有异于比特币的解决方案。
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin Stack（BTCS） 比特宝&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉高度&lt;/td&gt;
+        &lt;td&gt;499999&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉时间&lt;/td&gt;
+        &lt;td&gt;2017年12月19日&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;重放保护&lt;/td&gt;
+        &lt;td&gt;支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;难度调整&lt;/td&gt;
+        &lt;td&gt;1分钟&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;区块大小&lt;/td&gt;
+        &lt;td&gt;8M&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;共识机制&lt;/td&gt;
+        &lt;td&gt;POS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;是否预挖&lt;/td&gt;
+        &lt;td&gt;2100万&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉币数量比例&lt;/td&gt;
+        &lt;td&gt;1:100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;总量&lt;/td&gt;
+        &lt;td&gt;21亿2100万&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目官网&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;http://www.Btcscoin.com/&quot; target=&quot;_blank&quot;&gt;Btcscoin.com&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目团队&lt;/td&gt;
+        &lt;td&gt;黎志文 , Ankitt Guar&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特宝 比特派已经与比特宝团队进行了深入的沟通，会在主网启动后支持比特宝的领取，收发。并在合适的时间开通比特宝的点对点交易。 Bitcoin Stake（简称“比特宝”或“BTCS”） 致力于将比特币分叉成更公平的 Secure POS 算 法， 打破挖矿芯片厂商对算力的垄断，减少挖矿环节对资源消耗， 使比特币的权力中 心更加去中心化，恢复比特币初期人人可以参与挖矿的情形。 在可拓展性方面， 比特宝(BTCS)会在比特币的基础上加入智能合约、 更好的匿名保护等 技术，在比特币现有基础上构建有异于比特币的解决方案。 项目名 Bitcoin Stack（BTCS） 比特宝 分叉高度 499999 分叉时间 2017年12月19日 重放保护 支持 难度调整 1分钟 区块大小 8M 共识机制 POS 是否预挖 2100万 分叉币数量比例 1:100 总量 21亿2100万 项目官网 Btcscoin.com 项目团队 黎志文 , Ankitt Guar</summary></entry><entry><title type="html">ethemodetail</title><link href="http://localhost:4000/2017-12-14/ethemodetail" rel="alternate" type="text/html" title="ethemodetail" /><published>2017-12-14T00:00:00+08:00</published><updated>2017-12-14T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-14/ethemodetail</id><content type="html" xml:base="http://localhost:4000/2017-12-14/ethemodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;以太坊改良&lt;/h1&gt;
 &lt;p&gt;&lt;small&gt;比特派会针对每一个可能的分叉做技术处理，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
 &lt;/small&gt;&lt;/p&gt;
 &lt;p style=&quot;color: red&quot;&gt;项目方临时宣布已于高度4730666分叉。
@@ -119,7 +238,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;Total supply&lt;/td&gt;
-        &lt;td&gt;21亿&lt;/td&gt;
+        &lt;td&gt;21 Billion&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;Blocktime&lt;/td&gt;
@@ -150,7 +269,7 @@
         &lt;td&gt;BCS Team&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Smart Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Bitpie will support to claim BCS after BCS mainnet is launched. Bitcoin Smart(BCS) is an experiment to improve Bitcoin , with integration of smart-contract, new features such as token issuance will be available on Bitcoin and onchain performance will no longer be a issue. Project name Bitcoin Smart（BCS） Block height 505050 Hard-fork time 2018/1/20 Total supply 21亿 Blocktime 10 min Difficulty adjustment DAA Block size 8M Segwit Support Consensus mechanism Equi Hash(GPU) Official Website http://bcs.info Project Team BCS Team</summary></entry><entry><title type="html">bcsdetail</title><link href="http://localhost:4000/2017-12-13/bcsdetail" rel="alternate" type="text/html" title="bcsdetail" /><published>2017-12-13T00:00:00+08:00</published><updated>2017-12-13T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-13/bcsdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-13/bcsdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特智能&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Smart Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Bitpie will support to claim BCS after BCS mainnet is launched. Bitcoin Smart(BCS) is an experiment to improve Bitcoin , with integration of smart-contract, new features such as token issuance will be available on Bitcoin and onchain performance will no longer be a issue. Project name Bitcoin Smart（BCS） Block height 505050 Hard-fork time 2018/1/20 Total supply 21 Billion Blocktime 10 min Difficulty adjustment DAA Block size 8M Segwit Support Consensus mechanism Equi Hash(GPU) Official Website http://bcs.info Project Team BCS Team</summary></entry><entry><title type="html">bcsdetail</title><link href="http://localhost:4000/2017-12-13/bcsdetail" rel="alternate" type="text/html" title="bcsdetail" /><published>2017-12-13T00:00:00+08:00</published><updated>2017-12-13T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-13/bcsdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-13/bcsdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特智能&lt;/h1&gt;
 &lt;p&gt;比特派已经跟BCS团队进行了深入沟通，会在项目主网上线后支持BCS的提取。
 &lt;/p&gt;
 &lt;p&gt;
@@ -397,104 +516,4 @@ BCS创新的将智能合约、去中心化交易所结合在一起。主网上�
         &lt;td&gt;BTA foundation&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin ALL Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Bitcoin ALL has a Chinese name of bitcoin honor, refers to BTA. Everyone can mine it and everyone can trade with 0 fees instantly. Project name Bitcoin ALL（BTA） Fork timestamp To ensure an accurate fork time on 2018.1.1 ,the first blockhight after timestamp 1514736000 will be used as fork height. Hard-fork time 2018/1/1 0:00 Replay protection Support Mining algorithm AuxPOW Pre-mining no-premining Ratio to BTC 1：1 Total supply 2100 Millions Official Website http://www.bitcoinall.org Project Team BTA foundation</summary></entry><entry><title type="html">bthdetail</title><link href="http://localhost:4000/2017-12-11/bthdetail" rel="alternate" type="text/html" title="bthdetail" /><published>2017-12-11T00:00:00+08:00</published><updated>2017-12-11T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-11/bthdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-11/bthdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特热点&lt;/h1&gt;
-&lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
-       区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
-       比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
-&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;全新的BtHash算法，能够让普通用户用CPU和GPU参与挖矿。
-&lt;/p&gt;
-&lt;table class=&quot;center&quot;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin Hot(BTH) 比特热点&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉高度&lt;/td&gt;
-        &lt;td&gt;498848&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉时间&lt;/td&gt;
-        &lt;td&gt;2017年12月12日&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;重放保护&lt;/td&gt;
-        &lt;td&gt;支持&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;挖矿算法&lt;/td&gt;
-        &lt;td&gt;BtHash (CPU+GPU)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;是否预挖&lt;/td&gt;
-        &lt;td&gt;21,000,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;比例&lt;/td&gt;
-        &lt;td&gt;1：100&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;总量&lt;/td&gt;
-        &lt;td&gt;21.21亿&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;未公布&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目团队&lt;/td&gt;
-        &lt;td&gt;硅谷匿名团队&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特热点 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 全新的BtHash算法，能够让普通用户用CPU和GPU参与挖矿。 项目名 Bitcoin Hot(BTH) 比特热点 分叉高度 498848 分叉时间 2017年12月12日 重放保护 支持 挖矿算法 BtHash (CPU+GPU) 是否预挖 21,000,000 比例 1：100 总量 21.21亿 项目官网 未公布 项目团队 硅谷匿名团队</summary></entry><entry><title type="html">btadetail</title><link href="http://localhost:4000/2017-12-11/btadetail" rel="alternate" type="text/html" title="btadetail" /><published>2017-12-11T00:00:00+08:00</published><updated>2017-12-11T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-11/btadetail</id><content type="html" xml:base="http://localhost:4000/2017-12-11/btadetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币荣耀&lt;/h1&gt;
-&lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
-       区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
-       比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
-&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;Bitcoin ALL，中文名称比特币荣耀，符号BTA。是在比特币区块高度分叉出来的无预挖无超发的分山币，定位所有矿机都可以挖矿，所有人都可以0手续费即时交易。
-&lt;/p&gt;
-&lt;table class=&quot;center&quot;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin ALL（BTA） 比特币荣耀&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉时间戳&lt;/td&gt;
-        &lt;td&gt;第一个时间戳不低于1514736000的区块高度为BTA的分叉高度。从而确保较准确的元旦当天0时左右分叉。&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉时间&lt;/td&gt;
-        &lt;td&gt;2018年1月1日0点左右&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;重放保护&lt;/td&gt;
-        &lt;td&gt;支持&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;挖矿算法&lt;/td&gt;
-        &lt;td&gt;AuxPOW（所有矿机均可）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;是否预挖&lt;/td&gt;
-        &lt;td&gt;无&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;比例&lt;/td&gt;
-        &lt;td&gt;1：1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;总量&lt;/td&gt;
-        &lt;td&gt;2100万&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;http://www.bitcoinall.org/&quot; target=&quot;_blank&quot;&gt;http://www.bitcoinall.org&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目团队&lt;/td&gt;
-        &lt;td&gt;BTA基金会、玛雅、赵善仁&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币荣耀 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 Bitcoin ALL，中文名称比特币荣耀，符号BTA。是在比特币区块高度分叉出来的无预挖无超发的分山币，定位所有矿机都可以挖矿，所有人都可以0手续费即时交易。 项目名 Bitcoin ALL（BTA） 比特币荣耀 分叉时间戳 第一个时间戳不低于1514736000的区块高度为BTA的分叉高度。从而确保较准确的元旦当天0时左右分叉。 分叉时间 2018年1月1日0点左右 重放保护 支持 挖矿算法 AuxPOW（所有矿机均可） 是否预挖 无 比例 1：1 总量 2100万 项目官网 http://www.bitcoinall.org 项目团队 BTA基金会、玛雅、赵善仁</summary></entry></feed>
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin ALL Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Bitcoin ALL has a Chinese name of bitcoin honor, refers to BTA. Everyone can mine it and everyone can trade with 0 fees instantly. Project name Bitcoin ALL（BTA） Fork timestamp To ensure an accurate fork time on 2018.1.1 ,the first blockhight after timestamp 1514736000 will be used as fork height. Hard-fork time 2018/1/1 0:00 Replay protection Support Mining algorithm AuxPOW Pre-mining no-premining Ratio to BTC 1：1 Total supply 2100 Millions Official Website http://www.bitcoinall.org Project Team BTA foundation</summary></entry></feed>

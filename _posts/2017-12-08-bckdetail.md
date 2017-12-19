@@ -15,9 +15,9 @@ currentHightClass: bckhight
 timeClass: king
 btnTitle: 查看详情
 btnHref: /pages/bckdetail
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
 sortNumber: 190
 ---

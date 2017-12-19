@@ -14,9 +14,9 @@ currentHight: 加载中
 currentHightClass: btcshight
 timeClass: btcs
 btnTitle: 查看详情
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
 sortNumber: 189
 ---
