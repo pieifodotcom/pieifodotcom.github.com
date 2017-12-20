@@ -7,37 +7,37 @@
         "coinName": "量子比特币(QBTC)",
         "blockHeight": "",
         "timestamp": "1514505600",
-        "location": "起床领币"
+        "summary": "起床领币"
       },
       {
         "coinName": "比特币上帝(BTG)",
         "blockHeight": "501225",
         "timestamp": "",
-        "location": "起床领币"
+        "summary": "起床领币"
       },
       {
         "coinName": "比特币增强现金(BCP)",
         "blockHeight": "501407",
         "timestamp": "",
-        "location": "起床领币"
+        "summary": "起床领币"
       },
       {
         "coinName": "比特币荣耀(BTA)",
         "blockHeight": "",
         "timestamp": "1514736000",
-        "location": "起床领币"
+        "summary": "起床领币"
       },
       {
         "coinName": "比特币比萨(BPA)",
         "blockHeight": "501888",
         "timestamp": "",
-        "location": "起床领币"
+        "summary": "起床领币"
       },
       {
         "coinName": "比特智能(BCS)",
         "blockHeight": "505050",
         "timestamp": "",
-        "location": "起床领币"
+        "summary": "起床领币"
       }
     ]
   },
@@ -49,13 +49,13 @@
         "coinName": "超级莱特币(SLTC)",
         "blockHeight": "1343999",
         "timestamp": "",
-        "location": "起床领币"
+        "summary": "起床领币"
       },
       {
         "coinName": "莱特股(LTS)",
         "blockHeight": "1359668",
         "timestamp": "",
-        "location": "起床领币"
+        "summary": "起床领币"
       }
     ]
   }
