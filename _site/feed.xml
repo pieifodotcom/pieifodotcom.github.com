@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://192.168.1.62:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://192.168.1.62:4000/" rel="alternate" type="text/html" /><updated>2017-12-19T20:08:00+08:00</updated><id>http://192.168.1.62:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">btcsdetail</title><link href="http://192.168.1.62:4000/2017-12-15/enbtstakedetail" rel="alternate" type="text/html" title="btcsdetail" /><published>2017-12-15T00:00:00+08:00</published><updated>2017-12-15T00:00:00+08:00</updated><id>http://192.168.1.62:4000/2017-12-15/enbtstakedetail</id><content type="html" xml:base="http://192.168.1.62:4000/2017-12-15/enbtstakedetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Smart&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-20T11:20:48+08:00</updated><id>http://localhost:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">btedetail</title><link href="http://localhost:4000/2017-12-20/enbtedetail" rel="alternate" type="text/html" title="btedetail" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-20/enbtedetail</id><content type="html" xml:base="http://localhost:4000/2017-12-20/enbtedetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Byteball&lt;/h1&gt;
+&lt;p&gt;BitEthereum aims to create a well-developed ecosystem of crypto token assets that addresses the current problems in Bitcoin and Ethereum. BitEthereum also enables user authentication, automated asset dividend payout and alliance formation. And also introduced zero transaction fee feature. Besides, BitEthereum is provided with an easy-to-use advanced paymentsystem. Meanwhile, to enrich BitEthereum's ecosystem, we offer a more advanced and convenient third-party software development kit (SDK) so that third-party developers and corporate users can give full play to BitEthereum in application development.
+&lt;/p&gt;
+&lt;p&gt;1.Distribution：
+   The total supply of BitEthereum is 100 Million, 99% of BTE will be distributed to BTC and ETH holder by airdrop. BTC holders will get 66 Million BTE in total and ETH holders will get 33 million BTE. The snapshot will be take place on 2017.12.21 0:00(UTC +8), addresses who have 0.1+ BTC or 1+ ETH is eligible for Airdrop.
+&lt;/p&gt;
+&lt;p&gt;2.Claim：BitEthereum wallet will be published by mid of Jan. After that, eligible BTC and ETH holders are able to submit signature of their addresses to BitEthereum blockchain to claim BTE. BTE will be sent to user’s BitEthereum accounts after submission of signature.
+&lt;/p&gt;
+&lt;p&gt;3.Caculation：
+   Assume John has 10 BTC in his address and the total BTC amount on eligible BTC addresses by snapshot time is 16,748,650. John will get 10/16748650* 66000000 = 39.40616 BTE.
+&lt;/p&gt;
+&lt;p&gt;4.  The deadline to claim BitEthereum is Mar.21st 2018.
+&lt;/p&gt;
+&lt;p&gt;Bitpie users are managing private keys by themselves, therefore, eligible users will need to claim BTE by themselves. Bitpie will work with project team to release a claiming instruction for our users when the claiming process is started. Due to the special security mechanisms in Piebank, Piebank will not support BTE claiming.
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Project name&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;BitEthereum&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Code&lt;/td&gt;
+        &lt;td&gt;BTE&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Airdrop Snapshot time&lt;/td&gt;
+        &lt;td&gt;2017/12/21 00：00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Blocktime&lt;/td&gt;
+        &lt;td&gt;3 seconds&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Ratio to BTC&lt;/td&gt;
+        &lt;td&gt;1:100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Block capacity&lt;/td&gt;
+        &lt;td&gt;3000+ per seconds&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Consensus mechanism&lt;/td&gt;
+        &lt;td&gt;DPOS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Total Supply&lt;/td&gt;
+        &lt;td&gt;100 Million&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Snapshot&lt;/td&gt;
+        &lt;td&gt;BTC、ETH&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Official&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;https://www.bitethereum.io&quot; target=&quot;_blank&quot;&gt;bitethereum.io&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Byteball BitEthereum aims to create a well-developed ecosystem of crypto token assets that addresses the current problems in Bitcoin and Ethereum. BitEthereum also enables user authentication, automated asset dividend payout and alliance formation. And also introduced zero transaction fee feature. Besides, BitEthereum is provided with an easy-to-use advanced paymentsystem. Meanwhile, to enrich BitEthereum's ecosystem, we offer a more advanced and convenient third-party software development kit (SDK) so that third-party developers and corporate users can give full play to BitEthereum in application development. 1.Distribution： The total supply of BitEthereum is 100 Million, 99% of BTE will be distributed to BTC and ETH holder by airdrop. BTC holders will get 66 Million BTE in total and ETH holders will get 33 million BTE. The snapshot will be take place on 2017.12.21 0:00(UTC +8), addresses who have 0.1+ BTC or 1+ ETH is eligible for Airdrop. 2.Claim：BitEthereum wallet will be published by mid of Jan. After that, eligible BTC and ETH holders are able to submit signature of their addresses to BitEthereum blockchain to claim BTE. BTE will be sent to user’s BitEthereum accounts after submission of signature. 3.Caculation： Assume John has 10 BTC in his address and the total BTC amount on eligible BTC addresses by snapshot time is 16,748,650. John will get 10/16748650* 66000000 = 39.40616 BTE. 4. The deadline to claim BitEthereum is Mar.21st 2018. Bitpie users are managing private keys by themselves, therefore, eligible users will need to claim BTE by themselves. Bitpie will work with project team to release a claiming instruction for our users when the claiming process is started. Due to the special security mechanisms in Piebank, Piebank will not support BTE claiming. Project name BitEthereum Code BTE Airdrop Snapshot time 2017/12/21 00：00 Blocktime 3 seconds Ratio to BTC 1:100 Block capacity 3000+ per seconds Consensus mechanism DPOS Total Supply 100 Million Snapshot BTC、ETH Official bitethereum.io</summary></entry><entry><title type="html">btedetail</title><link href="http://localhost:4000/2017-12-20/btedetail" rel="alternate" type="text/html" title="btedetail" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-20/btedetail</id><content type="html" xml:base="http://localhost:4000/2017-12-20/btedetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;BitEthereum&lt;/h1&gt;
+&lt;p&gt;BitEthereum的目标是打造一个轻量、快速、高并发的区块链支付网络和一个简单、可靠的资产发行平台。BitEthereum的区块生产时间3秒，平均确认时间1.5秒，每秒负载3000+，有着远超BTC、ETH的性能，完全杜绝网络拥堵。同时，BitEthereum也是一个强大易用的资产发行平台，用户无需编程知识即可轻松发行自定义资产，并有效避免了ETH智能合约漏洞频发的问题。
+&lt;/p&gt;
+&lt;p&gt;1.分配：
+   BitEthereum总量1亿， 99%的 BTE代币将会通过“糖果派送”的方式空投给BTC，ETH的代币持有者。所有BTC持有者共计可以获得6600万个BTE代币，所有ETH持有者可以获得3300万个BTE代币。
+   团队将会在2017年12月21日 00:00对BTC，ETH进行快照，快照将会包含BTC，ETH的代币持有者的账户余额等数据，快照要求地址余额BTC≥0.1、ETH≥1。
+&lt;/p&gt;
+&lt;p&gt;2.领取：团队将会在2018年1月中旬发布BitEthereum的客户端，BTC和ETH的持有者安装BitEthereum客户端后可以通过提交BTC/ETH地址的签名到BitEthereum区块链的方式申领BTE代币。当用户提交签名后，BTE代币将会自动分发到用户的BitEthereum账户上。
+&lt;/p&gt;
+&lt;p&gt;3.计算方法：
+   假设John 有10 个比特币，快照时所有符合快照规则的比特币流通总量是16748650。本轮活动中所有BTC持有者总计可获得6600万个的BTE代币，那么John可以获得 10/16748650* 66000000=  39.40616个BTE代币。
+&lt;/p&gt;
+&lt;p&gt;4. BitEthereum区块链网络设定的代币领取截止日期为2018年3月21日。
+&lt;/p&gt;
+&lt;p&gt;由于比特派钱包的用户私钥由用户自己管理，符合条件的比特派钱包用户需要自己操作来代领BTE。届时比特派会和项目方一起给出详细的指引帮助用户领取空投。由于派银行特殊的后台安全管理机制，派银行不支持此次空投糖果的领取。
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;BitEthereum&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;简称&lt;/td&gt;
+        &lt;td&gt;BTE&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉时间（预计）&lt;/td&gt;
+        &lt;td&gt;2017年12月19日&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;区块时间&lt;/td&gt;
+        &lt;td&gt;3秒&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;区块负载&lt;/td&gt;
+        &lt;td&gt;3000+每秒&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;共识机制&lt;/td&gt;
+        &lt;td&gt;DPOS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;总量&lt;/td&gt;
+        &lt;td&gt;1亿&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉币数量比例&lt;/td&gt;
+        &lt;td&gt;BTC、ETH &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目官网&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;https://www.bitethereum.io&quot; target=&quot;_blank&quot;&gt;bitethereum.io&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;类型&lt;/td&gt;
+        &lt;td&gt;空投糖果&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">BitEthereum BitEthereum的目标是打造一个轻量、快速、高并发的区块链支付网络和一个简单、可靠的资产发行平台。BitEthereum的区块生产时间3秒，平均确认时间1.5秒，每秒负载3000+，有着远超BTC、ETH的性能，完全杜绝网络拥堵。同时，BitEthereum也是一个强大易用的资产发行平台，用户无需编程知识即可轻松发行自定义资产，并有效避免了ETH智能合约漏洞频发的问题。 1.分配： BitEthereum总量1亿， 99%的 BTE代币将会通过“糖果派送”的方式空投给BTC，ETH的代币持有者。所有BTC持有者共计可以获得6600万个BTE代币，所有ETH持有者可以获得3300万个BTE代币。 团队将会在2017年12月21日 00:00对BTC，ETH进行快照，快照将会包含BTC，ETH的代币持有者的账户余额等数据，快照要求地址余额BTC≥0.1、ETH≥1。 2.领取：团队将会在2018年1月中旬发布BitEthereum的客户端，BTC和ETH的持有者安装BitEthereum客户端后可以通过提交BTC/ETH地址的签名到BitEthereum区块链的方式申领BTE代币。当用户提交签名后，BTE代币将会自动分发到用户的BitEthereum账户上。 3.计算方法： 假设John 有10 个比特币，快照时所有符合快照规则的比特币流通总量是16748650。本轮活动中所有BTC持有者总计可获得6600万个的BTE代币，那么John可以获得 10/16748650* 66000000= 39.40616个BTE代币。 4. BitEthereum区块链网络设定的代币领取截止日期为2018年3月21日。 由于比特派钱包的用户私钥由用户自己管理，符合条件的比特派钱包用户需要自己操作来代领BTE。届时比特派会和项目方一起给出详细的指引帮助用户领取空投。由于派银行特殊的后台安全管理机制，派银行不支持此次空投糖果的领取。 项目名 BitEthereum 简称 BTE 分叉时间（预计） 2017年12月19日 区块时间 3秒 区块负载 3000+每秒 共识机制 DPOS 总量 1亿 分叉币数量比例 BTC、ETH 项目官网 bitethereum.io 类型 空投糖果</summary></entry><entry><title type="html">btcsdetail</title><link href="http://localhost:4000/2017-12-15/enbtstakedetail" rel="alternate" type="text/html" title="btcsdetail" /><published>2017-12-15T00:00:00+08:00</published><updated>2017-12-15T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-15/enbtstakedetail</id><content type="html" xml:base="http://localhost:4000/2017-12-15/enbtstakedetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Smart&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot;&gt;Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
 &lt;/p&gt;
 &lt;p&gt;Bitpie will support to claim BCS after BCS mainnet is launched.
@@ -56,7 +173,7 @@
         &lt;td&gt;Zhiwen Li, Ankitt Guar&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Smart Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Bitpie will support to claim BCS after BCS mainnet is launched. Bitcoin Smart(BCS) is an experiment to improve Bitcoin , with integration of smart-contract, new features such as token issuance will be available on Bitcoin and onchain performance will no longer be a issue. Project name Bitcoin Stack（BTCS） Block height 499999 Hard-fork time 2017/12/20 Total supply 2.121 Billion Ratio to BTC 1:100 Blocktime 1 min Block size 8M Consensus mechanism POS Replay protection Support Pre-mining 21 Millions Official Website Btcscoin.com Project Team Zhiwen Li, Ankitt Guar</summary></entry><entry><title type="html">btcsdetail</title><link href="http://192.168.1.62:4000/2017-12-15/btstakedetail" rel="alternate" type="text/html" title="btcsdetail" /><published>2017-12-15T00:00:00+08:00</published><updated>2017-12-15T00:00:00+08:00</updated><id>http://192.168.1.62:4000/2017-12-15/btstakedetail</id><content type="html" xml:base="http://192.168.1.62:4000/2017-12-15/btstakedetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特宝&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Smart Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Bitpie will support to claim BCS after BCS mainnet is launched. Bitcoin Smart(BCS) is an experiment to improve Bitcoin , with integration of smart-contract, new features such as token issuance will be available on Bitcoin and onchain performance will no longer be a issue. Project name Bitcoin Stack（BTCS） Block height 499999 Hard-fork time 2017/12/20 Total supply 2.121 Billion Ratio to BTC 1:100 Blocktime 1 min Block size 8M Consensus mechanism POS Replay protection Support Pre-mining 21 Millions Official Website Btcscoin.com Project Team Zhiwen Li, Ankitt Guar</summary></entry><entry><title type="html">btcsdetail</title><link href="http://localhost:4000/2017-12-15/btstakedetail" rel="alternate" type="text/html" title="btcsdetail" /><published>2017-12-15T00:00:00+08:00</published><updated>2017-12-15T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-15/btstakedetail</id><content type="html" xml:base="http://localhost:4000/2017-12-15/btstakedetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特宝&lt;/h1&gt;
 &lt;p&gt;比特派已经与比特宝团队进行了深入的沟通，会在主网启动后支持比特宝的领取，收发。并在合适的时间开通比特宝的点对点交易。
 &lt;/p&gt;
 &lt;p&gt;Bitcoin Stake（简称“比特宝”或“BTCS”） 致力于将比特币分叉成更公平的 Secure POS 算
@@ -117,7 +234,7 @@
         &lt;td&gt;黎志文 , Ankitt Guar&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特宝 比特派已经与比特宝团队进行了深入的沟通，会在主网启动后支持比特宝的领取，收发。并在合适的时间开通比特宝的点对点交易。 Bitcoin Stake（简称“比特宝”或“BTCS”） 致力于将比特币分叉成更公平的 Secure POS 算 法， 打破挖矿芯片厂商对算力的垄断，减少挖矿环节对资源消耗， 使比特币的权力中 心更加去中心化，恢复比特币初期人人可以参与挖矿的情形。 在可拓展性方面， 比特宝(BTCS)会在比特币的基础上加入智能合约、 更好的匿名保护等 技术，在比特币现有基础上构建有异于比特币的解决方案。 项目名 Bitcoin Stack（BTCS） 比特宝 分叉高度 499999 分叉时间 2017年12月19日 重放保护 支持 难度调整 1分钟 区块大小 8M 共识机制 POS 是否预挖 2100万 分叉币数量比例 1:100 总量 21亿2100万 项目官网 Btcscoin.com 项目团队 黎志文 , Ankitt Guar</summary></entry><entry><title type="html">ethemodetail</title><link href="http://192.168.1.62:4000/2017-12-14/ethemodetail" rel="alternate" type="text/html" title="ethemodetail" /><published>2017-12-14T00:00:00+08:00</published><updated>2017-12-14T00:00:00+08:00</updated><id>http://192.168.1.62:4000/2017-12-14/ethemodetail</id><content type="html" xml:base="http://192.168.1.62:4000/2017-12-14/ethemodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;以太坊改良&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特宝 比特派已经与比特宝团队进行了深入的沟通，会在主网启动后支持比特宝的领取，收发。并在合适的时间开通比特宝的点对点交易。 Bitcoin Stake（简称“比特宝”或“BTCS”） 致力于将比特币分叉成更公平的 Secure POS 算 法， 打破挖矿芯片厂商对算力的垄断，减少挖矿环节对资源消耗， 使比特币的权力中 心更加去中心化，恢复比特币初期人人可以参与挖矿的情形。 在可拓展性方面， 比特宝(BTCS)会在比特币的基础上加入智能合约、 更好的匿名保护等 技术，在比特币现有基础上构建有异于比特币的解决方案。 项目名 Bitcoin Stack（BTCS） 比特宝 分叉高度 499999 分叉时间 2017年12月19日 重放保护 支持 难度调整 1分钟 区块大小 8M 共识机制 POS 是否预挖 2100万 分叉币数量比例 1:100 总量 21亿2100万 项目官网 Btcscoin.com 项目团队 黎志文 , Ankitt Guar</summary></entry><entry><title type="html">ethemodetail</title><link href="http://localhost:4000/2017-12-14/ethemodetail" rel="alternate" type="text/html" title="ethemodetail" /><published>2017-12-14T00:00:00+08:00</published><updated>2017-12-14T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-14/ethemodetail</id><content type="html" xml:base="http://localhost:4000/2017-12-14/ethemodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;以太坊改良&lt;/h1&gt;
 &lt;p&gt;&lt;small&gt;比特派会针对每一个可能的分叉做技术处理，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
 &lt;/small&gt;&lt;/p&gt;
 &lt;p style=&quot;color: red&quot;&gt;项目方临时宣布已于高度4730666分叉。
@@ -169,7 +286,7 @@
         &lt;td&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">以太坊改良 比特派会针对每一个可能的分叉做技术处理，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 项目方临时宣布已于高度4730666分叉。 项目名 Ethereum Modification（EMO）以太坊改良 分叉高度 4730666(以太坊高度) 分叉时间 2017年12月14日 重放保护 未公布 挖矿算法 未公布 是否预挖 未公布 分叉币数量比例 1:1 总量 105000000 项目官网 未公布 项目团队 LighitingASIC 其他信息</summary></entry><entry><title type="html">emofogdetail</title><link href="http://192.168.1.62:4000/2017-12-14/enethemodetail" rel="alternate" type="text/html" title="emofogdetail" /><published>2017-12-14T00:00:00+08:00</published><updated>2017-12-14T00:00:00+08:00</updated><id>http://192.168.1.62:4000/2017-12-14/enethemodetail</id><content type="html" xml:base="http://192.168.1.62:4000/2017-12-14/enethemodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Ethereum Fog&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">以太坊改良 比特派会针对每一个可能的分叉做技术处理，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 项目方临时宣布已于高度4730666分叉。 项目名 Ethereum Modification（EMO）以太坊改良 分叉高度 4730666(以太坊高度) 分叉时间 2017年12月14日 重放保护 未公布 挖矿算法 未公布 是否预挖 未公布 分叉币数量比例 1:1 总量 105000000 项目官网 未公布 项目团队 LighitingASIC 其他信息</summary></entry><entry><title type="html">emofogdetail</title><link href="http://localhost:4000/2017-12-14/enethemodetail" rel="alternate" type="text/html" title="emofogdetail" /><published>2017-12-14T00:00:00+08:00</published><updated>2017-12-14T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-14/enethemodetail</id><content type="html" xml:base="http://localhost:4000/2017-12-14/enethemodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Ethereum Fog&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot;&gt;Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
 &lt;/p&gt;
 &lt;table class=&quot;center&quot;&gt;
@@ -215,7 +332,7 @@
         &lt;td&gt;LighitingASIC&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Ethereum Fog Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Project name Ethereum Modification(EMO) Block height 4730660 Hard-fork time 2017/12/14 Replay protection Unknown Mining algorithm Unknown Pre-mining Unknown Ratio to ETH 1:1 Total supply 105000000 Official Website Unknown Project Team LighitingASIC</summary></entry><entry><title type="html">bcsdetail</title><link href="http://192.168.1.62:4000/2017-12-13/enbcsdetail" rel="alternate" type="text/html" title="bcsdetail" /><published>2017-12-13T00:00:00+08:00</published><updated>2017-12-13T00:00:00+08:00</updated><id>http://192.168.1.62:4000/2017-12-13/enbcsdetail</id><content type="html" xml:base="http://192.168.1.62:4000/2017-12-13/enbcsdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Smart&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Ethereum Fog Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Project name Ethereum Modification(EMO) Block height 4730660 Hard-fork time 2017/12/14 Replay protection Unknown Mining algorithm Unknown Pre-mining Unknown Ratio to ETH 1:1 Total supply 105000000 Official Website Unknown Project Team LighitingASIC</summary></entry><entry><title type="html">bcsdetail</title><link href="http://localhost:4000/2017-12-13/enbcsdetail" rel="alternate" type="text/html" title="bcsdetail" /><published>2017-12-13T00:00:00+08:00</published><updated>2017-12-13T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-13/enbcsdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-13/enbcsdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Smart&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot;&gt;Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
 &lt;/p&gt;
 &lt;p&gt;Bitpie will support to claim BCS after BCS mainnet is launched.
@@ -269,7 +386,7 @@
         &lt;td&gt;BCS Team&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Smart Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Bitpie will support to claim BCS after BCS mainnet is launched. Bitcoin Smart(BCS) is an experiment to improve Bitcoin , with integration of smart-contract, new features such as token issuance will be available on Bitcoin and onchain performance will no longer be a issue. Project name Bitcoin Smart（BCS） Block height 505050 Hard-fork time 2018/1/20 Total supply 21 Billion Blocktime 10 min Difficulty adjustment DAA Block size 8M Segwit Support Consensus mechanism Equi Hash(GPU) Official Website http://bcs.info Project Team BCS Team</summary></entry><entry><title type="html">bcsdetail</title><link href="http://192.168.1.62:4000/2017-12-13/bcsdetail" rel="alternate" type="text/html" title="bcsdetail" /><published>2017-12-13T00:00:00+08:00</published><updated>2017-12-13T00:00:00+08:00</updated><id>http://192.168.1.62:4000/2017-12-13/bcsdetail</id><content type="html" xml:base="http://192.168.1.62:4000/2017-12-13/bcsdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特智能&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Smart Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Bitpie will support to claim BCS after BCS mainnet is launched. Bitcoin Smart(BCS) is an experiment to improve Bitcoin , with integration of smart-contract, new features such as token issuance will be available on Bitcoin and onchain performance will no longer be a issue. Project name Bitcoin Smart（BCS） Block height 505050 Hard-fork time 2018/1/20 Total supply 21 Billion Blocktime 10 min Difficulty adjustment DAA Block size 8M Segwit Support Consensus mechanism Equi Hash(GPU) Official Website http://bcs.info Project Team BCS Team</summary></entry><entry><title type="html">bcsdetail</title><link href="http://localhost:4000/2017-12-13/bcsdetail" rel="alternate" type="text/html" title="bcsdetail" /><published>2017-12-13T00:00:00+08:00</published><updated>2017-12-13T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-13/bcsdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-13/bcsdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特智能&lt;/h1&gt;
 &lt;p&gt;比特派已经跟BCS团队进行了深入沟通，会在项目主网上线后支持BCS的提取。
 &lt;/p&gt;
 &lt;p&gt;
@@ -322,7 +439,7 @@ BCS创新的将智能合约、去中心化交易所结合在一起。主网上�
         &lt;td&gt;BCS团队&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特智能 比特派已经跟BCS团队进行了深入沟通，会在项目主网上线后支持BCS的提取。 BCS创新的将智能合约、去中心化交易所结合在一起。主网上线即具备智能合约功能，并带有非常易用的token发行系统。主网上线后现有BTC地址除了会按1：100获得BCS，还会按同比例获得BCST。BCST为展示智能合约功能的测试代币。 项目名 Bitcoin Smart（BCS） 比特智能 分叉高度 505050 分叉时间 2018年1月20日 总量 21亿 出块时间 10分钟 难度调整 DAA 区块大小 8M 隔离验证 支持 共识机制 Equi Hash(GPU) 项目官网 http://bcs.info 项目团队 BCS团队</summary></entry><entry><title type="html">qbtcdetail</title><link href="http://192.168.1.62:4000/2017-12-11/qbtcdetail" rel="alternate" type="text/html" title="qbtcdetail" /><published>2017-12-11T00:00:00+08:00</published><updated>2017-12-11T00:00:00+08:00</updated><id>http://192.168.1.62:4000/2017-12-11/qbtcdetail</id><content type="html" xml:base="http://192.168.1.62:4000/2017-12-11/qbtcdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;量子比特币&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特智能 比特派已经跟BCS团队进行了深入沟通，会在项目主网上线后支持BCS的提取。 BCS创新的将智能合约、去中心化交易所结合在一起。主网上线即具备智能合约功能，并带有非常易用的token发行系统。主网上线后现有BTC地址除了会按1：100获得BCS，还会按同比例获得BCST。BCST为展示智能合约功能的测试代币。 项目名 Bitcoin Smart（BCS） 比特智能 分叉高度 505050 分叉时间 2018年1月20日 总量 21亿 出块时间 10分钟 难度调整 DAA 区块大小 8M 隔离验证 支持 共识机制 Equi Hash(GPU) 项目官网 http://bcs.info 项目团队 BCS团队</summary></entry><entry><title type="html">qbtcdetail</title><link href="http://localhost:4000/2017-12-11/qbtcdetail" rel="alternate" type="text/html" title="qbtcdetail" /><published>2017-12-11T00:00:00+08:00</published><updated>2017-12-11T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-11/qbtcdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-11/qbtcdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;量子比特币&lt;/h1&gt;
 &lt;p&gt;&lt;small&gt;针对越来越多的分叉，比特派提醒大家：
        区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。
        比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。
@@ -372,7 +489,7 @@ BCS创新的将智能合约、去中心化交易所结合在一起。主网上�
         &lt;td&gt;张建国（冬瓜张）&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">量子比特币 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 QBTC，是Quantum Bitcoin 的缩写，中文名称：量子比特币。未来QBTC将具有全新特性，如闪电到账，加密用户隐私特权，降低交易手续费，大区块8M扩容，重放保护，支持隔离验证（SegWit），DAA难度调整机制。团队后续还会尝试POW+POS的共识机制。中期实验将会尝试兼容包括以太坊在内的各类虚拟机，同时将POW转为PoS共识机制，为商业应用落地和分布式移动应用提供更多可能性。随着对项目的不断创新，项目团队会尝试加入图灵完备的智能合约（源于以太坊的创新）以及在QBTC主链上创建新的区块链资产和应用，打造一个超级智能和高度可扩展性的量子比特币生态系统。 项目名 Quantum Bitcoin(QBTC) 量子比特币 分叉高度 未公布 分叉时间 2017年12月28日 重放保护 支持 挖矿算法 POW+POS 是否预挖 210,000 比例 1：1 总量 21,210,000 项目官网 www.quantumbitcoin.top 项目团队 张建国（冬瓜张）</summary></entry><entry><title type="html">qbtcdetail</title><link href="http://192.168.1.62:4000/2017-12-11/enqbtcdetail" rel="alternate" type="text/html" title="qbtcdetail" /><published>2017-12-11T00:00:00+08:00</published><updated>2017-12-11T00:00:00+08:00</updated><id>http://192.168.1.62:4000/2017-12-11/enqbtcdetail</id><content type="html" xml:base="http://192.168.1.62:4000/2017-12-11/enqbtcdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Quantum Bitcoin&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">量子比特币 针对越来越多的分叉，比特派提醒大家： 区块链分叉具备相当的技术要求，对于没有足够技术或者算力支持的分叉，是有可能最终分叉失败的。 比特派会针对每一个可能的分叉做快照，并在分叉真正成功、主网上线稳定运行一段时间之后支持该分叉币的提取。 QBTC，是Quantum Bitcoin 的缩写，中文名称：量子比特币。未来QBTC将具有全新特性，如闪电到账，加密用户隐私特权，降低交易手续费，大区块8M扩容，重放保护，支持隔离验证（SegWit），DAA难度调整机制。团队后续还会尝试POW+POS的共识机制。中期实验将会尝试兼容包括以太坊在内的各类虚拟机，同时将POW转为PoS共识机制，为商业应用落地和分布式移动应用提供更多可能性。随着对项目的不断创新，项目团队会尝试加入图灵完备的智能合约（源于以太坊的创新）以及在QBTC主链上创建新的区块链资产和应用，打造一个超级智能和高度可扩展性的量子比特币生态系统。 项目名 Quantum Bitcoin(QBTC) 量子比特币 分叉高度 未公布 分叉时间 2017年12月28日 重放保护 支持 挖矿算法 POW+POS 是否预挖 210,000 比例 1：1 总量 21,210,000 项目官网 www.quantumbitcoin.top 项目团队 张建国（冬瓜张）</summary></entry><entry><title type="html">qbtcdetail</title><link href="http://localhost:4000/2017-12-11/enqbtcdetail" rel="alternate" type="text/html" title="qbtcdetail" /><published>2017-12-11T00:00:00+08:00</published><updated>2017-12-11T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-11/enqbtcdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-11/enqbtcdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Quantum Bitcoin&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot;&gt;Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
 &lt;/p&gt;
 &lt;p&gt;An experiment to combine features of Bitcoin and QTUM.
@@ -420,100 +537,4 @@ BCS创新的将智能合约、去中心化交易所结合在一起。主网上�
         &lt;td&gt;jianguozhang&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Quantum Bitcoin Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. An experiment to combine features of Bitcoin and QTUM. Project name Quantum Bitcoin(QBTC) Block height Unknown Hard-fork time 2017/12/28 Replay protection Support Mining algorithm POW+POS Pre-mining 210,000 Ratio to BTC 1：1 Total supply 21,210,000 Official Website www.quantumbitcoin.top Project Team jianguozhang</summary></entry><entry><title type="html">bthdetail</title><link href="http://192.168.1.62:4000/2017-12-11/enbthdetail" rel="alternate" type="text/html" title="bthdetail" /><published>2017-12-11T00:00:00+08:00</published><updated>2017-12-11T00:00:00+08:00</updated><id>http://192.168.1.62:4000/2017-12-11/enbthdetail</id><content type="html" xml:base="http://192.168.1.62:4000/2017-12-11/enbthdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Hot&lt;/h1&gt;
-&lt;p class=&quot;summarytxt&quot;&gt;Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
-&lt;/p&gt;
-&lt;p&gt;With new BtHash algorithm, Bitcoin Hot allows users to participate in mining by both CPU and GPU.
-&lt;/p&gt;
-&lt;table class=&quot;center&quot;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;Project name&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin Hot(BTH)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Block height&lt;/td&gt;
-        &lt;td&gt;498848&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Hard-fork time&lt;/td&gt;
-        &lt;td&gt;2017/12/12&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Replay protection&lt;/td&gt;
-        &lt;td&gt;Support&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Mining algorithm&lt;/td&gt;
-        &lt;td&gt;BtHash (CPU+GPU)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Pre-mining&lt;/td&gt;
-        &lt;td&gt;21,000,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Ratio to BTC&lt;/td&gt;
-        &lt;td&gt;1：100&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Total supply&lt;/td&gt;
-        &lt;td&gt;21.21 Billions&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Official Website&lt;/td&gt;
-        &lt;td&gt;Unknown&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Project Team&lt;/td&gt;
-        &lt;td&gt;Unknown&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Hot Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. With new BtHash algorithm, Bitcoin Hot allows users to participate in mining by both CPU and GPU. Project name Bitcoin Hot(BTH) Block height 498848 Hard-fork time 2017/12/12 Replay protection Support Mining algorithm BtHash (CPU+GPU) Pre-mining 21,000,000 Ratio to BTC 1：100 Total supply 21.21 Billions Official Website Unknown Project Team Unknown</summary></entry><entry><title type="html">btadetail</title><link href="http://192.168.1.62:4000/2017-12-11/enbtadetail" rel="alternate" type="text/html" title="btadetail" /><published>2017-12-11T00:00:00+08:00</published><updated>2017-12-11T00:00:00+08:00</updated><id>http://192.168.1.62:4000/2017-12-11/enbtadetail</id><content type="html" xml:base="http://192.168.1.62:4000/2017-12-11/enbtadetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin ALL&lt;/h1&gt;
-&lt;p class=&quot;summarytxt&quot;&gt;Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
-&lt;/p&gt;
-&lt;p&gt;Bitcoin ALL has a Chinese name of bitcoin honor, refers to BTA. Everyone can mine it and everyone can trade with 0 fees instantly.
-&lt;/p&gt;
-&lt;table class=&quot;center&quot;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;Project name&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;Bitcoin ALL（BTA）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Fork timestamp&lt;/td&gt;
-        &lt;td&gt;To ensure an accurate fork time on 2018.1.1 ,the first blockhight after timestamp 1514736000 will be used as fork height.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Hard-fork time&lt;/td&gt;
-        &lt;td&gt;2018/1/1 0:00&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Replay protection&lt;/td&gt;
-        &lt;td&gt;Support&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Mining algorithm&lt;/td&gt;
-        &lt;td&gt;AuxPOW&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Pre-mining &lt;/td&gt;
-        &lt;td&gt;no-premining &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Ratio to BTC&lt;/td&gt;
-        &lt;td&gt;1：1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Total supply&lt;/td&gt;
-        &lt;td&gt;2100 Millions&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Official Website&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;http://www.bitcoinall.org/&quot; target=&quot;_blank&quot;&gt;http://www.bitcoinall.org&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Project Team&lt;/td&gt;
-        &lt;td&gt;BTA foundation&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin ALL Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. Bitcoin ALL has a Chinese name of bitcoin honor, refers to BTA. Everyone can mine it and everyone can trade with 0 fees instantly. Project name Bitcoin ALL（BTA） Fork timestamp To ensure an accurate fork time on 2018.1.1 ,the first blockhight after timestamp 1514736000 will be used as fork height. Hard-fork time 2018/1/1 0:00 Replay protection Support Mining algorithm AuxPOW Pre-mining no-premining Ratio to BTC 1：1 Total supply 2100 Millions Official Website http://www.bitcoinall.org Project Team BTA foundation</summary></entry></feed>
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Quantum Bitcoin Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. An experiment to combine features of Bitcoin and QTUM. Project name Quantum Bitcoin(QBTC) Block height Unknown Hard-fork time 2017/12/28 Replay protection Support Mining algorithm POW+POS Pre-mining 210,000 Ratio to BTC 1：1 Total supply 21,210,000 Official Website www.quantumbitcoin.top Project Team jianguozhang</summary></entry></feed>
