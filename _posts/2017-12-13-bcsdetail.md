@@ -6,7 +6,7 @@ coinName: 比特智能(BCS)
 coinInfo: 主网上线即具备智能合约功能，并带有非常易用的token发行系统
 blockHightTitle: 分叉高度
 blockHight: 505050
-timeTitle: 分叉高度
+timeTitle: 倒计时
 timeTitleClass: bcstimetitle
 time: 2018/1/20
 currentHightTitle: 当前块高
