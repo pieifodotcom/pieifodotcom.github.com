@@ -15,11 +15,11 @@ currentHightClass: btwhight
 timeClass: btw
 btnTitle: 查看详情
 btnHref: /pages/btwdetail
-stateTitle: 分叉中
-state: 2
-stateColor: 3AB69C
+stateTitle: 已分叉
+state: 1
+stateColor: 3AACEB
 belong: btForkInfo
-sortNumber: 107
+sortNumber: 35.5
 ---
 <h1 style="color: #2F416A">比特币世界（BTW）</h1>
 <p>2017年以来，比特币价格一直在刷新纪录，达到目前的16500美元左右的价格，这个价格几乎让绝大部分的投资者望尘莫及，比特币不再是所有人的比特币，而变成了富人和机构投资者的比特币，这个价格着实与中本聪发明比特币的初衷相违背了，比特币不再像是全球性流通的数字货币，而更像是收藏品。
