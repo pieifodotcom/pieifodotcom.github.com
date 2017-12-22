@@ -4,40 +4,52 @@
     "interval": "600",
     "events": [
       {
-        "coinName": "量子比特币(QBTC)",
+        "coinName": "Quantum Bitcoin(QBTC)",
         "blockHeight": "",
-        "timestamp": "1514505600",
-        "summary": "起床领币"
+        "timestamp": "1514394000",
+        "summary": "Fork Height:Not published,For time(Estimated):2017/12/28"
       },
       {
-        "coinName": "比特币上帝(BTG)",
+        "coinName": "BitcoinFile(BIFI)",
+        "blockHeight": "500475",
+        "timestamp": "",
+        "summary": "Fork Height:Not published,For time(Estimated):2017/12/27"
+      },
+      {
+        "coinName": "Bitcoin Uranium(BTU)",
+        "blockHeight": "",
+        "timestamp": "1514653200",
+        "summary": "Fork Height:Not published,For time(Estimated):2017/12/31"
+      },
+      {
+        "coinName": "Bitcoin God(BTG)",
         "blockHeight": "501225",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "Fork Height:501225,For time(Estimated):2017/12/27"
       },
       {
-        "coinName": "比特币增强现金(BCP)",
+        "coinName": "Bitcoin Cash Plus(BCP)",
         "blockHeight": "501407",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "Fork Height:501225,For time(Estimated):2017/12/28"
       },
       {
-        "coinName": "比特币荣耀(BTA)",
+        "coinName": "Bitcoin ALL(BTA)",
         "blockHeight": "",
         "timestamp": "1514736000",
-        "summary": "起床领币"
+        "summary": "Fork Height:Not published,For time(Estimated):2018/1/1"
       },
       {
-        "coinName": "比特币比萨(BPA)",
+        "coinName": "Bitcoin Pizza(BPA)",
         "blockHeight": "501888",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "Fork Height:501888,For time(Estimated):2018/1/1"
       },
       {
-        "coinName": "比特智能(BCS)",
+        "coinName": "Bitcoin Smart(BCS)",
         "blockHeight": "505050",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "Fork Height:505050,For time(Estimated):2018/1/23"
       }
     ]
   },
@@ -46,16 +58,22 @@
     "interval": "130",
     "events": [
       {
-        "coinName": "超级莱特币(SLTC)",
+        "coinName": "Super Litecoin(SLTC)",
         "blockHeight": "1343999",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "Fork Height:1343999,For time(Estimated):2018/1/2"
       },
       {
-        "coinName": "莱特股(LTS)",
+        "coinName": "Litecoin Cash(LCH)",
+        "blockHeight": "1338540",
+        "timestamp": "",
+        "summary": "Fork Height:1338540,For time(Estimated):2017/12/25"
+      },
+      {
+        "coinName": "Litecoin shares(LTS)",
         "blockHeight": "1359668",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "Fork Height:1359668,For time(Estimated):2018/1/26"
       }
     ]
   }

@@ -6,7 +6,7 @@ coinName: 莱特现金(LCH)
 coinInfo: 区块扩容至8MB
 btnTitle: 查看详情
 blockHightTitle: 分叉高度
-blockHight: 未公布
+blockHight: 1338540
 timeTitle: 倒计时
 timeTitleClass: ltclchtimetitle
 time: 2017/12/25
@@ -18,7 +18,7 @@ stateTitle: 即将分叉
 state: 0
 stateColor: F99F26
 belong: ltcForkInfo
-sortNumber: 112.4
+sortNumber: 151
 ---
 <h1 style="color: #2F416A">莱特现金</h1>
 <p>LCH莱特现金，是由一群相信大区块的信徒共同进行分叉的莱特币。莱特现金放弃了莱特币的Segwit隔离见证升级方案，而转向了比特现金的扩容升级方案，即将本来的1MB扩容至8MB，以此来提高整个莱特网络的效率。
@@ -33,7 +33,7 @@ sortNumber: 112.4
     </tr>
     <tr>
         <td>分叉高度</td>
-        <td>未公布</td>
+        <td>1338540</td>
     </tr>
     <tr>
         <td>分叉时间（预计）</td>

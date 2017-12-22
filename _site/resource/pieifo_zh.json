@@ -6,38 +6,50 @@
       {
         "coinName": "量子比特币(QBTC)",
         "blockHeight": "",
-        "timestamp": "1514505600",
-        "summary": "起床领币"
+        "timestamp": "1514394000",
+        "summary": "分叉高度未公布，预计分叉时间2017年12月28号"
+      },
+      {
+        "coinName": "BitcoinFile(BIFI)",
+        "blockHeight": "500475",
+        "timestamp": "",
+        "summary": "分叉高度未公布，预计分叉时间2017年12月27号"
+      },
+      {
+        "coinName": "比特铀(BTU)",
+        "blockHeight": "",
+        "timestamp": "1514653200",
+        "summary": "分叉高度未公布，预计分叉时间2017年12月31号"
       },
       {
         "coinName": "比特币上帝(BTG)",
         "blockHeight": "501225",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "分叉高度501225，预计分叉时间2017年12月27号"
       },
       {
         "coinName": "比特币增强现金(BCP)",
         "blockHeight": "501407",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "分叉高度501225，预计分叉时间2017年12月28号"
       },
       {
         "coinName": "比特币荣耀(BTA)",
         "blockHeight": "",
         "timestamp": "1514736000",
-        "summary": "起床领币"
+        "summary": "分叉高度未公布，预计分叉时间2018年1月1号"
       },
       {
         "coinName": "比特币比萨(BPA)",
         "blockHeight": "501888",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "分叉高度501888，预计分叉时间2018年1月1号"
       },
       {
         "coinName": "比特智能(BCS)",
         "blockHeight": "505050",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "分叉高度505050，预计分叉时间2018年1月23号"
       }
     ]
   },
@@ -49,13 +61,19 @@
         "coinName": "超级莱特币(SLTC)",
         "blockHeight": "1343999",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "分叉高度1343999，预计分叉时间2018年1月2号"
+      },
+      {
+        "coinName": "莱特现金(LCH)",
+        "blockHeight": "1338540",
+        "timestamp": "",
+        "summary": "分叉高度1338540，预计分叉时间2017年12月25号"
       },
       {
         "coinName": "莱特股(LTS)",
         "blockHeight": "1359668",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "分叉高度1359668，预计分叉时间2018年1月26号"
       }
     ]
   }

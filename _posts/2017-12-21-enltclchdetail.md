@@ -6,7 +6,7 @@ coinName: Litecoin Cash(LCH)
 coinInfo: upgrade the block size from 1M to 8M
 btnTitle: Learn more
 blockHightTitle: Block height
-blockHight: Not published
+blockHight: 1338540
 timeTitle: Countdown
 timeTitleClass: ltclchtimetitle
 time: 2017/12/25
@@ -18,7 +18,7 @@ stateTitle: Upcoming
 state: 0
 stateColor: F99F26
 belong: ltcForkInfo
-sortNumber: 112.4
+sortNumber: 151
 ---
 <h1 style="color: #2F416A">Litecoin Cash</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
@@ -33,7 +33,7 @@ sortNumber: 112.4
     </tr>
     <tr>
         <td>Fork Height</td>
-        <td>Not published</td>
+        <td>1338540</td>
     </tr>
     <tr>
         <td>For time(Estimated)</td>

@@ -65,9 +65,9 @@
       },
       {
         "coinName": "Litecoin Cash(LCH)",
-        "blockHeight": "",
-        "timestamp": "1514134800",
-        "summary": "Fork Height:Not published,For time(Estimated):2017/12/25"
+        "blockHeight": "1338540",
+        "timestamp": "",
+        "summary": "Fork Height:1338540,For time(Estimated):2017/12/25"
       },
       {
         "coinName": "Litecoin shares(LTS)",
