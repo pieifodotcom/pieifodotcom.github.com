@@ -4,52 +4,52 @@
     "interval": "600",
     "events": [
       {
-        "coinName": "Quantum Bitcoin(QBTC)",
+        "coinName": "量子比特币(QBTC)",
         "blockHeight": "",
         "timestamp": "1514736000",
-        "summary": "Fork Height:Not published,For time(Estimated):2017/12/28"
+        "summary": "分叉高度未公布，预计分叉时间2017年12月28号"
       },
       {
         "coinName": "BitcoinFile(BIFI)",
         "blockHeight": "500475",
         "timestamp": "",
-        "summary": "Fork Height:Not published,For time(Estimated):2017/12/27"
+        "summary": "分叉高度未公布，预计分叉时间2017年12月27号"
       },
       {
-        "coinName": "Bitcoin Uranium(BTU)",
+        "coinName": "比特铀(BTU)",
         "blockHeight": "",
         "timestamp": "1514649600",
-        "summary": "Fork Height:Not published,For time(Estimated):2017/12/31"
+        "summary": "分叉高度未公布，预计分叉时间2017年12月31号"
       },
       {
-        "coinName": "Bitcoin God(BTG)",
+        "coinName": "比特币上帝(BTG)",
         "blockHeight": "501225",
         "timestamp": "",
-        "summary": "Fork Height:501225,For time(Estimated):2017/12/27"
+        "summary": "分叉高度501225，预计分叉时间2017年12月27号"
       },
       {
-        "coinName": "Bitcoin Cash Plus(BCP)",
+        "coinName": "比特币增强现金(BCP)",
         "blockHeight": "501407",
         "timestamp": "",
-        "summary": "Fork Height:501225,For time(Estimated):2017/12/28"
+        "summary": "分叉高度501225，预计分叉时间2017年12月28号"
       },
       {
-        "coinName": "Bitcoin ALL(BTA)",
+        "coinName": "比特币荣耀(BTA)",
         "blockHeight": "",
         "timestamp": "1514736000",
-        "summary": "Fork Height:Not published,For time(Estimated):2018/1/1"
+        "summary": "分叉高度未公布，预计分叉时间2018年1月1号"
       },
       {
-        "coinName": "Bitcoin Pizza(BPA)",
+        "coinName": "比特币比萨(BPA)",
         "blockHeight": "501888",
         "timestamp": "",
-        "summary": "Fork Height:501888,For time(Estimated):2018/1/1"
+        "summary": "分叉高度501888，预计分叉时间2018年1月1号"
       },
       {
-        "coinName": "Bitcoin Smart(BCS)",
+        "coinName": "比特智能(BCS)",
         "blockHeight": "505050",
         "timestamp": "",
-        "summary": "Fork Height:505050,For time(Estimated):2018/1/23"
+        "summary": "分叉高度505050，预计分叉时间2018年1月23号"
       }
     ]
   },
@@ -58,22 +58,22 @@
     "interval": "130",
     "events": [
       {
-        "coinName": "Super Litecoin(SLTC)",
+        "coinName": "超级莱特币(SLTC)",
         "blockHeight": "1343999",
         "timestamp": "",
-        "summary": "Fork Height:1343999,For time(Estimated):2018/1/2"
+        "summary": "分叉高度1343999，预计分叉时间2018年1月2号"
       },
       {
-        "coinName": "Litecoin Cash(LCH)",
+        "coinName": "莱特现金(LCH)",
         "blockHeight": "",
         "timestamp": "1514131200",
-        "summary": "Fork Height:Not published,For time(Estimated):2017/12/25"
+        "summary": "分叉高度未公布，预计分叉时间2017年12月25号"
       },
       {
-        "coinName": "Litecoin shares(LTS)",
+        "coinName": "莱特股(LTS)",
         "blockHeight": "1359668",
         "timestamp": "",
-        "summary": "Fork Height:1359668,For time(Estimated):2018/1/26"
+        "summary": "分叉高度1359668，预计分叉时间2018年1月26号"
       }
     ]
   }

@@ -2,7 +2,7 @@
 layout: enpost
 title:  bcsdetail
 imageUrl: /resource/bcs.jpg
-coinName: Bitcoin Smart（BCS）
+coinName: Bitcoin Smart(BCS)
 coinInfo: BCS is an experiment to improve Bitcoin
 blockHightTitle: Block height
 blockHight: 505050
