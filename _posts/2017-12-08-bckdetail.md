@@ -8,7 +8,7 @@ blockHightTitle: 分叉高度
 blockHight: 499999
 timeTitle: 加载中
 timeTitleClass: bcktimetitle
-time: 2017/12/19
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: bckhight

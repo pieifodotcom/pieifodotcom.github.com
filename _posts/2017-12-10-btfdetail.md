@@ -8,7 +8,7 @@ blockHightTitle: 分叉高度
 blockHight: 500000
 timeTitle: 倒计时
 timeTitleClass: btftimetitle
-time: 2017/12/19
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: btfhight

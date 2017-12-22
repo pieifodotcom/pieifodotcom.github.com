@@ -8,7 +8,7 @@ blockHightTitle: Block height
 blockHight: 499999
 timeTitle: Countdown
 timeTitleClass: btcstimetitle
-time: 2017/12/20
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: btcshight

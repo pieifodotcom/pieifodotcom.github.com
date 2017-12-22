@@ -8,7 +8,7 @@ blockHightTitle: Block height
 blockHight: 499999
 timeTitle: Loading
 timeTitleClass: bcktimetitle
-time: 2017/12/19
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: bckhight
