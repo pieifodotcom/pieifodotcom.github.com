@@ -4,40 +4,52 @@
     "interval": "600",
     "events": [
       {
-        "coinName": "量子比特币(QBTC)",
-        "blockHeight": "",
-        "timestamp": "1514505600",
-        "summary": "起床领币"
-      },
-      {
-        "coinName": "比特币上帝(BTG)",
-        "blockHeight": "501225",
-        "timestamp": "",
-        "summary": "起床领币"
-      },
-      {
-        "coinName": "比特币增强现金(BCP)",
-        "blockHeight": "501407",
-        "timestamp": "",
-        "summary": "起床领币"
-      },
-      {
-        "coinName": "比特币荣耀(BTA)",
+        "coinName": "量子比特幣(QBTC)",
         "blockHeight": "",
         "timestamp": "1514736000",
-        "summary": "起床领币"
+        "summary": "分叉高度未公布，預計分叉時間2017年12月28號"
       },
       {
-        "coinName": "比特币比萨(BPA)",
+        "coinName": "BitcoinFile(BIFI)",
+        "blockHeight": "500475",
+        "timestamp": "",
+        "summary": "分叉高度未公布，預計分叉時間2017年12月27號"
+      },
+      {
+        "coinName": "比特鈾(BTU)",
+        "blockHeight": "",
+        "timestamp": "1514649600",
+        "summary": "分叉高度未公布，預計分叉時間2017年12月31號"
+      },
+      {
+        "coinName": "比特幣上帝(BTG)",
+        "blockHeight": "501225",
+        "timestamp": "",
+        "summary": "分叉高度501225，預計分叉時間2017年12月27號"
+      },
+      {
+        "coinName": "比特幣增強現金(BCP)",
+        "blockHeight": "501407",
+        "timestamp": "",
+        "summary": "分叉高度501225，預計分叉時間2017年12月28號"
+      },
+      {
+        "coinName": "比特幣榮耀(BTA)",
+        "blockHeight": "",
+        "timestamp": "1514736000",
+        "summary": "分叉高度未公布，預計分叉時間2018年1月1號"
+      },
+      {
+        "coinName": "比特幣比薩(BPA)",
         "blockHeight": "501888",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "分叉高度501888，預計分叉時間2018年1月1號"
       },
       {
         "coinName": "比特智能(BCS)",
         "blockHeight": "505050",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "分叉高度505050，預計分叉時間2018年1月23號"
       }
     ]
   },
@@ -46,16 +58,22 @@
     "interval": "130",
     "events": [
       {
-        "coinName": "超级莱特币(SLTC)",
+        "coinName": "超級萊特幣(SLTC)",
         "blockHeight": "1343999",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "分叉高度1343999，預計分叉時間2018年1月2號"
       },
       {
-        "coinName": "莱特股(LTS)",
+        "coinName": "萊特現金(LCH)",
+        "blockHeight": "",
+        "timestamp": "1514131200",
+        "summary": "分叉高度未公布，預計分叉時間2017年12月25號"
+      },
+      {
+        "coinName": "萊特股(LTS)",
         "blockHeight": "1359668",
         "timestamp": "",
-        "summary": "起床领币"
+        "summary": "分叉高度1359668，預計分叉時間2018年1月26號"
       }
     ]
   }
