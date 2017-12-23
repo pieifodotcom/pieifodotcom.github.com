@@ -5,7 +5,7 @@ imageUrl: /resource/qbtc.jpg
 coinName: Quantum Bitcoin(QBTC)
 coinInfo: An experiment to combine features of Bitcoin and QTUM.
 blockHightTitle: Block height
-blockHight: Unknown
+blockHight: 501368
 timeTitle: Release time
 timeTitleClass: qbtctimetitle
 time: 2017/12/28
@@ -34,7 +34,7 @@ sortNumber: 160
     </tr>
     <tr>
         <td>Block height</td>
-        <td>Unknown</td>
+        <td>501368</td>
     </tr>
     <tr>
         <td>Hard-fork time</td>

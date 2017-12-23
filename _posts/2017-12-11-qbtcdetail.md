@@ -5,7 +5,7 @@ imageUrl: /resource/qbtc.jpg
 coinName: 量子比特币(QBTC)
 coinInfo: 结合量子链特点的比特币创新分叉实验
 blockHightTitle: 分叉高度
-blockHight: 未公布
+blockHight: 501368
 timeTitle: 发布日期
 timeTitleClass: qbtctimetitle
 time: 2017/12/28
@@ -36,7 +36,7 @@ sortNumber: 160
     </tr>
     <tr>
         <td>分叉高度</td>
-        <td>未公布</td>
+        <td>501368</td>
     </tr>
     <tr>
         <td>分叉时间</td>
