@@ -39,7 +39,7 @@ SBTC launched on November 15, 2017, which is developed by Super bitcoin team, in
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2017/12/17</td>
+        <td>2017/12/12</td>
     </tr>
     <tr>
         <td>Replay protection</td>
