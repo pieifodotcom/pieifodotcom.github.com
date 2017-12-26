@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  bcodetail
-imageUrl: /resource/default.jpg
+imageUrl: /resource/bco.jpg
 coinName: 比特矿石(BCO)
 coinInfo: 采用严谨证明的容量证明共识机制
 btnTitle: 查看详情

@@ -1,7 +1,7 @@
 ---
 layout: enpost
 title:  bcodetail
-imageUrl: /resource/default.jpg
+imageUrl: /resource/bco.jpg
 coinName: Bitcoin Ore(BCO)
 coinInfo: Bitcoin Ore will use a POC（Proof Of Capacity）consensus mechanism to ensure everyone can mine BCO with their hard disk capacity.
 btnTitle: Learn more
