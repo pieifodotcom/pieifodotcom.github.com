@@ -5,9 +5,9 @@ imageUrl: /resource/default.jpg
 coinName: 比特币高性能支付(BPP)
 coinInfo: 致力于打造成为核心支付系统、数字资产、数字钱包等高尖端的技术生态，形成高效完美的加密支付生态系统
 btnTitle: 查看详情
-blockHightTitle: 分叉高度
+blockHightTitle: 分叉时间戳
 blockHight: 1514736000
-timeTitle: 分叉时间戳
+timeTitle: 倒计时
 timeTitleClass: bpptimetitle
 time: 2018/1/1
 currentHightTitle: 当前块高
