@@ -3,7 +3,7 @@ layout: post
 title:  bcddetail
 imageUrl: /resource/bcd.jpg
 coinName: 比特钻石(BCD)
-coinInfo: 团队预挖时间，主网尚未上线
+coinInfo: 比特币钻石的矿工将使用新的工作验证算法创建区块，并将陆续在BTC原有特性上增加转账隐私保护等功能
 progress: 0
 progressTitle: 0%
 blockHightTitle: 分叉高度
@@ -59,7 +59,7 @@ sortNumber: 40
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2017/11/25（预计）</td>
+        <td>2017/11/24</td>
     </tr>
     <tr>
         <td>重放保护</td>

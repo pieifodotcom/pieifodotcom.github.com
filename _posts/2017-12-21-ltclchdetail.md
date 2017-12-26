@@ -9,7 +9,7 @@ blockHightTitle: 分叉高度
 blockHight: 1338540
 timeTitle: 倒计时
 timeTitleClass: ltclchtimetitle
-time: 2017/12/25
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: ltclchhight
@@ -37,7 +37,7 @@ sortNumber: 112.4
     </tr>
     <tr>
         <td>分叉时间（预计）</td>
-        <td>圣诞节之前</td>
+        <td>2017年12月25号</td>
     </tr>
     <tr>
         <td>总量</td>

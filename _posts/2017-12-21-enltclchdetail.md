@@ -9,7 +9,7 @@ blockHightTitle: Block height
 blockHight: 1338540
 timeTitle: Countdown
 timeTitleClass: ltclchtimetitle
-time: 2017/12/25
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: ltclchhight
@@ -37,7 +37,7 @@ sortNumber: 112.4
     </tr>
     <tr>
         <td>For time(Estimated)</td>
-        <td>Before Christmas of 2017.</td>
+        <td>2017/12/25</td>
     </tr>
     <tr>
         <td>Total Supply</td>

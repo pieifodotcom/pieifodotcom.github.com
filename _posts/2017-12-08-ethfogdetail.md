@@ -46,7 +46,7 @@ sortNumber: 103
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2018年1月1日</td>
+        <td>2017年12月14日</td>
     </tr>
     <tr>
         <td>重放保护</td>
