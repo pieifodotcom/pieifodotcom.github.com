@@ -26,7 +26,7 @@ sortNumber: 116
 </p>
 <p>BPA（Bitcoin Pizza) combines DAG (directed acyclic graph) technology with bitcoin, that is daglized Bitcoin.
 </p>
-<p>Change the project information to get the BPA in a 1: 1 ratio at the block height of 501888. After the DAG backbones are online, users holding BPA exchange DAG BPA at a ratio of 1: 1,000,000,000.
+<p>According to the latest announcement from the project owner, users who originally held BTC at a block height of 501888 bifurcation received BPA in a 1: 1 ratio. After the DAG backbones are online, users holding BPA exchange DAG BPA at a ratio of 1: 1,000,000,000. The total amount of the same.
 </ p>
 <table class="center">
   <tbody>

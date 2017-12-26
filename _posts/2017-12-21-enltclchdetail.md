@@ -36,7 +36,7 @@ sortNumber: 112.4
         <td>1338540</td>
     </tr>
     <tr>
-        <td>For time(Estimated)</td>
+        <td>For time</td>
         <td>2017/12/25</td>
     </tr>
     <tr>
