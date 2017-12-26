@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-26T11:08:19+08:00</updated><id>http://localhost:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">bppdetail</title><link href="http://localhost:4000/2017-12-26/enbppdetail" rel="alternate" type="text/html" title="bppdetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/enbppdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/enbppdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Payment Performance (BPP)&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-26T19:03:20+08:00</updated><id>http://localhost:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">bppdetail</title><link href="http://localhost:4000/2017-12-26/enbppdetail" rel="alternate" type="text/html" title="bppdetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/enbppdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/enbppdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Payment Performance (BPP)&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot;&gt;Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
 &lt;/p&gt;
 &lt;p&gt;BPP – Bitcoin Payment Performance -  a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet.
@@ -46,7 +46,53 @@
         &lt;td&gt;BPP Team&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Payment Performance (BPP) Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. BPP – Bitcoin Payment Performance - a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet. Project name Bitcoin Payment Performance (BPP) Block height The first block height after 2018.1.1 0:00am will be used as fork height Hard-fork time 2018/1/1 0:00 (UTC+8) Replay protection Support Mining algorithm POW Total Supply 21 Billion Ratio to BTC 1：1000 Pre-mining 420 Million Official Website http://bcpay.org (not launched) Project Team BPP Team</summary></entry><entry><title type="html">bppdetail</title><link href="http://localhost:4000/2017-12-26/bppdetail" rel="alternate" type="text/html" title="bppdetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/bppdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/bppdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币高性能支付&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Payment Performance (BPP) Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. BPP – Bitcoin Payment Performance - a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet. Project name Bitcoin Payment Performance (BPP) Block height The first block height after 2018.1.1 0:00am will be used as fork height Hard-fork time 2018/1/1 0:00 (UTC+8) Replay protection Support Mining algorithm POW Total Supply 21 Billion Ratio to BTC 1：1000 Pre-mining 420 Million Official Website http://bcpay.org (not launched) Project Team BPP Team</summary></entry><entry><title type="html">bcodetail</title><link href="http://localhost:4000/2017-12-26/enbcodetail" rel="alternate" type="text/html" title="bcodetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/enbcodetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/enbcodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Ore&lt;/h1&gt;
+&lt;p&gt;Bitcoin Ore will use a POC（Proof Of Capacity）consensus mechanism to ensure everyone can mine BCO with their hard disk capacity.
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;Project Name&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;BCO (Bitcoin Ore)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Fork Height&lt;/td&gt;
+        &lt;td&gt;501949&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Fork Time（estimated）&lt;/td&gt;
+        &lt;td&gt;2017/12/31&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Total Supply&lt;/td&gt;
+        &lt;td&gt;21 Million&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Distribution Ratio&lt;/td&gt;
+        &lt;td&gt;BTC 1:1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Consensus mechanism&lt;/td&gt;
+        &lt;td&gt;POC（Proof Of Capacity）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Replay Protection&lt;/td&gt;
+        &lt;td&gt;Yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Pre-mining&lt;/td&gt;
+        &lt;td&gt;1600 Block incentives&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Official Site&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;http://www.bitcoinore.org/&quot; target=&quot;_blank&quot;&gt;http://www.bitcoinore.org/&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Team&lt;/td&gt;
+        &lt;td&gt;Tom Budd、Chunjiang Gu、Qijiang Xu&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Ore Bitcoin Ore will use a POC（Proof Of Capacity）consensus mechanism to ensure everyone can mine BCO with their hard disk capacity. Project Name BCO (Bitcoin Ore) Fork Height 501949 Fork Time（estimated） 2017/12/31 Total Supply 21 Million Distribution Ratio BTC 1:1 Consensus mechanism POC（Proof Of Capacity） Replay Protection Yes Pre-mining 1600 Block incentives Official Site http://www.bitcoinore.org/ Team Tom Budd、Chunjiang Gu、Qijiang Xu</summary></entry><entry><title type="html">bppdetail</title><link href="http://localhost:4000/2017-12-26/bppdetail" rel="alternate" type="text/html" title="bppdetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/bppdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/bppdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特币高性能支付&lt;/h1&gt;
 &lt;p&gt;BPP是来自于比特币主链的分叉区块链BPP致力于打造成为核心支付系统、数字资产、数字钱包等高尖端的技术生态，形成高效完美的加密支付生态系统。
 &lt;/p&gt;
 &lt;table class=&quot;center&quot;&gt;
@@ -92,7 +138,53 @@
         &lt;td&gt;BPP团队&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币高性能支付 BPP是来自于比特币主链的分叉区块链BPP致力于打造成为核心支付系统、数字资产、数字钱包等高尖端的技术生态，形成高效完美的加密支付生态系统。 项目名 比特币高性能支付 (BPP) 分叉高度 2018年1月1日0点(UTC+8)之后比特币主链的第一个区块高度进行分叉(UTC+8) 分叉时间 2018/1/1 0:00 重放保护 支持 共识机制 POW 总量 210亿 兑换比例 1：1000 预挖 4.2亿 项目官网 http://bcpay.org (尚未上线) 项目团队 BPP团队</summary></entry><entry><title type="html">obtcdetail</title><link href="http://localhost:4000/2017-12-21/obtcdetail" rel="alternate" type="text/html" title="obtcdetail" /><published>2017-12-21T00:00:00+08:00</published><updated>2017-12-21T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-21/obtcdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-21/obtcdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;石油比特币&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币高性能支付 BPP是来自于比特币主链的分叉区块链BPP致力于打造成为核心支付系统、数字资产、数字钱包等高尖端的技术生态，形成高效完美的加密支付生态系统。 项目名 比特币高性能支付 (BPP) 分叉高度 2018年1月1日0点(UTC+8)之后比特币主链的第一个区块高度进行分叉(UTC+8) 分叉时间 2018/1/1 0:00 重放保护 支持 共识机制 POW 总量 210亿 兑换比例 1：1000 预挖 4.2亿 项目官网 http://bcpay.org (尚未上线) 项目团队 BPP团队</summary></entry><entry><title type="html">bcodetail</title><link href="http://localhost:4000/2017-12-26/bcodetail" rel="alternate" type="text/html" title="bcodetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/bcodetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/bcodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特矿石&lt;/h1&gt;
+&lt;p&gt;BCO是基于比特币网络的硬分叉。BCO将采用严谨证明的容量证明共识机制，通俗点就是用硬盘的容量存放哈希值，寻找正确的哈希值就是挖矿过程。
+&lt;/p&gt;
+&lt;table class=&quot;center&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
+        &lt;td class=&quot;tablehalf&quot;&gt;比特矿石 (Bitcoin Ore) &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉高度&lt;/td&gt;
+        &lt;td&gt;501949&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉时间（预计）&lt;/td&gt;
+        &lt;td&gt;2017年12月31日&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;总量&lt;/td&gt;
+        &lt;td&gt;2100万&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;分叉币比例&lt;/td&gt;
+        &lt;td&gt;1:1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;共识机制&lt;/td&gt;
+        &lt;td&gt;POC（Proof Of Capacity）容量证明&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;重放保护&lt;/td&gt;
+        &lt;td&gt;支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;预挖&lt;/td&gt;
+        &lt;td&gt;1600个区块收益&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目官网&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;http://www.bitcoinore.org/&quot; target=&quot;_blank&quot;&gt;http://www.bitcoinore.org/&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;项目团队&lt;/td&gt;
+        &lt;td&gt;Tom Budd、顾春江、徐旗江&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特矿石 BCO是基于比特币网络的硬分叉。BCO将采用严谨证明的容量证明共识机制，通俗点就是用硬盘的容量存放哈希值，寻找正确的哈希值就是挖矿过程。 项目名 比特矿石 (Bitcoin Ore) 分叉高度 501949 分叉时间（预计） 2017年12月31日 总量 2100万 分叉币比例 1:1 共识机制 POC（Proof Of Capacity）容量证明 重放保护 支持 预挖 1600个区块收益 项目官网 http://www.bitcoinore.org/ 项目团队 Tom Budd、顾春江、徐旗江</summary></entry><entry><title type="html">obtcdetail</title><link href="http://localhost:4000/2017-12-21/obtcdetail" rel="alternate" type="text/html" title="obtcdetail" /><published>2017-12-21T00:00:00+08:00</published><updated>2017-12-21T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-21/obtcdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-21/obtcdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;石油比特币&lt;/h1&gt;
 &lt;p&gt;石油比特币(OBTC)是比特币的一个分支,是一个开放性的自治社区，将采用POS共识机制，提升交易速度和权益分配，OBTC的POS挖矿机制，让每一个钱包成为一个挖矿矿机，每一个人每一天都能分配挖矿收益，真正将货币价值分配到每一个人手中。每一个持有比特币的人能够1:1的得到石油比特币分配，如果超过一年还没来申领石油比特币的话，这部分石油比特币全部投入挖矿社区份额中，将丢失的价值回溯到市场，包含哪些曾经丢失过比特币的份额。
 &lt;/p&gt;
 &lt;table class=&quot;center&quot;&gt;
@@ -400,121 +492,4 @@
         &lt;td&gt;The Bitcoin File foundation&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">BitcoinFile BitcoinFile(BIFI) 是基于区块链技术的点对点分布式文件系统协议，其宗旨是基于IPFS星际文件系统及Bitcoin结算网络，创建一个对世界更绿色，环保，对旷工公平，高回报，对访问可靠，稳定，易用的永远在线的去中心化的全球网络文件系统。总量210亿，基金会预挖2.1亿（1%），其中1.1亿用于生态建设和市场扩张，1亿用于团队激励。 项目名 BitcoinFile（BIFI） 分叉高度 501225 分叉时间（预计） 2017年12月26日 总量 210亿 分叉币比例 1:1000 共识机制 POW + DPOS 重放保护 支持 预挖 2.1亿 项目官网 www.bitcoinfile.org 项目团队 The Bitcoin File foundation</summary></entry><entry><title type="html">btedetail</title><link href="http://localhost:4000/2017-12-20/enbtedetail" rel="alternate" type="text/html" title="btedetail" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-20/enbtedetail</id><content type="html" xml:base="http://localhost:4000/2017-12-20/enbtedetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Byteball&lt;/h1&gt;
-&lt;p&gt;BitEthereum aims to create a well-developed ecosystem of crypto token assets that addresses the current problems in Bitcoin and Ethereum. BitEthereum also enables user authentication, automated asset dividend payout and alliance formation. And also introduced zero transaction fee feature. Besides, BitEthereum is provided with an easy-to-use advanced paymentsystem. Meanwhile, to enrich BitEthereum's ecosystem, we offer a more advanced and convenient third-party software development kit (SDK) so that third-party developers and corporate users can give full play to BitEthereum in application development.
-&lt;/p&gt;
-&lt;p&gt;1.Distribution：
-   The total supply of BitEthereum is 100 Million, 99% of BTE will be distributed to BTC and ETH holder by airdrop. BTC holders will get 66 Million BTE in total and ETH holders will get 33 million BTE. The snapshot will be take place on 2017.12.21 0:00(UTC +8), addresses who have 0.1+ BTC or 1+ ETH is eligible for Airdrop.
-&lt;/p&gt;
-&lt;p&gt;2.Claim：BitEthereum wallet will be published by mid of Jan. After that, eligible BTC and ETH holders are able to submit signature of their addresses to BitEthereum blockchain to claim BTE. BTE will be sent to user’s BitEthereum accounts after submission of signature.
-&lt;/p&gt;
-&lt;p&gt;3.Caculation：
-   Assume John has 10 BTC in his address and the total BTC amount on eligible BTC addresses by snapshot time is 16,748,650. John will get 10/16748650* 66000000 = 39.40616 BTE.
-&lt;/p&gt;
-&lt;p&gt;4.  The deadline to claim BitEthereum is Mar.21st 2018.
-&lt;/p&gt;
-&lt;p&gt;Bitpie users are managing private keys by themselves, therefore, eligible users will need to claim BTE by themselves. Bitpie will work with project team to release a claiming instruction for our users when the claiming process is started. Due to the special security mechanisms in Piebank, Piebank will not support BTE claiming.
-&lt;/p&gt;
-&lt;table class=&quot;center&quot;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;Project name&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;BitEthereum&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Code&lt;/td&gt;
-        &lt;td&gt;BTE&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Airdrop Snapshot time&lt;/td&gt;
-        &lt;td&gt;2017/12/21 00：00&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Blocktime&lt;/td&gt;
-        &lt;td&gt;3 seconds&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Ratio to BTC&lt;/td&gt;
-        &lt;td&gt;1:100&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Block capacity&lt;/td&gt;
-        &lt;td&gt;3000+ per seconds&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Consensus mechanism&lt;/td&gt;
-        &lt;td&gt;DPOS&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Total Supply&lt;/td&gt;
-        &lt;td&gt;100 Million&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Snapshot&lt;/td&gt;
-        &lt;td&gt;BTC、ETH&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Official&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://www.bitethereum.io&quot; target=&quot;_blank&quot;&gt;bitethereum.io&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Byteball BitEthereum aims to create a well-developed ecosystem of crypto token assets that addresses the current problems in Bitcoin and Ethereum. BitEthereum also enables user authentication, automated asset dividend payout and alliance formation. And also introduced zero transaction fee feature. Besides, BitEthereum is provided with an easy-to-use advanced paymentsystem. Meanwhile, to enrich BitEthereum's ecosystem, we offer a more advanced and convenient third-party software development kit (SDK) so that third-party developers and corporate users can give full play to BitEthereum in application development. 1.Distribution： The total supply of BitEthereum is 100 Million, 99% of BTE will be distributed to BTC and ETH holder by airdrop. BTC holders will get 66 Million BTE in total and ETH holders will get 33 million BTE. The snapshot will be take place on 2017.12.21 0:00(UTC +8), addresses who have 0.1+ BTC or 1+ ETH is eligible for Airdrop. 2.Claim：BitEthereum wallet will be published by mid of Jan. After that, eligible BTC and ETH holders are able to submit signature of their addresses to BitEthereum blockchain to claim BTE. BTE will be sent to user’s BitEthereum accounts after submission of signature. 3.Caculation： Assume John has 10 BTC in his address and the total BTC amount on eligible BTC addresses by snapshot time is 16,748,650. John will get 10/16748650* 66000000 = 39.40616 BTE. 4. The deadline to claim BitEthereum is Mar.21st 2018. Bitpie users are managing private keys by themselves, therefore, eligible users will need to claim BTE by themselves. Bitpie will work with project team to release a claiming instruction for our users when the claiming process is started. Due to the special security mechanisms in Piebank, Piebank will not support BTE claiming. Project name BitEthereum Code BTE Airdrop Snapshot time 2017/12/21 00：00 Blocktime 3 seconds Ratio to BTC 1:100 Block capacity 3000+ per seconds Consensus mechanism DPOS Total Supply 100 Million Snapshot BTC、ETH Official bitethereum.io</summary></entry><entry><title type="html">btedetail</title><link href="http://localhost:4000/2017-12-20/btedetail" rel="alternate" type="text/html" title="btedetail" /><published>2017-12-20T00:00:00+08:00</published><updated>2017-12-20T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-20/btedetail</id><content type="html" xml:base="http://localhost:4000/2017-12-20/btedetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;BitEthereum&lt;/h1&gt;
-&lt;p&gt;BitEthereum的目标是打造一个轻量、快速、高并发的区块链支付网络和一个简单、可靠的资产发行平台。BitEthereum的区块生产时间3秒，平均确认时间1.5秒，每秒负载3000+，有着远超BTC、ETH的性能，完全杜绝网络拥堵。同时，BitEthereum也是一个强大易用的资产发行平台，用户无需编程知识即可轻松发行自定义资产，并有效避免了ETH智能合约漏洞频发的问题。
-&lt;/p&gt;
-&lt;p&gt;1.分配：
-   BitEthereum总量1亿， 99%的 BTE代币将会通过“糖果派送”的方式空投给BTC，ETH的代币持有者。所有BTC持有者共计可以获得6600万个BTE代币，所有ETH持有者可以获得3300万个BTE代币。
-   团队将会在2017年12月21日 00:00对BTC，ETH进行快照，快照将会包含BTC，ETH的代币持有者的账户余额等数据，快照要求地址余额BTC≥0.1、ETH≥1。
-&lt;/p&gt;
-&lt;p&gt;2.领取：团队将会在2018年1月中旬发布BitEthereum的客户端，BTC和ETH的持有者安装BitEthereum客户端后可以通过提交BTC/ETH地址的签名到BitEthereum区块链的方式申领BTE代币。当用户提交签名后，BTE代币将会自动分发到用户的BitEthereum账户上。
-&lt;/p&gt;
-&lt;p&gt;3.计算方法：
-   假设John 有10 个比特币，快照时所有符合快照规则的比特币流通总量是16748650。本轮活动中所有BTC持有者总计可获得6600万个的BTE代币，那么John可以获得 10/16748650* 66000000=  39.40616个BTE代币。
-&lt;/p&gt;
-&lt;p&gt;4. BitEthereum区块链网络设定的代币领取截止日期为2018年3月21日。
-&lt;/p&gt;
-&lt;p&gt;由于比特派钱包的用户私钥由用户自己管理，符合条件的比特派钱包用户需要自己操作来代领BTE。届时比特派会和项目方一起给出详细的指引帮助用户领取空投。由于派银行特殊的后台安全管理机制，派银行不支持此次空投糖果的领取。
-&lt;/p&gt;
-&lt;table class=&quot;center&quot;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;项目名&lt;/td&gt;
-        &lt;td class=&quot;tablehalf&quot;&gt;BitEthereum&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;简称&lt;/td&gt;
-        &lt;td&gt;BTE&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉时间（预计）&lt;/td&gt;
-        &lt;td&gt;2017年12月19日&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;区块时间&lt;/td&gt;
-        &lt;td&gt;3秒&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;区块负载&lt;/td&gt;
-        &lt;td&gt;3000+每秒&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;共识机制&lt;/td&gt;
-        &lt;td&gt;DPOS&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;总量&lt;/td&gt;
-        &lt;td&gt;1亿&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;分叉币数量比例&lt;/td&gt;
-        &lt;td&gt;BTC、ETH &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://www.bitethereum.io&quot; target=&quot;_blank&quot;&gt;bitethereum.io&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;类型&lt;/td&gt;
-        &lt;td&gt;空投糖果&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">BitEthereum BitEthereum的目标是打造一个轻量、快速、高并发的区块链支付网络和一个简单、可靠的资产发行平台。BitEthereum的区块生产时间3秒，平均确认时间1.5秒，每秒负载3000+，有着远超BTC、ETH的性能，完全杜绝网络拥堵。同时，BitEthereum也是一个强大易用的资产发行平台，用户无需编程知识即可轻松发行自定义资产，并有效避免了ETH智能合约漏洞频发的问题。 1.分配： BitEthereum总量1亿， 99%的 BTE代币将会通过“糖果派送”的方式空投给BTC，ETH的代币持有者。所有BTC持有者共计可以获得6600万个BTE代币，所有ETH持有者可以获得3300万个BTE代币。 团队将会在2017年12月21日 00:00对BTC，ETH进行快照，快照将会包含BTC，ETH的代币持有者的账户余额等数据，快照要求地址余额BTC≥0.1、ETH≥1。 2.领取：团队将会在2018年1月中旬发布BitEthereum的客户端，BTC和ETH的持有者安装BitEthereum客户端后可以通过提交BTC/ETH地址的签名到BitEthereum区块链的方式申领BTE代币。当用户提交签名后，BTE代币将会自动分发到用户的BitEthereum账户上。 3.计算方法： 假设John 有10 个比特币，快照时所有符合快照规则的比特币流通总量是16748650。本轮活动中所有BTC持有者总计可获得6600万个的BTE代币，那么John可以获得 10/16748650* 66000000= 39.40616个BTE代币。 4. BitEthereum区块链网络设定的代币领取截止日期为2018年3月21日。 由于比特派钱包的用户私钥由用户自己管理，符合条件的比特派钱包用户需要自己操作来代领BTE。届时比特派会和项目方一起给出详细的指引帮助用户领取空投。由于派银行特殊的后台安全管理机制，派银行不支持此次空投糖果的领取。 项目名 BitEthereum 简称 BTE 分叉时间（预计） 2017年12月19日 区块时间 3秒 区块负载 3000+每秒 共识机制 DPOS 总量 1亿 分叉币数量比例 BTC、ETH 项目官网 bitethereum.io 类型 空投糖果</summary></entry></feed>
+&lt;/table&gt;</content><author><name></name></author><summary type="html">BitcoinFile BitcoinFile(BIFI) 是基于区块链技术的点对点分布式文件系统协议，其宗旨是基于IPFS星际文件系统及Bitcoin结算网络，创建一个对世界更绿色，环保，对旷工公平，高回报，对访问可靠，稳定，易用的永远在线的去中心化的全球网络文件系统。总量210亿，基金会预挖2.1亿（1%），其中1.1亿用于生态建设和市场扩张，1亿用于团队激励。 项目名 BitcoinFile（BIFI） 分叉高度 501225 分叉时间（预计） 2017年12月26日 总量 210亿 分叉币比例 1:1000 共识机制 POW + DPOS 重放保护 支持 预挖 2.1亿 项目官网 www.bitcoinfile.org 项目团队 The Bitcoin File foundation</summary></entry></feed>

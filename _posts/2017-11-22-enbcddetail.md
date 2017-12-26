@@ -15,9 +15,9 @@ currentHightClass: bcdhight
 timeClass: btcd
 btnTitle: Learn more
 btnHref: /pages/bcddetail
-stateTitle: Undergoing
-state: 2
-stateColor: 3AB69C
+stateTitle: Completed
+state: 1
+stateColor: 3AACEB
 belong: btForkInfo
 sortNumber: 40
 ---

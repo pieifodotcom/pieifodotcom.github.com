@@ -17,9 +17,9 @@ currentHightClass: bcdhight
 timeClass: btcd
 btnTitle: 查看详情
 btnHref: /pages/bcddetail
-stateTitle: 分叉中
-state: 2
-stateColor: 3AB69C
+stateTitle: 已分叉
+state: 1
+stateColor: 3AACEB
 belong: btForkInfo
 sortNumber: 40
 ---
