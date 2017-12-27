@@ -14,11 +14,11 @@ currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: bifihight
 timeClass: bifi
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 170
+sortNumber: 112.5
 ---
 <h1 style="color: #2F416A">BitcoinFile</h1>
 <p>BitcoinFile(BIFI) 是基于区块链技术的点对点分布式文件系统协议，其宗旨是基于IPFS星际文件系统及Bitcoin结算网络，创建一个对世界更绿色，环保，对旷工公平，高回报，对访问可靠，稳定，易用的永远在线的去中心化的全球网络文件系统。总量210亿，基金会预挖2.1亿（1%），其中1.1亿用于生态建设和市场扩张，1亿用于团队激励。

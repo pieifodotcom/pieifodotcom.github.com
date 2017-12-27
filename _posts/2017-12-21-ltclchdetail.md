@@ -14,10 +14,10 @@ currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: ltclchhight
 timeClass: ltclch
-stateTitle: 即将分叉
 stateTitle: 分叉中
 state: 2
 stateColor: 3AB69C
+belong: ltcForkInfo
 sortNumber: 112.4
 ---
 <h1 style="color: #2F416A">莱特现金</h1>
