@@ -8,18 +8,18 @@ blockHightTitle: Block height
 blockHight: 501368
 timeTitle: Release time
 timeTitleClass: qbtctimetitle
-time: 2017/12/28
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: qbtchight
 timeClass: qbtc
 btnTitle: Learn more
 btnHref: /pages/qbtcdetail
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 160
+sortNumber: 112.7
 ---
 <h1 style="color: #2F416A">Quantum Bitcoin</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
