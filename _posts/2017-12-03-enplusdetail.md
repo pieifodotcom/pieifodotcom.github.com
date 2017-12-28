@@ -15,11 +15,11 @@ currentHightClass: plushight
 timeClass: plus
 btnTitle: Learn more
 btnHref: /pages/plusdetail
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 150
+sortNumber: 112.8
 ---
 <h1 style="color: #2F416A">Bitcoin Cash Plus</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
