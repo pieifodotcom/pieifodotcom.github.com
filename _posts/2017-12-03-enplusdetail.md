@@ -8,7 +8,7 @@ blockHightTitle: Block height
 blockHight: 501407
 timeTitle: Countdown
 timeTitleClass: plustimetitle
-time: 2018/1/2
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: plushight
@@ -38,7 +38,7 @@ sortNumber: 112.8
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2018/1/2</td>
+        <td>2017/12/28</td>
     </tr>
     <tr>
         <td>Replay protection</td>

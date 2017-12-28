@@ -8,7 +8,7 @@ blockHightTitle: 分叉高度
 blockHight: 501407
 timeTitle: 倒计时
 timeTitleClass: plustimetitle
-time: 2018/1/2
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: plushight
@@ -40,7 +40,7 @@ sortNumber: 112.8
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2018年1月2日</td>
+        <td>2017年12月28日</td>
     </tr>
     <tr>
         <td>重放保护</td>
