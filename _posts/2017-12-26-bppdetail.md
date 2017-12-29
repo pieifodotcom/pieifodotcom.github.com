@@ -35,7 +35,7 @@ sortNumber: 125
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2018年1月号</td>
+        <td>2018年1月1号</td>
     </tr>
     <tr>
         <td>重放保护</td>
