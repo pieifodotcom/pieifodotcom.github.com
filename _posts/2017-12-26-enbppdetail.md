@@ -5,8 +5,8 @@ imageUrl: /resource/default.jpg
 coinName: Bitcoin Payment Performance(BPP)
 coinInfo: a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet.
 btnTitle: Learn more
-blockHightTitle: Fork timestamp
-blockHight: 1514736000
+blockHightTitle: Block height
+blockHight: 501888
 timeTitle: Countdown(estimated)
 timeTitleClass: bpptimetitle
 time: 2018/1/1
@@ -33,11 +33,11 @@ sortNumber: 125
     </tr>
     <tr>
         <td>Block height</td>
-        <td>The first block height after 2018.1.1 0:00am will be used as fork height</td>
+        <td>501888</td>
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2018/1/1 0:00 (UTC+8)</td>
+        <td>2018/1/1</td>
     </tr>
     <tr>
         <td>Replay protection</td>
@@ -61,7 +61,7 @@ sortNumber: 125
     </tr>
     <tr>
         <td>Official Website</td>
-        <td><a href="http://bcpay.org" target="_blank">http://bcpay.org</a> (not launched) </td>
+        <td><a href="http://bppay.org" target="_blank">http://bppay.org</a> (not launched) </td>
     </tr>
     <tr>
         <td>Project Team</td>

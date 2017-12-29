@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-28T16:02:57+08:00</updated><id>http://localhost:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">bppdetail</title><link href="http://localhost:4000/2017-12-26/enbppdetail" rel="alternate" type="text/html" title="bppdetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/enbppdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/enbppdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Payment Performance (BPP)&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-29T17:53:07+08:00</updated><id>http://localhost:4000/</id><title type="html">ifo</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">bppdetail</title><link href="http://localhost:4000/2017-12-26/enbppdetail" rel="alternate" type="text/html" title="bppdetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/enbppdetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/enbppdetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Payment Performance (BPP)&lt;/h1&gt;
 &lt;p class=&quot;summarytxt&quot;&gt;Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
 &lt;/p&gt;
 &lt;p&gt;BPP – Bitcoin Payment Performance -  a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet.
@@ -11,11 +11,11 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;Block height&lt;/td&gt;
-        &lt;td&gt;The first block height after 2018.1.1 0:00am will be used as fork height&lt;/td&gt;
+        &lt;td&gt;501888&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;Hard-fork time&lt;/td&gt;
-        &lt;td&gt;2018/1/1 0:00 (UTC+8)&lt;/td&gt;
+        &lt;td&gt;2018/1/1&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;Replay protection&lt;/td&gt;
@@ -39,14 +39,14 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;Official Website&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;http://bcpay.org&quot; target=&quot;_blank&quot;&gt;http://bcpay.org&lt;/a&gt; (not launched) &lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;http://bppay.org&quot; target=&quot;_blank&quot;&gt;http://bppay.org&lt;/a&gt; (not launched) &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;Project Team&lt;/td&gt;
         &lt;td&gt;BPP Team&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Payment Performance (BPP) Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. BPP – Bitcoin Payment Performance - a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet. Project name Bitcoin Payment Performance (BPP) Block height The first block height after 2018.1.1 0:00am will be used as fork height Hard-fork time 2018/1/1 0:00 (UTC+8) Replay protection Support Mining algorithm POW Total Supply 21 Billion Ratio to BTC 1：1000 Pre-mining 420 Million Official Website http://bcpay.org (not launched) Project Team BPP Team</summary></entry><entry><title type="html">bcodetail</title><link href="http://localhost:4000/2017-12-26/enbcodetail" rel="alternate" type="text/html" title="bcodetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/enbcodetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/enbcodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Ore&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Bitcoin Payment Performance (BPP) Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim. BPP – Bitcoin Payment Performance - a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet. Project name Bitcoin Payment Performance (BPP) Block height 501888 Hard-fork time 2018/1/1 Replay protection Support Mining algorithm POW Total Supply 21 Billion Ratio to BTC 1：1000 Pre-mining 420 Million Official Website http://bppay.org (not launched) Project Team BPP Team</summary></entry><entry><title type="html">bcodetail</title><link href="http://localhost:4000/2017-12-26/enbcodetail" rel="alternate" type="text/html" title="bcodetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/enbcodetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/enbcodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;Bitcoin Ore&lt;/h1&gt;
 &lt;p&gt;Bitcoin Ore will use a POC（Proof Of Capacity）consensus mechanism to ensure everyone can mine BCO with their hard disk capacity.
 &lt;/p&gt;
 &lt;table class=&quot;center&quot;&gt;
@@ -103,11 +103,11 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;分叉高度&lt;/td&gt;
-        &lt;td&gt;2018年1月1日0点(UTC+8)之后比特币主链的第一个区块高度进行分叉(UTC+8)&lt;/td&gt;
+        &lt;td&gt;501888&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;分叉时间&lt;/td&gt;
-        &lt;td&gt;2018/1/1 0:00&lt;/td&gt;
+        &lt;td&gt;2018年1月号&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;重放保护&lt;/td&gt;
@@ -131,14 +131,14 @@
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目官网&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;http://bcpay.org&quot; target=&quot;_blank&quot;&gt;http://bcpay.org&lt;/a&gt; (尚未上线)&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&quot;http://bppay.org&quot; target=&quot;_blank&quot;&gt;http://bppay.org&lt;/a&gt; (尚未上线)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;项目团队&lt;/td&gt;
         &lt;td&gt;BPP团队&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币高性能支付 BPP是来自于比特币主链的分叉区块链BPP致力于打造成为核心支付系统、数字资产、数字钱包等高尖端的技术生态，形成高效完美的加密支付生态系统。 项目名 比特币高性能支付 (BPP) 分叉高度 2018年1月1日0点(UTC+8)之后比特币主链的第一个区块高度进行分叉(UTC+8) 分叉时间 2018/1/1 0:00 重放保护 支持 共识机制 POW 总量 210亿 兑换比例 1：1000 预挖 4.2亿 项目官网 http://bcpay.org (尚未上线) 项目团队 BPP团队</summary></entry><entry><title type="html">bcodetail</title><link href="http://localhost:4000/2017-12-26/bcodetail" rel="alternate" type="text/html" title="bcodetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/bcodetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/bcodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特矿石&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">比特币高性能支付 BPP是来自于比特币主链的分叉区块链BPP致力于打造成为核心支付系统、数字资产、数字钱包等高尖端的技术生态，形成高效完美的加密支付生态系统。 项目名 比特币高性能支付 (BPP) 分叉高度 501888 分叉时间 2018年1月号 重放保护 支持 共识机制 POW 总量 210亿 兑换比例 1：1000 预挖 4.2亿 项目官网 http://bppay.org (尚未上线) 项目团队 BPP团队</summary></entry><entry><title type="html">bcodetail</title><link href="http://localhost:4000/2017-12-26/bcodetail" rel="alternate" type="text/html" title="bcodetail" /><published>2017-12-26T00:00:00+08:00</published><updated>2017-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2017-12-26/bcodetail</id><content type="html" xml:base="http://localhost:4000/2017-12-26/bcodetail">&lt;h1 style=&quot;color: #2F416A&quot;&gt;比特矿石&lt;/h1&gt;
 &lt;p&gt;BCO是基于比特币网络的硬分叉。BCO将采用严谨证明的容量证明共识机制，通俗点就是用硬盘的容量存放哈希值，寻找正确的哈希值就是挖矿过程。
 &lt;/p&gt;
 &lt;table class=&quot;center&quot;&gt;
