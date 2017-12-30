@@ -50,15 +50,15 @@ sortNumber: 116
     </tr>
     <tr>
         <td>Pre-mining</td>
-        <td>210,000,000</td>
+        <td>210000</td>
     </tr>
     <tr>
         <td>Ratio to BTC</td>
-        <td>1:1000</td>
+        <td>1:1</td>
     </tr>
     <tr>
         <td>Total supply</td>
-        <td>21,210,000,000</td>
+        <td>21210000</td>
     </tr>
     <tr>
         <td>Official Website</td>
