@@ -9,16 +9,16 @@ blockHightTitle: Block height
 blockHight: 1338540
 timeTitle: Countdown
 timeTitleClass: ltclchtimetitle
-time: 2017/12/25
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: ltclchhight
 timeClass: ltclch
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: ltcForkInfo
-sortNumber: 151
+sortNumber: 112.4
 ---
 <h1 style="color: #2F416A">Litecoin Cash</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
@@ -36,8 +36,8 @@ sortNumber: 151
         <td>1338540</td>
     </tr>
     <tr>
-        <td>For time(Estimated)</td>
-        <td>Before Christmas of 2017.</td>
+        <td>For time</td>
+        <td>2017/12/25</td>
     </tr>
     <tr>
         <td>Total Supply</td>

@@ -38,7 +38,7 @@ sortNumber: 106
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2017/12/16</td>
+        <td>2017/12/15</td>
     </tr>
     <tr>
         <td>2-way replay protection</td>

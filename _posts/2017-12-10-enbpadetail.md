@@ -24,8 +24,10 @@ sortNumber: 116
 <h1 style="color: #2F416A">Bitcoin Pizza</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
 </p>
-<p>BPA（Bitcoin Pizza) combines DAG (directed acyclic graph) technology with bitcoin, that is daglized Bitcoin.
+<p style="color: red">BPA（Bitcoin Pizza) combines DAG (directed acyclic graph) technology with bitcoin, that is daglized Bitcoin.
 </p>
+<p>According to the latest announcement from the project owner, users who originally held BTC at a block height of 501888 bifurcation received BPA in a 1: 1 ratio. After the DAG backbones are online, users holding BPA exchange DAG BPA at a ratio of 1: 1,000,000,000. The total amount of the same.
+</ p>
 <table class="center">
   <tbody>
     <tr>

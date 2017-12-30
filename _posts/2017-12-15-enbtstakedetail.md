@@ -39,7 +39,7 @@ sortNumber: 110
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2017/12/20</td>
+        <td>2017/12/18</td>
     </tr>
     <tr>
         <td>Total supply</td>

@@ -9,16 +9,16 @@ blockHightTitle: 分叉高度
 blockHight: 1338540
 timeTitle: 倒计时
 timeTitleClass: ltclchtimetitle
-time: 2017/12/25
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: ltclchhight
 timeClass: ltclch
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: ltcForkInfo
-sortNumber: 151
+sortNumber: 112.4
 ---
 <h1 style="color: #2F416A">莱特现金</h1>
 <p>LCH莱特现金，是由一群相信大区块的信徒共同进行分叉的莱特币。莱特现金放弃了莱特币的Segwit隔离见证升级方案，而转向了比特现金的扩容升级方案，即将本来的1MB扩容至8MB，以此来提高整个莱特网络的效率。
@@ -36,8 +36,8 @@ sortNumber: 151
         <td>1338540</td>
     </tr>
     <tr>
-        <td>分叉时间（预计）</td>
-        <td>圣诞节之前</td>
+        <td>分叉时间</td>
+        <td>2017年12月25号</td>
     </tr>
     <tr>
         <td>总量</td>

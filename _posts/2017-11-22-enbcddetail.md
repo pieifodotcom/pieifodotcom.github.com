@@ -3,7 +3,7 @@ layout: enpost
 title:  bcddetail
 imageUrl: /resource/bcd.jpg
 coinName: Bitcoin Diamond(BCD)
-coinInfo: Bitcoin Diamond is fork with upgraded technology while preserving the original features of Bitcoin.
+coinInfo: Bitcoin Diamond miners will begin creating blocks with a new proof-of-work algorithm, and will consecutively develop and enhance the protection for account transfer and privacy based on original features of BTC.
 blockHightTitle: Block height
 blockHight: 495866
 timeTitle: Countdown
@@ -15,9 +15,9 @@ currentHightClass: bcdhight
 timeClass: btcd
 btnTitle: Learn more
 btnHref: /pages/bcddetail
-stateTitle: Undergoing
-state: 2
-stateColor: 3AB69C
+stateTitle: Completed
+state: 1
+stateColor: 3AACEB
 belong: btForkInfo
 sortNumber: 40
 ---
@@ -38,7 +38,7 @@ sortNumber: 40
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2017/11/25</td>
+        <td>2017/11/24</td>
     </tr>
     <tr>
         <td>Replay protection</td>

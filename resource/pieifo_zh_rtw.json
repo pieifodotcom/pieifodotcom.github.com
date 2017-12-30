@@ -4,34 +4,16 @@
     "interval": "600",
     "events": [
       {
-        "coinName": "量子比特幣(QBTC)",
-        "blockHeight": "",
-        "timestamp": "1514394000",
-        "summary": "分叉高度未公布，預計分叉時間2017年12月28號"
-      },
-      {
-        "coinName": "BitcoinFile(BIFI)",
-        "blockHeight": "500475",
+        "coinName": "比特幣高性能支付(BPP)",
+        "blockHeight": "501888",
         "timestamp": "",
-        "summary": "分叉高度未公布，預計分叉時間2017年12月27號"
+        "summary": "分叉高度未公布，預計分叉時間2018年1月1號"
       },
       {
-        "coinName": "比特鈾(BTU)",
-        "blockHeight": "",
-        "timestamp": "1514653200",
-        "summary": "分叉高度未公布，預計分叉時間2017年12月31號"
-      },
-      {
-        "coinName": "比特幣上帝(BTG)",
-        "blockHeight": "501225",
+        "coinName": "比特礦石(BCO)",
+        "blockHeight": "501949",
         "timestamp": "",
-        "summary": "分叉高度501225，預計分叉時間2017年12月27號"
-      },
-      {
-        "coinName": "比特幣增強現金(BCP)",
-        "blockHeight": "501407",
-        "timestamp": "",
-        "summary": "分叉高度501225，預計分叉時間2017年12月28號"
+        "summary": "分叉高度未公布，預計分叉時間2018年1月1號"
       },
       {
         "coinName": "比特幣榮耀(BTA)",
@@ -62,12 +44,6 @@
         "blockHeight": "1343999",
         "timestamp": "",
         "summary": "分叉高度1343999，預計分叉時間2018年1月2號"
-      },
-      {
-        "coinName": "萊特現金(LCH)",
-        "blockHeight": "1338540",
-        "timestamp": "",
-        "summary": "分叉高度1338540，預計分叉時間2017年12月25號"
       },
       {
         "coinName": "萊特股(LTS)",

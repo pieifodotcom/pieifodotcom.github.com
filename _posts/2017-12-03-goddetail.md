@@ -8,18 +8,18 @@ blockHightTitle: 分叉高度
 blockHight: 501225
 timeTitle: 加载中
 timeTitleClass: godtimetitle
-time: 2017/12/25
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: godhight
 timeClass: god
 btnTitle: 查看详情
 btnHref: /pages/goddetail
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 162
+sortNumber: 112.6
 ---
 <h1 style="color: #2F416A">比特币上帝</h1>
 <small>针对越来越多的分叉，比特派提醒大家：

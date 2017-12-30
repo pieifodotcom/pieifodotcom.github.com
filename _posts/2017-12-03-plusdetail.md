@@ -8,18 +8,18 @@ blockHightTitle: 分叉高度
 blockHight: 501407
 timeTitle: 倒计时
 timeTitleClass: plustimetitle
-time: 2018/1/2
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: plushight
 timeClass: plus
 btnTitle: 查看详情
 btnHref: /pages/plusdetail
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 150
+sortNumber: 112.8
 ---
 <h1 style="color: #2F416A">比特币增强现金</h1>
 <small>针对越来越多的分叉，比特派提醒大家：
@@ -40,7 +40,7 @@ sortNumber: 150
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2018年1月2日</td>
+        <td>2017年12月28日</td>
     </tr>
     <tr>
         <td>重放保护</td>
