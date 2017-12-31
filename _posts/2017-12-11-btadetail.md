@@ -8,7 +8,7 @@ blockHightTitle: 分叉时间戳
 blockHight: 1514736000
 timeTitle: 加载中
 timeTitleClass: btatimetitle
-time: 2018/1/1
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: btahight

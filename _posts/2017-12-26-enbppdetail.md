@@ -9,7 +9,7 @@ blockHightTitle: Block height
 blockHight: 501888
 timeTitle: Countdown(estimated)
 timeTitleClass: bpptimetitle
-time: 2018/1/1
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: bpphight
@@ -37,7 +37,7 @@ sortNumber: 112.81
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2018/1/1</td>
+        <td>2017/12/31</td>
     </tr>
     <tr>
         <td>Replay protection</td>

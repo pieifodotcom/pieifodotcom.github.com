@@ -8,7 +8,7 @@ blockHightTitle: Fork timestamp
 blockHight: 1514736000
 timeTitle: Loading
 timeTitleClass: btatimetitle
-time: 2018/1/1
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: btahight

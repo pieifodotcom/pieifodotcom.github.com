@@ -9,7 +9,7 @@ blockHightTitle: 分叉高度
 blockHight: 501888
 timeTitle: 倒计时
 timeTitleClass: bpptimetitle
-time: 2018/1/1
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: bpphight
@@ -35,7 +35,7 @@ sortNumber: 112.81
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2018年1月1号</td>
+        <td>2017年12月31号</td>
     </tr>
     <tr>
         <td>重放保护</td>
