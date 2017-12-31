@@ -14,11 +14,11 @@ currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: bpphight
 timeClass: bpp
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 125
+sortNumber: 112.81
 ---
 <h1 style="color: #2F416A">比特币高性能支付</h1>
 <p>BPP是来自于比特币主链的分叉区块链BPP致力于打造成为核心支付系统、数字资产、数字钱包等高尖端的技术生态，形成高效完美的加密支付生态系统。
