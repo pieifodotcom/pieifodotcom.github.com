@@ -8,18 +8,18 @@ blockHightTitle: 分叉高度
 blockHight: 501888
 timeTitle: 加载中
 timeTitleClass: bpatimetitle
-time: 2018/1/1
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: bpahight
 timeClass: bpa
 btnTitle: 查看详情
 btnHref: /pages/bpadetail
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 116
+sortNumber: 112.83
 ---
 <h1 style="color: #2F416A">比特币比萨</h1>
 <p>BPA的分叉机制非常特殊。第一个关键节点是分叉，在区块高度为501888进行，这时候原来持有BTC的用户按照1:1的比例获得BPA。第二个关键节点是兑换，在DAG主链上线后，持有BPA的用户按照1:1,000,000的比例兑换DAG BPA。
@@ -40,7 +40,7 @@ sortNumber: 116
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2018年1月1日</td>
+        <td>2017年12月31日</td>
     </tr>
     <tr>
         <td>重放保护</td>

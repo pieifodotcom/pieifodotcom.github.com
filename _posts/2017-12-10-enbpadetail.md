@@ -8,18 +8,18 @@ blockHightTitle: Block height
 blockHight: 501888
 timeTitle: Loading
 timeTitleClass: bpatimetitle
-time: 2018/1/1
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: bpahight
 timeClass: bpa
 btnTitle: Learn more
 btnHref: /pages/bpadetail
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 116
+sortNumber: 112.83
 ---
 <h1 style="color: #2F416A">Bitcoin Pizza</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
@@ -40,7 +40,7 @@ sortNumber: 116
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2018/1/1</td>
+        <td>2017/12/31</td>
     </tr>
     <tr>
         <td>Replay protection</td>
