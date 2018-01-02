@@ -1,19 +1,19 @@
 ---
 layout: enpost
-title:  btndetail
-imageUrl: /resource/btn.jpg
+title:  btnanodetail
+imageUrl: /resource/btnano.jpg
 coinName: Bitcoin Nano(BTN)
 coinInfo: The purpose of Bitcoin Nano is to give Bitcoin a wider range of applications, such as online games, live video, etc.
 btnTitle: Learn more
 blockHightTitle: Block height
 blockHight: 501888
 timeTitle: Countdown
-timeTitleClass: btntimetitle
+timeTitleClass: btnanotimetitle
 time: 0
 currentHightTitle: Current block height
 currentHight: Loading
-currentHightClass: btnhight
-timeClass: btn
+currentHightClass: btnanohight
+timeClass: btnano
 stateTitle: Undergoing
 state: 2
 stateColor: 3AB69C
