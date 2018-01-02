@@ -9,16 +9,16 @@ blockHightTitle: Block height
 blockHight: 501949
 timeTitle: Countdown(estimated)
 timeTitleClass: bcotimetitle
-time: 2017/12/31
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: bcohight
 timeClass: bco
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 115
+sortNumber: 112.9
 ---
 <h1 style="color: #2F416A">Bitcoin Ore</h1>
 <p>Bitcoin Ore will use a POC（Proof Of Capacity）consensus mechanism to ensure everyone can mine BCO with their hard disk capacity.
@@ -34,7 +34,7 @@ sortNumber: 115
         <td>501949</td>
     </tr>
     <tr>
-        <td>Fork Time（estimated）</td>
+        <td>Fork Time</td>
         <td>2017/12/31</td>
     </tr>
     <tr>

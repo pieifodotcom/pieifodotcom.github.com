@@ -9,16 +9,16 @@ blockHightTitle: 分叉高度
 blockHight: 501949
 timeTitle: 倒计时
 timeTitleClass: bcotimetitle
-time: 2017/12/31
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: bcohight
 timeClass: bco
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 115
+sortNumber: 112.9
 ---
 <h1 style="color: #2F416A">比特矿石</h1>
 <p>BCO是基于比特币网络的硬分叉。BCO将采用严谨证明的容量证明共识机制，通俗点就是用硬盘的容量存放哈希值，寻找正确的哈希值就是挖矿过程。
@@ -34,7 +34,7 @@ sortNumber: 115
         <td>501949</td>
     </tr>
     <tr>
-        <td>分叉时间（预计）</td>
+        <td>分叉时间</td>
         <td>2017年12月31日</td>
     </tr>
     <tr>
