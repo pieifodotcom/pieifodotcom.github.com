@@ -4,34 +4,16 @@
     "interval": "600",
     "events": [
       {
-        "coinName": "Bitcoin Payment Performance(BPP)",
-        "blockHeight": "501888",
-        "timestamp": "",
-        "summary": "Fork Height:Not published,For time(Estimated):2018/1/1"
-      },
-      {
-        "coinName": "Bitcoin Ore(BCO)",
-        "blockHeight": "501949",
-        "timestamp": "",
-        "summary": "Fork Height:501949,For time(Estimated):2018/1/1"
-      },
-      {
-        "coinName": "Bitcoin ALL(BTA)",
-        "blockHeight": "",
-        "timestamp": "1514736000",
-        "summary": "Fork Height:Not published,For time(Estimated):2018/1/1"
-      },
-      {
-        "coinName": "Bitcoin Pizza(BPA)",
-        "blockHeight": "501888",
-        "timestamp": "",
-        "summary": "Fork Height:501888,For time(Estimated):2018/1/1"
-      },
-      {
         "coinName": "Bitcoin Smart(BCS)",
         "blockHeight": "505050",
         "timestamp": "",
-        "summary": "Fork Height:505050,For time(Estimated):2018/1/23"
+        "summary": "Fork Height:505050,For time(Estimated):2018/1/20"
+      },
+      {
+        "coinName": "Bitvote(BTV)",
+        "blockHeight": "505050",
+        "timestamp": "",
+        "summary": "Fork Height:505050,For time(Estimated):2018/1/21"
       }
     ]
   },

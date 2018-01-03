@@ -4,34 +4,16 @@
     "interval": "600",
     "events": [
       {
-        "coinName": "比特币荣耀(BTA)",
-        "blockHeight": "",
-        "timestamp": "1514736000",
-        "summary": "分叉高度未公布，预计分叉时间2018年1月1号"
-      },
-      {
-        "coinName": "比特币高性能支付(BPP)",
-        "blockHeight": "501888",
-        "timestamp": "",
-        "summary": "分叉高度未公布，预计分叉时间2018年1月1号"
-      },
-      {
-        "coinName": "比特矿石(BCO)",
-        "blockHeight": "501949",
-        "timestamp": "",
-        "summary": "分叉高度501949，预计分叉时间2018年1月1号"
-      },
-      {
-        "coinName": "比特币比萨(BPA)",
-        "blockHeight": "501888",
-        "timestamp": "",
-        "summary": "分叉高度501888，预计分叉时间2018年1月1号"
-      },
-      {
         "coinName": "比特智能(BCS)",
         "blockHeight": "505050",
         "timestamp": "",
-        "summary": "分叉高度505050，预计分叉时间2018年1月23号"
+        "summary": "分叉高度505050，预计分叉时间2018年1月20号"
+      },
+      {
+        "coinName": "比特票(BTV)",
+        "blockHeight": "505050",
+        "timestamp": "",
+        "summary": "分叉高度505050，预计分叉时间2018年1月21号"
       }
     ]
   },
