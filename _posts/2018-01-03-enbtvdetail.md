@@ -1,7 +1,7 @@
 ---
 layout: enpost
 title:  btvdetail
-imageUrl: /resource/btv.png
+imageUrl: /resource/btv.jpg
 coinName: Bitvote(BTV)
 coinInfo: BitVote(BTV) is a community consensus system, and it forms an self-evolving autonomous community organization and safe cryptocurrency system.
 blockHightTitle: Block height

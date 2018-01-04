@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  btvdetail
-imageUrl: /resource/btv.png
+imageUrl: /resource/btv.jpg
 coinName: 比特票(BTV)
 coinInfo: 比特票（BTV）是一套社区共识系统，形成自我进化的自治社区组织和安全的数字加密货币体系
 blockHightTitle: 分叉高度
