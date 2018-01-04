@@ -8,18 +8,18 @@ blockHightTitle: Block height
 blockHight: 1343999
 timeTitle: Countdown
 timeTitleClass: ltcsltctimetitle
-time: 2018/1/5
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: ltcsltchight
 timeClass: ltcsltc
 btnTitle: Learn more
 btnHref: /pages/ltcsltcdetail
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: ltcForkInfo
-sortNumber: 120
+sortNumber: 112.97
 ---
 <h1 style="color: #2F416A">Super Litecoin</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
@@ -38,7 +38,7 @@ sortNumber: 120
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2018/1/5</td>
+        <td>2018/1/3</td>
     </tr>
     <tr>
         <td>Replay protection</td>

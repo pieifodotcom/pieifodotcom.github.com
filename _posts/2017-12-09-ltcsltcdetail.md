@@ -8,18 +8,17 @@ blockHightTitle: 分叉高度
 blockHight: 1343999
 timeTitle: 倒计时
 timeTitleClass: ltcsltctimetitle
-time: 2018/1/5
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: ltcsltchight
 timeClass: ltcsltc
 btnTitle: 查看详情
-btnHref: /pages/ltcsltcdetail
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: ltcForkInfo
-sortNumber: 120
+sortNumber: 112.97
 ---
 <h1 style="color: #2F416A">超级莱特币</h1>
 <p>比特派会在SLTC主网上线后支持该分叉币的提取。
@@ -37,8 +36,8 @@ sortNumber: 120
         <td>1343999</td>
     </tr>
     <tr>
-        <td>分叉时间（预计）</td>
-        <td>2018年1月5日</td>
+        <td>分叉时间</td>
+        <td>2018年1月3日</td>
     </tr>
     <tr>
         <td>重放保护</td>
