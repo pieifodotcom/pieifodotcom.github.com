@@ -164,6 +164,7 @@
 <script>
     $(document).ready(function () {
         displayBtHight();
+        displayBchHight();
         displayEthHight();
         displayLtcHight();
         updateTab();
@@ -1201,6 +1202,20 @@
         })
     }
 
+    function displayBchHight() {
+        $.get("https://bitpie.getcai.com/api/v1/bcc/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
+            var blockhight = data.height;
+            var hightStr = "{% for link in site.posts %}{% if link['belong'] == 'bchForkInfo' %} {{link['currentHightClass']}}{% endif %}{% endfor %}";
+            var hightArr = hightStr.split(" ");
+            for (var i = 0; i < hightArr.length; i++) {
+                if (i != 0) {
+                    $("." + hightArr[i]).text(blockhight);
+                }
+            }
+            modifyBchTimeValue(blockhight);
+        })
+    }
+
     function displayEthHight() {
         $.get("https://bitpie.getcai.com/api/v1/eth/block/height?currentstring=" + new Date().getTime(), {}, function (data) {
             var blockhight = data.height;
@@ -1233,6 +1248,13 @@
         var blockHight = "{% for link in site.posts %}{% if link['layout'] == 'enpost' %}{% if link['belong'] == 'btForkInfo' %} {{link['blockHight']}}{% endif %}{% endif %}{% endfor %}";
         var timeClass = "{% for link in site.posts %}{% if link['layout'] == 'enpost' %}{% if link['belong'] == 'btForkInfo' %} {{link['timeClass']}}{% endif %}{% endif %}{% endfor %}";
         var timeTitle = "{% for link in site.posts %}{% if link['layout'] == 'enpost' %}{% if link['belong'] == 'btForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endif %}{% endfor %}";
+        midifyRestTime(blockHight,timeClass,timeTitle,600,hight);
+    }
+
+    function modifyBchTimeValue(hight) {
+        var blockHight = "{% for link in site.posts %}{% if link['belong'] == 'bchForkInfo' %} {{link['blockHight']}}{% endif %}{% endfor %}";
+        var timeClass = "{% for link in site.posts %}{% if link['belong'] == 'bchForkInfo' %} {{link['timeClass']}}{% endif %}{% endfor %}";
+        var timeTitle = "{% for link in site.posts %}{% if link['belong'] == 'bchForkInfo' %} {{link['timeTitleClass']}}{% endif %}{% endfor %}";
         midifyRestTime(blockHight,timeClass,timeTitle,600,hight);
     }
 

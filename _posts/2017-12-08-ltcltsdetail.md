@@ -18,7 +18,7 @@ stateTitle: 即将分叉
 state: 0
 stateColor: F99F26
 belong: ltcForkInfo
-sortNumber: 114
+sortNumber: 112.98
 ---
 <h1 style="color: #2F416A">莱特股</h1>
 <small>针对越来越多的分叉，比特派提醒大家：
