@@ -18,20 +18,14 @@
     ]
   },
   {
-    "type": "ltc",
-    "interval": "130",
+    "type": "bcc",
+    "interval": "600",
     "events": [
       {
-        "coinName": "超級萊特幣(SLTC)",
-        "blockHeight": "1343999",
+        "coinName": "比特幣糖果(CDY)",
+        "blockHeight": "511706",
         "timestamp": "",
-        "summary": "分叉高度1343999，預計分叉時間2018年1月2號"
-      },
-      {
-        "coinName": "萊特股(LTS)",
-        "blockHeight": "1359668",
-        "timestamp": "",
-        "summary": "分叉高度1359668，預計分叉時間2018年1月26號"
+        "summary": "分叉高度511706，預計分叉時間2018年1月13號"
       }
     ]
   }

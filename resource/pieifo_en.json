@@ -18,20 +18,14 @@
     ]
   },
   {
-    "type": "ltc",
-    "interval": "130",
+    "type": "bcc",
+    "interval": "600",
     "events": [
       {
-        "coinName": "Super Litecoin(SLTC)",
-        "blockHeight": "1343999",
+        "coinName": "Bitcoin Candy(CDY)",
+        "blockHeight": "511706",
         "timestamp": "",
-        "summary": "Fork Height:1343999,For time(Estimated):2018/1/2"
-      },
-      {
-        "coinName": "Litecoin shares(LTS)",
-        "blockHeight": "1359668",
-        "timestamp": "",
-        "summary": "Fork Height:1359668,For time(Estimated):2018/1/26"
+        "summary": "Fork Height:511706(BCH),For time(Estimated):2018/1/13"
       }
     ]
   }
