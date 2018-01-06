@@ -9,16 +9,16 @@ blockHightTitle: Block height
 blockHight: 1345678
 timeTitle: Countdown
 timeTitleClass: ltcltetimetitle
-time: 2018/1/6
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: ltcltehight
 timeClass: ltclte
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: ltcForkInfo
-sortNumber: 119
+sortNumber: 112.99
 ---
 <h1 style="color: #2F416A">LTE</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
