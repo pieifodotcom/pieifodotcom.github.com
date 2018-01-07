@@ -18,7 +18,7 @@ stateTitle: 分叉中
 state: 2
 stateColor: 3AB69C
 belong: ltcForkInfo
-sortNumber: 112.99
+sortNumber: 112.98
 ---
 <h1 style="color: #2F416A">LTE</h1>
 <p>LTE是基于莱特币的分叉网络。LTE不仅继承了莱特币的所有优点，而且具备更快的网络、更严密的算法（EquiHash）、更稳定的性能和更成熟的模型。
