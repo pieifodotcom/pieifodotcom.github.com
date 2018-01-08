@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  btnewdetail
-imageUrl: /resource/default.jpg
+imageUrl: /resource/bitnew.png
 coinName:  新比特币(BTN)
 coinInfo: 新比特币BTN将使用新的特性，成就比特币网络的更大价值
 btnTitle: 查看详情

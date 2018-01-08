@@ -1,7 +1,7 @@
 ---
 layout: enpost
 title:  btnewdetail
-imageUrl: /resource/default.jpg
+imageUrl: /resource/bitnew.png
 coinName: Bitcoin New(BTN)
 coinInfo: Bitcoin new (BTN) is an innovation based on Satoshi Nakamoto’s Bitcoin concept.
 btnTitle: Learn more
