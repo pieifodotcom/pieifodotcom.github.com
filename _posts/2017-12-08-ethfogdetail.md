@@ -7,7 +7,7 @@ coinInfo: 发展为下一代雾计算平台
 blockHightTitle: 分叉高度
 blockHight: 4730660
 timeTitle: 分叉日期
-timeTitleClass: uraniumtimetitle
+timeTitleClass: ethfogtimetitle
 time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中

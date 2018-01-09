@@ -19,6 +19,7 @@ stateTitle: Upcoming
 stateTitle: Undergoing
 state: 2
 stateColor: 3AB69C
+belong: ethForkInfo
 sortNumber: 103
 ---
 <h1 style="color: #2F416A">Ethereum Fog</h1>
