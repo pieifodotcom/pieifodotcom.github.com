@@ -15,11 +15,11 @@ currentHightClass: btfhight
 timeClass: btf
 btnTitle: 查看详情
 btnHref: /pages/btfdetail
-stateTitle: 分叉中
-state: 2
-stateColor: 3AB69C
+stateTitle: 已分叉
+state: 1
+stateColor: 3AACEB
 belong: btForkInfo
-sortNumber: 111
+sortNumber: 45
 ---
 <h1 style="color: #2F416A">比特信仰</h1>
 <p>比特派已经与Bitcoin Faith团队进行过深入的技术沟通，会在主网上线后支持BTF的提取。
