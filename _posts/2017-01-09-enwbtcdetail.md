@@ -37,7 +37,7 @@ sortNumber: 112.989
     </tr>
     <tr>
         <td>Hard-fork time</td>
-        <td>2018/1/12</td>
+        <td>2018/1/13</td>
     </tr>
     <tr>
         <td>Total supply</td>
