@@ -14,11 +14,11 @@ currentHight: 加载中
 currentHightClass: cdyhight
 timeClass: cdy
 btnTitle: 查看详情
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: bchForkInfo
-sortNumber: 115
+sortNumber: 112.985
 ---
 <h1 style="color: #2F416A">比特币糖果</h1>
 <p>比特币糖果，英文名Bitcoin Candy，缩写CDY，是在比特币现金512666高度分叉出的新链。在此分叉链上会以更加激进的方式实验社区提出的一些新特性，并进行抗量子攻击相关的研究实验。
