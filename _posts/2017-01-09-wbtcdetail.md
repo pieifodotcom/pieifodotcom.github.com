@@ -14,11 +14,11 @@ currentHight: 加载中
 currentHightClass: wbtchight
 timeClass: wbtc
 btnTitle: 查看详情
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 114
+sortNumber: 112.989
 ---
 <h1 style="color: #2F416A">世界比特币</h1>
 <p>WBTC以为构建信任互联网和价值互联网的生态圈为愿景，以通过技术创新，打造一个全球区块链应用的基础设施为使命。WBTC团队堪称分布式计算及区块链领域技术天团，其核心技术成员为迅雷原CTO李金波，迅雷原首席科学家李峰。顾问为迅雷原董事长兼CEO邹胜龙，迅雷原总裁程浩，梅花天使创投创始合伙人吴世春。
@@ -35,7 +35,7 @@ sortNumber: 114
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2018年1月12日</td>
+        <td>2018年1月13日</td>
     </tr>
     <tr>
         <td>总量</td>
