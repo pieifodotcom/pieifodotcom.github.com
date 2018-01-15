@@ -9,7 +9,7 @@ blockHightTitle: Block height
 blockHight: 512666
 timeTitle: Countdown
 timeTitleClass: cdytimetitle
-time: 2018/1/13
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: cdyhight

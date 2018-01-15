@@ -8,7 +8,7 @@ blockHightTitle: Block height
 blockHight: 503888
 timeTitle: Countdown
 timeTitleClass: wbtctimetitle
-time: 2018/1/12
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: wbtchight

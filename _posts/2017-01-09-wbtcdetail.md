@@ -8,7 +8,7 @@ blockHightTitle: 分叉高度
 blockHight: 503888
 timeTitle: 倒计时
 timeTitleClass: wbtctimetitle
-time: 2018/1/12
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: wbtchight

@@ -8,7 +8,7 @@ blockHightTitle: 分叉高度
 blockHight: 512666
 timeTitle: 倒计时
 timeTitleClass: cdytimetitle
-time: 2018/1/13
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: cdyhight
@@ -59,6 +59,10 @@ sortNumber: 115
     </tr>
     <tr>
         <td>挖矿算法</td>
+        <td>BtHash (CPU+GPU)</td>
+    </tr>
+    <tr>
+        <td>分叉币比例</td>
         <td>1:1000</td>
     </tr>
     <tr>
