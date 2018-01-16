@@ -2,7 +2,7 @@
 layout: enpost
 title:  goddetail
 imageUrl: /resource/god.jpg
-coinName: Bitcoin God(BTG)
+coinName: Bitcoin God(God)
 coinInfo: Bitcoin God is a completely self monitored decentralized community.
 blockHightTitle: Block height
 blockHight: 501225

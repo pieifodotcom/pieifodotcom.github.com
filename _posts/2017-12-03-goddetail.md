@@ -2,7 +2,7 @@
 layout: post
 title:  goddetail
 imageUrl: /resource/god.jpg
-coinName: 比特币上帝(BTG)
+coinName: 比特币上帝(God)
 coinInfo: Bitcoin God 是无国界点对点的慈善系统
 blockHightTitle: 分叉高度
 blockHight: 501225

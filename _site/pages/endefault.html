@@ -11,9 +11,6 @@
 <link rel="stylesheet" type="text/css" href="../css/custom.css">
 </head>
 <body style="background-color: #f2f2f2">
-<div style="margin:0 auto;display: none">
-    <img src="/resource/share.jpg">
-</div>
 
 <div class="nav-container" style="background-color: white">
     <div class="bar bar--sm visible-xs">
@@ -275,7 +272,7 @@
                         <a href="http://localhost:4000/2017-01-09/enetzdetail"><img
                                 src="/resource/etz.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">EtherZero(ETZ)</span>
+                            <span id='ethetztitle' class="title">EtherZero(ETZ)</span>
                             <p class="description">EtherZero is a hard-fork of Ethereum blockchain network.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -315,7 +312,7 @@
                         <a href="http://localhost:4000/2017-12-13/enbcsdetail"><img
                                 src="/resource/bcs.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Smart(BCS)</span>
+                            <span id='bcstitle' class="title">Bitcoin Smart(BCS)</span>
                             <p class="description">BCS is an experiment to improve Bitcoin</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -357,7 +354,7 @@
                         <a href="http://localhost:4000/2018-01-03/enbtvdetail"><img
                                 src="/resource/btv.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitvote(BTV)</span>
+                            <span id='btvtitle' class="title">Bitvote(BTV)</span>
                             <p class="description">BitVote(BTV) is a community consensus system, and it forms an self-evolving autonomous community organization and safe cryptocurrency system.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -395,7 +392,7 @@
                         <a href="http://localhost:4000/2017-12-08/enltcltsdetail"><img
                                 src="/resource/default.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Litecoin shares(LTS)</span>
+                            <span id='ltcltstitle' class="title">Litecoin shares(LTS)</span>
                             <p class="description">Litecoin shares use POS consensus mechanism.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -435,7 +432,7 @@
                         <a href="http://localhost:4000/2017-01-09/enwbtcdetail"><img
                                 src="/resource/wbtc.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">World Bitcoin(WBTC)</span>
+                            <span id='wbtctitle' class="title">World Bitcoin(WBTC)</span>
                             <p class="description">Based on Bitcoin, WBTC (World Bitcoin) will start to bifurcate at Bitcoin 503888 to add new features, focusing on improving the practical application of blockchain.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -453,7 +450,7 @@
                                 </div>
 
                                 <div class="col-xs-4">
-                                    <span class="wbtc">2018/1/12</span>
+                                    <span class="wbtc">0</span>
                                     <span style="margin-top: 10px; display: block;" class="wbtctimetitle">Countdown</span>
                                 </div>
                             </div>
@@ -475,7 +472,7 @@
                         <a href="http://localhost:4000/2018-01-05/encdydetail"><img
                                 src="/resource/cdy.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Candy(CDY)</span>
+                            <span id='cdytitle' class="title">Bitcoin Candy(CDY)</span>
                             <p class="description">Bitcoin Candy is a hard-fork from BCH network.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -493,7 +490,7 @@
                                 </div>
 
                                 <div class="col-xs-4">
-                                    <span class="cdy">2018/1/13</span>
+                                    <span class="cdy">0</span>
                                     <span style="margin-top: 10px; display: block;" class="cdytimetitle">Countdown</span>
                                 </div>
                             </div>
@@ -515,7 +512,7 @@
                         <a href="http://localhost:4000/2018-01-04/enltcltedetail"><img
                                 src="/resource/ltclte.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">LTE</span>
+                            <span id='ltcltetitle' class="title">LTE</span>
                             <p class="description">LET not only inherits all the benefits of the Wright coin, but also has faster networks, more sophisticated algorithms (EquiHash), more stable performance, and more mature models</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -555,7 +552,7 @@
                         <a href="http://localhost:4000/2017-12-09/enltcsltcdetail"><img
                                 src="/resource/default.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Super Litecoin(SLTC)</span>
+                            <span id='ltcsltctitle' class="title">Super Litecoin(SLTC)</span>
                             <p class="description">Super Litecoin is the hard fork based on Litecoin network.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -595,7 +592,7 @@
                         <a href="http://localhost:4000/2018-01-02/enbcbdetail"><img
                                 src="/resource/bcb.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Boy(BCB)</span>
+                            <span id='bcbtitle' class="title">Bitcoin Boy(BCB)</span>
                             <p class="description">Add new features to bitcoin and make bitcoin network more perfect.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -635,7 +632,7 @@
                         <a href="http://localhost:4000/2018-01-02/enbtndetail"><img
                                 src="/resource/btnano.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Nano(BTN)</span>
+                            <span id='btnanotitle' class="title">Bitcoin Nano(BTN)</span>
                             <p class="description">The purpose of Bitcoin Nano is to give Bitcoin a wider range of applications, such as online games, live video, etc.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -677,7 +674,7 @@
                         <a href="http://localhost:4000/2017-12-26/enbcodetail"><img
                                 src="/resource/bco.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Ore(BCO)</span>
+                            <span id='bcotitle' class="title">Bitcoin Ore(BCO)</span>
                             <p class="description">Bitcoin Ore will use a POC（Proof Of Capacity）consensus mechanism to ensure everyone can mine BCO with their hard disk capacity.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -717,7 +714,7 @@
                         <a href="http://localhost:4000/2017-12-10/enbpadetail"><img
                                 src="/resource/pizza.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Pizza(BPA)</span>
+                            <span id='bpatitle' class="title">Bitcoin Pizza(BPA)</span>
                             <p class="description">Bitcoin Pizza combines DAG technology with bitcoin.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -755,7 +752,7 @@
                         <a href="http://localhost:4000/2017-12-11/enbtadetail"><img
                                 src="/resource/bta.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin ALL(BTA)</span>
+                            <span id='btatitle' class="title">Bitcoin ALL(BTA)</span>
                             <p class="description">Bitcoin ALL adopt an algorithm that everyone can mine it.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -795,7 +792,7 @@
                         <a href="http://localhost:4000/2017-12-26/enbppdetail"><img
                                 src="/resource/default.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Payment Performance(BPP)</span>
+                            <span id='bpptitle' class="title">Bitcoin Payment Performance(BPP)</span>
                             <p class="description">a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -835,7 +832,7 @@
                         <a href="http://localhost:4000/2017-12-03/enplusdetail"><img
                                 src="/resource/plus.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Cash Plus(BCP)</span>
+                            <span id='plustitle' class="title">Bitcoin Cash Plus(BCP)</span>
                             <p class="description">Low-rate e-cash system.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -875,7 +872,7 @@
                         <a href="http://localhost:4000/2017-12-11/enqbtcdetail"><img
                                 src="/resource/qbtc.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Quantum Bitcoin(QBTC)</span>
+                            <span id='qbtctitle' class="title">Quantum Bitcoin(QBTC)</span>
                             <p class="description">An experiment to combine features of Bitcoin and QTUM.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -915,7 +912,7 @@
                         <a href="http://localhost:4000/2018-01-07/enbtnewdeatil"><img
                                 src="/resource/bitnew.png"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin New(BTN)</span>
+                            <span id='btnewtitle' class="title">Bitcoin New(BTN)</span>
                             <p class="description">Bitcoin new (BTN) is an innovation based on Satoshi Nakamoto’s Bitcoin concept.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -957,7 +954,7 @@
                         <a href="http://localhost:4000/2017-12-03/engoddetail"><img
                                 src="/resource/god.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin God(BTG)</span>
+                            <span id='godtitle' class="title">Bitcoin God(God)</span>
                             <p class="description">Bitcoin God is a completely self monitored decentralized community.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -995,7 +992,7 @@
                         <a href="http://localhost:4000/2017-12-21/enbifidetail"><img
                                 src="/resource/bifi.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">BitcoinFile(BIFI)</span>
+                            <span id='bifititle' class="title">BitcoinFile(BIFI)</span>
                             <p class="description">a p2p distributed file system based on blockchain technology</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1035,7 +1032,7 @@
                         <a href="http://localhost:4000/2017-12-21/enltclchdetail"><img
                                 src="/resource/default.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Litecoin Cash(LCH)</span>
+                            <span id='ltclchtitle' class="title">Litecoin Cash(LCH)</span>
                             <p class="description">upgrade the block size from 1M to 8M</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1077,7 +1074,7 @@
                         <a href="http://localhost:4000/2017-11-22/enbtpdetail"><img
                                 src="/resource/btp.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Platinum(BTP)</span>
+                            <span id='btptitle' class="title">Bitcoin Platinum(BTP)</span>
                             <p class="description">Bitcoin Platinum is probably a scam project.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1115,7 +1112,7 @@
                         <a href="http://localhost:4000/2017-12-15/enbtstakedetail"><img
                                 src="/resource/btcstake.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Smart（BTCS）</span>
+                            <span id='btcstitle' class="title">Bitcoin Smart（BTCS）</span>
                             <p class="description">Bitcoin Stake is a hard-fork that adopt Secure POS. In future , BTCS will be extended to support smart contract.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1155,7 +1152,7 @@
                         <a href="http://localhost:4000/2017-12-08/enbckdetail"><img
                                 src="/resource/default.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin King(BCK)</span>
+                            <span id='kingtitle' class="title">Bitcoin King(BCK)</span>
                             <p class="description">Bitcoin king is a peer-to-peer electronic cryptocurrency.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1197,7 +1194,7 @@
                         <a href="http://localhost:4000/2017-11-27/enlbtcdetail"><img
                                 src="/resource/lbtc.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Lightning Bitcoin(LBTC)</span>
+                            <span id='lbtctitle' class="title">Lightning Bitcoin(LBTC)</span>
                             <p class="description">The Lightning Bitcoin (LBTC) introduced the DPOS Consensus Mechanism into the Bitcoin networ.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1235,7 +1232,7 @@
                         <a href="http://localhost:4000/2017-12-10/enbtpaydetail"><img
                                 src="/resource/btpay.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Pay(BTP)</span>
+                            <span id='btpaytitle' class="title">Bitcoin Pay(BTP)</span>
                             <p class="description">Bitcoin Pay is committed to creating a more convenient global payment ecosystem.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1275,7 +1272,7 @@
                         <a href="http://localhost:4000/2017-12-08/enethfogdetail"><img
                                 src="/resource/default.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Ethereum Fog(ETF)</span>
+                            <span id='ethfogtitle' class="title">Ethereum Fog(ETF)</span>
                             <p class="description">Ethereum Fog is the fork coin based on Ethereum, which aims to promote Ethereum as the next generation of fog computing platforms.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1317,7 +1314,7 @@
                         <a href="http://localhost:4000/2017-12-14/enethemodetail"><img
                                 src="/resource/default.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Ethereum Modification(EMO)</span>
+                            <span id='emotitle' class="title">Ethereum Modification(EMO)</span>
                             <p class="description">No More Info</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1355,7 +1352,7 @@
                         <a href="http://localhost:4000/2017-12-08/enbcxdetail"><img
                                 src="/resource/default.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin X(BCX)</span>
+                            <span id='bcxtitle' class="title">Bitcoin X(BCX)</span>
                             <p class="description">Combining zero-knowledge proof, smart contract, DPOS consensus.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1397,7 +1394,7 @@
                         <a href="http://localhost:4000/2017-12-21/enobtcdetail"><img
                                 src="/resource/obtc.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">OilBTC(OBTC)</span>
+                            <span id='obtctitle' class="title">OilBTC(OBTC)</span>
                             <p class="description">using POS consensus mechanism to enhance trading speed and equity distribution</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1437,7 +1434,7 @@
                         <a href="http://localhost:4000/2017-12-11/enbthdetail"><img
                                 src="/resource/bthot.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Hot(BTH)</span>
+                            <span id='bthtitle' class="title">Bitcoin Hot(BTH)</span>
                             <p class="description">With new BtHash algorithm, Bitcoin Hot allows users to participate in mining by both CPU and GPU.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1475,7 +1472,7 @@
                         <a href="http://localhost:4000/2017-12-09/enubdetail"><img
                                 src="/resource/ub.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">UnitedBitcoin(UBTC)</span>
+                            <span id='ubtitle' class="title">UnitedBitcoin(UBTC)</span>
                             <p class="description">UnitedBitcoin is a super joint credit carrier with the target to establish a powerful global network</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1517,7 +1514,7 @@
                         <a href="http://localhost:4000/2017-12-10/enbtfdetail"><img
                                 src="/resource/btf.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Faith(BTF)</span>
+                            <span id='btftitle' class="title">Bitcoin Faith(BTF)</span>
                             <p class="description">BTF was launched on 8 Dec 2017, which is developed by Bitgo team.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1559,7 +1556,7 @@
                         <a href="http://localhost:4000/2017-11-22/enbcddetail"><img
                                 src="/resource/bcd.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Diamond(BCD)</span>
+                            <span id='btcdtitle' class="title">Bitcoin Diamond(BCD)</span>
                             <p class="description">Bitcoin Diamond miners will begin creating blocks with a new proof-of-work algorithm, and will consecutively develop and enhance the protection for account transfer and privacy based on original features of BTC.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1601,7 +1598,7 @@
                         <a href="http://localhost:4000/2017-12-09/enbtwdetail"><img
                                 src="/resource/btw.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin world(BTW)</span>
+                            <span id='btwtitle' class="title">Bitcoin world(BTW)</span>
                             <p class="description">BTW aims to create a faster, more decentralized, smarter, safer and more private hardfork coin.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1643,7 +1640,7 @@
                         <a href="http://localhost:4000/2017-11-22/ensbtcdetail"><img
                                 src="/resource/sbtc.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Super Bitcoin(SBTC)</span>
+                            <span id='sbtctitle' class="title">Super Bitcoin(SBTC)</span>
                             <p class="description">SBTC launched on November 15, 2017, which is developed by Super bitcoin team, including Xiaolai Li.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1683,7 +1680,7 @@
                         <a href="http://localhost:4000/2017-11-22/enbtgdetail"><img
                                 src="/resource/btg.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Gold(BTG)</span>
+                            <span id='btgtitle' class="title">Bitcoin Gold(BTG)</span>
                             <p class="description">Bitcoin God is a completely self monitored decentralized community.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1727,7 +1724,7 @@
                         <a href="http://localhost:4000/2017-11-22/enbchdetail"><img
                                 src="/resource/bch.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Cash(BCH)</span>
+                            <span id='bchtitle' class="title">Bitcoin Cash(BCH)</span>
                             <p class="description">Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as Peer-to-Peer Electronic Cash.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -1767,7 +1764,7 @@
                         <a href="http://localhost:4000/2017-11-22/enb2xdetail"><img
                                 src="/resource/default.jpg"></a>
                         <div class="hot-info">
-                            <span class="title">Bitcoin Segwit 2X(B2X)</span>
+                            <span id='b2xtitle' class="title">Bitcoin Segwit 2X(B2X)</span>
                             <p class="description">A scheme of Segwit+2M blocksize originate from New York consensus meeting.</p>
                             <div class="details">
                                 <div class="col-xs-3">
@@ -2152,7 +2149,7 @@
             "                        <a href=\"http://localhost:4000/2017-01-09/enetzdetail\"><img\n" +
             "                                src=\"/resource/etz.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">EtherZero(ETZ)</span>\n" +
+            "                            <span id='ethetztitle' class=\"title\">EtherZero(ETZ)</span>\n" +
             "                            <p class=\"description\">EtherZero is a hard-fork of Ethereum blockchain network.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2190,7 +2187,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-13/enbcsdetail\"><img\n" +
             "                                src=\"/resource/bcs.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Smart(BCS)</span>\n" +
+            "                            <span id='bcstitle' class=\"title\">Bitcoin Smart(BCS)</span>\n" +
             "                            <p class=\"description\">BCS is an experiment to improve Bitcoin</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2230,7 +2227,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-03/enbtvdetail\"><img\n" +
             "                                src=\"/resource/btv.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitvote(BTV)</span>\n" +
+            "                            <span id='btvtitle' class=\"title\">Bitvote(BTV)</span>\n" +
             "                            <p class=\"description\">BitVote(BTV) is a community consensus system, and it forms an self-evolving autonomous community organization and safe cryptocurrency system.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2266,7 +2263,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-08/enltcltsdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Litecoin shares(LTS)</span>\n" +
+            "                            <span id='ltcltstitle' class=\"title\">Litecoin shares(LTS)</span>\n" +
             "                            <p class=\"description\">Litecoin shares use POS consensus mechanism.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2304,7 +2301,7 @@
             "                        <a href=\"http://localhost:4000/2017-01-09/enwbtcdetail\"><img\n" +
             "                                src=\"/resource/wbtc.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">World Bitcoin(WBTC)</span>\n" +
+            "                            <span id='wbtctitle' class=\"title\">World Bitcoin(WBTC)</span>\n" +
             "                            <p class=\"description\">Based on Bitcoin, WBTC (World Bitcoin) will start to bifurcate at Bitcoin 503888 to add new features, focusing on improving the practical application of blockchain.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2322,7 +2319,7 @@
             "                                </div>\n" +
             "\n" +
             "                                <div class=\"col-xs-4\">\n" +
-            "                                    <span class=\"wbtc\">2018/1/12</span>\n" +
+            "                                    <span class=\"wbtc\">0</span>\n" +
             "                                    <span style=\"margin-top: 10px; display: block;\" class=\"wbtctimetitle\">Countdown</span>\n" +
             "                                </div>\n" +
             "                            </div>\n" +
@@ -2342,7 +2339,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-05/encdydetail\"><img\n" +
             "                                src=\"/resource/cdy.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Candy(CDY)</span>\n" +
+            "                            <span id='cdytitle' class=\"title\">Bitcoin Candy(CDY)</span>\n" +
             "                            <p class=\"description\">Bitcoin Candy is a hard-fork from BCH network.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2360,7 +2357,7 @@
             "                                </div>\n" +
             "\n" +
             "                                <div class=\"col-xs-4\">\n" +
-            "                                    <span class=\"cdy\">2018/1/13</span>\n" +
+            "                                    <span class=\"cdy\">0</span>\n" +
             "                                    <span style=\"margin-top: 10px; display: block;\" class=\"cdytimetitle\">Countdown</span>\n" +
             "                                </div>\n" +
             "                            </div>\n" +
@@ -2380,7 +2377,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-04/enltcltedetail\"><img\n" +
             "                                src=\"/resource/ltclte.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">LTE</span>\n" +
+            "                            <span id='ltcltetitle' class=\"title\">LTE</span>\n" +
             "                            <p class=\"description\">LET not only inherits all the benefits of the Wright coin, but also has faster networks, more sophisticated algorithms (EquiHash), more stable performance, and more mature models</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2418,7 +2415,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-09/enltcsltcdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Super Litecoin(SLTC)</span>\n" +
+            "                            <span id='ltcsltctitle' class=\"title\">Super Litecoin(SLTC)</span>\n" +
             "                            <p class=\"description\">Super Litecoin is the hard fork based on Litecoin network.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2456,7 +2453,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-02/enbcbdetail\"><img\n" +
             "                                src=\"/resource/bcb.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Boy(BCB)</span>\n" +
+            "                            <span id='bcbtitle' class=\"title\">Bitcoin Boy(BCB)</span>\n" +
             "                            <p class=\"description\">Add new features to bitcoin and make bitcoin network more perfect.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2494,7 +2491,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-02/enbtndetail\"><img\n" +
             "                                src=\"/resource/btnano.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Nano(BTN)</span>\n" +
+            "                            <span id='btnanotitle' class=\"title\">Bitcoin Nano(BTN)</span>\n" +
             "                            <p class=\"description\">The purpose of Bitcoin Nano is to give Bitcoin a wider range of applications, such as online games, live video, etc.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2534,7 +2531,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-26/enbcodetail\"><img\n" +
             "                                src=\"/resource/bco.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Ore(BCO)</span>\n" +
+            "                            <span id='bcotitle' class=\"title\">Bitcoin Ore(BCO)</span>\n" +
             "                            <p class=\"description\">Bitcoin Ore will use a POC（Proof Of Capacity）consensus mechanism to ensure everyone can mine BCO with their hard disk capacity.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2572,7 +2569,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-10/enbpadetail\"><img\n" +
             "                                src=\"/resource/pizza.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Pizza(BPA)</span>\n" +
+            "                            <span id='bpatitle' class=\"title\">Bitcoin Pizza(BPA)</span>\n" +
             "                            <p class=\"description\">Bitcoin Pizza combines DAG technology with bitcoin.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2608,7 +2605,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-11/enbtadetail\"><img\n" +
             "                                src=\"/resource/bta.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin ALL(BTA)</span>\n" +
+            "                            <span id='btatitle' class=\"title\">Bitcoin ALL(BTA)</span>\n" +
             "                            <p class=\"description\">Bitcoin ALL adopt an algorithm that everyone can mine it.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2646,7 +2643,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-26/enbppdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Payment Performance(BPP)</span>\n" +
+            "                            <span id='bpptitle' class=\"title\">Bitcoin Payment Performance(BPP)</span>\n" +
             "                            <p class=\"description\">a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2684,7 +2681,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-03/enplusdetail\"><img\n" +
             "                                src=\"/resource/plus.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Cash Plus(BCP)</span>\n" +
+            "                            <span id='plustitle' class=\"title\">Bitcoin Cash Plus(BCP)</span>\n" +
             "                            <p class=\"description\">Low-rate e-cash system.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2722,7 +2719,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-11/enqbtcdetail\"><img\n" +
             "                                src=\"/resource/qbtc.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Quantum Bitcoin(QBTC)</span>\n" +
+            "                            <span id='qbtctitle' class=\"title\">Quantum Bitcoin(QBTC)</span>\n" +
             "                            <p class=\"description\">An experiment to combine features of Bitcoin and QTUM.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2760,7 +2757,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-07/enbtnewdeatil\"><img\n" +
             "                                src=\"/resource/bitnew.png\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin New(BTN)</span>\n" +
+            "                            <span id='btnewtitle' class=\"title\">Bitcoin New(BTN)</span>\n" +
             "                            <p class=\"description\">Bitcoin new (BTN) is an innovation based on Satoshi Nakamoto’s Bitcoin concept.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2800,7 +2797,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-03/engoddetail\"><img\n" +
             "                                src=\"/resource/god.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin God(BTG)</span>\n" +
+            "                            <span id='godtitle' class=\"title\">Bitcoin God(God)</span>\n" +
             "                            <p class=\"description\">Bitcoin God is a completely self monitored decentralized community.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2836,7 +2833,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-21/enbifidetail\"><img\n" +
             "                                src=\"/resource/bifi.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">BitcoinFile(BIFI)</span>\n" +
+            "                            <span id='bifititle' class=\"title\">BitcoinFile(BIFI)</span>\n" +
             "                            <p class=\"description\">a p2p distributed file system based on blockchain technology</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2874,7 +2871,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-21/enltclchdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Litecoin Cash(LCH)</span>\n" +
+            "                            <span id='ltclchtitle' class=\"title\">Litecoin Cash(LCH)</span>\n" +
             "                            <p class=\"description\">upgrade the block size from 1M to 8M</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2914,7 +2911,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbtpdetail\"><img\n" +
             "                                src=\"/resource/btp.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Platinum(BTP)</span>\n" +
+            "                            <span id='btptitle' class=\"title\">Bitcoin Platinum(BTP)</span>\n" +
             "                            <p class=\"description\">Bitcoin Platinum is probably a scam project.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2950,7 +2947,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-15/enbtstakedetail\"><img\n" +
             "                                src=\"/resource/btcstake.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Smart（BTCS）</span>\n" +
+            "                            <span id='btcstitle' class=\"title\">Bitcoin Smart（BTCS）</span>\n" +
             "                            <p class=\"description\">Bitcoin Stake is a hard-fork that adopt Secure POS. In future , BTCS will be extended to support smart contract.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -2988,7 +2985,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-08/enbckdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin King(BCK)</span>\n" +
+            "                            <span id='kingtitle' class=\"title\">Bitcoin King(BCK)</span>\n" +
             "                            <p class=\"description\">Bitcoin king is a peer-to-peer electronic cryptocurrency.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3028,7 +3025,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-27/enlbtcdetail\"><img\n" +
             "                                src=\"/resource/lbtc.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Lightning Bitcoin(LBTC)</span>\n" +
+            "                            <span id='lbtctitle' class=\"title\">Lightning Bitcoin(LBTC)</span>\n" +
             "                            <p class=\"description\">The Lightning Bitcoin (LBTC) introduced the DPOS Consensus Mechanism into the Bitcoin networ.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3064,7 +3061,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-10/enbtpaydetail\"><img\n" +
             "                                src=\"/resource/btpay.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Pay(BTP)</span>\n" +
+            "                            <span id='btpaytitle' class=\"title\">Bitcoin Pay(BTP)</span>\n" +
             "                            <p class=\"description\">Bitcoin Pay is committed to creating a more convenient global payment ecosystem.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3102,7 +3099,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-08/enethfogdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Ethereum Fog(ETF)</span>\n" +
+            "                            <span id='ethfogtitle' class=\"title\">Ethereum Fog(ETF)</span>\n" +
             "                            <p class=\"description\">Ethereum Fog is the fork coin based on Ethereum, which aims to promote Ethereum as the next generation of fog computing platforms.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3142,7 +3139,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-14/enethemodetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Ethereum Modification(EMO)</span>\n" +
+            "                            <span id='emotitle' class=\"title\">Ethereum Modification(EMO)</span>\n" +
             "                            <p class=\"description\">No More Info</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3178,7 +3175,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-08/enbcxdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin X(BCX)</span>\n" +
+            "                            <span id='bcxtitle' class=\"title\">Bitcoin X(BCX)</span>\n" +
             "                            <p class=\"description\">Combining zero-knowledge proof, smart contract, DPOS consensus.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3218,7 +3215,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-21/enobtcdetail\"><img\n" +
             "                                src=\"/resource/obtc.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">OilBTC(OBTC)</span>\n" +
+            "                            <span id='obtctitle' class=\"title\">OilBTC(OBTC)</span>\n" +
             "                            <p class=\"description\">using POS consensus mechanism to enhance trading speed and equity distribution</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3256,7 +3253,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-11/enbthdetail\"><img\n" +
             "                                src=\"/resource/bthot.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Hot(BTH)</span>\n" +
+            "                            <span id='bthtitle' class=\"title\">Bitcoin Hot(BTH)</span>\n" +
             "                            <p class=\"description\">With new BtHash algorithm, Bitcoin Hot allows users to participate in mining by both CPU and GPU.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3292,7 +3289,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-09/enubdetail\"><img\n" +
             "                                src=\"/resource/ub.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">UnitedBitcoin(UBTC)</span>\n" +
+            "                            <span id='ubtitle' class=\"title\">UnitedBitcoin(UBTC)</span>\n" +
             "                            <p class=\"description\">UnitedBitcoin is a super joint credit carrier with the target to establish a powerful global network</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3332,7 +3329,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-10/enbtfdetail\"><img\n" +
             "                                src=\"/resource/btf.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Faith(BTF)</span>\n" +
+            "                            <span id='btftitle' class=\"title\">Bitcoin Faith(BTF)</span>\n" +
             "                            <p class=\"description\">BTF was launched on 8 Dec 2017, which is developed by Bitgo team.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3372,7 +3369,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbcddetail\"><img\n" +
             "                                src=\"/resource/bcd.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Diamond(BCD)</span>\n" +
+            "                            <span id='btcdtitle' class=\"title\">Bitcoin Diamond(BCD)</span>\n" +
             "                            <p class=\"description\">Bitcoin Diamond miners will begin creating blocks with a new proof-of-work algorithm, and will consecutively develop and enhance the protection for account transfer and privacy based on original features of BTC.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3412,7 +3409,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-09/enbtwdetail\"><img\n" +
             "                                src=\"/resource/btw.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin world(BTW)</span>\n" +
+            "                            <span id='btwtitle' class=\"title\">Bitcoin world(BTW)</span>\n" +
             "                            <p class=\"description\">BTW aims to create a faster, more decentralized, smarter, safer and more private hardfork coin.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3452,7 +3449,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/ensbtcdetail\"><img\n" +
             "                                src=\"/resource/sbtc.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Super Bitcoin(SBTC)</span>\n" +
+            "                            <span id='sbtctitle' class=\"title\">Super Bitcoin(SBTC)</span>\n" +
             "                            <p class=\"description\">SBTC launched on November 15, 2017, which is developed by Super bitcoin team, including Xiaolai Li.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3490,7 +3487,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbtgdetail\"><img\n" +
             "                                src=\"/resource/btg.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Gold(BTG)</span>\n" +
+            "                            <span id='btgtitle' class=\"title\">Bitcoin Gold(BTG)</span>\n" +
             "                            <p class=\"description\">Bitcoin God is a completely self monitored decentralized community.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3532,7 +3529,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbchdetail\"><img\n" +
             "                                src=\"/resource/bch.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Cash(BCH)</span>\n" +
+            "                            <span id='bchtitle' class=\"title\">Bitcoin Cash(BCH)</span>\n" +
             "                            <p class=\"description\">Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as Peer-to-Peer Electronic Cash.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3570,7 +3567,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enb2xdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Segwit 2X(B2X)</span>\n" +
+            "                            <span id='b2xtitle' class=\"title\">Bitcoin Segwit 2X(B2X)</span>\n" +
             "                            <p class=\"description\">A scheme of Segwit+2M blocksize originate from New York consensus meeting.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3608,7 +3605,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-20/enbtedetail\"><img\n" +
             "                                src=\"/resource/bitethereum.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">BitEthereum(BTE)</span>\n" +
+            "                            <span id='title' class=\"title\">BitEthereum(BTE)</span>\n" +
             "                            <p class=\"description\">create a well-developed ecosystem of crypto token assets</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3646,7 +3643,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enstellardetail\"><img\n" +
             "                                src=\"/resource/stellar.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Stellar</span>\n" +
+            "                            <span id='title' class=\"title\">Stellar</span>\n" +
             "                            <p class=\"description\">An open source protocol for value exchange.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3682,7 +3679,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbyteballdetail\"><img\n" +
             "                                src=\"/resource/byteball.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Byteball</span>\n" +
+            "                            <span id='title' class=\"title\">Byteball</span>\n" +
             "                            <p class=\"description\">A decentralized DAG system.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3718,7 +3715,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbtxdetail\"><img\n" +
             "                                src=\"/resource/btx.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">BTX</span>\n" +
+            "                            <span id='title' class=\"title\">BTX</span>\n" +
             "                            <p class=\"description\">Claim BTX need user to import their private key, extremely dangers.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -3769,7 +3766,7 @@
             "    <a href=\"http://localhost:4000/2017-01-09/enetzdetail\"><img\n" +
             "            src=\"/resource/etz.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">EtherZero(ETZ)</span>\n" +
+            "        <span id='ethetztitle' class=\"title\">EtherZero(ETZ)</span>\n" +
             "        <p class=\"description\">EtherZero is a hard-fork of Ethereum blockchain network.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -3809,7 +3806,7 @@
             "    <a href=\"http://localhost:4000/2017-12-13/enbcsdetail\"><img\n" +
             "            src=\"/resource/bcs.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Smart(BCS)</span>\n" +
+            "        <span id='bcstitle' class=\"title\">Bitcoin Smart(BCS)</span>\n" +
             "        <p class=\"description\">BCS is an experiment to improve Bitcoin</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -3851,7 +3848,7 @@
             "    <a href=\"http://localhost:4000/2018-01-03/enbtvdetail\"><img\n" +
             "            src=\"/resource/btv.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitvote(BTV)</span>\n" +
+            "        <span id='btvtitle' class=\"title\">Bitvote(BTV)</span>\n" +
             "        <p class=\"description\">BitVote(BTV) is a community consensus system, and it forms an self-evolving autonomous community organization and safe cryptocurrency system.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -3889,7 +3886,7 @@
             "    <a href=\"http://localhost:4000/2017-12-08/enltcltsdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Litecoin shares(LTS)</span>\n" +
+            "        <span id='ltcltstitle' class=\"title\">Litecoin shares(LTS)</span>\n" +
             "        <p class=\"description\">Litecoin shares use POS consensus mechanism.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4353,7 +4350,7 @@
             "    <a href=\"http://localhost:4000/2017-12-10/enbtfdetail\"><img\n" +
             "            src=\"/resource/btf.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Faith(BTF)</span>\n" +
+            "        <span id='btftitle' class=\"title\">Bitcoin Faith(BTF)</span>\n" +
             "        <p class=\"description\">BTF was launched on 8 Dec 2017, which is developed by Bitgo team.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4395,7 +4392,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enbcddetail\"><img\n" +
             "            src=\"/resource/bcd.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Diamond(BCD)</span>\n" +
+            "        <span id='btcdtitle' class=\"title\">Bitcoin Diamond(BCD)</span>\n" +
             "        <p class=\"description\">Bitcoin Diamond miners will begin creating blocks with a new proof-of-work algorithm, and will consecutively develop and enhance the protection for account transfer and privacy based on original features of BTC.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4437,7 +4434,7 @@
             "    <a href=\"http://localhost:4000/2017-12-09/enbtwdetail\"><img\n" +
             "            src=\"/resource/btw.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin world(BTW)</span>\n" +
+            "        <span id='btwtitle' class=\"title\">Bitcoin world(BTW)</span>\n" +
             "        <p class=\"description\">BTW aims to create a faster, more decentralized, smarter, safer and more private hardfork coin.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4479,7 +4476,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/ensbtcdetail\"><img\n" +
             "            src=\"/resource/sbtc.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Super Bitcoin(SBTC)</span>\n" +
+            "        <span id='sbtctitle' class=\"title\">Super Bitcoin(SBTC)</span>\n" +
             "        <p class=\"description\">SBTC launched on November 15, 2017, which is developed by Super bitcoin team, including Xiaolai Li.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4519,7 +4516,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enbtgdetail\"><img\n" +
             "            src=\"/resource/btg.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Gold(BTG)</span>\n" +
+            "        <span id='btgtitle' class=\"title\">Bitcoin Gold(BTG)</span>\n" +
             "        <p class=\"description\">Bitcoin God is a completely self monitored decentralized community.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4563,7 +4560,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enbchdetail\"><img\n" +
             "            src=\"/resource/bch.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Cash(BCH)</span>\n" +
+            "        <span id='bchtitle' class=\"title\">Bitcoin Cash(BCH)</span>\n" +
             "        <p class=\"description\">Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as Peer-to-Peer Electronic Cash.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4662,7 +4659,7 @@
             "    <a href=\"http://localhost:4000/2017-01-09/enwbtcdetail\"><img\n" +
             "            src=\"/resource/wbtc.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">World Bitcoin(WBTC)</span>\n" +
+            "        <span id='wbtctitle' class=\"title\">World Bitcoin(WBTC)</span>\n" +
             "        <p class=\"description\">Based on Bitcoin, WBTC (World Bitcoin) will start to bifurcate at Bitcoin 503888 to add new features, focusing on improving the practical application of blockchain.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4680,7 +4677,7 @@
             "            </div>\n" +
             "\n" +
             "            <div class=\"col-xs-4\">\n" +
-            "                <span class=\"wbtc\">2018/1/12</span>\n" +
+            "                <span class=\"wbtc\">0</span>\n" +
             "                <span style=\"margin-top: 10px; display: block;\" class=\"wbtctimetitle\">Countdown</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
@@ -4702,7 +4699,7 @@
             "    <a href=\"http://localhost:4000/2018-01-05/encdydetail\"><img\n" +
             "            src=\"/resource/cdy.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Candy(CDY)</span>\n" +
+            "        <span id='cdytitle' class=\"title\">Bitcoin Candy(CDY)</span>\n" +
             "        <p class=\"description\">Bitcoin Candy is a hard-fork from BCH network.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4720,7 +4717,7 @@
             "            </div>\n" +
             "\n" +
             "            <div class=\"col-xs-4\">\n" +
-            "                <span class=\"cdy\">2018/1/13</span>\n" +
+            "                <span class=\"cdy\">0</span>\n" +
             "                <span style=\"margin-top: 10px; display: block;\" class=\"cdytimetitle\">Countdown</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
@@ -4742,7 +4739,7 @@
             "    <a href=\"http://localhost:4000/2018-01-04/enltcltedetail\"><img\n" +
             "            src=\"/resource/ltclte.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">LTE</span>\n" +
+            "        <span id='ltcltetitle' class=\"title\">LTE</span>\n" +
             "        <p class=\"description\">LET not only inherits all the benefits of the Wright coin, but also has faster networks, more sophisticated algorithms (EquiHash), more stable performance, and more mature models</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4782,7 +4779,7 @@
             "    <a href=\"http://localhost:4000/2017-12-09/enltcsltcdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Super Litecoin(SLTC)</span>\n" +
+            "        <span id='ltcsltctitle' class=\"title\">Super Litecoin(SLTC)</span>\n" +
             "        <p class=\"description\">Super Litecoin is the hard fork based on Litecoin network.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4822,7 +4819,7 @@
             "    <a href=\"http://localhost:4000/2018-01-02/enbcbdetail\"><img\n" +
             "            src=\"/resource/bcb.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Boy(BCB)</span>\n" +
+            "        <span id='bcbtitle' class=\"title\">Bitcoin Boy(BCB)</span>\n" +
             "        <p class=\"description\">Add new features to bitcoin and make bitcoin network more perfect.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4862,7 +4859,7 @@
             "    <a href=\"http://localhost:4000/2018-01-02/enbtndetail\"><img\n" +
             "            src=\"/resource/btnano.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Nano(BTN)</span>\n" +
+            "        <span id='btnanotitle' class=\"title\">Bitcoin Nano(BTN)</span>\n" +
             "        <p class=\"description\">The purpose of Bitcoin Nano is to give Bitcoin a wider range of applications, such as online games, live video, etc.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4904,7 +4901,7 @@
             "    <a href=\"http://localhost:4000/2017-12-26/enbcodetail\"><img\n" +
             "            src=\"/resource/bco.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Ore(BCO)</span>\n" +
+            "        <span id='bcotitle' class=\"title\">Bitcoin Ore(BCO)</span>\n" +
             "        <p class=\"description\">Bitcoin Ore will use a POC（Proof Of Capacity）consensus mechanism to ensure everyone can mine BCO with their hard disk capacity.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4944,7 +4941,7 @@
             "    <a href=\"http://localhost:4000/2017-12-10/enbpadetail\"><img\n" +
             "            src=\"/resource/pizza.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Pizza(BPA)</span>\n" +
+            "        <span id='bpatitle' class=\"title\">Bitcoin Pizza(BPA)</span>\n" +
             "        <p class=\"description\">Bitcoin Pizza combines DAG technology with bitcoin.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -4982,7 +4979,7 @@
             "    <a href=\"http://localhost:4000/2017-12-11/enbtadetail\"><img\n" +
             "            src=\"/resource/bta.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin ALL(BTA)</span>\n" +
+            "        <span id='btatitle' class=\"title\">Bitcoin ALL(BTA)</span>\n" +
             "        <p class=\"description\">Bitcoin ALL adopt an algorithm that everyone can mine it.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5022,7 +5019,7 @@
             "    <a href=\"http://localhost:4000/2017-12-26/enbppdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Payment Performance(BPP)</span>\n" +
+            "        <span id='bpptitle' class=\"title\">Bitcoin Payment Performance(BPP)</span>\n" +
             "        <p class=\"description\">a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5062,7 +5059,7 @@
             "    <a href=\"http://localhost:4000/2017-12-03/enplusdetail\"><img\n" +
             "            src=\"/resource/plus.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Cash Plus(BCP)</span>\n" +
+            "        <span id='plustitle' class=\"title\">Bitcoin Cash Plus(BCP)</span>\n" +
             "        <p class=\"description\">Low-rate e-cash system.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5102,7 +5099,7 @@
             "    <a href=\"http://localhost:4000/2017-12-11/enqbtcdetail\"><img\n" +
             "            src=\"/resource/qbtc.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Quantum Bitcoin(QBTC)</span>\n" +
+            "        <span id='qbtctitle' class=\"title\">Quantum Bitcoin(QBTC)</span>\n" +
             "        <p class=\"description\">An experiment to combine features of Bitcoin and QTUM.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5142,7 +5139,7 @@
             "    <a href=\"http://localhost:4000/2018-01-07/enbtnewdeatil\"><img\n" +
             "            src=\"/resource/bitnew.png\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin New(BTN)</span>\n" +
+            "        <span id='btnewtitle' class=\"title\">Bitcoin New(BTN)</span>\n" +
             "        <p class=\"description\">Bitcoin new (BTN) is an innovation based on Satoshi Nakamoto’s Bitcoin concept.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5184,7 +5181,7 @@
             "    <a href=\"http://localhost:4000/2017-12-03/engoddetail\"><img\n" +
             "            src=\"/resource/god.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin God(BTG)</span>\n" +
+            "        <span id='godtitle' class=\"title\">Bitcoin God(God)</span>\n" +
             "        <p class=\"description\">Bitcoin God is a completely self monitored decentralized community.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5222,7 +5219,7 @@
             "    <a href=\"http://localhost:4000/2017-12-21/enbifidetail\"><img\n" +
             "            src=\"/resource/bifi.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">BitcoinFile(BIFI)</span>\n" +
+            "        <span id='bifititle' class=\"title\">BitcoinFile(BIFI)</span>\n" +
             "        <p class=\"description\">a p2p distributed file system based on blockchain technology</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5262,7 +5259,7 @@
             "    <a href=\"http://localhost:4000/2017-12-21/enltclchdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Litecoin Cash(LCH)</span>\n" +
+            "        <span id='ltclchtitle' class=\"title\">Litecoin Cash(LCH)</span>\n" +
             "        <p class=\"description\">upgrade the block size from 1M to 8M</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5304,7 +5301,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enbtpdetail\"><img\n" +
             "            src=\"/resource/btp.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Platinum(BTP)</span>\n" +
+            "        <span id='btptitle' class=\"title\">Bitcoin Platinum(BTP)</span>\n" +
             "        <p class=\"description\">Bitcoin Platinum is probably a scam project.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5342,7 +5339,7 @@
             "    <a href=\"http://localhost:4000/2017-12-15/enbtstakedetail\"><img\n" +
             "            src=\"/resource/btcstake.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Smart（BTCS）</span>\n" +
+            "        <span id='btcstitle' class=\"title\">Bitcoin Smart（BTCS）</span>\n" +
             "        <p class=\"description\">Bitcoin Stake is a hard-fork that adopt Secure POS. In future , BTCS will be extended to support smart contract.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5382,7 +5379,7 @@
             "    <a href=\"http://localhost:4000/2017-12-08/enbckdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin King(BCK)</span>\n" +
+            "        <span id='kingtitle' class=\"title\">Bitcoin King(BCK)</span>\n" +
             "        <p class=\"description\">Bitcoin king is a peer-to-peer electronic cryptocurrency.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5424,7 +5421,7 @@
             "    <a href=\"http://localhost:4000/2017-11-27/enlbtcdetail\"><img\n" +
             "            src=\"/resource/lbtc.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Lightning Bitcoin(LBTC)</span>\n" +
+            "        <span id='lbtctitle' class=\"title\">Lightning Bitcoin(LBTC)</span>\n" +
             "        <p class=\"description\">The Lightning Bitcoin (LBTC) introduced the DPOS Consensus Mechanism into the Bitcoin networ.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5462,7 +5459,7 @@
             "    <a href=\"http://localhost:4000/2017-12-10/enbtpaydetail\"><img\n" +
             "            src=\"/resource/btpay.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Pay(BTP)</span>\n" +
+            "        <span id='btpaytitle' class=\"title\">Bitcoin Pay(BTP)</span>\n" +
             "        <p class=\"description\">Bitcoin Pay is committed to creating a more convenient global payment ecosystem.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5502,7 +5499,7 @@
             "    <a href=\"http://localhost:4000/2017-12-08/enethfogdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Ethereum Fog(ETF)</span>\n" +
+            "        <span id='ethfogtitle' class=\"title\">Ethereum Fog(ETF)</span>\n" +
             "        <p class=\"description\">Ethereum Fog is the fork coin based on Ethereum, which aims to promote Ethereum as the next generation of fog computing platforms.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5544,7 +5541,7 @@
             "    <a href=\"http://localhost:4000/2017-12-14/enethemodetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Ethereum Modification(EMO)</span>\n" +
+            "        <span id='emotitle' class=\"title\">Ethereum Modification(EMO)</span>\n" +
             "        <p class=\"description\">No More Info</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5582,7 +5579,7 @@
             "    <a href=\"http://localhost:4000/2017-12-08/enbcxdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin X(BCX)</span>\n" +
+            "        <span id='bcxtitle' class=\"title\">Bitcoin X(BCX)</span>\n" +
             "        <p class=\"description\">Combining zero-knowledge proof, smart contract, DPOS consensus.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5624,7 +5621,7 @@
             "    <a href=\"http://localhost:4000/2017-12-21/enobtcdetail\"><img\n" +
             "            src=\"/resource/obtc.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">OilBTC(OBTC)</span>\n" +
+            "        <span id='obtctitle' class=\"title\">OilBTC(OBTC)</span>\n" +
             "        <p class=\"description\">using POS consensus mechanism to enhance trading speed and equity distribution</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5664,7 +5661,7 @@
             "    <a href=\"http://localhost:4000/2017-12-11/enbthdetail\"><img\n" +
             "            src=\"/resource/bthot.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Hot(BTH)</span>\n" +
+            "        <span id='bthtitle' class=\"title\">Bitcoin Hot(BTH)</span>\n" +
             "        <p class=\"description\">With new BtHash algorithm, Bitcoin Hot allows users to participate in mining by both CPU and GPU.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5702,7 +5699,7 @@
             "    <a href=\"http://localhost:4000/2017-12-09/enubdetail\"><img\n" +
             "            src=\"/resource/ub.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">UnitedBitcoin(UBTC)</span>\n" +
+            "        <span id='ubtitle' class=\"title\">UnitedBitcoin(UBTC)</span>\n" +
             "        <p class=\"description\">UnitedBitcoin is a super joint credit carrier with the target to establish a powerful global network</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -5819,7 +5816,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-13/enbcsdetail\"><img\n" +
             "                                src=\"/resource/bcs.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Smart(BCS)</span>\n" +
+            "                            <span id='bcstitle' class=\"title\">Bitcoin Smart(BCS)</span>\n" +
             "                            <p class=\"description\">BCS is an experiment to improve Bitcoin</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -5861,7 +5858,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-03/enbtvdetail\"><img\n" +
             "                                src=\"/resource/btv.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitvote(BTV)</span>\n" +
+            "                            <span id='btvtitle' class=\"title\">Bitvote(BTV)</span>\n" +
             "                            <p class=\"description\">BitVote(BTV) is a community consensus system, and it forms an self-evolving autonomous community organization and safe cryptocurrency system.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -5905,7 +5902,7 @@
             "                        <a href=\"http://localhost:4000/2017-01-09/enwbtcdetail\"><img\n" +
             "                                src=\"/resource/wbtc.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">World Bitcoin(WBTC)</span>\n" +
+            "                            <span id='wbtctitle' class=\"title\">World Bitcoin(WBTC)</span>\n" +
             "                            <p class=\"description\">Based on Bitcoin, WBTC (World Bitcoin) will start to bifurcate at Bitcoin 503888 to add new features, focusing on improving the practical application of blockchain.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -5923,7 +5920,7 @@
             "                                </div>\n" +
             "\n" +
             "                                <div class=\"col-xs-4\">\n" +
-            "                                    <span class=\"wbtc\">2018/1/12</span>\n" +
+            "                                    <span class=\"wbtc\">0</span>\n" +
             "                                    <span style=\"margin-top: 10px; display: block;\" class=\"wbtctimetitle\">Countdown</span>\n" +
             "                                </div>\n" +
             "                            </div>\n" +
@@ -5963,7 +5960,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-02/enbcbdetail\"><img\n" +
             "                                src=\"/resource/bcb.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Boy(BCB)</span>\n" +
+            "                            <span id='bcbtitle' class=\"title\">Bitcoin Boy(BCB)</span>\n" +
             "                            <p class=\"description\">Add new features to bitcoin and make bitcoin network more perfect.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6003,7 +6000,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-02/enbtndetail\"><img\n" +
             "                                src=\"/resource/btnano.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Nano(BTN)</span>\n" +
+            "                            <span id='btnanotitle' class=\"title\">Bitcoin Nano(BTN)</span>\n" +
             "                            <p class=\"description\">The purpose of Bitcoin Nano is to give Bitcoin a wider range of applications, such as online games, live video, etc.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6045,7 +6042,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-26/enbcodetail\"><img\n" +
             "                                src=\"/resource/bco.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Ore(BCO)</span>\n" +
+            "                            <span id='bcotitle' class=\"title\">Bitcoin Ore(BCO)</span>\n" +
             "                            <p class=\"description\">Bitcoin Ore will use a POC（Proof Of Capacity）consensus mechanism to ensure everyone can mine BCO with their hard disk capacity.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6085,7 +6082,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-10/enbpadetail\"><img\n" +
             "                                src=\"/resource/pizza.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Pizza(BPA)</span>\n" +
+            "                            <span id='bpatitle' class=\"title\">Bitcoin Pizza(BPA)</span>\n" +
             "                            <p class=\"description\">Bitcoin Pizza combines DAG technology with bitcoin.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6123,7 +6120,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-11/enbtadetail\"><img\n" +
             "                                src=\"/resource/bta.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin ALL(BTA)</span>\n" +
+            "                            <span id='btatitle' class=\"title\">Bitcoin ALL(BTA)</span>\n" +
             "                            <p class=\"description\">Bitcoin ALL adopt an algorithm that everyone can mine it.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6163,7 +6160,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-26/enbppdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Payment Performance(BPP)</span>\n" +
+            "                            <span id='bpptitle' class=\"title\">Bitcoin Payment Performance(BPP)</span>\n" +
             "                            <p class=\"description\">a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6203,7 +6200,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-03/enplusdetail\"><img\n" +
             "                                src=\"/resource/plus.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Cash Plus(BCP)</span>\n" +
+            "                            <span id='plustitle' class=\"title\">Bitcoin Cash Plus(BCP)</span>\n" +
             "                            <p class=\"description\">Low-rate e-cash system.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6243,7 +6240,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-11/enqbtcdetail\"><img\n" +
             "                                src=\"/resource/qbtc.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Quantum Bitcoin(QBTC)</span>\n" +
+            "                            <span id='qbtctitle' class=\"title\">Quantum Bitcoin(QBTC)</span>\n" +
             "                            <p class=\"description\">An experiment to combine features of Bitcoin and QTUM.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6283,7 +6280,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-07/enbtnewdeatil\"><img\n" +
             "                                src=\"/resource/bitnew.png\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin New(BTN)</span>\n" +
+            "                            <span id='btnewtitle' class=\"title\">Bitcoin New(BTN)</span>\n" +
             "                            <p class=\"description\">Bitcoin new (BTN) is an innovation based on Satoshi Nakamoto’s Bitcoin concept.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6325,7 +6322,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-03/engoddetail\"><img\n" +
             "                                src=\"/resource/god.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin God(BTG)</span>\n" +
+            "                            <span id='godtitle' class=\"title\">Bitcoin God(God)</span>\n" +
             "                            <p class=\"description\">Bitcoin God is a completely self monitored decentralized community.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6363,7 +6360,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-21/enbifidetail\"><img\n" +
             "                                src=\"/resource/bifi.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">BitcoinFile(BIFI)</span>\n" +
+            "                            <span id='bifititle' class=\"title\">BitcoinFile(BIFI)</span>\n" +
             "                            <p class=\"description\">a p2p distributed file system based on blockchain technology</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6411,7 +6408,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbtpdetail\"><img\n" +
             "                                src=\"/resource/btp.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Platinum(BTP)</span>\n" +
+            "                            <span id='btptitle' class=\"title\">Bitcoin Platinum(BTP)</span>\n" +
             "                            <p class=\"description\">Bitcoin Platinum is probably a scam project.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6449,7 +6446,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-15/enbtstakedetail\"><img\n" +
             "                                src=\"/resource/btcstake.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Smart（BTCS）</span>\n" +
+            "                            <span id='btcstitle' class=\"title\">Bitcoin Smart（BTCS）</span>\n" +
             "                            <p class=\"description\">Bitcoin Stake is a hard-fork that adopt Secure POS. In future , BTCS will be extended to support smart contract.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6489,7 +6486,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-08/enbckdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin King(BCK)</span>\n" +
+            "                            <span id='kingtitle' class=\"title\">Bitcoin King(BCK)</span>\n" +
             "                            <p class=\"description\">Bitcoin king is a peer-to-peer electronic cryptocurrency.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6531,7 +6528,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-27/enlbtcdetail\"><img\n" +
             "                                src=\"/resource/lbtc.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Lightning Bitcoin(LBTC)</span>\n" +
+            "                            <span id='lbtctitle' class=\"title\">Lightning Bitcoin(LBTC)</span>\n" +
             "                            <p class=\"description\">The Lightning Bitcoin (LBTC) introduced the DPOS Consensus Mechanism into the Bitcoin networ.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6569,7 +6566,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-10/enbtpaydetail\"><img\n" +
             "                                src=\"/resource/btpay.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Pay(BTP)</span>\n" +
+            "                            <span id='btpaytitle' class=\"title\">Bitcoin Pay(BTP)</span>\n" +
             "                            <p class=\"description\">Bitcoin Pay is committed to creating a more convenient global payment ecosystem.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6621,7 +6618,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-08/enbcxdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin X(BCX)</span>\n" +
+            "                            <span id='bcxtitle' class=\"title\">Bitcoin X(BCX)</span>\n" +
             "                            <p class=\"description\">Combining zero-knowledge proof, smart contract, DPOS consensus.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6663,7 +6660,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-21/enobtcdetail\"><img\n" +
             "                                src=\"/resource/obtc.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">OilBTC(OBTC)</span>\n" +
+            "                            <span id='obtctitle' class=\"title\">OilBTC(OBTC)</span>\n" +
             "                            <p class=\"description\">using POS consensus mechanism to enhance trading speed and equity distribution</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6703,7 +6700,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-11/enbthdetail\"><img\n" +
             "                                src=\"/resource/bthot.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Hot(BTH)</span>\n" +
+            "                            <span id='bthtitle' class=\"title\">Bitcoin Hot(BTH)</span>\n" +
             "                            <p class=\"description\">With new BtHash algorithm, Bitcoin Hot allows users to participate in mining by both CPU and GPU.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6741,7 +6738,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-09/enubdetail\"><img\n" +
             "                                src=\"/resource/ub.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">UnitedBitcoin(UBTC)</span>\n" +
+            "                            <span id='ubtitle' class=\"title\">UnitedBitcoin(UBTC)</span>\n" +
             "                            <p class=\"description\">UnitedBitcoin is a super joint credit carrier with the target to establish a powerful global network</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6783,7 +6780,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-10/enbtfdetail\"><img\n" +
             "                                src=\"/resource/btf.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Faith(BTF)</span>\n" +
+            "                            <span id='btftitle' class=\"title\">Bitcoin Faith(BTF)</span>\n" +
             "                            <p class=\"description\">BTF was launched on 8 Dec 2017, which is developed by Bitgo team.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6825,7 +6822,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbcddetail\"><img\n" +
             "                                src=\"/resource/bcd.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Diamond(BCD)</span>\n" +
+            "                            <span id='btcdtitle' class=\"title\">Bitcoin Diamond(BCD)</span>\n" +
             "                            <p class=\"description\">Bitcoin Diamond miners will begin creating blocks with a new proof-of-work algorithm, and will consecutively develop and enhance the protection for account transfer and privacy based on original features of BTC.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6867,7 +6864,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-09/enbtwdetail\"><img\n" +
             "                                src=\"/resource/btw.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin world(BTW)</span>\n" +
+            "                            <span id='btwtitle' class=\"title\">Bitcoin world(BTW)</span>\n" +
             "                            <p class=\"description\">BTW aims to create a faster, more decentralized, smarter, safer and more private hardfork coin.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6909,7 +6906,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/ensbtcdetail\"><img\n" +
             "                                src=\"/resource/sbtc.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Super Bitcoin(SBTC)</span>\n" +
+            "                            <span id='sbtctitle' class=\"title\">Super Bitcoin(SBTC)</span>\n" +
             "                            <p class=\"description\">SBTC launched on November 15, 2017, which is developed by Super bitcoin team, including Xiaolai Li.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6949,7 +6946,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbtgdetail\"><img\n" +
             "                                src=\"/resource/btg.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Gold(BTG)</span>\n" +
+            "                            <span id='btgtitle' class=\"title\">Bitcoin Gold(BTG)</span>\n" +
             "                            <p class=\"description\">Bitcoin God is a completely self monitored decentralized community.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -6993,7 +6990,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbchdetail\"><img\n" +
             "                                src=\"/resource/bch.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Cash(BCH)</span>\n" +
+            "                            <span id='bchtitle' class=\"title\">Bitcoin Cash(BCH)</span>\n" +
             "                            <p class=\"description\">Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as Peer-to-Peer Electronic Cash.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -7033,7 +7030,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enb2xdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Bitcoin Segwit 2X(B2X)</span>\n" +
+            "                            <span id='b2xtitle' class=\"title\">Bitcoin Segwit 2X(B2X)</span>\n" +
             "                            <p class=\"description\">A scheme of Segwit+2M blocksize originate from New York consensus meeting.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -7110,7 +7107,7 @@
             "    <a href=\"http://localhost:4000/2017-12-13/enbcsdetail\"><img\n" +
             "            src=\"/resource/bcs.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Smart(BCS)</span>\n" +
+            "        <span id='bcstitle' class=\"title\">Bitcoin Smart(BCS)</span>\n" +
             "        <p class=\"description\">BCS is an experiment to improve Bitcoin</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -7154,7 +7151,7 @@
             "    <a href=\"http://localhost:4000/2018-01-03/enbtvdetail\"><img\n" +
             "            src=\"/resource/btv.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitvote(BTV)</span>\n" +
+            "        <span id='btvtitle' class=\"title\">Bitvote(BTV)</span>\n" +
             "        <p class=\"description\">BitVote(BTV) is a community consensus system, and it forms an self-evolving autonomous community organization and safe cryptocurrency system.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -7724,7 +7721,7 @@
             "    <a href=\"http://localhost:4000/2017-12-10/enbtfdetail\"><img\n" +
             "            src=\"/resource/btf.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Faith(BTF)</span>\n" +
+            "        <span id='btftitle' class=\"title\">Bitcoin Faith(BTF)</span>\n" +
             "        <p class=\"description\">BTF was launched on 8 Dec 2017, which is developed by Bitgo team.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -7768,7 +7765,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enbcddetail\"><img\n" +
             "            src=\"/resource/bcd.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Diamond(BCD)</span>\n" +
+            "        <span id='btcdtitle' class=\"title\">Bitcoin Diamond(BCD)</span>\n" +
             "        <p class=\"description\">Bitcoin Diamond miners will begin creating blocks with a new proof-of-work algorithm, and will consecutively develop and enhance the protection for account transfer and privacy based on original features of BTC.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -7812,7 +7809,7 @@
             "    <a href=\"http://localhost:4000/2017-12-09/enbtwdetail\"><img\n" +
             "            src=\"/resource/btw.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin world(BTW)</span>\n" +
+            "        <span id='btwtitle' class=\"title\">Bitcoin world(BTW)</span>\n" +
             "        <p class=\"description\">BTW aims to create a faster, more decentralized, smarter, safer and more private hardfork coin.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -7856,7 +7853,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/ensbtcdetail\"><img\n" +
             "            src=\"/resource/sbtc.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Super Bitcoin(SBTC)</span>\n" +
+            "        <span id='sbtctitle' class=\"title\">Super Bitcoin(SBTC)</span>\n" +
             "        <p class=\"description\">SBTC launched on November 15, 2017, which is developed by Super bitcoin team, including Xiaolai Li.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -7898,7 +7895,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enbtgdetail\"><img\n" +
             "            src=\"/resource/btg.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Gold(BTG)</span>\n" +
+            "        <span id='btgtitle' class=\"title\">Bitcoin Gold(BTG)</span>\n" +
             "        <p class=\"description\">Bitcoin God is a completely self monitored decentralized community.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -7944,7 +7941,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enbchdetail\"><img\n" +
             "            src=\"/resource/bch.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Cash(BCH)</span>\n" +
+            "        <span id='bchtitle' class=\"title\">Bitcoin Cash(BCH)</span>\n" +
             "        <p class=\"description\">Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as Peer-to-Peer Electronic Cash.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8051,7 +8048,7 @@
             "    <a href=\"http://localhost:4000/2017-01-09/enwbtcdetail\"><img\n" +
             "            src=\"/resource/wbtc.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">World Bitcoin(WBTC)</span>\n" +
+            "        <span id='wbtctitle' class=\"title\">World Bitcoin(WBTC)</span>\n" +
             "        <p class=\"description\">Based on Bitcoin, WBTC (World Bitcoin) will start to bifurcate at Bitcoin 503888 to add new features, focusing on improving the practical application of blockchain.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8069,7 +8066,7 @@
             "            </div>\n" +
             "\n" +
             "            <div class=\"col-xs-4\">\n" +
-            "                <span class=\"wbtc\">2018/1/12</span>\n" +
+            "                <span class=\"wbtc\">0</span>\n" +
             "                <span style=\"margin-top: 10px; display: block;\" class=\"wbtctimetitle\">Countdown</span>\n" +
             "            </div>\n" +
             "        </div>\n" +
@@ -8111,7 +8108,7 @@
             "    <a href=\"http://localhost:4000/2018-01-02/enbcbdetail\"><img\n" +
             "            src=\"/resource/bcb.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Boy(BCB)</span>\n" +
+            "        <span id='bcbtitle' class=\"title\">Bitcoin Boy(BCB)</span>\n" +
             "        <p class=\"description\">Add new features to bitcoin and make bitcoin network more perfect.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8153,7 +8150,7 @@
             "    <a href=\"http://localhost:4000/2018-01-02/enbtndetail\"><img\n" +
             "            src=\"/resource/btnano.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Nano(BTN)</span>\n" +
+            "        <span id='btnanotitle' class=\"title\">Bitcoin Nano(BTN)</span>\n" +
             "        <p class=\"description\">The purpose of Bitcoin Nano is to give Bitcoin a wider range of applications, such as online games, live video, etc.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8197,7 +8194,7 @@
             "    <a href=\"http://localhost:4000/2017-12-26/enbcodetail\"><img\n" +
             "            src=\"/resource/bco.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Ore(BCO)</span>\n" +
+            "        <span id='bcotitle' class=\"title\">Bitcoin Ore(BCO)</span>\n" +
             "        <p class=\"description\">Bitcoin Ore will use a POC（Proof Of Capacity）consensus mechanism to ensure everyone can mine BCO with their hard disk capacity.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8239,7 +8236,7 @@
             "    <a href=\"http://localhost:4000/2017-12-10/enbpadetail\"><img\n" +
             "            src=\"/resource/pizza.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Pizza(BPA)</span>\n" +
+            "        <span id='bpatitle' class=\"title\">Bitcoin Pizza(BPA)</span>\n" +
             "        <p class=\"description\">Bitcoin Pizza combines DAG technology with bitcoin.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8279,7 +8276,7 @@
             "    <a href=\"http://localhost:4000/2017-12-11/enbtadetail\"><img\n" +
             "            src=\"/resource/bta.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin ALL(BTA)</span>\n" +
+            "        <span id='btatitle' class=\"title\">Bitcoin ALL(BTA)</span>\n" +
             "        <p class=\"description\">Bitcoin ALL adopt an algorithm that everyone can mine it.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8321,7 +8318,7 @@
             "    <a href=\"http://localhost:4000/2017-12-26/enbppdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Payment Performance(BPP)</span>\n" +
+            "        <span id='bpptitle' class=\"title\">Bitcoin Payment Performance(BPP)</span>\n" +
             "        <p class=\"description\">a high performance crypto payment system. Bitcoin Payment Performance is committed to create an ecosystem with cutting edge technologies on core payment system, digital asset, wallet.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8363,7 +8360,7 @@
             "    <a href=\"http://localhost:4000/2017-12-03/enplusdetail\"><img\n" +
             "            src=\"/resource/plus.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Cash Plus(BCP)</span>\n" +
+            "        <span id='plustitle' class=\"title\">Bitcoin Cash Plus(BCP)</span>\n" +
             "        <p class=\"description\">Low-rate e-cash system.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8405,7 +8402,7 @@
             "    <a href=\"http://localhost:4000/2017-12-11/enqbtcdetail\"><img\n" +
             "            src=\"/resource/qbtc.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Quantum Bitcoin(QBTC)</span>\n" +
+            "        <span id='qbtctitle' class=\"title\">Quantum Bitcoin(QBTC)</span>\n" +
             "        <p class=\"description\">An experiment to combine features of Bitcoin and QTUM.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8447,7 +8444,7 @@
             "    <a href=\"http://localhost:4000/2018-01-07/enbtnewdeatil\"><img\n" +
             "            src=\"/resource/bitnew.png\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin New(BTN)</span>\n" +
+            "        <span id='btnewtitle' class=\"title\">Bitcoin New(BTN)</span>\n" +
             "        <p class=\"description\">Bitcoin new (BTN) is an innovation based on Satoshi Nakamoto’s Bitcoin concept.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8491,7 +8488,7 @@
             "    <a href=\"http://localhost:4000/2017-12-03/engoddetail\"><img\n" +
             "            src=\"/resource/god.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin God(BTG)</span>\n" +
+            "        <span id='godtitle' class=\"title\">Bitcoin God(God)</span>\n" +
             "        <p class=\"description\">Bitcoin God is a completely self monitored decentralized community.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8531,7 +8528,7 @@
             "    <a href=\"http://localhost:4000/2017-12-21/enbifidetail\"><img\n" +
             "            src=\"/resource/bifi.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">BitcoinFile(BIFI)</span>\n" +
+            "        <span id='bifititle' class=\"title\">BitcoinFile(BIFI)</span>\n" +
             "        <p class=\"description\">a p2p distributed file system based on blockchain technology</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8581,7 +8578,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enbtpdetail\"><img\n" +
             "            src=\"/resource/btp.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Platinum(BTP)</span>\n" +
+            "        <span id='btptitle' class=\"title\">Bitcoin Platinum(BTP)</span>\n" +
             "        <p class=\"description\">Bitcoin Platinum is probably a scam project.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8621,7 +8618,7 @@
             "    <a href=\"http://localhost:4000/2017-12-15/enbtstakedetail\"><img\n" +
             "            src=\"/resource/btcstake.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Smart（BTCS）</span>\n" +
+            "        <span id='btcstitle' class=\"title\">Bitcoin Smart（BTCS）</span>\n" +
             "        <p class=\"description\">Bitcoin Stake is a hard-fork that adopt Secure POS. In future , BTCS will be extended to support smart contract.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8663,7 +8660,7 @@
             "    <a href=\"http://localhost:4000/2017-12-08/enbckdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin King(BCK)</span>\n" +
+            "        <span id='kingtitle' class=\"title\">Bitcoin King(BCK)</span>\n" +
             "        <p class=\"description\">Bitcoin king is a peer-to-peer electronic cryptocurrency.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8707,7 +8704,7 @@
             "    <a href=\"http://localhost:4000/2017-11-27/enlbtcdetail\"><img\n" +
             "            src=\"/resource/lbtc.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Lightning Bitcoin(LBTC)</span>\n" +
+            "        <span id='lbtctitle' class=\"title\">Lightning Bitcoin(LBTC)</span>\n" +
             "        <p class=\"description\">The Lightning Bitcoin (LBTC) introduced the DPOS Consensus Mechanism into the Bitcoin networ.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8747,7 +8744,7 @@
             "    <a href=\"http://localhost:4000/2017-12-10/enbtpaydetail\"><img\n" +
             "            src=\"/resource/btpay.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Pay(BTP)</span>\n" +
+            "        <span id='btpaytitle' class=\"title\">Bitcoin Pay(BTP)</span>\n" +
             "        <p class=\"description\">Bitcoin Pay is committed to creating a more convenient global payment ecosystem.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8801,7 +8798,7 @@
             "    <a href=\"http://localhost:4000/2017-12-08/enbcxdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin X(BCX)</span>\n" +
+            "        <span id='bcxtitle' class=\"title\">Bitcoin X(BCX)</span>\n" +
             "        <p class=\"description\">Combining zero-knowledge proof, smart contract, DPOS consensus.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8845,7 +8842,7 @@
             "    <a href=\"http://localhost:4000/2017-12-21/enobtcdetail\"><img\n" +
             "            src=\"/resource/obtc.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">OilBTC(OBTC)</span>\n" +
+            "        <span id='obtctitle' class=\"title\">OilBTC(OBTC)</span>\n" +
             "        <p class=\"description\">using POS consensus mechanism to enhance trading speed and equity distribution</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8887,7 +8884,7 @@
             "    <a href=\"http://localhost:4000/2017-12-11/enbthdetail\"><img\n" +
             "            src=\"/resource/bthot.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Bitcoin Hot(BTH)</span>\n" +
+            "        <span id='bthtitle' class=\"title\">Bitcoin Hot(BTH)</span>\n" +
             "        <p class=\"description\">With new BtHash algorithm, Bitcoin Hot allows users to participate in mining by both CPU and GPU.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -8927,7 +8924,7 @@
             "    <a href=\"http://localhost:4000/2017-12-09/enubdetail\"><img\n" +
             "            src=\"/resource/ub.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">UnitedBitcoin(UBTC)</span>\n" +
+            "        <span id='ubtitle' class=\"title\">UnitedBitcoin(UBTC)</span>\n" +
             "        <p class=\"description\">UnitedBitcoin is a super joint credit carrier with the target to establish a powerful global network</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -9053,7 +9050,7 @@
             "                        <a href=\"http://localhost:4000/2017-01-09/enetzdetail\"><img\n" +
             "                                src=\"/resource/etz.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">EtherZero(ETZ)</span>\n" +
+            "                            <span id='ethetztitle' class=\"title\">EtherZero(ETZ)</span>\n" +
             "                            <p class=\"description\">EtherZero is a hard-fork of Ethereum blockchain network.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -9237,7 +9234,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-08/enethfogdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Ethereum Fog(ETF)</span>\n" +
+            "                            <span id='ethfogtitle' class=\"title\">Ethereum Fog(ETF)</span>\n" +
             "                            <p class=\"description\">Ethereum Fog is the fork coin based on Ethereum, which aims to promote Ethereum as the next generation of fog computing platforms.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -9380,7 +9377,7 @@
             "    <a href=\"http://localhost:4000/2017-01-09/enetzdetail\"><img\n" +
             "            src=\"/resource/etz.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">EtherZero(ETZ)</span>\n" +
+            "        <span id='ethetztitle' class=\"title\">EtherZero(ETZ)</span>\n" +
             "        <p class=\"description\">EtherZero is a hard-fork of Ethereum blockchain network.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -10089,7 +10086,7 @@
             "    <a href=\"http://localhost:4000/2017-12-08/enethfogdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Ethereum Fog(ETF)</span>\n" +
+            "        <span id='ethfogtitle' class=\"title\">Ethereum Fog(ETF)</span>\n" +
             "        <p class=\"description\">Ethereum Fog is the fork coin based on Ethereum, which aims to promote Ethereum as the next generation of fog computing platforms.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -10249,7 +10246,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-08/enltcltsdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Litecoin shares(LTS)</span>\n" +
+            "                            <span id='ltcltstitle' class=\"title\">Litecoin shares(LTS)</span>\n" +
             "                            <p class=\"description\">Litecoin shares use POS consensus mechanism.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -10301,7 +10298,7 @@
             "                        <a href=\"http://localhost:4000/2018-01-04/enltcltedetail\"><img\n" +
             "                                src=\"/resource/ltclte.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">LTE</span>\n" +
+            "                            <span id='ltcltetitle' class=\"title\">LTE</span>\n" +
             "                            <p class=\"description\">LET not only inherits all the benefits of the Wright coin, but also has faster networks, more sophisticated algorithms (EquiHash), more stable performance, and more mature models</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -10341,7 +10338,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-09/enltcsltcdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Super Litecoin(SLTC)</span>\n" +
+            "                            <span id='ltcsltctitle' class=\"title\">Super Litecoin(SLTC)</span>\n" +
             "                            <p class=\"description\">Super Litecoin is the hard fork based on Litecoin network.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -10447,7 +10444,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-21/enltclchdetail\"><img\n" +
             "                                src=\"/resource/default.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Litecoin Cash(LCH)</span>\n" +
+            "                            <span id='ltclchtitle' class=\"title\">Litecoin Cash(LCH)</span>\n" +
             "                            <p class=\"description\">upgrade the block size from 1M to 8M</p>\n" +
             "                            <div class=\"details\">\n" +
             "                                <div class=\"col-xs-3\">\n" +
@@ -10644,7 +10641,7 @@
             "    <a href=\"http://localhost:4000/2017-12-08/enltcltsdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Litecoin shares(LTS)</span>\n" +
+            "        <span id='ltcltstitle' class=\"title\">Litecoin shares(LTS)</span>\n" +
             "        <p class=\"description\">Litecoin shares use POS consensus mechanism.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -11229,7 +11226,7 @@
             "    <a href=\"http://localhost:4000/2018-01-04/enltcltedetail\"><img\n" +
             "            src=\"/resource/ltclte.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">LTE</span>\n" +
+            "        <span id='ltcltetitle' class=\"title\">LTE</span>\n" +
             "        <p class=\"description\">LET not only inherits all the benefits of the Wright coin, but also has faster networks, more sophisticated algorithms (EquiHash), more stable performance, and more mature models</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -11271,7 +11268,7 @@
             "    <a href=\"http://localhost:4000/2017-12-09/enltcsltcdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Super Litecoin(SLTC)</span>\n" +
+            "        <span id='ltcsltctitle' class=\"title\">Super Litecoin(SLTC)</span>\n" +
             "        <p class=\"description\">Super Litecoin is the hard fork based on Litecoin network.</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -11379,7 +11376,7 @@
             "    <a href=\"http://localhost:4000/2017-12-21/enltclchdetail\"><img\n" +
             "            src=\"/resource/default.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Litecoin Cash(LCH)</span>\n" +
+            "        <span id='ltclchtitle' class=\"title\">Litecoin Cash(LCH)</span>\n" +
             "        <p class=\"description\">upgrade the block size from 1M to 8M</p>\n" +
             "        <div class=\"details\">\n" +
             "            <div class=\"col-xs-3\">\n" +
@@ -11785,7 +11782,7 @@
             "                        <a href=\"http://localhost:4000/2017-12-20/enbtedetail\"><img\n" +
             "                                src=\"/resource/bitethereum.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">BitEthereum(BTE)</span>\n" +
+            "                            <span id='title' class=\"title\">BitEthereum(BTE)</span>\n" +
             "                            <p class=\"description\">create a well-developed ecosystem of crypto token assets</p>\n" +
             "                            <div class=\"details\">\n" +
             "                            <a href=\"http://localhost:4000/2017-12-20/enbtedetail\" class=\"btn\">Learn more</a>\n" +
@@ -11805,7 +11802,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enstellardetail\"><img\n" +
             "                                src=\"/resource/stellar.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Stellar</span>\n" +
+            "                            <span id='title' class=\"title\">Stellar</span>\n" +
             "                            <p class=\"description\">An open source protocol for value exchange.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                            <a href=\"http://localhost:4000/2017-11-22/enstellardetail\" class=\"btn\">Learn more</a>\n" +
@@ -11823,7 +11820,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbyteballdetail\"><img\n" +
             "                                src=\"/resource/byteball.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">Byteball</span>\n" +
+            "                            <span id='title' class=\"title\">Byteball</span>\n" +
             "                            <p class=\"description\">A decentralized DAG system.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                            <a href=\"http://localhost:4000/2017-11-22/enbyteballdetail\" class=\"btn\">Learn more</a>\n" +
@@ -11841,7 +11838,7 @@
             "                        <a href=\"http://localhost:4000/2017-11-22/enbtxdetail\"><img\n" +
             "                                src=\"/resource/btx.jpg\"></a>\n" +
             "                        <div class=\"hot-info\">\n" +
-            "                            <span class=\"title\">BTX</span>\n" +
+            "                            <span id='title' class=\"title\">BTX</span>\n" +
             "                            <p class=\"description\">Claim BTX need user to import their private key, extremely dangers.</p>\n" +
             "                            <div class=\"details\">\n" +
             "                            <a href=\"http://localhost:4000/2017-11-22/enbtxdetail\" class=\"btn\">Learn more</a>\n" +
@@ -12099,7 +12096,7 @@
             "    <a href=\"http://localhost:4000/2017-12-20/enbtedetail\"><img\n" +
             "            src=\"/resource/bitethereum.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">BitEthereum(BTE)</span>\n" +
+            "        <span id='title' class=\"title\">BitEthereum(BTE)</span>\n" +
             "        <p class=\"description\">create a well-developed ecosystem of crypto token assets</p>\n" +
             "        <a href=\"http://localhost:4000/2017-12-20/enbtedetail\" class=\"btn\">Learn more</a>\n" +
             "    </div>\n" +
@@ -12126,7 +12123,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enbyteballdetail\"><img\n" +
             "            src=\"/resource/byteball.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Byteball</span>\n" +
+            "        <span id='title' class=\"title\">Byteball</span>\n" +
             "        <p class=\"description\">A decentralized DAG system.</p>\n" +
             "        <a href=\"http://localhost:4000/2017-11-22/enbyteballdetail\" class=\"btn\">Learn more</a>\n" +
             "    </div>\n" +
@@ -12145,7 +12142,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enbtxdetail\"><img\n" +
             "            src=\"/resource/btx.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">BTX</span>\n" +
+            "        <span id='title' class=\"title\">BTX</span>\n" +
             "        <p class=\"description\">Claim BTX need user to import their private key, extremely dangers.</p>\n" +
             "        <a href=\"http://localhost:4000/2017-11-22/enbtxdetail\" class=\"btn\">Learn more</a>\n" +
             "    </div>\n" +
@@ -12411,7 +12408,7 @@
             "    <a href=\"http://localhost:4000/2017-11-22/enstellardetail\"><img\n" +
             "            src=\"/resource/stellar.jpg\"></a>\n" +
             "    <div class=\"hot-info\">\n" +
-            "        <span class=\"title\">Stellar</span>\n" +
+            "        <span id='title' class=\"title\">Stellar</span>\n" +
             "        <p class=\"description\">An open source protocol for value exchange.</p>\n" +
             "        <a href=\"http://localhost:4000/2017-11-22/enstellardetail\" class=\"btn\">Learn more</a>\n" +
             "    </div>\n" +
@@ -12573,6 +12570,14 @@
 
     function changeLanguage() {
         window.location.href="../index.html";
+    }
+
+    if ($("#btptitle").text() == "Bitcoin Platinum(BTP)") {
+        $("#btptitle").html("<span>Bitcoin Platinum(<span style=\"text-decoration: line-through\">BTP</span>duplication)</span>");
+    }
+
+    if ($("#btnanotitle").text() == "Bitcoin Nano(BTN)") {
+        $("#btnanotitle").html("<span>Bitcoin Nano(<span style=\"text-decoration: line-through\">BTN</span>duplication)</span>");
     }
 </script>
 
