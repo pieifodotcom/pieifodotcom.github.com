@@ -14,11 +14,11 @@ currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: btnewhight
 timeClass: btnew
-stateTitle: Undergoing
-state: 2
-stateColor: 3AB69C
+stateTitle: Completed
+state: 1
+stateColor: 3AACEB
 belong: btForkInfo
-sortNumber: 112.61
+sortNumber: 46
 ---
 <h1 style="color: #2F416A">Bitcoin New</h1>
 <p>Bitcoin new (BTN) is an innovation based on Satoshi Nakamoto’s Bitcoin concept. The purpose of Bitcoin New is to build a decentralized peer-to-peer electronic cash system and platform for decentralized applications.

@@ -14,11 +14,11 @@ currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: btnewhight
 timeClass: btnew
-stateTitle: 分叉中
-state: 2
-stateColor: 3AB69C
+stateTitle: 已分叉
+state: 1
+stateColor: 3AACEB
 belong: btForkInfo
-sortNumber: 112.61
+sortNumber: 46
 ---
 <h1 style="color: #2F416A">新比特币</h1>
 <p>新比特币是一个继承中本聪比特币理念的升级。
