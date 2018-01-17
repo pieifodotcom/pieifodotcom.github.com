@@ -1,7 +1,7 @@
 ---
 layout: enpost
 title:  btpaydetail
-imageUrl: /resource/btpay.jpg
+imageUrl: /resource/jekyll ser .png
 coinName: Bitcoin Pay(BTP)
 coinInfo: Bitcoin Pay is committed to creating a more convenient global payment ecosystem.
 blockHightTitle: Block height

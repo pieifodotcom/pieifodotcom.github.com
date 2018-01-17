@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  btpaydetail
-imageUrl: /resource/btpay.jpg
+imageUrl: /resource/btpay.png
 coinName: 比特支付(BTP)
 coinInfo: 比特支付致力于建立更便捷的全球支付生态
 blockHightTitle: 分叉高度
