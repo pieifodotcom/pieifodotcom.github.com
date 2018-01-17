@@ -2,7 +2,7 @@
 layout: post
 title:  btnanodetail
 imageUrl: /resource/btnano.jpg
-coinName: Bitcoin Nano(BTN)
+coinName: Bitcoin Nano(nano)
 coinInfo: Bitcoin Nano的目的是为了让比特币拥有更为广泛的应用领域，如在线游戏、视频直播等
 btnTitle: 查看详情
 blockHightTitle: 分叉高度
