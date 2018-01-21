@@ -8,17 +8,17 @@ blockHightTitle: Block height
 blockHight: 4936270
 timeTitle: Countdown
 timeTitleClass: ethetztimetitle
-time: 2018/1/19
+time: 0
 currentHightTitle: Current block height
 currentHight: Loading
 currentHightClass: ethetzhight
 timeClass: ethetz
 btnTitle: Learn more
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: ethForkInfo
-sortNumber: 113.8
+sortNumber: 113
 ---
 <h1 style="color: #2F416A">EtherZero</h1>
 <p>EtherZero is a hard-fork of Ethereum blockchain network. EtherZero has all the dream features needed by DAPP developers: 0 TX fee, instant payments and high scalability (up to thousands of TPS).

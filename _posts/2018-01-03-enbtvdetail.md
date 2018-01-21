@@ -14,11 +14,11 @@ currentHight: Loading
 currentHightClass: btvhight
 timeClass: btv
 btnTitle: Learn more
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 113
+sortNumber: 113.3
 ---
 <h1 style="color: #2F416A">Bitvote</h1>
 <p>BitVote(BTV) is a community consensus system, and it forms an self-evolving autonomous community organization and safe cryptocurrency system.
@@ -42,7 +42,7 @@ BitVote is a decentralized and open autonomous organization. Users trust each ot
     </tr>
     <tr>
         <td>Forking Time</td>
-        <td>2018/1/21</td>
+        <td>2018/1/20</td>
     </tr>
     <tr>
         <td>Replay protection</td>

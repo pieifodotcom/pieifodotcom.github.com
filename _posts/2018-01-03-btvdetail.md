@@ -8,17 +8,17 @@ blockHightTitle: 分叉高度
 blockHight: 505050
 timeTitle: 倒计时
 timeTitleClass: btvtimetitle
-time: 2018/1/21
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: btvhight
 timeClass: btv
 btnTitle: 查看详情
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
-sortNumber: 113
+sortNumber: 113.3
 ---
 <h1 style="color: #2F416A">比特票</h1>
 <p>比特票（BTV）是一套社区共识系统，形成自我进化的自治社区组织和安全的数字加密货币体系。
@@ -44,7 +44,7 @@ Bitvote是一个去中心化的开放自治组织，用户相互建立信任无�
     </tr>
     <tr>
         <td>分叉时间</td>
-        <td>2018年1月21日</td>
+        <td>2018年1月20日</td>
     </tr>
     <tr>
         <td>重放保护</td>

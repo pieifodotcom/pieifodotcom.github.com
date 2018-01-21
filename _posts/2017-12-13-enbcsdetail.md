@@ -14,9 +14,9 @@ currentHight: Loading
 currentHightClass: bcshight
 timeClass: bcs
 btnTitle: Learn more
-stateTitle: Upcoming
-state: 0
-stateColor: F99F26
+stateTitle: Undergoing
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
 sortNumber: 113.5
 ---

@@ -8,16 +8,16 @@ blockHightTitle: 分叉高度
 blockHight: 505050
 timeTitle: 倒计时
 timeTitleClass: bcstimetitle
-time: 2018/1/20
+time: 0
 currentHightTitle: 当前块高
 currentHight: 加载中
 currentHightClass: bcshight
 timeClass: bcs
 btnTitle: 查看详情
 btnHref: /pages/bcsdetail
-stateTitle: 即将分叉
-state: 0
-stateColor: F99F26
+stateTitle: 分叉中
+state: 2
+stateColor: 3AB69C
 belong: btForkInfo
 sortNumber: 113.5
 ---
