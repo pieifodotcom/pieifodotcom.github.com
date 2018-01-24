@@ -1,7 +1,7 @@
 ---
 layout: enpost
 title:  btpaydetail
-imageUrl: /resource/jekyll ser .png
+imageUrl: /resource/btpay.png
 coinName: Bitcoin Pay(BTP)
 coinInfo: Bitcoin Pay is committed to creating a more convenient global payment ecosystem.
 blockHightTitle: Block height
@@ -15,11 +15,11 @@ currentHightClass: btpayhight
 timeClass: btpay
 btnTitle: Learn more
 btnHref: /pages/btpaydetail
-stateTitle: Undergoing
-state: 2
-stateColor: 3AB69C
+stateTitle: Completed
+state: 1
+stateColor: 3AACEB
 belong: btForkInfo
-sortNumber: 106
+sortNumber: 47
 ---
 <h1 style="color: #2F416A">Bitcoin Pay</h1>
 <p class="summarytxt">Blockchain hard fork is a complex process requires deep understanding of blockchain technical skills, computing power as well as ecosystem support. Bitpie will support all hard fork token if 1. Mainnet is online and stable 2. 2-way Replay protection is implemented3. Fair distribution and no private key import needed to claim.
