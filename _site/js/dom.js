@@ -230,8 +230,7 @@ function initDomMenuPc(lan) {
             }
         })
         forkNamePc(forkNameArr, forkIdArr);
-        $('#menus').navbarscroll();
-        $('#status').navbarscroll();
+
     })
 }
 
@@ -318,7 +317,7 @@ function forkNamePc(forkNameArr, forkIdArr) {
 
     $(".fork-name ul").empty();
     $(".fork-name ul").append(innerArr.join(''));
-
+    $('#menus').navbarscroll();
     $(".fork-name>ul>li>a").bind("click", function () {
         variableMenuStr = $(this).attr("id")
         updateDomMenuPc(variableLanStr, $(this).attr("id"));
@@ -336,7 +335,6 @@ function updateDomMenuPc(lan, typeStr) {
                 forkTypePc(obj.typeList);
             }
         })
-        $('#status').navbarscroll({"defaultSelect": variableTypeIndex});
     })
 }
 
@@ -347,6 +345,8 @@ function forkTypePc(forkTypeArr) {
     })
     $(".fork-status ul").empty();
     $(".fork-status ul").append(innerArr.join(''));
+
+    $('#status').navbarscroll({"defaultSelect": variableTypeIndex});
 
     $(".fork-status>ul>li>a").bind("click", function () {
         variableTypeIndex = $(this).attr("id").replace(variableMenuStr, "");
