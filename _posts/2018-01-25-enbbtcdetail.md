@@ -50,6 +50,14 @@ sortNumber: 119
         <td>16M</td>
     </tr>
     <tr>
+        <td>Block time</td>
+        <td>2.5 Minute</td>
+    </tr>
+    <tr>
+        <td>Difficulty adjustment</td>
+        <td>DAA</td>
+    </tr>
+    <tr>
         <td>Consensus mechanism</td>
         <td>EQUI Hash</td>
     </tr>
