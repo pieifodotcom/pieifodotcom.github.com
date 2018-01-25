@@ -49,7 +49,7 @@ sortNumber: 129
     </tr>
     <tr>
         <td>区块大小</td>
-        <td>8M</td>
+        <td>1M</td>
     </tr>
     <tr>
         <td>共识机制</td>

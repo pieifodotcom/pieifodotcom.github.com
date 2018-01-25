@@ -47,7 +47,7 @@ sortNumber: 129
     </tr>
     <tr>
         <td>Block Size</td>
-        <td>8M</td>
+        <td>1M</td>
     </tr>
     <tr>
         <td>Consensus mechanism</td>

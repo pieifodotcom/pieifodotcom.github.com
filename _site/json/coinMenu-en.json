@@ -1,0 +1,62 @@
+[
+  {
+    "menuName": "All",
+    "id":"menu-all",
+    "typeList": [
+      "All",
+      "Upcoming",
+      "Undergoing",
+      "Completed"
+    ]
+  },
+  {
+    "menuName": "BTC Forks",
+    "id":"btc",
+    "typeList": [
+      "All",
+      "Upcoming",
+      "Undergoing",
+      "Completed"
+    ]
+  },
+  {
+    "menuName":"ETH Forks",
+    "id":"eth",
+    "typeList":[
+      "All",
+      "Upcoming",
+      "Undergoing",
+      "Completed"
+    ]
+  },
+  {
+    "menuName":"BCH Forks",
+    "id":"bch",
+    "typeList":[
+      "All",
+      "Upcoming",
+      "Undergoing",
+      "Completed"
+    ]
+  },
+  {
+    "menuName":"LTC Forks",
+    "id":"ltc",
+    "typeList":[
+      "All",
+      "Upcoming",
+      "Undergoing",
+      "Completed"
+    ]
+  },
+  {
+    "menuName":"Airdrop",
+    "id":"candy",
+    "typeList":[
+      "All",
+      "Upcoming",
+      "Undergoing",
+      "Completed"
+    ]
+  }
+]
