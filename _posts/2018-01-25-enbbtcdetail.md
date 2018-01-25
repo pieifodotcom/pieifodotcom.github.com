@@ -1,9 +1,9 @@
 ---
 layout: enpost
-title:  bbtcdetail
+title:  bbcdetail
 imageUrl: /resource/bbtc.png
-coinName: Big Bitcoin(BBTC)
-coinInfo: BBTC, the abbreviation of Big Bitcoin, is a new chain of 508,888 forked at the height of the bitcoin block, developed by the BBTC team.
+coinName: Big Bitcoin(BBC)
+coinInfo: BBC, the abbreviation of Big Bitcoin, is a new chain of 508,888 forked at the height of the bitcoin block, developed by the BBTC team.
 blockHightTitle: Block height
 blockHight: 508888
 timeTitle: Countdown
@@ -21,13 +21,13 @@ belong: btForkInfo
 sortNumber: 119
 ---
 <h1 style="color: #2F416A">Big Bitcoin</h1>
-<p>BBTC, the abbreviation of Big Bitcoin, is a new chain of 508,888 forked at the height of the bitcoin block, developed by the BBTC team.  The Aim of BBTC is to create a better digital currency ecosystem based on bitcoin, and serve a wide range of society on the basis of bitcoin's creditworthiness.
+<p>BBC, the abbreviation of Big Bitcoin, is a new chain of 508,888 forked at the height of the bitcoin block, developed by the BBTC team.  The Aim of BBTC is to create a better digital currency ecosystem based on bitcoin, and serve a wide range of society on the basis of bitcoin's creditworthiness.
 </p>
 <table class="center">
   <tbody>
     <tr>
         <td class="tablehalf">Project name</td>
-        <td class="tablehalf">Big Bitcoin（BBTC）</td>
+        <td class="tablehalf">Big Bitcoin（BBC）</td>
     </tr>
     <tr>
         <td>Forking Height</td>
@@ -63,7 +63,7 @@ sortNumber: 119
     </tr>
     <tr>
         <td>Official team</td>
-        <td>BBTC Team</td>
+        <td>BBC Team</td>
     </tr>
   </tbody>
 </table>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  bbtcdetail
+title:  bbcdetail
 imageUrl: /resource/bbtc.png
-coinName: 大比特币(BBTC)
+coinName: 大比特币(BBC)
 coinInfo: 建立一个更优良的以比特币为基础的，数字货币生态系统
 blockHightTitle: 分叉高度
 blockHight: 508888
@@ -21,15 +21,15 @@ belong: btForkInfo
 sortNumber: 119
 ---
 <h1 style="color: #2F416A">大比特币</h1>
-<p>BBTC，又名BigBitcoin，大比特币。大比特币总量为2.1亿，是目前位置BTC分叉币数量最多的币种。其出块时间参2.5分钟，参照照莱特币机制，区块大小16M，支持Segwit、重放保护、唯一地址格式，支持智能合约、闪电网络，采用POW共识算法及零知识证明。就技术特性来看，是目前容量最大、速度极快、技术方面提供的最全面的比特币分叉币。
+<p>BBC，又名BigBitcoin，大比特币。大比特币总量为2.1亿，是目前位置BTC分叉币数量最多的币种。其出块时间参2.5分钟，参照照莱特币机制，区块大小16M，支持Segwit、重放保护、唯一地址格式，支持智能合约、闪电网络，采用POW共识算法及零知识证明。就技术特性来看，是目前容量最大、速度极快、技术方面提供的最全面的比特币分叉币。
 </p>
-<p>大比特币(BBTC)的目的，是建立一个更优良的以比特币为基础的，数字货币生态系统，并以比特币的信用为基础，广泛服务于社会。随着智能合同的可扩展性，BigBitcoin的实际应用价值将大大提高。它仍然是比特币，但超过比特币。
+<p>大比特币(BBC)的目的，是建立一个更优良的以比特币为基础的，数字货币生态系统，并以比特币的信用为基础，广泛服务于社会。随着智能合同的可扩展性，BigBitcoin的实际应用价值将大大提高。它仍然是比特币，但超过比特币。
 </p>
 <table class="center">
   <tbody>
     <tr>
         <td class="tablehalf">项目名</td>
-        <td class="tablehalf">Big Bitcoin（BBTC）大比特币</td>
+        <td class="tablehalf">Big Bitcoin（BBC）大比特币</td>
     </tr>
     <tr>
         <td>分叉高度</td>
@@ -65,7 +65,7 @@ sortNumber: 119
     </tr>
     <tr>
         <td>项目团队</td>
-        <td>BBTC Team</td>
+        <td>BBC Team</td>
     </tr>
   </tbody>
 </table>
