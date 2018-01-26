@@ -488,7 +488,7 @@
     "menuName":"ltc",
     "introduction":[
       {
-        "imgSrc":"../resource/bcb.jpg",
+        "imgSrc":"../resource/default.jpg",
         "coinNameId":"lch",
         "coinName":"莱特现金（LCH）",
         "coinSummaryId":"lchSummary",

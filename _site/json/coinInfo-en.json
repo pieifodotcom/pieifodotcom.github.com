@@ -488,7 +488,7 @@
     "menuName":"ltc",
     "introduction":[
       {
-        "imgSrc":"../resource/bcb.jpg",
+        "imgSrc":"../resource/default.jpg",
         "coinNameId":"lch",
         "coinName":"Litecoin Cash(LCH)",
         "coinSummaryId":"lchSummary",
