@@ -4,28 +4,22 @@
     "interval": "600",
     "events": [
       {
-        "coinName": "Bitcoin Smart(BCS)",
-        "blockHeight": "505050",
+        "coinName": "Big Bitcoin(BBC)",
+        "blockHeight": "508888",
         "timestamp": "",
-        "summary": "Fork Height:505050,For time(Estimated):2018/1/20"
-      },
-      {
-        "coinName": "Bitvote(BTV)",
-        "blockHeight": "505050",
-        "timestamp": "",
-        "summary": "Fork Height:505050,For time(Estimated):2018/1/21"
+        "summary": "Fork Height:508888,For time(Estimated):2018/2/16"
       }
     ]
   },
   {
-    "type": "bcc",
-    "interval": "600",
+    "type": "ltc",
+    "interval": "130",
     "events": [
       {
-        "coinName": "Bitcoin Candy(CDY)",
-        "blockHeight": "511706",
+        "coinName": "Litecoin shares(LTS)",
+        "blockHeight": "1359668",
         "timestamp": "",
-        "summary": "Fork Height:511706(BCH),For time(Estimated):2018/1/13"
+        "summary": "Fork Height:1359668(LTC),For time(Estimated):2018/1/30"
       }
     ]
   }

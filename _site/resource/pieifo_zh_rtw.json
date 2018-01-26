@@ -4,28 +4,22 @@
     "interval": "600",
     "events": [
       {
-        "coinName": "比特智能(BCS)",
-        "blockHeight": "505050",
+        "coinName": "大比特幣（BBC）",
+        "blockHeight": "508888",
         "timestamp": "",
-        "summary": "分叉高度505050，預計分叉時間2018年1月23號"
-      },
-      {
-        "coinName": "比特票(BTV)",
-        "blockHeight": "505050",
-        "timestamp": "",
-        "summary": "分叉高度505050，預計分叉時間2018年1月21號"
+        "summary": "分叉高度508888，預計分叉時間2018年2月16號"
       }
     ]
   },
   {
-    "type": "bcc",
-    "interval": "600",
+    "type": "ltc",
+    "interval": "130",
     "events": [
       {
-        "coinName": "比特幣糖果(CDY)",
-        "blockHeight": "511706",
+        "coinName": "萊特股（LTS）",
+        "blockHeight": "1359668",
         "timestamp": "",
-        "summary": "分叉高度511706，預計分叉時間2018年1月13號"
+        "summary": "分叉高度1359668，預計分叉時間2018年1月30號"
       }
     ]
   }
