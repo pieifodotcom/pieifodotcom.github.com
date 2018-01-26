@@ -383,7 +383,6 @@ function searchResult(searchStr) {
             container.push(coin);
             pushCoinInfoArr("", obj, 0)
         })
-        console.log(container);
         appendHtml(container);
     })
 }

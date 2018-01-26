@@ -383,7 +383,7 @@ function searchResult(searchStr) {
             container.push(coin);
             pushCoinInfoArr("", obj, 0)
         })
-]        appendHtml(container);
+        appendHtml(container);
     })
 }
 
