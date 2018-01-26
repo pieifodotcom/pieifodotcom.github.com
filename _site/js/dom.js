@@ -467,6 +467,10 @@ function pushCoinInfoArr(menuName, data, typeStr) {
             url = "https://bitpie.getcai.com/api/v1/ltc/block/height?currentstring=" + new Date().getTime();
             interval = 130;
             break;
+        case "dash":
+            url = "https://bitpie.getcai.com/api/v1/dash/block/height?currentstring=" + new Date().getTime();
+            interval = 150;
+            break;
     }
 
     $.get(url, {}, function (jsonHeight) {

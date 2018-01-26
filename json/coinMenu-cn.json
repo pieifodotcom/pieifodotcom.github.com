@@ -50,6 +50,16 @@
     ]
   },
   {
+    "menuName":"达世币分叉",
+    "id":"dash",
+    "typeList":[
+      "全部",
+      "即将分叉",
+      "分叉中",
+      "已分叉"
+    ]
+  },
+  {
     "menuName":"糖果",
     "id":"candy",
     "typeList":[

@@ -50,6 +50,16 @@
     ]
   },
   {
+    "menuName":"DASH Forks",
+    "id":"dash",
+    "typeList":[
+      "全部",
+      "即将分叉",
+      "分叉中",
+      "已分叉"
+    ]
+  },
+  {
     "menuName":"Airdrop",
     "id":"candy",
     "typeList":[

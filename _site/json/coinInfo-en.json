@@ -620,6 +620,26 @@
     ]
   },
   {
+    "menuName":"dash",
+    "introduction":[
+      {
+        "imgSrc":"../resource/safe.jpg",
+        "coinNameId":"safe",
+        "coinName":"Security Network Space 3(SAFE)",
+        "coinSummaryId":"safeSummary",
+        "coinSummary":"o become the world's largest, most secure and most secure digital currency payment and application platform.",
+        "coinForkHId":"safeForkHeight",
+        "coinForkH":"807085 ",
+        "coinForkHPId":"safeForkHP",
+        "currentHId":"dashHeight",
+        "countdownId":"safeCountdown",
+        "href":"/2017-12-14/ethemodetail",
+        "status":2,
+        "sort":335
+      }
+    ]
+  },
+  {
     "menuName":"candy",
     "introduction":[
       {

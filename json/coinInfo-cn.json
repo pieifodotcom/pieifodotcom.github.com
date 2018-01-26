@@ -620,6 +620,26 @@
     ]
   },
   {
+    "menuName":"dash",
+    "introduction":[
+      {
+        "imgSrc":"../resource/safe.jpg",
+        "coinNameId":"safe",
+        "coinName":"安网3（SAFE）",
+        "coinSummaryId":"safeSummary",
+        "coinSummary":"旨在成为全球最大、最安全、最隐私的数字货币支付和应用平台",
+        "coinForkHId":"safeForkHeight",
+        "coinForkH":"807085 ",
+        "coinForkHPId":"safeForkHP",
+        "currentHId":"dashHeight",
+        "countdownId":"safeCountdown",
+        "href":"/2017-12-14/ethemodetail",
+        "status":2,
+        "sort":335
+      }
+    ]
+  },
+  {
     "menuName":"candy",
     "introduction":[
       {
