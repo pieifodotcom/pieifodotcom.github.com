@@ -54,8 +54,12 @@ sortNumber: 129
         <td>POW（GPU）</td>
     </tr>
     <tr>
+        <td>Block time</td>
+        <td>2.5 Minute</td>
+    </tr>
+    <tr>
         <td>Replay Protection</td>
-        <td>Not Published</td>
+        <td>Yes</td>
     </tr>
     <tr>
         <td>Premining</td>

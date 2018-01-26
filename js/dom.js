@@ -230,7 +230,6 @@ function initDomMenuPc(lan) {
             }
         })
         forkNamePc(forkNameArr, forkIdArr);
-
     })
 }
 

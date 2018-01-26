@@ -453,6 +453,21 @@
         "sort":360
       },
       {
+        "imgSrc":"../resource/community.jpg",
+        "coinNameId":"community",
+        "coinName":"比特币社区（Bitcoin Community）",
+        "coinSummaryId":"communitySummary",
+        "coinSummary":"致力于全球区块链知识普及，社区生态建设和技术迭代升级",
+        "coinForkHId":"communityForkHeight",
+        "coinForkH":"506066",
+        "coinForkHPId":"communityForkHP",
+        "currentHId":"btcHeight",
+        "countdownId":"communityCountdown",
+        "href":"/2018-01-25/communitydetail",
+        "status":2,
+        "sort":361
+      },
+      {
         "imgSrc":"../resource/bbtc.png",
         "coinNameId":"bbc",
         "coinName":"大比特币（BBC）",
@@ -466,21 +481,6 @@
         "href":"/2018-01-25/bbtcdetail",
         "status":1,
         "sort":365
-      },
-      {
-        "imgSrc":"../resource/community.jpg",
-        "coinNameId":"community",
-        "coinName":"比特币社区（Bitcoin Community）",
-        "coinSummaryId":"communitySummary",
-        "coinSummary":"致力于全球区块链知识普及，社区生态建设和技术迭代升级",
-        "coinForkHId":"communityForkHeight",
-        "coinForkH":"506066",
-        "coinForkHPId":"communityForkHP",
-        "currentHId":"btcHeight",
-        "countdownId":"communityCountdown",
-        "href":"/2018-01-25/communitydetail",
-        "status":1,
-        "sort":380
       }
     ]
   },

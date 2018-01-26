@@ -453,6 +453,21 @@
         "sort":360
       },
       {
+        "imgSrc":"../resource/community.jpg",
+        "coinNameId":"community",
+        "coinName":"Bitcoin community",
+        "coinSummaryId":"communitySummary",
+        "coinSummary":"The total supply of Bitcoin Community is 222.6 billion.",
+        "coinForkHId":"communityForkHeight",
+        "coinForkH":"506066",
+        "coinForkHPId":"communityForkHP",
+        "currentHId":"btcHeight",
+        "countdownId":"communityCountdown",
+        "href":"/2018-01-25/encommunitydetail",
+        "status":2,
+        "sort":361
+      },
+      {
         "imgSrc":"../resource/bbtc.png",
         "coinNameId":"bbc",
         "coinName":"Big Bitcoin(BBC)",
@@ -466,21 +481,6 @@
         "href":"/2018-01-25/enbbtcdetail",
         "status":1,
         "sort":365
-      },
-      {
-        "imgSrc":"../resource/community.jpg",
-        "coinNameId":"community",
-        "coinName":"Bitcoin community",
-        "coinSummaryId":"communitySummary",
-        "coinSummary":"The total supply of Bitcoin Community is 222.6 billion.",
-        "coinForkHId":"communityForkHeight",
-        "coinForkH":"506066",
-        "coinForkHPId":"communityForkHP",
-        "currentHId":"btcHeight",
-        "countdownId":"communityCountdown",
-        "href":"/2018-01-25/encommunitydetail",
-        "status":1,
-        "sort":380
       }
     ]
   },

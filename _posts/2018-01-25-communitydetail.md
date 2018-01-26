@@ -56,8 +56,12 @@ sortNumber: 129
         <td>POW（GPU）</td>
     </tr>
     <tr>
+        <td>出块时间</td>
+        <td>2.5分钟</td>
+    </tr>
+    <tr>
         <td>重放保护</td>
-        <td>未公布</td>
+        <td>支持</td>
     </tr>
     <tr>
         <td>预留</td>
