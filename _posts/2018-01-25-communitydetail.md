@@ -57,7 +57,7 @@ sortNumber: 129
     </tr>
     <tr>
         <td>出块时间</td>
-        <td>2.5分钟</td>
+        <td>2分钟</td>
     </tr>
     <tr>
         <td>重放保护</td>

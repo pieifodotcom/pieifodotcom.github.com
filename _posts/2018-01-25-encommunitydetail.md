@@ -55,7 +55,7 @@ sortNumber: 129
     </tr>
     <tr>
         <td>Block time</td>
-        <td>2.5 Minute</td>
+        <td>2 Minute</td>
     </tr>
     <tr>
         <td>Replay Protection</td>
