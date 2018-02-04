@@ -480,7 +480,7 @@
         "countdownId":"bbcCountdown",
         "href":"/2018-01-25/bbtcdetail",
         "status":1,
-        "sort":365
+        "sort":380
       }
     ]
   },
@@ -544,7 +544,7 @@
         "currentHId":"ltcHeight",
         "countdownId":"ltsCountdown",
         "href":"/2017-12-08/ltcltsdetail",
-        "status":1,
+        "status":2,
         "sort":370
       }
     ]
