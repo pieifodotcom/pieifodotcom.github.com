@@ -138,6 +138,36 @@
         "sort":80
       },
       {
+        "imgSrc":"../resource/btv.jpg",
+        "coinNameId":"btv",
+        "coinName":"Bitvote(BTV)",
+        "coinSummaryId":"btvSummary",
+        "coinSummary":"BitVote(BTV) is a community consensus system, and it forms an self-evolving autonomous community organization and safe cryptocurrency system.",
+        "coinForkHId":"btvForkHeight",
+        "coinForkH":"505050",
+        "coinForkHPId":"btvForkHP",
+        "currentHId":"btHeight",
+        "countdownId":"btvCountdown",
+        "href":"/2018-01-03/enbtvdetail",
+        "status":3,
+        "sort":85
+      },
+      {
+        "imgSrc":"../resource/pizza.jpg",
+        "coinNameId":"pizza",
+        "coinName":"Bitcoin Pizza(BPA)",
+        "coinSummaryId":"pizzaSummary",
+        "coinSummary":"Bitcoin Pizza combines DAG technology with bitcoin.",
+        "coinForkHId":"pizzaForkHeight",
+        "coinForkH":"501888",
+        "coinForkHPId":"pizzaForkHP",
+        "currentHId":"btHeight",
+        "countdownId":"pizzaCountdown",
+        "href":"/2017-12-10/enbpadetail",
+        "status":3,
+        "sort":86
+      },
+      {
         "imgSrc":"../resource/ub.jpg",
         "coinNameId":"ub",
         "coinName":"OilBTC(OBTC)",
@@ -348,21 +378,6 @@
         "sort":250
       },
       {
-        "imgSrc":"../resource/pizza.jpg",
-        "coinNameId":"pizza",
-        "coinName":"Bitcoin Pizza(BPA)",
-        "coinSummaryId":"pizzaSummary",
-        "coinSummary":"Bitcoin Pizza combines DAG technology with bitcoin.",
-        "coinForkHId":"pizzaForkHeight",
-        "coinForkH":"501888",
-        "coinForkHPId":"pizzaForkHP",
-        "currentHId":"btHeight",
-        "countdownId":"pizzaCountdown",
-        "href":"/2017-12-10/enbpadetail",
-        "status":2,
-        "sort":260
-      },
-      {
         "imgSrc":"../resource/bco.jpg",
         "coinNameId":"bco",
         "coinName":"Bitcoin Ore(BCO)",
@@ -421,21 +436,6 @@
         "href":"/2017-01-09/enwbtcdetail",
         "status":2,
         "sort":330
-      },
-      {
-        "imgSrc":"../resource/btv.jpg",
-        "coinNameId":"btv",
-        "coinName":"Bitvote(BTV)",
-        "coinSummaryId":"btvSummary",
-        "coinSummary":"BitVote(BTV) is a community consensus system, and it forms an self-evolving autonomous community organization and safe cryptocurrency system.",
-        "coinForkHId":"btvForkHeight",
-        "coinForkH":"505050",
-        "coinForkHPId":"btvForkHP",
-        "currentHId":"btHeight",
-        "countdownId":"btvCountdown",
-        "href":"/2018-01-03/enbtvdetail",
-        "status":2,
-        "sort":350
       },
       {
         "imgSrc":"../resource/bcs.jpg",

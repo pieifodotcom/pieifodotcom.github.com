@@ -138,6 +138,36 @@
         "sort":80
       },
       {
+        "imgSrc":"../resource/btv.jpg",
+        "coinNameId":"btv",
+        "coinName":"比特票（BTV）",
+        "coinSummaryId":"btvSummary",
+        "coinSummary":"比特票（BTV）是一套社区共识系统，形成自我进化的自治社区组织和安全的数字加密货币体系",
+        "coinForkHId":"btvForkHeight",
+        "coinForkH":"505050",
+        "coinForkHPId":"btvForkHP",
+        "currentHId":"btcHeight",
+        "countdownId":"btvCountdown",
+        "href":"/2018-01-03/btvdetail",
+        "status":3,
+        "sort":85
+      },
+      {
+        "imgSrc":"../resource/pizza.jpg",
+        "coinNameId":"pizza",
+        "coinName":"比特币比萨（BPA）",
+        "coinSummaryId":"pizzaSummary",
+        "coinSummary":"Bitcoin Pizza将DAG技术运用在比特币上，即把比特币DAG化",
+        "coinForkHId":"pizzaForkHeight",
+        "coinForkH":"501888",
+        "coinForkHPId":"pizzaForkHP",
+        "currentHId":"btcHeight",
+        "countdownId":"pizzaCountdown",
+        "href":"/2017-12-10/bpadetail",
+        "status":3,
+        "sort":86
+      },
+      {
         "imgSrc":"../resource/ub.jpg",
         "coinNameId":"ub",
         "coinName":"比特联储（UBTC）",
@@ -348,21 +378,6 @@
         "sort":250
       },
       {
-        "imgSrc":"../resource/pizza.jpg",
-        "coinNameId":"pizza",
-        "coinName":"比特币比萨（BPA）",
-        "coinSummaryId":"pizzaSummary",
-        "coinSummary":"Bitcoin Pizza将DAG技术运用在比特币上，即把比特币DAG化",
-        "coinForkHId":"pizzaForkHeight",
-        "coinForkH":"501888",
-        "coinForkHPId":"pizzaForkHP",
-        "currentHId":"btcHeight",
-        "countdownId":"pizzaCountdown",
-        "href":"/2017-12-10/bpadetail",
-        "status":2,
-        "sort":260
-      },
-      {
         "imgSrc":"../resource/bco.jpg",
         "coinNameId":"bco",
         "coinName":"比特矿石（BCO）",
@@ -421,21 +436,6 @@
         "href":"/2017-01-09/wbtcdetail",
         "status":2,
         "sort":330
-      },
-      {
-        "imgSrc":"../resource/btv.jpg",
-        "coinNameId":"btv",
-        "coinName":"比特票（BTV）",
-        "coinSummaryId":"btvSummary",
-        "coinSummary":"比特票（BTV）是一套社区共识系统，形成自我进化的自治社区组织和安全的数字加密货币体系",
-        "coinForkHId":"btvForkHeight",
-        "coinForkH":"505050",
-        "coinForkHPId":"btvForkHP",
-        "currentHId":"btcHeight",
-        "countdownId":"btvCountdown",
-        "href":"/2018-01-03/btvdetail",
-        "status":2,
-        "sort":350
       },
       {
         "imgSrc":"../resource/bcs.jpg",
