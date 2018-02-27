@@ -166,6 +166,21 @@
                 "sort": 86
             },
             {
+                "imgSrc": "../resource/bbtc.jpg",
+                "coinNameId": "bbc",
+                "coinName": "大比特币（BBC）",
+                "coinSummaryId": "bbcSummary",
+                "coinSummary": "建立一个更优良的以比特币为基础的，数字货币生态系统",
+                "coinForkHId": "bbcForkHeight",
+                "coinForkH": "508888",
+                "coinForkHPId": "bbcForkHP",
+                "currentHId": "btcHeight",
+                "countdownId": "bbcCountdown",
+                "href": "/2018-01-25/bbtcdetail",
+                "status": 3,
+                "sort": 93
+            },
+            {
                 "imgSrc": "../resource/ub.jpg",
                 "coinNameId": "ub",
                 "coinName": "比特联储（UBTC）",
@@ -178,7 +193,7 @@
                 "countdownId": "ubCountdown",
                 "href": "/2017-12-09/ubdetail",
                 "status": 2,
-                "sort": 90
+                "sort": 95
             },
             {
                 "imgSrc": "../resource/bthot.jpg",
@@ -464,21 +479,6 @@
                 "href": "/2018-01-25/communitydetail",
                 "status": 2,
                 "sort": 361
-            },
-            {
-                "imgSrc": "../resource/bbtc.jpg",
-                "coinNameId": "bbc",
-                "coinName": "大比特币（BBC）",
-                "coinSummaryId": "bbcSummary",
-                "coinSummary": "建立一个更优良的以比特币为基础的，数字货币生态系统",
-                "coinForkHId": "bbcForkHeight",
-                "coinForkH": "508888",
-                "coinForkHPId": "bbcForkHP",
-                "currentHId": "btcHeight",
-                "countdownId": "bbcCountdown",
-                "href": "/2018-01-25/bbtcdetail",
-                "status": 2,
-                "sort": 380
             }
         ]
     },

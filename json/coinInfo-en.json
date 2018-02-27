@@ -166,6 +166,21 @@
                 "sort": 86
             },
             {
+                "imgSrc": "../resource/bbtc.jpg",
+                "coinNameId": "bbc",
+                "coinName": "Big Bitcoin(BBC)",
+                "coinSummaryId": "bbcSummary",
+                "coinSummary": "BBC, the abbreviation of Big Bitcoin, is a new chain of 508,888 forked at the height of the bitcoin block, developed by the BBTC team.",
+                "coinForkHId": "bbcForkHeight",
+                "coinForkH": "508888",
+                "coinForkHPId": "bbcForkHP",
+                "currentHId": "btcHeight",
+                "countdownId": "bbcCountdown",
+                "href": "/2018-01-25/enbbtcdetail",
+                "status": 3,
+                "sort": 93
+            },
+            {
                 "imgSrc": "../resource/ub.jpg",
                 "coinNameId": "ub",
                 "coinName": "OilBTC(OBTC)",
@@ -178,7 +193,7 @@
                 "countdownId": "ubCountdown",
                 "href": "/2017-12-09/enubdetail",
                 "status": 2,
-                "sort": 90
+                "sort": 95
             },
             {
                 "imgSrc": "../resource/bthot.jpg",
@@ -464,21 +479,6 @@
                 "href": "/2018-01-25/encommunitydetail",
                 "status": 2,
                 "sort": 361
-            },
-            {
-                "imgSrc": "../resource/bbtc.jpg",
-                "coinNameId": "bbc",
-                "coinName": "Big Bitcoin(BBC)",
-                "coinSummaryId": "bbcSummary",
-                "coinSummary": "BBC, the abbreviation of Big Bitcoin, is a new chain of 508,888 forked at the height of the bitcoin block, developed by the BBTC team.",
-                "coinForkHId": "bbcForkHeight",
-                "coinForkH": "508888",
-                "coinForkHPId": "bbcForkHP",
-                "currentHId": "btcHeight",
-                "countdownId": "bbcCountdown",
-                "href": "/2018-01-25/enbbtcdetail",
-                "status": 2,
-                "sort": 380
             }
         ]
     },
