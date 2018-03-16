@@ -67,7 +67,7 @@ sortNumber: 119
     </tr>
     <tr>
         <td>Official website</td>
-        <td>Coming Soon</td>
+        <td><a href="http://bigbitcoins.org" target="_blank">http://bigbitcoins.org</a></td>
     </tr>
     <tr>
         <td>Official team</td>
