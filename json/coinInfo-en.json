@@ -181,6 +181,21 @@
                 "sort": 93
             },
             {
+                "imgSrc": "../resource/lbtc.jpg",
+                "coinNameId": "lbtc",
+                "coinName": "Lightning Bitcoin(LBTC)",
+                "coinSummaryId": "lbtcSummary",
+                "coinSummary": "The Lightning Bitcoin (LBTC) introduced the DPOS Consensus Mechanism into the Bitcoin networ.",
+                "coinForkHId": "lbtcForkHeight",
+                "coinForkH": "499999",
+                "coinForkHPId": "lbtcForkHP",
+                "currentHId": "btHeight",
+                "countdownId": "lbtcCountdown",
+                "href": "/2017-11-27/enlbtcdetail",
+                "status": 3,
+                "sort": 94
+            },
+            {
                 "imgSrc": "../resource/ub.jpg",
                 "coinNameId": "ub",
                 "coinName": "OilBTC(OBTC)",
@@ -239,21 +254,6 @@
                 "href": "/2017-12-08/enbcxdetail",
                 "status": 2,
                 "sort": 120
-            },
-            {
-                "imgSrc": "../resource/lbtc.jpg",
-                "coinNameId": "lbtc",
-                "coinName": "Lightning Bitcoin(LBTC)",
-                "coinSummaryId": "lbtcSummary",
-                "coinSummary": "The Lightning Bitcoin (LBTC) introduced the DPOS Consensus Mechanism into the Bitcoin networ.",
-                "coinForkHId": "lbtcForkHeight",
-                "coinForkH": "499999",
-                "coinForkHPId": "lbtcForkHP",
-                "currentHId": "btHeight",
-                "countdownId": "lbtcCountdown",
-                "href": "/2017-11-27/enlbtcdetail",
-                "status": 2,
-                "sort": 150
             },
             {
                 "imgSrc": "../resource/default.jpg",

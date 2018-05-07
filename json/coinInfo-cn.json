@@ -181,6 +181,21 @@
                 "sort": 93
             },
             {
+                "imgSrc": "../resource/lbtc.jpg",
+                "coinNameId": "lbtc",
+                "coinName": "闪电比特币（LBTC）",
+                "coinSummaryId": "lbtcSummary",
+                "coinSummary": "引入DPOS共识机制",
+                "coinForkHId": "lbtcForkHeight",
+                "coinForkH": "499999",
+                "coinForkHPId": "lbtcForkHP",
+                "currentHId": "btcHeight",
+                "countdownId": "lbtcCountdown",
+                "href": "/2017-11-27/lbtcdetail",
+                "status": 3,
+                "sort": 94
+            },
+            {
                 "imgSrc": "../resource/ub.jpg",
                 "coinNameId": "ub",
                 "coinName": "比特联储（UBTC）",
@@ -239,21 +254,6 @@
                 "href": "/2017-12-08/bcxdetail",
                 "status": 2,
                 "sort": 120
-            },
-            {
-                "imgSrc": "../resource/lbtc.jpg",
-                "coinNameId": "lbtc",
-                "coinName": "闪电比特币（LBTC）",
-                "coinSummaryId": "lbtcSummary",
-                "coinSummary": "引入DPOS共识机制",
-                "coinForkHId": "lbtcForkHeight",
-                "coinForkH": "499999",
-                "coinForkHPId": "lbtcForkHP",
-                "currentHId": "btcHeight",
-                "countdownId": "lbtcCountdown",
-                "href": "/2017-11-27/lbtcdetail",
-                "status": 2,
-                "sort": 150
             },
             {
                 "imgSrc": "../resource/default.jpg",
