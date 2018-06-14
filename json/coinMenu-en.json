@@ -68,5 +68,16 @@
       "Undergoing",
       "Completed"
     ]
+  },
+  {
+    "menuName":"EOS Airdrop",
+    "id":"eoscandy",
+    "typeList":[
+      "All",
+      "Airdrop",
+      "Underway",
+      "Completed"
+    ]
   }
+
 ]

@@ -694,5 +694,71 @@
                 "sort": 10
             }
         ]
+    },
+    {
+        "menuName": "eoscandy",
+        "introduction": [{
+                "imgSrc": "../resource/btx.jpg",
+                "coinNameId": "btx",
+                "coinName": "BTX",
+                "coinSummaryId": "btxSummary",
+                "coinSummary": "Claim BTX need user to import their private key, extremely dangers.",
+                "coinForkHId": "btxForkHeight",
+                "coinFather":"EOS",
+                "coinDate":"2018-4-15",
+                "coinForkH": "",
+                "coinForkHPId": "btxForkHP",
+                "currentHId": "candyHeight",
+                "countdownId": "btxCountdown",
+                "href": "/2017-11-22/enbtxdetail",
+                "status": 7,
+                "sort": 40
+            },
+            {
+                "imgSrc": "../resource/byteball.jpg",
+                "coinNameId": "byteball",
+                "coinName": "Byteball",
+                "coinSummaryId": "byteballSummary",
+                "coinSummary": "A decentralized DAG system.",
+                "coinForkHId": "byteballForkHeight",
+                "coinForkH": "",
+                "coinForkHPId": "byteballForkHP",
+                "currentHId": "candyHeight",
+                "countdownId": "byteballCountdown",
+                "href": "/2017-11-22/enbyteballdetail",
+                "status": 5,
+                "sort": 30
+            },
+            {
+                "imgSrc": "../resource/stellar.jpg",
+                "coinNameId": "stellar",
+                "coinName": "Stellar",
+                "coinSummaryId": "stellarSummary",
+                "coinSummary": "An open source protocol for value exchange.",
+                "coinForkHId": "stellarForkHeight",
+                "coinForkH": "",
+                "coinForkHPId": "stellarForkHP",
+                "currentHId": "candyHeight",
+                "countdownId": "stellarCountdown",
+                "href": "/2017-11-22/enstellardetail",
+                "status": 6,
+                "sort": 20
+            },
+            {
+                "imgSrc": "../resource/bitethereum.jpg",
+                "coinNameId": "bitethereum",
+                "coinName": "BitEthereum（BTE）",
+                "coinSummaryId": "bitethereumSummary",
+                "coinSummary": "create a well-developed ecosystem of crypto token assets",
+                "coinForkHId": "bitethereumForkHeight",
+                "coinForkH": "",
+                "coinForkHPId": "bitethereumForkHP",
+                "currentHId": "candyHeight",
+                "countdownId": "bitethereumCountdown",
+                "href": "/2017-12-20/enbtedetail",
+                "status": 5,
+                "sort": 10
+            }
+        ]
     }
 ]

@@ -1,0 +1,51 @@
+---
+layout: post
+title:  cardsdetail
+---
+
+<h1 style="color: #2F416A">Cards & Tokens</h1>
+<p>
+Cards & Tokens 提出了一款称为“数字化收藏卡片”的全新发布格式。用户可自由选择卡片的大小、颜色、字体以及背景，并且可在卡片内嵌入多种多媒体格式包括视频、图像、音频以及文字。制作的卡片可被当成新的限量加密货币来发行并从售卖或拍卖作品盈利。 围绕这一新概念，Cards & Tokens 希望创建一个区块链生态系统，为用户提供可以制作及交易收藏卡的娱乐平台，并希望可将部分收藏卡出口到其他应用程序，为提高卡的价值创造了理想的环境，超越了它们作为收藏品的内在价值。
+</p>
+
+<table class="center">
+  <tbody>
+    <tr>
+        <td class="tablehalf">糖果名</td>
+        <td class="tablehalf">Cards & Tokens</td>
+    </tr>
+    <tr>
+        <td>网址</td>
+        <td><a href="http://airdrop.cardsandtokens.com/en" target="_blank">http://airdrop.cardsandtokens.com/en</a></td>
+    </tr>
+    <tr>
+        <td>Token</td>
+        <td>CNT</td>
+    </tr>
+    <tr>
+        <td>空投时间</td>
+        <td>2018年7月底</td>
+    </tr>
+    <tr>
+        <td>快照时间</td>
+        <td>根据 Block.one 在六月的创世快照</td>
+    </tr>
+    <tr>
+        <td>空投数量</td>
+        <td>200,000,000</td>
+    </tr>
+    <tr>
+        <td>空投比例</td>
+        <td>          
+         10:1
+        </td>
+    </tr>
+    <tr>
+        <td>空投规则</td>
+        <td>
+        首轮空投：在7月的晚些时候会按照 Block.one 在六月份的创世快照进行 10 EOS：1 CNT 的比例空投。不需要做任何操作。<br/>
+        第二次空投：同样在7月的晚些时候会进行空投，但必须要在 Block.one 创世快照前到网站上进行登记（最低 5000 个 CNT），这里他们要求你登录 MetaMask 才能登记你的邮箱，请务必注意自己的资金安全。
+        </td>
+    </tr>
+  </tbody>
+</table>

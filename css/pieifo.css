@@ -678,7 +678,26 @@ body.modal-open {
     height: 40px;
     border-right: 1px solid #dfdfdf;
 }
+.coin-height-time{
+    float: left;
+    width: 40%;
+    height: 40px;
+    border-right: 1px solid #dfdfdf;
+}
 
+.current-height-candy {
+    float: left;
+    width: 60%;
+    height: 40px;
+}
+.coin-height-time,.current-height-candy {
+    padding-left: 10px;
+}
+.coin-detail-candy{
+    widht:100%;
+    padding-top:20px;
+    display: block;
+}
 .countdown {
     float: left;
     width: 33%;
@@ -974,4 +993,17 @@ body.modal-open {
 
 .footer .row p a:hover {
     text-decoration: underline;
+}
+
+.clearfix:after{
+content:"";
+height:0;
+line-height:0;
+display:block;
+clear:both;
+visibility:hidden;
+}
+
+.clearfix{
+ zoom:1;
 }

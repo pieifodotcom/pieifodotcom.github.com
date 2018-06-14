@@ -1,0 +1,51 @@
+---
+layout: post
+title:  mtblockdetail
+---
+
+<h1 style="color: #2F416A">BtBlock</h1>
+<p>
+MtBlock 是一个在 EOS 主网上的 DAPP，专注区块链领域的完全去中心化社交平台,采用了一种创新的、 相较于传统媒体平台更加让用户拥有创造和传播价值内容动力的“用户评价-代币激励”模式， 奖励给为平台创造价值内容的贡献者（包括社区建设者、内容提供者和传播者、内容评价者和传播者）， 并为这些贡献者提供MTS回报。使命是“为传递价值信息而生”，目标是链接区块链领域的人和信息，通过区块链技术确保到信息到达人那里都是对那个人有价值的。 减少人们获取信息的成本和提高人们获取信息的效率，第一次通过民主投票的方式让信息回归价值本质，归还人们信息的价值权杖。
+</p>
+
+
+<table class="center">
+  <tbody>
+    <tr>
+        <td class="tablehalf">糖果名</td>
+        <td class="tablehalf">BtBlock</td>
+    </tr>
+    <tr>
+        <td>网址</td>
+        <td><a href="https://scatter-eos.com/" target="_blank">https://scatter-eos.com/</a></td>
+    </tr>
+    <tr>
+        <td>Token</td>
+        <td>MTS</td>
+    </tr>
+    <tr>
+        <td>空投时间</td>
+        <td>主网上线之后</td>
+    </tr>
+    <tr>
+        <td>快照时间</td>
+        <td>在 EOS 主网上线时</td>
+    </tr>
+    <tr>
+        <td>空投数量</td>
+        <td>90,000,000</td>
+    </tr>
+    <tr>
+        <td>空投比例</td>
+        <td>          
+         10 EOS : 1 MTS
+        </td>
+    </tr>
+    <tr>
+        <td>空投规则</td>
+        <td>
+        账户持有 EOS 并完成映射
+        </td>
+    </tr>
+  </tbody>
+</table>
