@@ -3,7 +3,7 @@ layout: post
 title:  karmadetail
 ---
 
-<h1 style="color: #2F416A">KEOS</h1>
+<h1 style="color: #2F416A">KARMA</h1>
 <p>
 KARMA 是一款建立在区块链上的去中心化应用程序，旨在激励用户做善事。用户可以通过记录自己善行，见证及验证他人的善行以获得 KARMA 代币。用户也可以把代币给予做了善事的家人，朋友甚至是陌生人。KARMA 希望更多用户能加入目前不断发展的社区，帮助 KARMA 改变世界。
 </p>

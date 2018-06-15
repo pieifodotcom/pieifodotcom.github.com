@@ -13,7 +13,7 @@ TOKENA 是第一家基于 EOS 的去中心化资产兑换平台。TOKENA 的信�
   <tbody>
     <tr>
         <td class="tablehalf">糖果名</td>
-        <td class="tablehalf">Cards & Tokens</td>
+        <td class="tablehalf">TOKENA</td>
     </tr>
     <tr>
         <td>网址</td>
