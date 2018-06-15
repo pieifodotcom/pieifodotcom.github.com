@@ -1163,8 +1163,8 @@
                 "currentHId": "candyHeight",
                 "countdownId": "LABCountdown",
                 "href": "/2018-06-06/labdetail",
-                "status": 10,
-                "sort": 1
+                "status": 8,
+                "sort": 300
             }
 
         ]
