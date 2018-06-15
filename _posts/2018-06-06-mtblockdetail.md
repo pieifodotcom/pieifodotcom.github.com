@@ -17,7 +17,7 @@ MtBlock 是一个在 EOS 主网上的 DAPP，专注区块链领域的完全去�
     </tr>
     <tr>
         <td>网址</td>
-        <td><a href="https://scatter-eos.com/" target="_blank">https://scatter-eos.com/</a></td>
+        <td><a href="http://mtblock.io" target="_blank">http://mtblock.io</a></td>
     </tr>
     <tr>
         <td>Token</td>

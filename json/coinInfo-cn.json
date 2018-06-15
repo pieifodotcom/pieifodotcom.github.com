@@ -1012,7 +1012,7 @@
             "coinSummary": "MtBlock 是一个在 EOS 主网上的 DAPP",
             "coinFather": "EOS",
             "coinDate": "EOS 主网上线时",
-            "coinSite": "https://scatter-eos.com",
+            "coinSite": "http://mtblock.io",
             "coinForkHId": "MTSForkHeight",
             "coinForkH": "",
             "coinForkHPId": "MTSForkHP",
