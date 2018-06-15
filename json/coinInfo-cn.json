@@ -699,7 +699,7 @@
         "menuName": "eoscandy",
         "introduction": [
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eosdac.jpg",
                 "coinNameId": "eosDAC",
                 "coinName": "eosDAC",
                 "coinSummaryId": "eosDACSummary",
