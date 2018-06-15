@@ -13,7 +13,7 @@ KARMA 是一款建立在区块链上的去中心化应用程序，旨在激励�
   <tbody>
     <tr>
         <td class="tablehalf">糖果名</td>
-        <td class="tablehalf">Cards & Tokens</td>
+        <td class="tablehalf">KARMA</td>
     </tr>
     <tr>
         <td>网址</td>
