@@ -735,7 +735,7 @@
                 "sort": 1
             },
                {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eop.jpg",
                 "coinNameId": "EOP",
                 "coinName": "EOP",
                 "coinSummaryId": "EOPSummary",
@@ -771,7 +771,7 @@
                 "sort": 322
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/ceti.jpg",
                 "coinNameId": "CETI",
                 "coinName": "CETI",
                 "coinSummaryId": "CETISummary",
@@ -789,7 +789,7 @@
                 "sort": 321
             },
               {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/parachute.jpg",
                 "coinNameId": "Parachute",
                 "coinName": "Parachute",
                 "coinSummaryId": "ParachuteSummary",
@@ -807,11 +807,11 @@
                 "sort": 321
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/horus.jpg",
                 "coinNameId": "Horus",
                 "coinName": "Horus",
                 "coinSummaryId": "HorusSummary",
-                "coinSummary": "Chaince 是一个专注 EOS 生态的精品交易平台，也是全球首个",
+                "coinSummary": "Horuspay 是一个去中心化的全球薪酬和人力资源管理平台",
                 "coinFather":"EOS",
                 "coinDate":"六月的创世快照",
                 "coinSite":"https://chaince.com/",
@@ -820,12 +820,12 @@
                 "coinForkHPId": "HorusForkHP",
                 "currentHId": "candyHeight",
                 "countdownId": "HorusCountdown",
-                "href": "/2018-06-06/chaincedetail",
+                "href": "/2018-06-06/horuspaydetail",
                 "status": 8,
                 "sort": 322
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/ridl.jpg",
                 "coinNameId": "RIDL",
                 "coinName": "RIDL",
                 "coinSummaryId": "RIDLSummary",
@@ -843,7 +843,7 @@
                 "sort": 322
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/daoeos.jpg",
                 "coinNameId": "DAO.EOS",
                 "coinName": "DAO.EOS",
                 "coinSummaryId": "daoeosSummary",
@@ -861,7 +861,7 @@
                 "sort": 322
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eost.jpg",
                 "coinNameId": "EOST",
                 "coinName": "EOST",
                 "coinSummaryId": "eostSummary",
@@ -879,7 +879,7 @@
                 "sort": 310
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/ken.jpg",
                 "coinNameId": "KEN",
                 "coinName": "KEN",
                 "coinSummaryId": "KENSummary",
@@ -897,7 +897,7 @@
                 "sort": 310
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eosnts.jpg",
                 "coinNameId": "eosNTS",
                 "coinName": "eosNTS",
                 "coinSummaryId": "eosNTSSummary",
@@ -915,7 +915,7 @@
                 "sort": 30
             },
              {
-            "imgSrc": "../resource/default.jpg",
+            "imgSrc": "../resource/one.jpg",
             "coinNameId": "ONE",
             "coinName": "ONE",
             "coinSummaryId": "ONESummary",
@@ -933,7 +933,7 @@
             "sort": 800
           },
           {
-            "imgSrc": "../resource/default.jpg",
+            "imgSrc": "../resource/beans.jpg",
             "coinNameId": "BEANS",
             "coinName": "BEANS",
             "coinSummaryId": "BEANSSummary",
@@ -951,7 +951,7 @@
             "sort": 300
           },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eosc.jpg",
                 "coinNameId": "EOSC",
                 "coinName": "EOSC",
                 "coinSummaryId": "EOSCSummary",
@@ -987,7 +987,7 @@
                 "sort": 310
             },
           {
-            "imgSrc": "../resource/default.jpg",
+            "imgSrc": "../resource/eox.jpg",
             "coinNameId": "EOX",
             "coinName": "EOX",
             "coinSummaryId": "EOXSummary",
@@ -1041,25 +1041,25 @@
                 "sort": 300
             },
             {
-                "imgSrc": "../resource/default.jpg",
-                "coinNameId": "GET",
-                "coinName": "GET",
-                "coinSummaryId": "GETSummary",
+                "imgSrc": "../resource/cet.jpg",
+                "coinNameId": "CET",
+                "coinName": "CET",
+                "coinSummaryId": "CETSummary",
                 "coinSummary": "Horuspay 是一个去中心化的全球薪酬和人力资源管理平台，允许公司利用区块链技术与国",
                 "coinFather":"EOS",
                 "coinDate":"六月的创世快照",
                 "coinSite":"https://horuspay.io/",
-                "coinForkHId": "GETForkHeight",
+                "coinForkHId": "CETForkHeight",
                 "coinForkH": "",
-                "coinForkHPId": "GETForkHP",
+                "coinForkHPId": "CETForkHP",
                 "currentHId": "candyHeight",
-                "countdownId": "GETCountdown",
-                "href": "/2018-06-06/horuspaydetail",
+                "countdownId": "CETCountdown",
+                "href": "/2018-06-06/chaincedetail",
                 "status": 8,
                 "sort": 322
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/iryo.jpg",
                 "coinNameId": "IRYO",
                 "coinName": "IRYO",
                 "coinSummaryId": "IRYOSummary",
@@ -1077,7 +1077,7 @@
                 "sort": 700
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/karma.jpg",
                 "coinNameId": "KARMA",
                 "coinName": "KARMA",
                 "coinSummaryId": "KARMASummary",
@@ -1113,7 +1113,7 @@
                 "sort": 300
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/meetone.jpg",
                 "coinNameId": "MEET.ONE",
                 "coinName": "MEET.ONE",
                 "coinSummaryId": "MEETONESummary",

@@ -20,7 +20,7 @@ Chaince 是一个专注 EOS 生态的精品交易平台，也是全球首个支�
     </tr>
     <tr>
         <td>Token</td>
-        <td>Horus</td>
+        <td>CET</td>
     </tr>
     <tr>
         <td>空投时间</td>
