@@ -633,11 +633,11 @@ function appendHtml(sortArr) {
         if (obj.status == 3) {
             innerArr.push("<img class='stamp' src='../resource/stamp.png'>");
         }
-        if(obj.coinFather == "EOS"){
-            if(obj.status == 10){
-                innerArr.push("<img class='stamp' src='../resource/stamp.png'>");
-            }
-        }
+        //if(obj.coinFather == "EOS"){
+        //    if(obj.status == 10){
+        //        innerArr.push("<img class='stamp' src='../resource/stamp.png'>");
+        //    }
+        //}
         innerArr.push("</div>");
         innerArr.push("</li>");
     })
