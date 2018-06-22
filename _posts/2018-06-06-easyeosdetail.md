@@ -56,6 +56,10 @@ EasyEOS即原先的EOS.Hedging，是一家全球的超级节点社区，致力�
         获得空投条件：目前没有具体计划，后续会在官方电报群公布：https://t.me/easyeos
         </td>
     </tr>
+     <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>
 

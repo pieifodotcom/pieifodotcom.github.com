@@ -44,6 +44,10 @@ Everipedia 是新时代的网络百科全书，提供了更好的用户体验以
 官方公告地址：<a href = "https://www.facebook.com/everipedia/posts/894356810768395" target="_blank">公告</a>
 </td>
     </tr>
+     <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>
 

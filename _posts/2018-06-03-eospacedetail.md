@@ -44,5 +44,9 @@ EOP 是 EOSpace 推出的一套为构建和完善 EOS 生态而构建的超级�
         合约地址：0xb562ec0261a9cb550a5fbcb46030088f1d6a53cf 直接发送0个ETH到此就好。
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

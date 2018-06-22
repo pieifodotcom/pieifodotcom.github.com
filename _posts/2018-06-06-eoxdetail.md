@@ -46,5 +46,9 @@ EOX 是一个去中心化的电子商务平台，可以使用所有基于 EOS �
         账号持有 EOS 并完成映射
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

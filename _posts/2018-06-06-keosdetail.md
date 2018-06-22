@@ -43,5 +43,9 @@ KEOS 是来自韩国的 EOS 竞选节点，是一家以 KCHAIN 和 TokenPost 联
         2018年5月31日前在账户地址中持有100个以上的 EOS
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

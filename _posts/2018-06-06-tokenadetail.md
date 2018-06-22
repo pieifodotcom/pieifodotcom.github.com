@@ -47,6 +47,10 @@ TOKENA 是第一家基于 EOS 的去中心化资产兑换平台。TOKENA 的信�
         持有 EOS 在账户中并映射，不会对资产兑换平台进行空投
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>
 

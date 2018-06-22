@@ -44,5 +44,9 @@ MEET.ONE 是新加坡 EOS 全球节点竞选团队，致力于构建 EOS 生态�
         根据用户在 MEET.ONE 客户端上创建的账户中的 EOS 数量按照 2 EOS : 1 MEET.ONE比例空投。
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

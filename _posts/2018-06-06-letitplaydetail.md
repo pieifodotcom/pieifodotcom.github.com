@@ -45,5 +45,9 @@ title:  letitplaydetail
         <a href="https://t.me/letitplay_io" target="_blank">https://t.me/letitplay_io</a>具体可以查看<a href="https://steemit.com/eos/@letitplay/changes-to-the-airdrop-conditions-for-eos-holders" target="_blank">https://steemit.com/eos/@letitplay/changes-to-the-airdrop-conditions-for-eos-holders</a>
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

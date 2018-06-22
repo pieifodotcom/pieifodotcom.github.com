@@ -45,6 +45,10 @@ EOSMEDIA 希望通过区块链技术实现 Dan Larimer 理想中的新闻媒体�
         持有 100 个以上 EOS 在账户中
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>
 

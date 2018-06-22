@@ -45,6 +45,11 @@ belong: eoscandy
         <td>空投规则</td>
         <td>需要持有EOS的账户中EOS数量大于100，对于小于100的可以在5月18日之前去官网自行领取。</td>
     </tr>
+     <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
+    
     
  
 </table>

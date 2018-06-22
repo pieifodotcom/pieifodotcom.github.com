@@ -46,5 +46,9 @@ DAO.EOS 是一个分布式自治组织，及 EOS 区块生产候选人。DAO.EOS
         DAO.EOS 代币将基于 EOS 主网，所以将会在 EOS 主网上线之后进行实际空投步骤。
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

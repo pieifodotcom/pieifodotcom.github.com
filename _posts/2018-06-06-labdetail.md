@@ -43,5 +43,9 @@ Lab Ledger 是为研究人员创建的区块链生态系统。Lab Ledger 希望�
         持有EOS
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

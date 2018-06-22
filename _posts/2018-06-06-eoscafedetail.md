@@ -48,5 +48,9 @@ EOS Cafe是一个由用户拥有及领导的区块链爱好者分布式自治社
         预计在EOS公链启动后，第二次空投将分发到EOS token持有者手上。这可能在2018年7月，每1个EOS token的最小比例为1 BEANS token。
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

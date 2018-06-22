@@ -48,5 +48,9 @@ Scatter 是一款EOS数字资产储存工具，目前只推出了 Chrome 浏览�
         第二次空投：前5000个注册用户将会得到额外的50个RIDL，而其他注册用户会得到10个RIDL的奖励。
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

@@ -47,5 +47,9 @@ Parachute 为 EOS 持有者提供可以接收空投的平台。用户可通过�
         待定
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

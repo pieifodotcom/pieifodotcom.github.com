@@ -731,7 +731,7 @@
                 "currentHId": "candyHeight",
                 "countdownId": "eonCountdown",
                 "href": "/2018-06-01/eondetail",
-                "status": 10,
+                "status": 8,
                 "sort": 1
             },
                {
@@ -807,7 +807,7 @@
                 "sort": 321
             },
             {
-                "imgSrc": "../resource/horus.jpg",
+                "imgSrc": "../resource/horuspay.jpg",
                 "coinNameId": "Horus",
                 "coinName": "Horus",
                 "coinSummaryId": "HorusSummary",

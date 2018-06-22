@@ -47,5 +47,9 @@ KARMA 是一款建立在区块链上的去中心化应用程序，旨在激励�
         账户持有 EOS
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>

@@ -47,5 +47,9 @@ MtBlock 是一个在 EOS 主网上的 DAPP，专注区块链领域的完全去�
         账户持有 EOS 并完成映射
         </td>
     </tr>
+    <tr>
+        <td>来源</td>
+        <td>EOS 小助手</td>
+    </tr>
   </tbody>
 </table>
