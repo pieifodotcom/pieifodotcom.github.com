@@ -680,14 +680,14 @@ body.modal-open {
 }
 .coin-height-time{
     float: left;
-    width: 40%;
+    width: 50%;
     height: 40px;
     border-right: 1px solid #dfdfdf;
 }
 
 .current-height-candy {
     float: left;
-    width: 60%;
+    width: 50%;
     height: 40px;
 }
 .coin-height-time,.current-height-candy {

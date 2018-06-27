@@ -596,11 +596,11 @@ function appendHtml(sortArr) {
         if(obj.coinFather && obj.coinFather == "EOS"){
              innerArr.push("<div class=\"coin-detail-candy \">");
              innerArr.push("<div class=\"coin-height-time\">");
-             innerArr.push("<span class=\"data\" >" + obj.coinDate + "</span>");
+             innerArr.push("<span class=\"data\" >" + new String(obj.coinDate).substring(0,16) + (new String(obj.coinDate).length > 16 ? "..." : "") + "</span>");
              innerArr.push("<span class=\"prompt\">" + snapshotTime + "</span>");
              innerArr.push("</div>");
              innerArr.push("<div class=\"current-height-candy\">");
-             innerArr.push("<span class=\"data\"><a href=\" "+obj.coinSite+"\" target='_blank'>"+ new String(obj.coinSite).substring(0,24) + (new String(obj.coinSite).length > 24 ? "..." : "") + "</a></span>");
+             innerArr.push("<span class=\"data\"><a href=\" "+obj.coinSite+"\" target='_blank'>"+ new String(obj.coinSite).substring(0,20) + (new String(obj.coinSite).length > 24 ? "..." : "") + "</a></span>");
              innerArr.push("<span class=\"prompt\">" + site + "</span>");
              innerArr.push("</div>");
              innerArr.push("<div class=\"clearfix\"></div>");

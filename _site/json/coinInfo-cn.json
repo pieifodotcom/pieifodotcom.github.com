@@ -699,7 +699,7 @@
         "menuName": "eoscandy",
         "introduction": [
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eosdac.jpg",
                 "coinNameId": "eosDAC",
                 "coinName": "eosDAC",
                 "coinSummaryId": "eosDACSummary",
@@ -717,7 +717,7 @@
                 "sort": 1
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eon.jpg",
                 "coinNameId": "EON",
                 "coinName": "EON",
                 "coinSummaryId": "EONSummary",
@@ -731,11 +731,11 @@
                 "currentHId": "candyHeight",
                 "countdownId": "eonCountdown",
                 "href": "/2018-06-01/eondetail",
-                "status": 10,
+                "status": 8,
                 "sort": 1
             },
                {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eop.jpg",
                 "coinNameId": "EOP",
                 "coinName": "EOP",
                 "coinSummaryId": "EOPSummary",
@@ -771,7 +771,7 @@
                 "sort": 322
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/ceti.jpg",
                 "coinNameId": "CETI",
                 "coinName": "CETI",
                 "coinSummaryId": "CETISummary",
@@ -789,7 +789,7 @@
                 "sort": 321
             },
               {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/parachute.jpg",
                 "coinNameId": "Parachute",
                 "coinName": "Parachute",
                 "coinSummaryId": "ParachuteSummary",
@@ -807,25 +807,25 @@
                 "sort": 321
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/horuspay.jpg",
                 "coinNameId": "Horus",
                 "coinName": "Horus",
                 "coinSummaryId": "HorusSummary",
-                "coinSummary": "Chaince 是一个专注 EOS 生态的精品交易平台，也是全球首个",
+                "coinSummary": "Horuspay 是一个去中心化的全球薪酬和人力资源管理平台",
                 "coinFather":"EOS",
                 "coinDate":"六月的创世快照",
-                "coinSite":"https://chaince.com/",
+                "coinSite":"https://horuspay.io",
                 "coinForkHId": "HorusForkHeight",
                 "coinForkH": "",
                 "coinForkHPId": "HorusForkHP",
                 "currentHId": "candyHeight",
                 "countdownId": "HorusCountdown",
-                "href": "/2018-06-06/chaincedetail",
+                "href": "/2018-06-06/horuspaydetail",
                 "status": 8,
                 "sort": 322
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/ridl.jpg",
                 "coinNameId": "RIDL",
                 "coinName": "RIDL",
                 "coinSummaryId": "RIDLSummary",
@@ -843,7 +843,7 @@
                 "sort": 322
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/daoeos.jpg",
                 "coinNameId": "DAO.EOS",
                 "coinName": "DAO.EOS",
                 "coinSummaryId": "daoeosSummary",
@@ -861,7 +861,7 @@
                 "sort": 322
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eost.jpg",
                 "coinNameId": "EOST",
                 "coinName": "EOST",
                 "coinSummaryId": "eostSummary",
@@ -879,7 +879,7 @@
                 "sort": 310
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/ken.jpg",
                 "coinNameId": "KEN",
                 "coinName": "KEN",
                 "coinSummaryId": "KENSummary",
@@ -897,7 +897,7 @@
                 "sort": 310
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eosnts.jpg",
                 "coinNameId": "eosNTS",
                 "coinName": "eosNTS",
                 "coinSummaryId": "eosNTSSummary",
@@ -915,7 +915,7 @@
                 "sort": 30
             },
              {
-            "imgSrc": "../resource/default.jpg",
+            "imgSrc": "../resource/one.jpg",
             "coinNameId": "ONE",
             "coinName": "ONE",
             "coinSummaryId": "ONESummary",
@@ -929,11 +929,11 @@
             "currentHId": "candyHeight",
             "countdownId": "ONECountdown",
             "href": "/2018-06-06/trybedetail",
-            "status": 811,
-            "sort": 3
+            "status": 8,
+            "sort": 800
           },
           {
-            "imgSrc": "../resource/default.jpg",
+            "imgSrc": "../resource/beans.jpg",
             "coinNameId": "BEANS",
             "coinName": "BEANS",
             "coinSummaryId": "BEANSSummary",
@@ -951,7 +951,7 @@
             "sort": 300
           },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/eosc.jpg",
                 "coinNameId": "EOSC",
                 "coinName": "EOSC",
                 "coinSummaryId": "EOSCSummary",
@@ -987,7 +987,7 @@
                 "sort": 310
             },
           {
-            "imgSrc": "../resource/default.jpg",
+            "imgSrc": "../resource/eox.jpg",
             "coinNameId": "EOX",
             "coinName": "EOX",
             "coinSummaryId": "EOXSummary",
@@ -1012,7 +1012,7 @@
             "coinSummary": "MtBlock 是一个在 EOS 主网上的 DAPP",
             "coinFather": "EOS",
             "coinDate": "EOS 主网上线时",
-            "coinSite": "https://scatter-eos.com",
+            "coinSite": "http://mtblock.io",
             "coinForkHId": "MTSForkHeight",
             "coinForkH": "",
             "coinForkHPId": "MTSForkHP",
@@ -1036,30 +1036,30 @@
                 "coinForkHPId": "IQForkHP",
                 "currentHId": "candyHeight",
                 "countdownId": "IQCountdown",
-                "href": "/2018-06-06/everipediadetai",
+                "href": "/2018-06-06/everipediadetail",
                 "status": 8,
                 "sort": 300
             },
             {
-                "imgSrc": "../resource/default.jpg",
-                "coinNameId": "GET",
-                "coinName": "GET",
-                "coinSummaryId": "GETSummary",
-                "coinSummary": "Horuspay 是一个去中心化的全球薪酬和人力资源管理平台，允许公司利用区块链技术与国",
+                "imgSrc": "../resource/cet.jpg",
+                "coinNameId": "CET",
+                "coinName": "CET",
+                "coinSummaryId": "CETSummary",
+                "coinSummary": "Chaince 是一个专注 EOS 生态的精品交易平台，也是全球首个支持所有 EOS 主网空投糖果的资产平台",
                 "coinFather":"EOS",
                 "coinDate":"六月的创世快照",
-                "coinSite":"https://horuspay.io/",
-                "coinForkHId": "GETForkHeight",
+                "coinSite":"https://chaince.com",
+                "coinForkHId": "CETForkHeight",
                 "coinForkH": "",
-                "coinForkHPId": "GETForkHP",
+                "coinForkHPId": "CETForkHP",
                 "currentHId": "candyHeight",
-                "countdownId": "GETCountdown",
-                "href": "/2018-06-06/horuspaydetail",
+                "countdownId": "CETCountdown",
+                "href": "/2018-06-06/chaincedetail",
                 "status": 8,
                 "sort": 322
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/iryo.jpg",
                 "coinNameId": "IRYO",
                 "coinName": "IRYO",
                 "coinSummaryId": "IRYOSummary",
@@ -1077,14 +1077,14 @@
                 "sort": 700
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/karma.jpg",
                 "coinNameId": "KARMA",
                 "coinName": "KARMA",
                 "coinSummaryId": "KARMASummary",
                 "coinSummary": "KARMA 是一款建立在区块链上的去中心化应用程序，旨在激励用户做善事。",
                 "coinFather":"EOS",
                 "coinDate":"2018-06-02",
-                "coinSite":"https://iryo.network",
+                "coinSite":"http://www.karmaapp.io/",
                 "coinForkHId": "KARMAForkHeight",
                 "coinForkH": "",
                 "coinForkHPId": "KARMAForkHP",
@@ -1113,14 +1113,14 @@
                 "sort": 300
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/meetone.jpg",
                 "coinNameId": "MEET.ONE",
                 "coinName": "MEET.ONE",
                 "coinSummaryId": "MEETONESummary",
                 "coinSummary": "MEET.ONE 是新加坡 EOS 全球节点竞选团队，致力于构建 EOS 生态入口。",
                 "coinFather":"EOS",
                 "coinDate":"2018-06-02",
-                "coinSite":"https://labledger.net/",
+                "coinSite":"https://meet.one/",
                 "coinForkHId": "MEETONEForkHeight",
                 "coinForkH": "",
                 "coinForkHPId": "MEETONEForkHP",
@@ -1131,7 +1131,7 @@
                 "sort": 10
             },
             {
-                "imgSrc": "../resource/default.jpg",
+                "imgSrc": "../resource/keos.jpg",
                 "coinNameId": "KEOS",
                 "coinName": "KEOS",
                 "coinSummaryId": "KEOSSummary",
@@ -1144,7 +1144,7 @@
                 "coinForkHPId": "KEOSForkHP",
                 "currentHId": "candyHeight",
                 "countdownId": "KEOSCountdown",
-                "href": "/2018-06-06/karmadetail",
+                "href": "/2018-06-06/keosdetail",
                 "status": 8,
                 "sort": 3
             },
@@ -1163,8 +1163,8 @@
                 "currentHId": "candyHeight",
                 "countdownId": "LABCountdown",
                 "href": "/2018-06-06/labdetail",
-                "status": 10,
-                "sort": 1
+                "status": 8,
+                "sort": 300
             }
 
         ]

@@ -214,6 +214,15 @@ function Coin(obj) {
     this.href = obj.href;
     this.status = obj.status;
     this.sort = obj.sort;
+    if(obj.coinFather){
+        this.coinFather = obj.coinFather;
+    }
+    if(obj.coinDate){
+        this.coinDate = obj.coinDate;
+    }
+    if(obj.coinSite){
+        this.coinSite = obj.coinSite;
+    }
 }
 
 function initDomMenuPc(lan) {
@@ -245,6 +254,7 @@ function initDomMenuMb(lan) {
         $(".menu-min-ul").append(defaultArr.join(''));
 
         $(".menu-min-ul>li>ul>li>a").click(function () {
+            console.log(11);
             domContainerOperation(variableMenuStr, variableLanStr, $(this).attr("id").replace(variableMenuStr, ""));
             updateCoinInfo(variableMenuStr, variableLanStr, $(this).attr("id").replace(variableMenuStr, ""));
             hiddenPopView();
@@ -311,7 +321,16 @@ function minLi(defaultArr, forkName, menuId, typeList) {
 function forkNamePc(forkNameArr, forkIdArr) {
     var innerArr = new Array();
     $.each(forkNameArr, function (idx, obj) {
-        innerArr.push("<li><a href=\"javascript:void(0)\" id=\"" + forkIdArr[idx] + "\">" + obj + "</a></li>");
+        console.log(forkNameArr[idx],"test")
+       // if(forkNameArr[idx].indexOf("EOS") > -1) {
+           // console.log("pc")
+
+            //var eosinfo = variableLanStr == "cn" ? "信息来源于 EOS 小助手" : "The information comes from EOS assistant";
+           // innerArr.push("<li><a href=\"javascript:void(0)\" id=\"" + forkIdArr[idx] + "\">" + obj + "</a><span STYLE='font-size: 10px;position: relative;top:20px;left:-120px' class='eosinfo'>"+eosinfo+"</span></li>");
+       // }else{
+            innerArr.push("<li><a href=\"javascript:void(0)\" id=\"" + forkIdArr[idx] + "\">" + obj + "</a></li>");
+
+       // }
     })
 
     $(".fork-name ul").empty();
@@ -349,6 +368,7 @@ function forkTypePc(forkTypeArr) {
 
     $(".fork-status>ul>li>a").bind("click", function () {
         variableTypeIndex = $(this).attr("id").replace(variableMenuStr, "");
+        console.log(variableTypeIndex);
         domContainerOperation(variableMenuStr, variableLanStr, variableTypeIndex);
         updateCoinInfo(variableMenuStr, variableLanStr, variableTypeIndex);
     })
@@ -391,15 +411,22 @@ function domContainerOperation(menuStr, lan, typeStr) {
     menuStr = menuStr || defaultMenuStr;
     typeStr = typeStr || defaultTypeIndex;
     lan = lan || "cn";
+    console.log(menuStr,lan,typeStr);
 
     var fileName = lan == "cn" ? "/json/coinInfo-cn.json" : "/json/coinInfo-en.json";
     var container = new Array();
     $.getJSON(fileName, function (data) {
         $.each(data, function (idx, obj) {
+            console.log(idx,obj);
+            console.log(1111);
+            console.log(menuStr);
+            console.log(defaultMenuStr);
             if (menuStr == defaultMenuStr) {
-                if (obj.menuName != "candy") {
+               if (obj.menuName.indexOf("candy") == -1 ) {
                     pushContainerArr(container, obj.introduction, typeStr);
                 }
+
+
             } else {
                 if (obj.menuName == menuStr) {
                     pushContainerArr(container, obj.introduction, typeStr);
@@ -412,7 +439,18 @@ function domContainerOperation(menuStr, lan, typeStr) {
 }
 
 function pushContainerArr(container, data, typeStr) {
+    console.log(typeStr,"typeStr");
+
     $.each(data, function (idx, obj) {
+        if(obj.coinFather){
+            if(typeStr == 1){
+                typeStr = 8;
+            }else if(typeStr == 2){
+                  typeStr = 9;
+            }else if(typeStr == 3){
+                typeStr = 10;
+            }
+        }
         if (typeStr != "0") {
             if (typeStr == obj.status) {
                 var coin = new Coin(obj);
@@ -434,7 +472,7 @@ function updateCoinInfo(menuStr, lan, typeStr) {
     $.getJSON(fileName, function (data) {
         $.each(data, function (idx, obj) {
             if (menuStr == defaultMenuStr) {
-                if (obj.menuName != "candy") {
+              if (obj.menuName.indexOf("candy") == -1) {
                     pushCoinInfoArr(obj.menuName, obj.introduction, typeStr);
                 }
             } else {
@@ -528,6 +566,7 @@ function calcTimeStamp(timeDiscrepancy, countdownId) {
 
 function appendHtml(sortArr) {
     var innerArr = new Array();
+
     $.each(sortArr, function (idx, obj) {
         if (variableLanStr == "cn") {
             blockHP = "分叉高度";
@@ -535,12 +574,18 @@ function appendHtml(sortArr) {
             currentHP = "当前块高";
             countdownHP = "倒计时";
             more = "查看详情";
+            snapshotTime = "快照时间";
+            site ="官网";
+
         } else {
             blockHP = "Block height";
             currentH = "Loading";
             currentHP = "Current height";
             countdownHP = "Countdown";
             more = "Learning more";
+            snapshotTime = "Snapshot time";
+            site = "Website";
+
         }
         innerArr.push("<li class=\"item\">");
         innerArr.push("<div class=\"content\">");
@@ -548,11 +593,25 @@ function appendHtml(sortArr) {
         innerArr.push("<div class=\"coin-info\">");
         innerArr.push("<p class=\"coin-title\" id=\"" + obj.coinNameId + "\">" + obj.coinName + "</p>");
         innerArr.push("<p class=\"coin-summary\" id=\"" + obj.coinSummaryId + "\">" + obj.coinSummary + "</p>");
+        if(obj.coinFather && obj.coinFather == "EOS"){
+             innerArr.push("<div class=\"coin-detail-candy \">");
+             innerArr.push("<div class=\"coin-height-time\">");
+             innerArr.push("<span class=\"data\" >" + new String(obj.coinDate).substring(0,16) + (new String(obj.coinDate).length > 16 ? "..." : "") + "</span>");
+             innerArr.push("<span class=\"prompt\">" + snapshotTime + "</span>");
+             innerArr.push("</div>");
+             innerArr.push("<div class=\"current-height-candy\">");
+             innerArr.push("<span class=\"data\"><a href=\" "+obj.coinSite+"\" target='_blank'>"+ new String(obj.coinSite).substring(0,20) + (new String(obj.coinSite).length > 24 ? "..." : "") + "</a></span>");
+             innerArr.push("<span class=\"prompt\">" + site + "</span>");
+             innerArr.push("</div>");
+             innerArr.push("<div class=\"clearfix\"></div>");
+             innerArr.push("</div>");
+        }
         if (obj.currentHId != "candyHeight") {
             innerArr.push("<div class=\"coin\">");
         } else {
             innerArr.push("<div class=\"coin\" style='display: none'>");
         }
+
         innerArr.push("<div class=\"coin-height\">");
         innerArr.push("<span class=\"data\" id=\"" + obj.coinForkHId + "\">" + obj.coinForkH + "</span>");
         innerArr.push("<span class=\"prompt\" id=\"" + obj.coinForkHPId + "\">" + blockHP + "</span>");
@@ -574,6 +633,11 @@ function appendHtml(sortArr) {
         if (obj.status == 3) {
             innerArr.push("<img class='stamp' src='../resource/stamp.png'>");
         }
+        //if(obj.coinFather == "EOS"){
+        //    if(obj.status == 10){
+        //        innerArr.push("<img class='stamp' src='../resource/stamp.png'>");
+        //    }
+        //}
         innerArr.push("</div>");
         innerArr.push("</li>");
     })
@@ -613,6 +677,15 @@ function getStatusColor(status) {
         case 7:
             colorStr = "background-color: #ED6363";
             break;
+         case 8:
+            colorStr = "background-color: #F99F26";
+            break;
+         case 9:
+            colorStr = "background-color: #3AB69C";
+            break;
+         case 10:
+            colorStr = "background-color: #ED6363";
+            break;
     }
     return colorStr;
 }
@@ -640,6 +713,15 @@ function getStatusTitle(status) {
         case 7:
             return variableLanStr == "cn" ? "High Risk" : "High Risk";
             break;
+        case 8:
+            return variableLanStr == "cn" ? "即将空投" : "Airdrop";
+            break;
+        case 9:
+            return variableLanStr == "cn" ? "空投中" : "Underway";
+            break;
+        case 10:
+            return variableLanStr == "cn" ? "已空投" : "Completed";
+            break;
     }
 }
 
@@ -649,5 +731,4 @@ function sortArray(objArr) {
     })
     return objArr;
 }
-
 
