@@ -821,7 +821,7 @@
                 "currentHId": "candyHeight",
                 "countdownId": "HorusCountdown",
                 "href": "/2018-06-06/enhoruspaydetail",
-                "status": 8,
+                "status": 10,
                 "sort": 322
             },
             {
@@ -1001,7 +1001,7 @@
             "currentHId": "candyHeight",
             "countdownId": "EOXCountdown",
             "href": "/2018-06-06/eneoxdetail",
-            "status": 8,
+            "status": 10,
             "sort": 300
           },
             {
@@ -1037,7 +1037,7 @@
                 "currentHId": "candyHeight",
                 "countdownId": "IQCountdown",
                 "href": "/2018-06-06/eneveripediadetail",
-                "status": 8,
+                "status": 10,
                 "sort": 300
             },
             {
@@ -1055,7 +1055,7 @@
                 "currentHId": "candyHeight",
                 "countdownId": "CETCountdown",
                 "href": "/2018-06-06/enchaincedetail",
-                "status": 8,
+                "status": 10,
                 "sort": 322
             },
             {
@@ -1091,7 +1091,7 @@
                 "currentHId": "candyHeight",
                 "countdownId": "KARMACountdown",
                 "href": "/2018-06-06/enkarmadetail",
-                "status": 8,
+                "status": 10,
                 "sort": 300
             },
             {
